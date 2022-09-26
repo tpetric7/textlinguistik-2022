@@ -1,6 +1,6 @@
 # . {.unnumbered}
 
 ```{r}
-knitr::include_graphics("pictures/intro_2022/Diapozitiv1.PNG")
+knitr::include_graphics("pictures/Diapozitiv1.PNG")
 ```
 

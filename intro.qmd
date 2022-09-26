@@ -1,7 +1,7 @@
 # Einführung
 
 ```{r echo=FALSE, fig.keep='all', out.width="100%"}
-knitr::include_graphics("pictures/intro_2022/Diapozitiv5.PNG")
+knitr::include_graphics("pictures/Diapozitiv5.PNG")
 ```
 
 In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur
