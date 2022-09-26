@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.587">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Textlinguistik - 3&nbsp; Textualitätskriterien</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./summary.html" rel="next">
+<link href="./gegenstand.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="TMwR.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Textualitätskriterien</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Textlinguistik</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">.</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">Vorwort</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einführung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gegenstand.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Gegenstand und Sinn der Textlinguistik</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./textkriterien.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Textualitätskriterien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Abschließende Bemerkungen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#textualitätsbegriff" id="toc-textualitätsbegriff" class="nav-link active" data-scroll-target="#textualitätsbegriff"> <span class="header-section-number">3.0.1</span> Textualitätsbegriff</a></li>
+  <li><a href="#konstitutive-kriterien-der-textualität" id="toc-konstitutive-kriterien-der-textualität" class="nav-link" data-scroll-target="#konstitutive-kriterien-der-textualität"> <span class="header-section-number">3.1</span> Konstitutive Kriterien der Textualität</a>
+  <ul class="collapse">
+  <li><a href="#kohäsion" id="toc-kohäsion" class="nav-link" data-scroll-target="#kohäsion"> <span class="header-section-number">3.1.1</span> Kohäsion</a></li>
+  <li><a href="#kohärenz" id="toc-kohärenz" class="nav-link" data-scroll-target="#kohärenz"> <span class="header-section-number">3.1.2</span> Kohärenz</a></li>
+  <li><a href="#intentionalität" id="toc-intentionalität" class="nav-link" data-scroll-target="#intentionalität"> <span class="header-section-number">3.1.3</span> Intentionalität</a></li>
+  <li><a href="#akzeptabilität" id="toc-akzeptabilität" class="nav-link" data-scroll-target="#akzeptabilität"> <span class="header-section-number">3.1.4</span> Akzeptabilität</a></li>
+  <li><a href="#informativität" id="toc-informativität" class="nav-link" data-scroll-target="#informativität"> <span class="header-section-number">3.1.5</span> Informativität</a></li>
+  <li><a href="#situationalität" id="toc-situationalität" class="nav-link" data-scroll-target="#situationalität"> <span class="header-section-number">3.1.6</span> Situationalität</a></li>
+  <li><a href="#intertextualität" id="toc-intertextualität" class="nav-link" data-scroll-target="#intertextualität"> <span class="header-section-number">3.1.7</span> Intertextualität</a></li>
+  </ul></li>
+  <li><a href="#gesamtheit-der-textualitätskriterien" id="toc-gesamtheit-der-textualitätskriterien" class="nav-link" data-scroll-target="#gesamtheit-der-textualitätskriterien"> <span class="header-section-number">3.2</span> Gesamtheit der Textualitätskriterien</a></li>
+  <li><a href="#regulative-textprinzipien" id="toc-regulative-textprinzipien" class="nav-link" data-scroll-target="#regulative-textprinzipien"> <span class="header-section-number">3.3</span> Regulative Textprinzipien</a>
+  <ul class="collapse">
+  <li><a href="#effizienz" id="toc-effizienz" class="nav-link" data-scroll-target="#effizienz"> <span class="header-section-number">3.3.1</span> Effizienz</a></li>
+  <li><a href="#effektivität" id="toc-effektivität" class="nav-link" data-scroll-target="#effektivität"> <span class="header-section-number">3.3.2</span> Effektivität</a></li>
+  <li><a href="#angemessenheit" id="toc-angemessenheit" class="nav-link" data-scroll-target="#angemessenheit"> <span class="header-section-number">3.3.3</span> Angemessenheit</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-textkriterien" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Textualitätskriterien</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="textualitätsbegriff" class="level3" data-number="3.0.1">
+<h3 data-number="3.0.1" class="anchored" data-anchor-id="textualitätsbegriff"><span class="header-section-number">3.0.1</span> Textualitätsbegriff</h3>
+<p>Was versteht man unter <em>Textualität</em>?</p>
+<div class="rmdnote">
+<p><strong>Textualität</strong> ist die Gesamtheit der wesenhaften Merkmale von Texten. Textualität (oder Textur) kann sich aber auch auf den Text als Gebilde (als Produkt) beziehen.</p>
+<p><strong>Vertextung</strong> ist ein Begriff, mit dem man sich auf den Textproduktions- oder rezeptionsprozess (Textaufbau, Textbildung oder Textkonstitution) bezieht.</p>
+</div>
+<div class="rmdrobot">
+<p>In welchen Fällen liegt nach Ihrer derzeitigen Auffassung ein <em>Text</em> vor?</p>
+<ol type="1">
+<li>Nicht-Texte oder Texte an der Grenze?</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/textkriterien_1.png" class="img-fluid" style="width:50.0%"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/textkriterien_2.png" class="img-fluid" style="width:50.0%"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/textkriterien_5.jpg" class="img-fluid" style="width:50.0%"></p>
+</div>
+</div>
+</div>
+<div class="rmdrobot">
+<p>Welche <em>Eigenschaften</em> machen Texte <em>spezifisch</em>, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation notwendig machen?</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/partnerschaftsanzeige.png" class="img-fluid" width="340"></p>
+</div>
+</div>
+<p>Ich bin 50 Jahre, 172 groß und paar kg mehr. Ich suche einen Ehrlichen, Treuen, Zufährlässlichen Partner (keine Affären oder Ons) Er sollte 50 bis 58 sein. Bitte nur ernstgemeinte Anfragen.</p>
+<p>Brigitte<br>
+Standort 1110 Wien, Simmering<br>
+Ad-ID: 263214<br>
+Zuletzt aktualisiert: 18.09.2022 14:55</p>
+<hr>
+<p>Merkel-Porträt aus dem Jahr 2000 <strong>Das eiserne Mädchen</strong> Wer das Geheimnis von Angela Merkel ergründen will, muss mit ihr von Krisensitzung zu Krisensitzung ziehen und dorthin gehen, wo sie herkommt. Eine preisgekrönte Reportage aus dem Jahr 2000, wiederentdeckt zum 70. SPIEGEL-Geburtstag. Von Alexander Osang 28.01.2017, 07.55 Uhr</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/Angela_Merkel_2000.png" class="img-fluid" width="554"></p>
+</div>
+</div>
+<p>Manchmal muss sie noch mal zurück in diese Stadt, die so gut passt zu Kohls Ehrenwort, zu Weyrauchs verrostetem Garagentor, zu Leisler Kieps Einstecktuch, zu Kanthers Frisur, noch mal zurück in dieses Bonner Konrad-Adenauer-Haus, wo man einen dieser Siebziger-Jahre-Sexfilme drehen könnte, ohne ein einziges Möbelstück zu verrücken. Nach der Pressekonferenz will sie schnell weg, schnell nach Berlin, der Rückflug ist ausgebucht, alle sind in der Maschine, nur sie steht noch im Warteraum und telefoniert. Sie weiß, in einer Stunde, in Berlin, kann alles anders sein. Sie hört, dass Kohl heute abend im Fernsehen spricht. Sie schaltet ihr Handy ab und sagt leise: “Er schlägt zurück. Heute schlägt er zurück.”</p>
+<p>Am Abend sieht Angela Merkel Helmut Kohl im Fernsehen. Sie ist zu Besuch bei Freunden und fragt, ob die was dagegen haben. Nein, denn Kohl gucken gehört inzwischen dazu. Es ist spannend. Kohl marschiert in das ZDF-Studio wie ein General. Thomas Bellut vom ZDF knallt die Hacken zusammen. Er fragt nach Angela Merkel.</p>
+<p>Er sei nicht hierher gekommen, um über Angela Merkel zu reden, sagt Kohl. Und dann redet er. Wie ein betrogener Liebhaber. Oder ein enttäuschter Vater.</p>
+<p>Die Tür öffnet sich am Rande von Templin, es ist die Tür des letzten Hauses in einer kurzen Sackgasse. Horst Kasner ist überraschend groß und überraschend aufrecht für einen 74-jährigen Pfarrer. Er trägt ein graues Cordjeans-Hemd, hat breite Schultern, aber sein linkes Auge ist trübe. Als ich anbiete, die Schuhe auszuziehen, lacht er. Man erkennt jetzt die Tochter in seinen Zügen. Auch die Art, wie er die Arme schwingt, vorfreudig irgendwie, könnte sie von ihm geerbt haben. Die Frage ist, worauf er sich freut. … …</p>
+<p><a href="https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html" class="uri">https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</div>
+</section>
+<section id="konstitutive-kriterien-der-textualität" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="konstitutive-kriterien-der-textualität"><span class="header-section-number">3.1</span> Konstitutive Kriterien der Textualität</h2>
+<p>Beaugrande/Dressler (1992:12ff) unterscheiden sieben konstitutive Textualitätskriterien, die bei jedem Text erfüllt sein müssen.</p>
+<p><strong>Textzentrierte</strong> Kriterien:<br>
+- Kohäsion<br>
+- Kohärenz.</p>
+<p><strong>Verwenderzentrierte</strong> Kriterien:<br>
+- Intentionalität<br>
+- Akzeptabilität<br>
+- Informativität<br>
+- Situationalität<br>
+- Intertextualität.</p>
+<section id="kohäsion" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="kohäsion"><span class="header-section-number">3.1.1</span> Kohäsion</h3>
+<p>Dieses Merkmal reflektiert die Zusammengehörigkeit von Oberflächeneinheiten eines Textes und beruht auf grammatischen Abhängigkeiten.</p>
+<div class="rmdrobot">
+<ol start="2" type="1">
+<li>Paul hat angerufen. Er sagt, er kommt morgen.<br>
+</li>
+<li>A: Ich liebe dich. - B: Ich dich auch.<br>
+</li>
+<li>Paul hat angerufen. Paul war sehr aufgeregt.<br>
+</li>
+<li>O Grab ! o Wundergrab! dem alle Gräber weichen! …<br>
+O Grab! das einst begrub die Leiche aller Leichen!<br>
+(Ausschnitt aus Das unbegreifliche Jesusgrab von Quirinus Kuhlmann)<br>
+</li>
+<li>Brüderchen und Schwesterchen<br>
+</li>
+<li>Kahn kritisierte seinen Chef. Er wurde entlassen.<br>
+</li>
+<li>Kahn kritisierte seinen Chef. Deshalb wurde er entlassen.<br>
+</li>
+<li>Kahn kritisierte seinen Chef. Danach wurde er entlassen.<br>
+</li>
+</ol>
+</div>
+</section>
+<section id="kohärenz" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="kohärenz"><span class="header-section-number">3.1.2</span> Kohärenz</h3>
+<p>Kohärenz = Kontinuität des Inhalts, inhaltliche Zusammengehörigkeit von Textteilen.</p>
+<div class="rmdrobot">
+<ol start="10" type="1">
+<li>Die Wetterlage in Europa hat sich in den vergangenen Tagen völlig verändert. Wie aber soll sie von wenig Geld eine Haushaltshilfe bezahlen? Allerdings will kein Meteorologe einen Pfennig darauf verwetten, daß wir nun auch von Juni an mit Sonne rechnen können.</li>
+</ol>
+</div>
+<p>Kohärenz: bei de Beaugrande &amp; Dressler nur semantisch-kognitive Zusammenhänge von Texten (z .B. Kausalitäts-, Zeit- und Referenzbeziehungen).</p>
+<p>Die Textwelt, ist ihrerseits durch eine Sinnkontinuität bestimmt: Im Gegensatz zur Bedeutung (der Fähigkeit oder des Potentials eines Ausdrucks, Wissen darzustellen oder zu übermitteln) bezeichnen die beiden Autoren mit Sinn das Wissen, das tatsächlich durch die Ausdrücke innerhalb eines Textes übermittelt wird. Die Sinnkontinuität ist Grundlage der Kohärenz. Eine solche dem Text zugrundeliegende Konstellation (d.&nbsp;h. die Gesamtheit der einem Text zugrundeliegenden Sinnbeziehungen) ist die Textwelt, die mit der realen Welt nicht unbedingt übereinstimmen muss. Es handelt sich vielmehr um die vom Sprecher, von seinem Wissen und seinen Intentionen zugrundegelegte Textwelt.</p>
+<p>Konzepte sind in der Psychologie bzw. Kognitionswissenschaft angenommene Einheiten unseres Wissenssystems, die sich aufgrund von Wahrnehmung und Erfahrung dort gebildet haben und die nicht unbedingt ein getreues Abbild der realen Welt ergeben. Eine Diskrepanz zwischen der Konzept-Konstellation in der Textwelt und unserem Wissen führt dazu, dass wir keine Sinnkontinuität herstellen können. Der betreffende Text ist für uns sinnlos. Wenn Konzepte aktiviert werden, meint man damit, dass sie aus dem Langzeitgedächtnis in den aktiven Gedächtnisspeicher geladen werden.</p>
+</section>
+<section id="intentionalität" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="intentionalität"><span class="header-section-number">3.1.3</span> Intentionalität</h3>
+<p>I. = Einstellung (Attitüde) des Textproduzenten, einen kohäsiven und kohärenten Text zu bilden, um damit Wissen zu verbreiten oder ein in einem Plan angegebenes Ziel zu erreichen.</p>
+<div class="rmdrobot">
+<ol start="11" type="1">
+<li>George W. Bush mit einem republikanischen Senator bei einer Wahlkampagne:</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/textkriterien_7.png" class="img-fluid" style="width:75.0%"></p>
+</div>
+</div>
+</div>
+<p>Widersprüche, Intentionalität als notwendiges Textualitätskriterium zu fordern (Vater 1992: 50):<br>
+(a) Intentionalität: Voraussetzung für jede Art von (bewußter) Kommunikation.<br>
+(b) Obwohl Kohärenz und Kohäsion unabhängige Kriterien sind und nicht Teil eines anderen Textualitätskriteriums sein können, verweist der Intentionalitätsbegriff auf diese beiden und macht sie zu Kriterien, die an Intentionalität gebunden sind.<br>
+(c) Äußerungskomplexe, die wir intuitiv als Texte auffassen, in denen der Textproduzent jedoch nicht Kohäsion und/oder Kohärenz intendiert. Die Inkohärenzen der in Texten vorkommenden Sprecher stört nicht die Kohärenz des Gesamttextes, sondern können sogar dazu gehören. Darin zeigt sich die Abhängigkeit des Kohärenzbegriffs von der Textsorte.</p>
+</section>
+<section id="akzeptabilität" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="akzeptabilität"><span class="header-section-number">3.1.4</span> Akzeptabilität</h3>
+<p>A. = Einstellung des Textrezipienten, einen kohäsiven und kohärenten Text zu erwarten, der für ihn nützlich oder relevant ist. Akzeptabilität bezieht sich außerdem auf die Angemessenheit der verwendeten Sprachmittel, d.&nbsp;h. auf Sprachvariation im weiteren Sinne.</p>
+<div class="rmdrobot">
+<ol start="12" type="1">
+<li>Ein alltägliches Bild in den Straßen des Ruhrgebiets: eine Mutter, ein Kind und Pommes Frites. Im Büdchen an der Ecke kauft die Frau Mama eine Portion Pommes Frites.<br>
+Kind: Mamma, gib mich dat Pommes.<br>
+Mutter: Du dummer Bengel ! Dat heißt: Gib mich dat Pommes, BITTE !</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/textkriterien_8.jpg" class="img-fluid" style="width:75.0%"></p>
+</div>
+</div>
+<ol start="13" type="1">
+<li><p>Ein Hühnerzüchter schreibt an eine landwirtschaftliche Forschungsstelle:<br>
+“Es geht um meine Hühner. Jeden Tag finde ich einige von ihnen mit dem Kopf im Sand und mit den Beinen nach oben. Was ist mit ihnen los?” Nach 14 Tagen kommt die Antwort: “Ihre Hühner sind tot.”</p></li>
+<li><p>Gespräch in der Straßenbahn.<br>
+“Können Sie mir sagen, wie spät es ist?”<br>
+“Moment”, sagt der andere und zieht eine Banane aus der Tasche.<br>
+Er wirft einen Blick darauf und sagt: “Donnerstag.”<br>
+“Du lieber Himmel, da hätte ich ja an der vorigen Haltestelle Aussteigen müssen!”</p></li>
+<li><p>Ein Schweizer, ein Schwabe und ein Berliner sitzen im Zugabteil.<br>
+Der Schweizer zum Berliner: “Sind Sie schou z’Züri gsi?”<br>
+Der Berliner kann mit dem letzten Wort nichts anfangen und fragt zurück: “Gsi?”<br>
+Da greift der Schwabe hilfreich ein: “Er moint gwää.”</p></li>
+<li><p>Italiens Premier <em>Berlusconi</em> über die Anhänger der Opposition vor der damaligen Parlamentswahl in Italien (2006):</p></li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/textkriterien_9.png" class="img-fluid" style="width:75.0%"></p>
+</div>
+</div>
+</div>
+<p>Einwände (Vater 1992: 52-54):<br>
+(a) Akzeptabilität: allgemeine Voraussetzung für erfolgreiches Kommunizieren.<br>
+(b) Subjektivität: für den einen akzeptabel, für den anderen dagegen nicht.<br>
+(c) Akzeptabilitätsbegriff zu eng eingegrenzt.</p>
+</section>
+<section id="informativität" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="informativität"><span class="header-section-number">3.1.5</span> Informativität</h3>
+<p>I. = Ausmaß der Erwartetheit bzw. Unerwartetheit, Bekanntheit oder Unbekanntheit, Gewissheit oder Ungewissheit der dargebotenen Textelemente. Das richtige Maß an Informativität eines Textes ist abhängig von Intention, Erwartung und Situation.</p>
+<p>I. = außerdem als Thematizität verstanden. Keine athematischen Texte; sprachlich sehr stark reduzierte Dialoge durch implizite Thematizität gekennzeichnet sein.</p>
+<div class="rmdrobot">
+<ol start="17" type="1">
+<li>E = m*c2<br>
+</li>
+<li>um herauszufinden ob eine Konversation ein Gespräch oder eine Geschwätz ist, haben wir die ABC-Analyse verwendet, d.h. aufschreiben, ob wieviele wichtige Fachbegriffe vorkommen (welche Themen werden angeschnitten), wichtig hierbei ist zu schauen ob es Wörter mit Inhalt sind oder nur Plastikwörter und zum anderen die 4 Maximen von Grice. Ich hoffe das hat dich geholfen.<br>
+</li>
+</ol>
+</div>
+<p>Einwände Vater (1992: 56): Informativitätsbegriff einschränken: Informativität sei zu definieren als das Ausmaß der Erwartetheit bzw. Unerwartetheit von Zeichen aus einem Zeicheninventar, das dem Rezipienten bekannt ist.</p>
+</section>
+<section id="situationalität" class="level3" data-number="3.1.6">
+<h3 data-number="3.1.6" class="anchored" data-anchor-id="situationalität"><span class="header-section-number">3.1.6</span> Situationalität</h3>
+<p>S. = Gesamtheit der Faktoren, die einen Text für eine kommunikative Situation relevant machen.</p>
+<div class="rmdrobot">
+<ol start="19" type="1">
+<li>Langsam spielende Kinder<br>
+</li>
+<li>Die Morphologie-Vorlesung fällt heute aus.<br>
+</li>
+</ol>
+</div>
+<p>Beispiel (19) nur durch situative Faktoren interpretierbar, denn grammatisch sind ist ein solcher Text oft nicht eindeutig. Beispiel (20): Erwartungen von Germanistik- und Medizinstudenten bezüglich <em>Morphologie</em>-Vorlesung (Knochenbau vs.&nbsp;Wortstruktur).</p>
+</section>
+<section id="intertextualität" class="level3" data-number="3.1.7">
+<h3 data-number="3.1.7" class="anchored" data-anchor-id="intertextualität"><span class="header-section-number">3.1.7</span> Intertextualität</h3>
+<p>I. = Bezug eines Textes auf andere Texte und deren Geprägtheit als Elemente einer bestimmten Textsorte bzw. Textklasse.</p>
+<p>Intertextualität <em>im Sinne (a)</em>, d.&nbsp;h. die Textsorte, ergibt sich aus einem Geflecht verschiedener Faktoren und Merkmale: Intention, Form, Situation usw.</p>
+<p>Intertextualität <em>im Sinne (b)</em>, d.&nbsp;h. der Bezug auf andere Textvorkommen, spielt in der Literatur (Belletristik) eine große Rolle: z. B. Kabarett Schwarz - weiß - tot.</p>
+</section>
+</section>
+<section id="gesamtheit-der-textualitätskriterien" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="gesamtheit-der-textualitätskriterien"><span class="header-section-number">3.2</span> Gesamtheit der Textualitätskriterien</h2>
+<p>Vater (1992: 64-66): Führt nur die Gesamtheit der Textualitätskriterien zu Textualität, um von einem “Text” sprechen zu dürfen?<br>
+- <em>Intentionalität</em> und <em>Akzeptabilität</em> sind fragwürdige Textualitätskriterien, weil sie Voraussetzung für jegliche Kommunikation sind und nicht nur sprachlicher.<br>
+- <em>Akzeptabilität</em> ist relativ: das gleiche sprachliche Gebilde kann von einem Textrezipienten als Text akzeptiert werden, von einem anderen dagegen nicht. Letzteres ist beispielsweise bei moderner Lyrik oft der Fall.<br>
+- <em>Situationalität</em> trägt zur Textualität bei, aber ist ein nicht situations-adäquates sprachliches Äußerungsgeflecht kein Text? Vater (1992: 64) scheint es in bestimmten Fällen angemessener, zu behaupten, dass jemand zwar einen Text gebildet habe, aber halt keinen situationsangemessenen Text.<br>
+- <em>Kohäsion</em> ist zwar wichtig und fehlt relativ selten in Texten, aber es gibt Äußerungsgeflechte, die durchaus ohne Kohäsionsmittel auskommen und dennoch kohärent sein können, denn man erkennt, dass ein Thema abgehandelt wird.<br>
+- <em>Kohärenz</em> stellt offenbar das dominierende Textualitätskriterium dar. Auch wenn alle anderen postulierten Kriterien nicht erfüllt sind, kann es sich um einen Text handeln - solange das Gebilde kohärent ist. Bestimmte Äußerungsgeflechte zeigen zudem, dass Kohärenzbeziehungen vom Text-Thema dominiert werden.<br>
+- <em>Thema</em>: eine nichtsprachliche Größe, die erst durch den Text versprachlicht wird und in einen bestimmten Wissenszusammenhang eingebettet ist. Da Textkohärenz an die Wissenssysteme des Textproduzenten und des Textrezipienten gebunden ist, erweist es sich als schwierig, die Textkohärenz zu bestimmen, und somit die Grenze zwischen Text und Nicht-Text als problematisch. Kohärenz = Eigenschaft, die an Leistungen und Urteilen von Rezipienten gebunden.<br>
+- <em>Scherners Auffassung</em> (1984: 148), <em>Kohärenz aufzufächern</em> in:<br>
+(a) <em>textbezügliche Konsistenzbedingungen</em> (weil “Wörter schon etwas mitbringen, bevor sie zur kommunikativen Verwendung gelangen”) und<br>
+(b) <em>Textbenutzer-bezogene</em> Kohärenzbedingungen. Die Konsistenzbedingungen unter <em>(a)</em> betreffen die semantisch–syntaktischen Regularitäten der Vertextung, die Bedingungen unter <em>(b)</em> “die darüber hinausgehenden Sinnerstellungsoperationen und -voraussetzungen des jeweiligen Rezipienten” Scherner (1984: 149; nach Vater 1992: 66).</p>
+<div class="rmdtip">
+<p>Kontinuum:<br>
+<em>Prototypische</em> Texte &lt;—-&gt; <em>Nicht-prototypische</em> Texte</p>
+</div>
+</section>
+<section id="regulative-textprinzipien" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="regulative-textprinzipien"><span class="header-section-number">3.3</span> Regulative Textprinzipien</h2>
+<p>Die konstitutiven Prinzipien bestimmen und erzeugen eine natürliche Verhaltensform, die als Textkommunikation erkennbar ist. Daneben werden von de Beaugrande &amp; Dressler (1992) aber auch regulative Prinzipien, die die Textkommunikation regeln, jedoch nicht definieren: Effizienz, Effektivität, Angemessenheit, möglicherweise noch mehrere.</p>
+<section id="effizienz" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="effizienz"><span class="header-section-number">3.3.1</span> Effizienz</h3>
+<p>Die Effizienz eines Textes steigt, wenn der Arbeitsaufwand von Textproduzent und Textrezipient bei der Textverwendung (d.h. beim Produzieren und beim Dekodieren) möglichst klein ist.</p>
+</section>
+<section id="effektivität" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="effektivität"><span class="header-section-number">3.3.2</span> Effektivität</h3>
+<p>Die Effektivität eines Textes hängt davon ab, ob ein Text beim Rezipienten einen starken Eindruck hinterlässt und günstige Verhältnisse für die Erreichung eines vom Textproduzenten (und möglicherweise auch vom Textrezipienten) angestrebten Ziels schafft.</p>
+</section>
+<section id="angemessenheit" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="angemessenheit"><span class="header-section-number">3.3.3</span> Angemessenheit</h3>
+<p>Die Angemessenheit eines Textes folgt aus der Art, wie die Textualitätskriterien in Wirklichkeit an die Situation angepasst sind.</p>
+
+
+<!-- -->
+
+</section>
+</section>
+<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1" role="doc-endnote"><p>Weitere Spiegel-Reportagen: <a href="https://www.spiegel.de/reise/fernweh/bangkok-was-die-demonstrationen-fuer-touristen-bedeuten-a-943253.html" class="uri">https://www.spiegel.de/reise/fernweh/bangkok-was-die-demonstrationen-fuer-touristen-bedeuten-a-943253.html</a>, <a href="https://www.spiegel.de/auto/aktuell/finale-in-le-mans-motorrad-langstrecken-wm-2013-a-923908.html" class="uri">https://www.spiegel.de/auto/aktuell/finale-in-le-mans-motorrad-langstrecken-wm-2013-a-923908.html</a>, <a href="https://www.spiegel.de/geschichte/familie-eines-fixers-heute-setz-ich-mir-den-todesschuss-a-1144782.html" class="uri">https://www.spiegel.de/geschichte/familie-eines-fixers-heute-setz-ich-mir-den-todesschuss-a-1144782.html</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./gegenstand.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Gegenstand und Sinn der Textlinguistik</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./summary.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Abschließende Bemerkungen</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Quellcode</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Textualitätskriterien {#sec-textkriterien}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">### Textualitätsbegriff</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Was versteht man unter *Textualität*?</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>:::rmdnote</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>**Textualität** ist die Gesamtheit der wesenhaften Merkmale von Texten. </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Textualität (oder Textur) kann sich aber auch auf den Text als Gebilde (als Produkt) beziehen. </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>**Vertextung** ist ein Begriff, mit dem man sich auf den Textproduktions- oder rezeptionsprozess (Textaufbau, Textbildung oder Textkonstitution) bezieht.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>In welchen Fällen liegt nach Ihrer derzeitigen Auffassung ein *Text* vor? </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>(1) Nicht-Texte oder Texte an der Grenze?    </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="50%"}</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_1.png"</span>)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="50%"}</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_2.png"</span>)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="50%"}</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_5.jpg"</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>Welche *Eigenschaften* machen Texte *spezifisch*, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation notwendig machen?</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/partnerschaftsanzeige.png"</span>)</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>Ich bin 50 Jahre, 172 groß und paar kg mehr. Ich suche einen Ehrlichen, Treuen, Zufährlässlichen Partner (keine Affären oder Ons)  Er sollte 50 bis 58 sein. Bitte nur ernstgemeinte Anfragen. </span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>Brigitte   </span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>Standort</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>1110 Wien, Simmering   </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>Ad-ID: 263214   </span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>Zuletzt aktualisiert: 18.09.2022 14:55</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>------</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>Merkel-Porträt aus dem Jahr 2000 </span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>**Das eiserne Mädchen**</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>Wer das Geheimnis von Angela Merkel ergründen will, muss mit ihr von Krisensitzung zu Krisensitzung ziehen und dorthin gehen, wo sie herkommt. Eine preisgekrönte Reportage aus dem Jahr 2000, wiederentdeckt zum 70. SPIEGEL-Geburtstag.</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>Von Alexander Osang</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>28.01.2017, 07.55 Uhr</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/Angela_Merkel_2000.png"</span>)</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>Manchmal muss sie noch mal zurück in diese Stadt, die so gut passt zu Kohls Ehrenwort, zu Weyrauchs verrostetem Garagentor, zu Leisler Kieps Einstecktuch, zu Kanthers Frisur, noch mal zurück in dieses Bonner Konrad-Adenauer-Haus, wo man einen dieser Siebziger-Jahre-Sexfilme drehen könnte, ohne ein einziges Möbelstück zu verrücken. Nach der Pressekonferenz will sie schnell weg, schnell nach Berlin, der Rückflug ist ausgebucht, alle sind in der Maschine, nur sie steht noch im Warteraum und telefoniert. Sie weiß, in einer Stunde, in Berlin, kann alles anders sein. Sie hört, dass Kohl heute abend im Fernsehen spricht. Sie schaltet ihr Handy ab und sagt leise: "Er schlägt zurück. Heute schlägt er zurück."</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>Am Abend sieht Angela Merkel Helmut Kohl im Fernsehen. Sie ist zu Besuch bei Freunden und fragt, ob die was dagegen haben. Nein, denn Kohl gucken gehört inzwischen dazu. Es ist spannend. Kohl marschiert in das ZDF-Studio wie ein General. Thomas Bellut vom ZDF knallt die Hacken zusammen. Er fragt nach Angela Merkel.</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>Er sei nicht hierher gekommen, um über Angela Merkel zu reden, sagt Kohl. Und dann redet er. Wie ein betrogener Liebhaber. Oder ein enttäuschter Vater.</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>Die Tür öffnet sich am Rande von Templin, es ist die Tür des letzten Hauses in einer kurzen Sackgasse. Horst Kasner ist überraschend groß und überraschend aufrecht für einen 74-jährigen Pfarrer. Er trägt ein graues Cordjeans-Hemd, hat breite Schultern, aber sein linkes Auge ist trübe. Als ich anbiete, die Schuhe auszuziehen, lacht er. Man erkennt jetzt die Tochter in seinen Zügen. Auch die Art, wie er die Arme schwingt, vorfreudig irgendwie, könnte sie von ihm geerbt haben. Die Frage ist, worauf er sich freut. ... ...</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html&gt;</span>^<span class="co">[</span><span class="ot">Weitere Spiegel-Reportagen: &lt;https://www.spiegel.de/reise/fernweh/bangkok-was-die-demonstrationen-fuer-touristen-bedeuten-a-943253.html&gt;, &lt;https://www.spiegel.de/auto/aktuell/finale-in-le-mans-motorrad-langstrecken-wm-2013-a-923908.html&gt;, &lt;https://www.spiegel.de/geschichte/familie-eines-fixers-heute-setz-ich-mir-den-todesschuss-a-1144782.html&gt;</span><span class="co">]</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">## Konstitutive Kriterien der Textualität</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>Beaugrande/Dressler (1992:12ff) unterscheiden sieben konstitutive Textualitätskriterien, die bei jedem Text erfüllt sein müssen. </span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>**Textzentrierte** Kriterien:    </span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Kohäsion    </span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Kohärenz.   </span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>**Verwenderzentrierte** Kriterien:   </span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Intentionalität   </span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Akzeptabilität   </span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Informativität   </span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Situationalität   </span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Intertextualität.</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="fu">### Kohäsion </span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>Dieses Merkmal reflektiert die Zusammengehörigkeit von Oberflächeneinheiten eines Textes und beruht auf grammatischen Abhängigkeiten.    </span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>(2) Paul hat angerufen. Er sagt, er kommt morgen.    </span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>(3) A: Ich liebe dich. - B: Ich dich auch.   </span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>(4) Paul hat angerufen. Paul war sehr aufgeregt.   </span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>(5) O Grab ! o Wundergrab! dem alle Gräber weichen! ...    </span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>    O Grab! das einst begrub die Leiche aller Leichen!    </span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>(Ausschnitt aus Das unbegreifliche Jesusgrab von Quirinus Kuhlmann)   </span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>(6) Brüderchen und Schwesterchen   </span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>(7) Kahn kritisierte seinen Chef. Er wurde entlassen.   </span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>(8) Kahn kritisierte seinen Chef. Deshalb wurde er entlassen.   </span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>(9) Kahn kritisierte seinen Chef. Danach wurde er entlassen.   </span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="fu">### Kohärenz </span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>Kohärenz = Kontinuität des Inhalts, inhaltliche Zusammengehörigkeit von Textteilen.   </span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>(10)    Die Wetterlage in Europa hat sich in den vergangenen Tagen völlig verändert. Wie aber soll sie von wenig Geld eine Haushaltshilfe bezahlen? Allerdings will kein Meteorologe einen Pfennig darauf verwetten, daß wir nun auch von Juni an mit Sonne rechnen können.</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>Kohärenz: bei de Beaugrande &amp; Dressler nur semantisch-kognitive Zusammenhänge von Texten (z .B. Kausalitäts-, Zeit- und Referenzbeziehungen).    </span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>Die Textwelt, ist ihrerseits durch eine Sinnkontinuität bestimmt: Im Gegensatz zur Bedeutung (der Fähigkeit oder des Potentials eines Ausdrucks, Wissen darzustellen oder zu übermitteln) bezeichnen die beiden Autoren mit Sinn das Wissen, das tatsächlich durch die Ausdrücke innerhalb eines Textes übermittelt wird. Die Sinnkontinuität ist Grundlage der Kohärenz. Eine solche dem Text zugrundeliegende Konstellation (d. h. die Gesamtheit der einem Text zugrundeliegenden Sinnbeziehungen) ist die Textwelt, die mit der realen Welt nicht unbedingt übereinstimmen muss. Es handelt sich vielmehr um die vom Sprecher, von seinem Wissen und seinen Intentionen zugrundegelegte Textwelt. </span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>Konzepte sind in der Psychologie bzw. Kognitionswissenschaft angenommene Einheiten unseres Wissenssystems, die sich aufgrund von Wahrnehmung und Erfahrung dort gebildet haben und die nicht unbedingt ein getreues Abbild der realen Welt ergeben. Eine Diskrepanz zwischen der Konzept-Konstellation in der Textwelt und unserem Wissen führt dazu, dass wir keine Sinnkontinuität herstellen können. Der betreffende Text ist für uns sinnlos. Wenn Konzepte aktiviert werden, meint man damit, dass sie aus dem Langzeitgedächtnis in den aktiven Gedächtnisspeicher geladen werden. </span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a><span class="fu">### Intentionalität </span></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a>I. = Einstellung (Attitüde) des Textproduzenten, einen kohäsiven und kohärenten Text zu bilden, um damit Wissen zu verbreiten oder ein in einem Plan angegebenes Ziel zu erreichen.    </span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a>(11)    George W. Bush mit einem republikanischen Senator bei einer Wahlkampagne:   </span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_7.png"</span>)</span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a>Widersprüche, Intentionalität als notwendiges Textualitätskriterium zu fordern (Vater 1992: 50):    </span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a>(a) Intentionalität: Voraussetzung für jede Art von (bewußter) Kommunikation.    </span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>(b) Obwohl Kohärenz und Kohäsion unabhängige Kriterien sind und nicht Teil eines anderen Textualitätskriteriums sein können, verweist der Intentionalitätsbegriff auf diese beiden und macht sie zu Kriterien, die an Intentionalität gebunden sind.    </span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a>(c) Äußerungskomplexe, die wir intuitiv als Texte auffassen, in denen der Textproduzent jedoch nicht Kohäsion und/oder Kohärenz intendiert. </span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a>Die Inkohärenzen der in Texten vorkommenden Sprecher stört nicht die Kohärenz des Gesamttextes, sondern können sogar dazu gehören. Darin zeigt sich die Abhängigkeit des Kohärenzbegriffs von der Textsorte.   </span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="fu">### Akzeptabilität </span></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a>A. = Einstellung des Textrezipienten, einen kohäsiven und kohärenten Text zu erwarten, der für ihn nützlich oder relevant ist. </span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a>Akzeptabilität bezieht sich außerdem auf die Angemessenheit der verwendeten Sprachmittel, d. h. auf Sprachvariation im weiteren Sinne.</span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a>(12) Ein alltägliches Bild in den Straßen des Ruhrgebiets: eine Mutter, ein Kind und Pommes Frites. Im Büdchen an der Ecke kauft die Frau Mama eine Portion Pommes Frites.    </span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a>Kind: Mamma, gib mich dat Pommes.    </span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a>Mutter: Du dummer Bengel ! Dat heißt: Gib mich dat Pommes, BITTE !   </span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_8.jpg"</span>)</span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a>(13)    Ein Hühnerzüchter schreibt an eine landwirtschaftliche Forschungsstelle:   </span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a>“Es geht um meine Hühner. Jeden Tag finde ich einige von ihnen mit dem </span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a>Kopf im Sand und mit den Beinen nach oben. Was ist mit ihnen los?”</span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a>Nach 14 Tagen kommt die Antwort: “Ihre Hühner sind tot.”</span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a>(14)    Gespräch in der Straßenbahn.   </span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a>“Können Sie mir sagen, wie spät es ist?”   </span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a>“Moment”, sagt der andere und zieht eine Banane aus der Tasche.   </span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a>Er wirft einen Blick darauf und sagt: “Donnerstag.”   </span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a>“Du lieber Himmel, da hätte ich ja an der vorigen Haltestelle</span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a>Aussteigen müssen!”   </span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a>(15)    Ein Schweizer, ein Schwabe und ein Berliner sitzen </span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a>im Zugabteil.   </span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a>Der Schweizer zum Berliner: “Sind Sie schou z’Züri gsi?”   </span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a>Der Berliner kann mit dem letzten Wort nichts anfangen und fragt zurück: “Gsi?”   </span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a>Da greift der Schwabe hilfreich ein: “Er moint gwää.”   </span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a>(16)    Italiens Premier *Berlusconi* über die Anhänger der Opposition vor der damaligen Parlamentswahl in Italien (2006):   </span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_9.png"</span>)</span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a>Einwände (Vater 1992: 52-54):    </span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a>(a) Akzeptabilität: allgemeine Voraussetzung für erfolgreiches Kommunizieren.    </span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a>(b) Subjektivität: für den einen akzeptabel, für den anderen dagegen nicht.    </span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>(c) Akzeptabilitätsbegriff zu eng eingegrenzt.    </span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a><span class="fu">### Informativität </span></span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a>I. = Ausmaß der Erwartetheit bzw. Unerwartetheit, Bekanntheit oder Unbekanntheit, Gewissheit oder Ungewissheit der dargebotenen Textelemente. Das richtige Maß an Informativität eines Textes ist abhängig von Intention, Erwartung und Situation. </span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a>I. = außerdem als Thematizität verstanden. Keine athematischen Texte; sprachlich sehr stark reduzierte Dialoge durch implizite Thematizität gekennzeichnet sein. </span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a>(17)    E = m*c2   </span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a>(18)    um herauszufinden ob eine Konversation ein Gespräch oder eine Geschwätz ist, haben wir die ABC-Analyse verwendet, d.h. aufschreiben, ob wieviele wichtige Fachbegriffe vorkommen (welche Themen werden angeschnitten), wichtig hierbei ist zu schauen ob es Wörter mit Inhalt sind oder nur Plastikwörter und zum anderen die 4 Maximen von Grice. Ich hoffe das hat dich geholfen.   </span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a>Einwände Vater (1992: 56):</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a>Informativitätsbegriff einschränken: Informativität sei zu definieren als das Ausmaß der Erwartetheit bzw. Unerwartetheit von Zeichen aus einem Zeicheninventar, das dem Rezipienten bekannt ist.    </span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a><span class="fu">### Situationalität </span></span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a>S. = Gesamtheit der Faktoren, die einen Text für eine kommunikative Situation relevant machen. </span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a>(19) Langsam spielende Kinder    </span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a>(20) Die Morphologie-Vorlesung fällt heute aus.   </span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a>Beispiel (19) nur durch situative Faktoren interpretierbar, denn grammatisch sind ist ein solcher Text oft nicht eindeutig. </span>
+<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a>Beispiel (20): Erwartungen von Germanistik- und Medizinstudenten bezüglich *Morphologie*-Vorlesung (Knochenbau vs. Wortstruktur). </span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a><span class="fu">### Intertextualität </span></span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a>I. = Bezug eines Textes auf andere Texte und deren Geprägtheit als Elemente einer bestimmten Textsorte bzw. Textklasse. </span>
+<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a>Intertextualität *im Sinne (a)*, d. h. die Textsorte, ergibt sich aus einem Geflecht verschiedener Faktoren und Merkmale: Intention, Form, Situation usw. </span>
+<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a>Intertextualität *im Sinne (b)*, d. h. der Bezug auf andere Textvorkommen, spielt in der Literatur (Belletristik) eine große Rolle: z. B. Kabarett Schwarz - weiß - tot. </span>
+<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a><span class="fu">## Gesamtheit der Textualitätskriterien</span></span>
+<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a>Vater (1992: 64-66): Führt nur die Gesamtheit der Textualitätskriterien zu Textualität, um von einem "Text" sprechen zu dürfen?    </span>
+<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Intentionalität* und *Akzeptabilität* sind fragwürdige Textualitätskriterien, weil sie Voraussetzung für jegliche Kommunikation sind und nicht nur sprachlicher.    </span>
+<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Akzeptabilität* ist relativ: das gleiche sprachliche Gebilde kann von einem Textrezipienten als Text akzeptiert werden, von einem anderen dagegen nicht. Letzteres ist beispielsweise bei moderner Lyrik oft der Fall.    </span>
+<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Situationalität* trägt zur Textualität bei, aber ist ein nicht situations-adäquates sprachliches Äußerungsgeflecht kein Text? Vater (1992: 64) scheint es in bestimmten Fällen angemessener, zu behaupten, dass jemand zwar einen Text gebildet habe, aber halt keinen situationsangemessenen Text.    </span>
+<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Kohäsion* ist zwar wichtig und fehlt relativ selten in Texten, aber es gibt Äußerungsgeflechte, die durchaus ohne Kohäsionsmittel auskommen und dennoch kohärent sein können, denn man erkennt, dass ein Thema abgehandelt wird.    </span>
+<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Kohärenz* stellt offenbar das dominierende Textualitätskriterium dar. Auch wenn alle anderen postulierten Kriterien nicht erfüllt sind, kann es sich um einen Text handeln - solange das Gebilde kohärent ist. Bestimmte Äußerungsgeflechte zeigen zudem, dass Kohärenzbeziehungen vom Text-Thema dominiert werden.    </span>
+<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Thema*: eine nichtsprachliche Größe, die erst durch den Text versprachlicht wird und in einen bestimmten Wissenszusammenhang eingebettet ist. Da Textkohärenz an die Wissenssysteme des Textproduzenten und des Textrezipienten gebunden ist, erweist es sich als schwierig, die Textkohärenz zu bestimmen, und somit die Grenze zwischen Text und Nicht-Text als problematisch. Kohärenz = Eigenschaft, die an Leistungen und Urteilen von Rezipienten gebunden.    </span>
+<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Scherners Auffassung* (1984: 148), *Kohärenz aufzufächern* in:   </span>
+<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a>(a) *textbezügliche Konsistenzbedingungen* (weil "Wörter schon etwas mitbringen, bevor sie zur kommunikativen Verwendung gelangen") und    </span>
+<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a>(b) *Textbenutzer-bezogene* Kohärenzbedingungen. </span>
+<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a>Die Konsistenzbedingungen unter *(a)* betreffen die semantisch--syntaktischen Regularitäten der Vertextung, die Bedingungen unter *(b)* "die darüber hinausgehenden Sinnerstellungsoperationen und -voraussetzungen des jeweiligen Rezipienten" Scherner (1984: 149; nach Vater 1992: 66).    </span>
+<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a>:::rmdtip</span>
+<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a>Kontinuum:   </span>
+<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a>*Prototypische* Texte &lt;----&gt; *Nicht-prototypische* Texte </span>
+<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a><span class="fu">## Regulative Textprinzipien</span></span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a>Die konstitutiven Prinzipien bestimmen und erzeugen eine natürliche Verhaltensform, die als Textkommunikation erkennbar ist. Daneben werden von de Beaugrande &amp; Dressler (1992) aber auch regulative Prinzipien, die die Textkommunikation regeln, jedoch nicht definieren: Effizienz, Effektivität, Angemessenheit, möglicherweise noch mehrere. </span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effizienz</span></span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a>Die Effizienz eines Textes steigt, wenn der Arbeitsaufwand von Textproduzent und Textrezipient bei der Textverwendung (d.h. beim Produzieren und beim Dekodieren) möglichst klein ist. </span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effektivität</span></span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a>Die Effektivität eines Textes hängt davon ab, ob ein Text beim Rezipienten einen starken Eindruck hinterlässt und günstige Verhältnisse für die Erreichung eines vom Textproduzenten (und möglicherweise auch vom Textrezipienten) angestrebten Ziels schafft.</span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a><span class="fu">### Angemessenheit</span></span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a>Die Angemessenheit eines Textes folgt aus der Art, wie die Textualitätskriterien in Wirklichkeit an die Situation angepasst sind. </span>
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Lehrveranstaltungsmaterialien, Maribor 2022, Teodor Petrič</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/tpetric7/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/TPetric">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

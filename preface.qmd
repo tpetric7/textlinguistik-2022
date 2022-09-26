@@ -1,0 +1,5 @@
+# Vorwort {.unnumbered}
+
+Dieses Buch ist eine Einführung in die Textlinguistik, und zwar unter besonderer Berücksichtigung von Textmustern und Textsorten im Deutschen. 
+
+`Quarto Book` <https://quarto.org/>

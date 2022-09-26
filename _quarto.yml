@@ -1,0 +1,76 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  # cover-image: "pictures/intro_2022/Diapozitiv1.PNG"
+  # cover-image-alt: |
+  #   Textlinguistik - Einführung in Textmuster und Textsorten
+  title: "Textlinguistik"
+  title-block-banner: true
+  title-block-banner-color: "darkgreen"
+  subtitle: "Textmuster und Textsorten im Deutschen"
+  author: "Teodor Petrič"
+  affiliation-title: Univerza v Mariboru<br>Universität Maribor
+  date: "2022-09-26"
+  chapters:
+    - index.qmd
+    - preface.qmd
+    - intro.qmd
+    - gegenstand.qmd
+    - textkriterien.qmd
+    - summary.qmd
+    - references.qmd
+  page-navigation: true
+  page-footer: 
+    border: true
+    background: light
+    left: "Lehrveranstaltungsmaterialien, Maribor 2022, Teodor Petrič" 
+    right: 
+      - icon: github
+        href: https://github.com/tpetric7/
+      - icon: twitter 
+        href: https://twitter.com/TPetric 
+
+bibliography: references.bib
+
+execute: 
+  warning: false
+  message: false
+  echo: false
+  error: true
+
+format:
+  html:
+    theme: cosmo
+    css: [style.css, TMwR.css]
+    toc: true
+    toc-depth: 5
+    toc-location: left
+    code-fold: true
+    code-summary: "Show the code"
+    code-tools: true
+    code-copy: hover
+    number-sections: true
+    fig-width: 8
+    fig-height: 6
+    fig-cap-location: bottom
+    fig-responsive: true
+    lang: de
+    self-contained: false
+    anchor-sections: true
+    smooth-scroll: true
+    hypothesis: true
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
+
+editor: source
+

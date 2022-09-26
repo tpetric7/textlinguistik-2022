@@ -1,0 +1,54 @@
+# Einführung
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/intro_2022/Diapozitiv5.PNG")
+```
+
+In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur
+Erfassung von linguistischen Merkmalen in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt.
+
+Unseren Kurs beginnen wir mit Frage, wozu wir überhaupt über Sprache
+reden und *zu welchem Zweck über Textlinguistik?*
+
+Da sich mehrere Wissenschaften mit Sprache und folglich auch mit Texten auseinandersetzen, ist es sinnvoll, Textlinguistik von anderen wissenschaftlichen Disziplinen abzugrenzen, um den *Gegenstand {@sec-gegenstand} der Textlinguistik* (als Bestandteil der Systemlinguistik) besser erkennen zu können.
+
+In jeder wissenschaftlichen Disziplin werden grundlegende Einheiten
+definiert. In der Textlinguistik ist die sprachliche *Äußerung* die maßgebliche Basiseinheit. Wie jede linguistische Einheit, kann man Äußerungen verschiedentlich definieren. Andere grundlegende Einheiten der Textlinguistik, die in diesem Einführungsbuch definiert, beschrieben und anhand von exemplarischen Analysen veranschaulicht werden, sind *Text, Textmuster und Textsorten*.[^index-1]
+
+[^index-1]: Dieses Buch wurde mit `Quarto` <https://quarto.org/docs/books/> zusammengestellt.
+
+Hinweise[^index-2]:
+
+[^index-2]: Clipart von <https://www.clipartmax.com/>
+
+::: rmdnote
+Das ist eine Definition (rmdnote).
+:::
+
+::: rmdtip
+Das ist ein Tip oder eine Info (rmdtip).
+:::
+
+::: rmdrobot
+Das ist ein Arbeitsvorschlag (rmdrobot).
+:::
+
+::: rmdrstudio
+Das ist der RStudio Logotyp (rmdrstudio).
+:::
+
+::: rmdwarning
+Das ist eine Warnung (rmdwarning).
+:::
+
+::: rmderror
+Das ist eine Fehlermeldung (rmderror).
+:::
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', "tidyverse", "udpipe"
+), 'packages.bib')
+```
+
