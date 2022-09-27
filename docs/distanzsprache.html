@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.587">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Textlinguistik - 4&nbsp; Nähe- und Distanzsprachlichkeit</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./textkonstellation.html" rel="next">
+<link href="./textkriterien.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link href="site_libs/tabwid-1.1.0/tabwid.css" rel="stylesheet">
+<link href="site_libs/tabwid-1.1.0/scrool.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="TMwR.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Nähe- und Distanzsprachlichkeit</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Textlinguistik</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">.</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">Vorwort</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einführung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gegenstand.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Gegenstand und Sinn der Textlinguistik</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./textkriterien.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Textualitätskriterien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./distanzsprache.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Nähe- und Distanzsprachlichkeit</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./textkonstellation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Textkonstellation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./textfunktionen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Textfunktionen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./textklassen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Textklassifizierung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Abschließende Bemerkungen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+    
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Nähe- und Distanzsprachlichkeit</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/nahe_distanz_schnurtelefon.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<p>Texte können Merkmale sowohl des gesprochenen als auch des geschriebenen Sprachstils aufweisen. Die Merkmalsmischung hängt von <strong>Nähe- oder Distanzbedingungen der Kommunikation</strong> ab, welche die jeweiligen Pole eines Kontinuums darstellen. Die Kommunikationsbedingungen können entlang mehrerer semiotischer Skalen betrachtet und bewertet werden. - <em>Koch &amp; Österreicher 1990</em>, <em>Lindenlaub 2003</em>, <em>Petrič 1998</em>):</p>
+<ul>
+<li>physische Nähe vs.&nbsp;Distanz<br>
+</li>
+<li>soziale Nähe vs.&nbsp;Distanz (Alter, Status, Geschlecht, Beruf, …)<br>
+</li>
+<li>vertraut vs.&nbsp;fremd oder unbekannt<br>
+</li>
+<li>private vs.&nbsp;öffentliche Produktion oder Rezeption<br>
+</li>
+<li>emotional involviert vs.&nbsp;emotional distanziert<br>
+</li>
+<li>Bezug auf die Situation des Sprechers (<em>ich - hier - jetzt</em>) vs.&nbsp;kein Bezug<br>
+</li>
+<li>spontaner vs.&nbsp;vorbereiteter oder geplanter Kommunikationsakt<br>
+</li>
+<li>Dialog vs.&nbsp;Monolog …</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/nahe_distanz_diagram1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<p>Unterschieden werden zwei verschiedene Ebenen:<br>
+- eine <strong>mediale</strong> (graphische, phonische, auditive) und<br>
+- eine <strong>konzeptionelle</strong> Ebene (die nach unserer Auffassung die vorsprachliche Planung des Kommunikationsakts betrifft).</p>
+<p>Die Merkmale von Texten lassen sich zwischen den Endpolen von kontinuierlichen Nähe-Distanz-Skalen einordnen, so dass Texte entweder konzeptionell mündlich oder konzeptionell schriftlich sein können, und zwar ohne Rücksicht auf das Medium, welches der Übertragung des Botschaft dient.</p>
+<p>Je nach Nähe- oder Distanzbedingungen der Kommunikation sind unterschiedliche <strong>sprachliche Strategien</strong> zu erwarten.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/nahe_distanz_diagram3.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<p><strong>Konzeptionell schriftliche</strong> Texte werden in der Regel unter Distanzbedingungen produziert und kommen am häufigsten in schriftlichen Medien vor (wenn auch nicht ausschließlich).</p>
+<p><strong>Konzeptionell mündliche</strong> Texte werden in der Regel unter Bedingungen der Nähe produziert und kommen am häufigsten in mündlichen Medien vor (wenn auch nicht ausschließlich).</p>
+<p>Daher können wir in bestimmten Texten eher eine Reihe von <strong>sprachlichen Strategien</strong> erwarten, die eher für den <em>konzeptuell schriftlichen Stil</em> typisch sind (produziert unter Distanzbedingungen), in anderen Texttypen dagegen eher eine Reihe von sprachlichen Strategien, die eher für den <em>konzeptuell mündlichen Stil</em> typisch sind (oft, aber nicht ausschließlich, unter Nähebedingungen).</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/nahe_distanz_diagram2.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="rmdnote">
+<p>Anhand von zwei Kommunikationsformen im folgenden Beispiel lässt sich der Unterschied zwischen konzeptueller Mündlichkeit / Schriftlichkeit und medialer Mündlichkeit und Schriftlichkeit verdeutlichen.</p>
+<ul>
+<li><p>Eine <em>Wettervorhersage im Fernsehen</em> wird gewöhnlich gedanklich und schriftlich vorbereitet und geplant (konzeptuell schriftlich - der Text wird unter Distanzbedingungen produziert), aber dann wird der Text gewöhnlich von einem Bildschirm abgelesen und lautlich produziert (medial mündlich).</p></li>
+<li><p>Ein <em>Chat</em> wird gewöhnlich nicht gedanklich und schriftlich vorbereitet und geplant, sondern zum Kommunikationszeitpunkt produziert (d.h. konzeputell mündlich), aber da die Kommunikationspartner räumlich entfernt sind, wird die Botschaft über eine Tastatur eingetippt (medial schriftlich).</p></li>
+</ul>
+<p>Dieses Beispiel zeigt auch, dass konzeptuell schriftliche Texte nicht zwingend mit Hilfe des schriftlichen Mediums übertragen werden müssen und umgekehrt, dass konzeptuell mündliche Texte statt dess mündlichen Mediums auch das schriftliche Medium nutzen können. Dies hängt von den nähe- und distanzsprachlichen Kommunikationsbedingungen ab.</p>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="tabwid"><style>.cl-6c7955c6{}.cl-6c6e12d8{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-6c733e3e{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-6c736530{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6c736531{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6c736532{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class="cl-6c7955c6"><thead><tr style="overflow-wrap:break-word;"><td class="cl-6c736530"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">Kommunikationsform</span></p></td><td class="cl-6c736530"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">mündl.Medium</span></p></td><td class="cl-6c736530"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">schriftl.Medium</span></p></td><td class="cl-6c736530"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">mündl.Konzept</span></p></td><td class="cl-6c736530"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">schriftl.Konzept</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-6c736531"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">Chat</span></p></td><td class="cl-6c736531"><p class="cl-6c733e3e"><span class="cl-6c6e12d8"></span></p></td><td class="cl-6c736531"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">+</span></p></td><td class="cl-6c736531"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">+</span></p></td><td class="cl-6c736531"><p class="cl-6c733e3e"><span class="cl-6c6e12d8"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6c736532"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">Wettervorhersage im Fernsehen</span></p></td><td class="cl-6c736532"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">+</span></p></td><td class="cl-6c736532"><p class="cl-6c733e3e"><span class="cl-6c6e12d8"></span></p></td><td class="cl-6c736532"><p class="cl-6c733e3e"><span class="cl-6c6e12d8"></span></p></td><td class="cl-6c736532"><p class="cl-6c733e3e"><span class="cl-6c6e12d8">+</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+
+
+<!-- -->
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./textkriterien.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Textualitätskriterien</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./textkonstellation.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Textkonstellation</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Quellcode</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Nähe- und Distanzsprachlichkeit</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/nahe_distanz_schnurtelefon.jpg"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Texte können Merkmale sowohl des gesprochenen als auch des geschriebenen Sprachstils aufweisen. Die Merkmalsmischung hängt von **Nähe- oder Distanzbedingungen der Kommunikation** ab, welche die jeweiligen Pole eines Kontinuums darstellen. Die Kommunikationsbedingungen können entlang mehrerer semiotischer Skalen betrachtet und bewertet werden. - *Koch &amp; Österreicher 1990*, *Lindenlaub 2003*, *Petrič 1998*):</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>physische Nähe vs. Distanz\</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>soziale Nähe vs. Distanz (Alter, Status, Geschlecht, Beruf, ...)\</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>vertraut vs. fremd oder unbekannt\</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>private vs. öffentliche Produktion oder Rezeption\</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>emotional involviert vs. emotional distanziert\</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Bezug auf die Situation des Sprechers (*ich - hier - jetzt*) vs. kein Bezug\</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>spontaner vs. vorbereiteter oder geplanter Kommunikationsakt\</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Dialog vs. Monolog ...</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/nahe_distanz_diagram1.png"</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Unterschieden werden zwei verschiedene Ebenen:\</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>eine **mediale** (graphische, phonische, auditive) und\</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>eine **konzeptionelle** Ebene (die nach unserer Auffassung die vorsprachliche Planung des Kommunikationsakts betrifft).</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>Die Merkmale von Texten lassen sich zwischen den Endpolen von kontinuierlichen Nähe-Distanz-Skalen einordnen, so dass Texte entweder konzeptionell mündlich oder konzeptionell schriftlich sein können, und zwar ohne Rücksicht auf das Medium, welches der Übertragung des Botschaft dient.</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>Je nach Nähe- oder Distanzbedingungen der Kommunikation sind unterschiedliche **sprachliche Strategien** zu erwarten.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/nahe_distanz_diagram3.png"</span>)</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>**Konzeptionell schriftliche** Texte werden in der Regel unter Distanzbedingungen produziert und kommen am häufigsten in schriftlichen Medien vor (wenn auch nicht ausschließlich).</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>**Konzeptionell mündliche** Texte werden in der Regel unter Bedingungen der Nähe produziert und kommen am häufigsten in mündlichen Medien vor (wenn auch nicht ausschließlich).</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Daher können wir in bestimmten Texten eher eine Reihe von **sprachlichen Strategien** erwarten, die eher für den *konzeptuell schriftlichen Stil* typisch sind (produziert unter Distanzbedingungen), in anderen Texttypen dagegen eher eine Reihe von sprachlichen Strategien, die eher für den *konzeptuell mündlichen Stil* typisch sind (oft, aber nicht ausschließlich, unter Nähebedingungen).</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/nahe_distanz_diagram2.png"</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>:::rmdnote</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>Anhand von zwei Kommunikationsformen im folgenden Beispiel lässt sich der Unterschied zwischen konzeptueller Mündlichkeit / Schriftlichkeit und medialer Mündlichkeit und Schriftlichkeit verdeutlichen.  </span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Eine *Wettervorhersage im Fernsehen* wird gewöhnlich gedanklich und schriftlich vorbereitet und geplant (konzeptuell schriftlich - der Text wird unter Distanzbedingungen produziert), aber dann wird der Text gewöhnlich von einem Bildschirm abgelesen und lautlich produziert (medial mündlich).    </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Ein *Chat* wird gewöhnlich nicht gedanklich und schriftlich vorbereitet und geplant, sondern zum Kommunikationszeitpunkt produziert (d.h. konzeputell mündlich), aber da die Kommunikationspartner räumlich entfernt sind, wird die Botschaft über eine Tastatur eingetippt (medial schriftlich). </span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>Dieses Beispiel zeigt auch, dass konzeptuell schriftliche Texte nicht zwingend mit Hilfe des schriftlichen Mediums übertragen werden müssen und umgekehrt, dass konzeptuell mündliche Texte statt dess mündlichen Mediums auch das schriftliche Medium nutzen können. Dies hängt von den nähe- und distanzsprachlichen Kommunikationsbedingungen ab.   </span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>km_ms <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">read_xlsx</span>(<span class="st">"pictures/konz_mediale_M_S.xlsx"</span>)</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>km_ms <span class="ot">&lt;-</span> km_ms[<span class="sc">-</span><span class="dv">1</span>,]</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(km_ms) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Kommunikationsform"</span>, </span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>                     <span class="st">"mündl.Medium"</span>, <span class="st">"schriftl.Medium"</span>, </span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>                     <span class="st">"mündl.Konzept"</span>, <span class="st">"schriftl.Konzept"</span>)</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>flextable<span class="sc">::</span><span class="fu">flextable</span>(km_ms, <span class="at">theme_fun =</span> theme_booktabs)</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Lehrveranstaltungsmaterialien, Maribor 2022, Teodor Petrič</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/tpetric7/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/TPetric">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

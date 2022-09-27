@@ -19,6 +19,10 @@ book:
     - intro.qmd
     - gegenstand.qmd
     - textkriterien.qmd
+    - distanzsprache.qmd
+    - textkonstellation.qmd
+    - textfunktionen.qmd
+    - textklassen.qmd
     - summary.qmd
     - references.qmd
   page-navigation: true

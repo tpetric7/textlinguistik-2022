@@ -1,6 +1,10 @@
 # Textualitätskriterien {#sec-textkriterien}
 
-### Textualitätsbegriff
+```{r out.width="50%"}
+knitr::include_graphics("pictures/CePivo.jpg")
+```
+
+## Textualitätsbegriff
 
 Was versteht man unter *Textualität*?
 
@@ -256,3 +260,137 @@ Die Effektivität eines Textes hängt davon ab, ob ein Text beim Rezipienten ein
 
 Die Angemessenheit eines Textes folgt aus der Art, wie die Textualitätskriterien in Wirklichkeit an die Situation angepasst sind. 
 
+
+::: rmdrobot
+Lesen Sie den Text über den Rapper *Capital Bra* (<https://www.zdf.de/nachrichten/heute/das-phaenomen-capital-bra-100.html>)! Sehen Sie sich den Video-Beitrag (mit Untertiteln an)! *YouTube*-Video der Sendung *Germania* über *Capital Bra*: <https://www.youtube.com/watch?v=7_oNPNvjphs>
+
+Beschreiben Sie, welchen Eindruck Sie beim Lesen von der Sprache in den beiden Texten erhalten haben? Können Sie Unterschiede zwischen den beiden Texten erkennen? *Wie* wird gesprochen bzw. geschrieben?
+:::
+
+::: rmdrobot
+Zur computergestützen Textanalyse verwenden wir nun *Voyant Tools*: <https://voyant-tools.org/>. Adresse des Tutorials: <https://voyant-tools.org/docs/#!/guide/tutorial>.
+
+Wir "füttern" das Programm mit beiden Texten (*ZDF*-Beitrag, Untertitel zum *YouTube*-Video). Die Daten sollen uns bei unserer stilistischen Analyse behilflich sein.
+
+Wir erhalten mehrere Angaben und Darstellungen von *Voyant Tools*: z.B.\
+1. *Wortwolke* (Cirrus): Welche (inhaltlich relevanten) Wortformen kommen im ZDF-Text am häufigsten vor, welche in den Germania-Untertiteln? Wie erklären Sie sich die Unterschiede? Schauen Sie sich auch die *Trends*-Darstellung an!\
+2. Haben Sie beim Lesen noch *weitere Unterschiede* in der Wortwahl bemerkt, die in den beiden Bilddarstellungen nicht sichtbar sind?\
+3. *Dokumentlänge*: Wie viele *Äußerungen* umfassen die beiden Texte? Welcher ist länger? Kann man den Unterschied mit Hilf der syntaktischen Einheit *Satz* beschreiben?\
+4. *Wortschatzdichte* (lexikalische Diversität): In welchem der beiden Texte werden mehr unterschiedliche Wortformen verwendet? In welchem der beiden werden öfters dieselben Wortformen benutzt?\
+5. *Phrasen*: Welche Wortverbindungen werden in dem einen oder anderen Text wiederholt verwendet?\
+6. *Korrelationen*[^gegenstand-1] (Zusammenhänge): Welche Wörter kommen in dem einen oder anderen Text gemeinsam vor (hohe Korrelation + Signifikanz kleiner als 0,05)?
+:::
+
+[^gegenstand-1]: "The correlation coefficient is calculated by comparing the relative frequencies of terms (relative to each document for the corpus or relative to each segment of document). A coefficient that approaches 1 indicates that values correlate positively, they rise and fall together. A coefficient that approaches -1 indicates that values correlate negatively, frequencies rise for one term as it drops for the other. Coefficients that approach 0 indicate little correlation, positive or negative." - <https://voyant-tools.org/docs/#!/guide/correlations>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+knitr::include_graphics("pictures/capital_bra_untertitel.png")
+knitr::include_graphics("pictures/capital_bra_zdf.png")
+```
+
+**Text (ZDF)**:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}
+library(readtext)
+library(tidyverse)
+library(quanteda)
+library(udpipe)
+
+capbra_docx <- readtext("data/*.docx", docvarsfrom = "filename", 
+                        dvsep = "_")
+capbra <- corpus(capbra_docx$text[1])
+cat(capbra_docx$text[1])
+```
+
+**Tabelle: Wortklassen** (`Rmarkdown`, T.P.)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}
+library(udpipe)
+destfile = "german-gsd-ud-2.5-191206.udpipe"
+
+if(!file.exists(destfile)){
+   sprachmodell <- udpipe_download_model(language = "german")
+   udmodel_de <- udpipe_load_model(sprachmodell$file_model)
+   } else {
+  file_model = destfile
+  udmodel_de <- udpipe_load_model(file_model)
+}
+
+udp <- udpipe_annotate(udmodel_de, 
+                       x = as.character(capbra), trace = F)
+udpiped <- as.data.frame(udp)
+
+tabela <- udpiped %>% 
+  group_by(doc_id) %>% 
+  count(upos) %>% 
+  filter(!is.na(upos),
+         upos != "PUNCT")
+
+library(DT)
+tabela %>% 
+  DT::datatable(filter = "top", fillContainer = TRUE, 
+              extensions = 'Buttons', "ColReorder", 
+              # caption = "Tabelle: Wortklassen im Text",
+              options = list(pageLength = 10, 
+                             lengthMenu = c(2, 12, 18),
+                             colReorder = TRUE,
+                             dom = 'Bfrtip',
+    buttons = c('colvis','copy', 'csv', 'excel', 'pdf', 'print')
+  )) %>% 
+  formatStyle("upos",
+  target = 'row', 
+  backgroundColor = styleEqual(c(0, 1), c('gray30', 'lightblue')))
+
+```
+
+**Tabelle: Konnektoren**
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}
+vezniki <- tabela %>% 
+  filter(upos %in% c("CCONJ", "SCONJ")) %>% 
+  mutate(prozent = n/sum(n)) %>% 
+  pivot_wider(id_cols = upos, 
+              names_from = doc_id, values_from = n:prozent)
+
+connectors = udpiped %>% 
+  mutate(token = str_to_lower(token)) %>% 
+  group_by(token) %>% 
+  filter(!is.na(upos),
+         upos != "PUNCT") %>% 
+  filter(upos %in% c("CCONJ", "SCONJ")) %>% 
+  count(upos, sort = T)
+
+connectors %>% 
+  DT::datatable(filter = "top", fillContainer = TRUE, 
+              extensions = 'Buttons', "ColReorder", 
+              options = list(pageLength = 10, 
+                             colReorder = TRUE,
+                             dom = 'Bfrtip',
+    buttons = c('colvis','copy', 'csv', 'excel', 'pdf', 'print')
+  )) %>% 
+  formatStyle("upos",
+  target = 'row',
+  backgroundColor = styleEqual(c(0, 1), c('gray30', 'lightblue')))
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}
+cc <- connectors %>% 
+  filter(upos == "CCONJ") %>% 
+  pull(token) %>% 
+  head(50)
+sc <- connectors %>% 
+  filter(upos == "SCONJ") %>% 
+  pull(token) %>% 
+  head(50)
+
+print(paste("Konjunktor: ", cc))
+print(paste("Subjunktor: ", sc))
+```
+
+::: rmdrobot
+Versuchen Sie die sprachlichen Merkmale des Songtexts *Normalität* von *Capital Bra* mit Unterstützung von *Voyant Tools* zu beschreiben!
+
+Video: <https://www.youtube.com/watch?v=KS7vWUEeQJE>\
+Songtext: <https://genius.com/Ngee-normalitat-lyrics>
+:::
