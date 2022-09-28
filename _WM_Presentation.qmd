@@ -1,0 +1,827 @@
+---
+title: <span style="color:Black;">Ge</span><span style="color:#C70039;">rm</span><span style="color:#FFC300;">an</span><br><span style="color:DodgerBlue;">National Identity</span><br>in <span style="color:purple; font-style:italic">Rock</span> & <span style="color:MediumSeaGreen; font-style:italic">Rap</span> Songs\n"
+author: "Teodor Petrič"
+institute: "Maribor"
+date: "2022-09-15"
+execute: 
+  warning: false
+  message: false
+  echo: true
+  error: true
+  output: true
+format: 
+  revealjs:
+    theme: sky
+    toc: false
+    toc-depth: 2
+    number-sections: true
+    number-depth: 5
+    slide-number: c/t
+    show-slide-number: all
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-tools: true
+    code-copy: hover
+    fig-width: 8
+    fig-height: 6
+    fig-align: left
+    fig-cap-location: bottom
+    fig-responsive: true
+    tbl-cap-location: top
+    footnotes-hover: true
+    reference-location: document
+    scrollable: true
+    lang: en
+    self-contained: true
+    #embed-resources: true
+    anchor-sections: true
+    smooth-scroll: true
+    hypothesis: true
+    logo: pics/logo_um.jpg
+    footer: "Words, Music & Propaganda 2022"
+    preview-links: auto
+    slide-tone: true
+    controls: auto
+    progress: true
+    transition: slide
+    background-transition: fade
+    transition-speed: default
+    history: true
+    multiplex: true
+    touch: true
+    #chalkboard:
+    #  theme: whiteboard
+    #  boardmarker-width: 5
+    #  buttons: true
+editor: source
+---
+
+## Intro
+
+**Goals** of this presentation:   
+
+- to introduce our multilayered **corpus** of German *Rock* and *Rap* lyrics   
+- to introduce the **theoretical framework**   
+- to relate the *proximity-distance continuum* to linguistic strategies in a selection of Rock and Rap *song lyrics* about **German national identity**.   
+
+::: { .notes}
+My speaker notes go here.
+Press the **S** key or use the **Navigation** Menu to showe the presentation speaker view. 
+:::
+
+## Proximity vs. distance { .smaller}
+### Continuum
+
+Modern song lyrics display features of both spoken and written language style which depend on **proximity or distance conditions of communication** (ie. a continuum which can be viewed on a range of different semiotic scales - *Koch & Österreicher 1990*, *Lindenlaub 2003*, *Petrič 1998*):   
+- physical nearness vs. distance   
+- social nearness vs. distance (age, status, sex, occupation, ...)   
+- familiar vs. strange or foreign   
+- private vs. public production or reception   
+- emotionally involved vs. emotionally distant   
+- reference to the speaker's situation (*I - here - now*) vs. no reference   
+- spontaneous vs. prepared or planned communication act   
+- dialog vs. monologue   ...
+
+---
+
+### Concept vs. medium { .smaller}
+
+Similarly like other texts, **song lyrics** range between the end poles of a proximity - distance *continuum*, being either conceptually oral or conceptually written.  
+
+Depending on proximity or distance conditions of communication, differing **linguistic strategies** can be expected. 
+
+**Conceptually written** texts are usually produced under distance conditions and most often occur in written media (though not exclusively). 
+
+**Conceptually oral** texts are usually produced under proximity conditions and most often occur in oral media (though not exclusively).   
+
+---
+
+### Song lyrics { .smaller}
+
+Many **Rock and Rap song lyrics** tend to be **conceptually written**, ie. produced under distance conditions, but are rather produced orally and usually also under proximity conditions (e.g. artists use the **oral medium** on the stage). 
+
+Therefore we can expect a number of **linguistic strategies** which are more typical for *written style* (produced under distance condtions), but also a number of linguistics strategies which are more typical for *oral style* and connect the artists with the listeners of their art product (often, though not exclusively, under proximity conditions). 
+
+
+## Corpus
+### Sources 
+
+Song lyrics scraped from website [Genius](https://genius.com) with my script written in the `R` programming language [Petrič, 2022](https://github.com/tpetric7/genius_lyrics_german)   
+
+Additional sources: [Songkorpus](https://songkorpus.de/), [Thomas Schmidt aka lauchblatt](https://github.com/lauchblatt/GermanSongLyricsCorpus), german-rap-dataset-master.^[There a several song lyrics corpora in the internet, one of the biggest in English is accessible here: https://wasabi.i3s.unice.fr/]   
+
+```{r}
+#| echo: false
+library(tidyverse)
+library(scales)
+library(tidytext)
+library(quanteda)
+library(quanteda.textstats)
+library(quanteda.textplots)
+library(flextable)
+library(DT)
+
+wd <- getwd()
+dir.create(paste0(wd,"/","0_WM_Presentation_files","/"))
+dir.create(paste0(wd,"/","0_WM_Presentation_files","/","libs"))
+
+# collection <- read_rds("data/collection_distinct1_nob.rds")
+# udpiped <- read_rds("data/collection1_udpiped_with_punct_freq.rds")
+```
+
+---
+
+### Genres { .smaller}
+
+The corpus includes two very broadly defined genres:   
+- **Rock** (dominant singing parts, guitars)   
+- **Rap** (dominant rhythmic talking parts, sound samples, big drums).   
+**Selection** mostly based on *public lists* (ie. Thomas Schmidt, Songkorpus, ...) of artists producing songs with German lyrics.    
+
+::: aside
+Within each genre: possible to distinguish fine-grained musical and thematic (sub)genres (e.g., *German New Wave* - *Neue Deutsche Welle*, or *Message Rap*, *Oriental Rap*, *Party-style Rap*, ...). 
+:::
+
+---
+
+### Corpus features { .smaller}
+
+**Song corpus**: >9,000 songs, ~5,000 Rap, ~4,000 Rock.   
+Corpus **features**:   
+- artist name(s)    
+- song title   
+- album title   
+- genre   
+- release year & often production metadata & url   
+- the song lyrics in its raw form   
+- automatically annotated lyrics (tokens, types, lemmas, word classes, syntactic relations, length)   
+- other features (classification, sentiment, other modeling purposes).   
+
+---
+
+### Names of Rap and Rock Artists
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/wm_rap_rock_nouns_wordcloud_artists.png")
+```
+
+---
+
+## Sociopolitical vocabulary
+
+**Diachronic distribution** of >3000 keywords over 10 semantic fields in the time period from 1970 to 2022:    
+We used a *keyword list*^[ABBREVIATION DESCRIPTION_ENGLISH DESCRIPTION_GERMAN EXAMPLES
+B Education/Science Bildung/Wissenschaft Abitur,Ausbildung,Labor,Lehrer,Schule,Universität
+G Health/Drugs Gesundheit/Drogen Alkohol,Arznei,Dealer,Krankenhaus,Nikotin,Pandemie,Suizid
+K War/Violence/Crime Krieg/Gewalt/Kriminalität Atombombe,Auschwitz,Folter,Gangster,Geiselnahme,Mord
+L Love/Partnership Liebe/Partnerschaft Ehe,Erotik,Freier,Geliebte,Porno,Romanze,Tinder,Viagra
+M Media/Culture Medien/Kultur Abendblatt,Berlinale,DSDS,Facebook,Fernsehen,Schlagzeile
+P Politics/Justice/Religion Politik/Justiz/Religion CDU,Fundamentalist,Merkel,Vatikan,Verfassungsgericht
+S Sports Sport Beckenbauer,Bundesliga,Nationalspieler,Stadion,Training,Turnschuh,Yoga
+U Environment/Conservation Umwelt/Naturschutz Atomkraft,Endlager,Fukushima,GAU,Klimaschutz,Wackersdorf
+W Economy/Social Wirtschaft/Soziales Arbeitsplatz,BASF,Dienstwagen,Euro,Fabrik,Privatisierung
+R Travel/Geography Reisen/Geografie Bahnhof,Bergsteiger,Lufthansa,Mallorca,Titicacasee,Urlaub
+] created by [Schneider et al., 2022](https://songkorpus.de/download/songkorpus_sociopolitics.tar.gz) to relate the vocabulary of the song lyrics in our corpus to social context types.   
+
+In comparison to the Rock song lyrics in our corpus from 1990 to 2022, **Rap** lyrics have been focussing more on aspects of **culture** (Kultur), **economy** (Wirtschaft) and **violence** (Gewalt) in German society. 
+
+---
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/Sociocultural_thematic_fields_1.png")
+```
+
+---
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/Sociocultural_thematic_fields_2.png")
+```
+
+---
+
+## Word Frequency and proximity
+
+**Frequency** of word occurrence as **proximity indicator**:    
+The token frequency of **content words** (ie. function words are excluded) indicate preferences for certain words which can be interpreted according to **proximity - distance scales**:   
+**vulgar words** or subtandard lexical items (e.g., *Nutte, Hure, Hurensohn, Nuttensohn, Bitch, Arsch, Fresse, Knast, ficken, Schwanz, Fotze*, ...) are quite typical in Rap songs in contrast to Rock songs. 
+
+---
+
+### Nouns in Rock lyrics
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/wcloud_rock_de.png")
+```
+
+---
+
+### Nouns in Rap lyrics
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/wcloud_rap_de.png")
+```
+
+---
+
+The use of **vulgar expressions in Rap** lyrics indicates / suggests a **high degree of proximity**:   
+- high emotional involvement   
+- spontaneous production   
+- most often in dialog  
+- often physical nearness   
+- social nearness with the listener   
+- familiar place, time, mode of of situation    
+- reference to the speaker's situation   
+- private, non-public production   
+The **vocabulary of Rock** lyrics seems to be more controlled and indicate a lesser degree of proximity - compared to Rap vocabulary. 
+
+---
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/keyplot_rap_vs_rock.png")
+```
+
+---
+
+## Text length { .smaller}
+
+```{r}
+#| echo: false
+tlength_tab1 <- read_rds("data/tlength_tab1.rds")
+ttest_tab1 <- read_rds("data/ttest_tab1.rds")
+tlength_tab1 %>% mutate(across(syl_avg:typ_sd, ~ round(.x, 2))) %>% rmarkdown::paged_table()
+ttest_tab1 %>% rmarkdown::paged_table()
+```
+
+## Word length (Rock - Rap) { .smaller}
+
+```{r out.width="100%"}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/wm_wordlen_genre.png")
+```
+
+---
+
+```{r out.width="100%"}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/plotly_wm_rock_wordlength1.png")
+```
+
+---
+
+```{r out.width="100%"}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("pics/plotly_wm_rap_wordlength1.png")
+```
+
+---
+
+## Sentiment
+### Latent Semantic Scaling
+
+High emotional involvement, especially words with negative connotation seem to be more dominant in Rap song lyrics than in Rock song lyrics. 
+
+*Latent Semantic Scaling*^[As a semisupervised machine learning model, LSS combines the characteristics of dictionary analysis and supervised and unsupervised machine learning models, balancing their strengths and weaknesses, such as the ability to measure specific quantities in large corpora and sensitivity to users’ decisions in text preprocessing. LSS identifies synonyms based on an unsupervised semantic model, Latent Semantic Analysis (LSA), but still allows users to predefine dimensions its measures through selection of seed words. LSS resembles Wordscores in that it locates documents on a unidimensional scale by producing polarity scores of words, but these scores are computed based on their semantic proximity to seed words instead of their frequency in manually-coded documents; it automatically estimates semantic proximity between words in a corpus employing word-embedding techniques but users still have to choose seed words manually based on their knowledge. **Seed words** are a small set of words that users choose to define the quantity that LSS measures. For sentiment analysis, users have to provide positive and negative words as seed words to weight the words in the corpus in terms of their sentiment; its algorithm produces their polarity scores based on their relative proximity to positive and negative seed words. Ideal seed words are subject-independent generic words in order to achieve their portability across projects.   
+LSS **model terms** consist of words that are relevant to the target dimension. When the corpus contains documents about a specific subject (e.g. national identiy or economy), model terms can be all the words in the corpus, excluding grammatical words and low-frequency words. However, model terms must be selected when documents’ subjects are less specific to make the model insensitive to irrelevant differences between documents.
+Although many different **methods** can be used to select subject-specific words, the simplest method is **non-contiguous collocation analysis** that identifies words that are statistically significantly frequent around *target words* (e.g., “econom*” for economy). This method effectively collects modifiers of the concepts that often occur within 5–10 words from the target words. The strength
+of words’ association with target concept can be computed by signed chi-squire test, which is known as **Keyness** (Scott, 2006).
+The **polarity scores of documents** are continuously and symmetrically distributed around the mean, so they are recentered by the global mean, μ = 0, and rescaled by standard deviation, σ = 1, to make it easier for users to interpret.^[I developed text analysis pipelines using text preprocessing functions in the Quanteda package (Benoit et al., 2018) and a truncated SVD function in the RSpectra package (Qiu & Mei, 2019).4 English and Japanese texts require separate pipelines, but I kept their differences minimal. The steps are: (1) remove articles that contain the highest frequency (top 10%) of punctuation marks and numeric expressions or comprise only one sentence to exclude tables and captions; (2) split all the texts into sentences based on full-stop punctuation marks; (3) tokenize texts (both for English and Japanese texts) using the word boundary detection rules implemented in the International Components for Unicode (ICU); (4) identify and compound sequences of capitalized words (for English) or katakana and kanji characters (for Japanese) by contiguous collocations analysis to correct erroneous segmentation of proper nouns5; (5) remove grammatical and time-related word tokens listed in the Marimo stopwords list6; (6) remove numeric or punctuation-only tokens based on the Unicode character class; (7) select 2,000 words that frequently occur around subject-specific target words as model terms; (8) form document-feature matrices excluding features that occur less than 10 times in the corpora; (9) perform SVD of the matrices with k = 300 to obtain word vectors; (10) compute polarity scores for model terms with the word vectors and the seed words; and (11) compute polarity scores of original news articles with the fitted LSS models.
+Selection of model terms in Step 7 is not an essential part of LSS but often necessary to apply the method to newspaper corpora because of the diversity of the content of the articles. Model term selection with subject-specific target words is aimed at identifying their modifiers and making models only sensitive to how target words are mentioned in the documents. This can be achieved by comparing the frequency of words inside and outside of the 5-word window around the target words using the signed chi-square statistic (Scott, 2006). In these examples, target words are identical to the words in search queries: {“econom*”, “compan*”, “job*”, “consumer*”} for the economy] ] (**LSS**), proposed by [Kohei Watanabe, 2020]((https://www.tandfonline.com/doi/full/10.1080/19312458.2020.1832976)), a technique for obtaining sentiment values of words in song lyrics, can be used to make the semantic space visible.  
+
+---
+
+### Polarity & frequency of words related to national identity (Rock - Rap) { .smaller}
+
+:::: { .columns}
+
+::: { .column width="50%"}
+
+```{r out.width="100%"}
+#| echo: false
+knitr::include_graphics("pics/p1_lss_rock_v2.png")
+```
+
+:::
+
+::: { .column width="50%"}
+
+```{r out.width="100%"}
+#| echo: false
+knitr::include_graphics("pics/p1_lss_rap_v2.png")
+```
+
+:::
+
+::::
+
+---
+
+### Trend of sentiment scores of lyrics^[Curves are LOESS smoothed sentiment scores with 95% confidence intervals. Circles are individual sentiment scores of > 4,000 Rock song lyrics and > 5000 Rap song lyrics.] { .smaller}
+
+:::: { .columns}
+
+::: { .column width="50%"}
+
+```{r out.width="100%"}
+#| echo: false
+knitr::include_graphics("pics/p2_lss_trend_rock_v2.png")
+```
+
+:::
+
+::: { .column width="50%"}
+
+```{r out.width="100%"}
+#| echo: false
+knitr::include_graphics("pics/p2_lss_trend_rap_v2.png")
+```
+
+:::
+
+::::
+
+---
+
+Certain **dips in the curve** (negative sentiment scores of lyrics) can be associated with impactful events in German society:   
+e.g. After the fall of the Berlin Wall and the **reunification** of both Germanys, **racist attacks** against people with a *migration background*^[The term Menschen mit Migrationshintergrund (people with a migration background) is used to refer to immigrants and people with at least one immigrant parent. However, not all identifiable minorities fit this definition. - Kate Zambon & Didem Uca, 2016] increased between 1991 and 1993 (Hoyerswerda, Rostock, Solingen, Mölln). 
+
+---
+
+In **reaction to this outbrek of violence** artists like *Advanced Chemistry* (and others) critisized the dominant definition of German citizenship - **Germany as a country of Germans?** - and "asserted a rights-based notion of national Belonging, ... demonstrating the disparity between their legal status as citizens and their exclusionary treatment by ethnic Germans".^[Kate Zambon & Didem Uca, 2016], representing a kind of "*constitutional patriotism*"^[Müller, 2008]. 
+
+---
+
+*Advanced Chemistry* (1996):    
+*Fremd im eigenen Land* (Foreign in my own country)   
+[YouTube](https://www.youtube.com/watch?v=C9N0fo3vXMs)
+
+>Ich habe einen grünen Pass mit 'nem goldenen Adler drauf ...   
+All das Gerede vom europäischen Zusammenschluss   
+fahr' ich zur Grenze mit dem Zug oder einem Bus   
+frag' ich mich, warum ich der Einzige bin, der sich ausweisen muss,
+Identität beweisen muss!
+
+::: aside
+(I have got a green passport with a golden eagle ...
+All this talk about European community,
+if I drive to the border with the train or the bus,
+I ask myself why I'm the only one who has to show a passport,
+provide proof of identity!)
+:::
+
+---
+
+*Udo Lindenberg* (1991):    
+*Ali 2 (Naziland ist abgebrannt)* (Ali 2, Naziland burnt down)
+
+>Ali, was war das für 'n Schock   
+Die sind mit sechs Mann auf dich los ...   
+Diese kurzgeschorenen Brutalos   
+Mit dem Messer in der Hand   
+Die kämpfen für's ewige Gestern   
+Ihr Naziland ist abgebrannt
+
+::: aside
+(Ali, what a shock! They came at you with six men ... Those short-haired brutes, With knives in their hands. They fight for eternal yesterday. Their Naziland has burnt down)
+:::
+
+---
+
+*Böhse Onkelz, Deutschland im Herbst* (1993):    
+
+>Ich höre weiße Geräusche   
+Rassenreine Lieder   
+Ich höre hirnlose Parolen   
+Von Idioten und Verlierern   
+Ich hör' die Lügen der Regierung   
+Die Lüge eures Lebens   
+Ich hör' die Lüge über uns   
+Ich höre Dich...   
+Deutschland im Herbst   
+
+English translation^[(I hear white sounds   
+Racially pure songs   
+I hear mindless slogans   
+Of idiots and losers   
+I hear the lies of the government   
+The lie of your life   
+I hear the lie about us   
+I hear you...   
+Germany in autumn)]
+
+---
+
+## Who is German? { .smaller}
+
+**Blurry national identity** of Germans (Nazi heritage, divided country, immigration, reunification) - definition of who is German changed. Nationality should not be defined through blood any more (*Volk*). 
+
+**Fears** of the majority culture that German-Germans *becoming minority*   
+
+Concept of *Kulturnation* and *Leitkultur* instead?   
+**Kulturnation** based on similarities in language, relgion, cultural and artistic history.   
+German **Leitkultur** (German language, German politics, German philosophy, German literature) or what instead to define its self-image? - Michaela N. Culley (2021)   
+
+The problem of the **Nazi Period**: 
+*Leftist idea*:   
+critical stances toward nationalism and past can contribute to stronger democratic institutions. 
+*Samy Deluxe* (influential Rap artist):    
+reflecting on the past is harming Germany’s progress as a nation, unfair that Germans “have no national pride". 
+
+---
+
+## National identity in song lyrics { .smaller}
+**Böhse Onkelz** (Rock, associated with right wing subculture), *Deutschland den Deutschen* (Germany for Germans, 1984), *Deutschland* (1984), *Frankreich '84* (1984), *Deutschland im Herbst* (1993)   
+**Rammstein** (Rock, often using German national symbols), *Deutschland* (2019)   
+**Fler** (Rap, gangsta image, superior Germanness, social outcast,  multicultural ties), *Neue Deutsche Welle* (2005)   
+**Udo Lindenberg** (Rock & Pop, liberal), *Rudi Ratlos* (1974), *Ali 2 (Naziland ist abgebrannt)* (1991)   
+**Advanced Chemistry** (Rap, "integrationists"), *Fremd im eigenen Land* (1996)   
+**Cartel** (Rap, Oriental, German Turks, close to "ethnic nationalism")   
+**Aziza A.** (Rap, Oriental, "women's rights in Turkish German communities"), *Es ist Zeit* (1997)   
+**Alpa Gun** (Rap, gap between promises of equality and everyday racist exclusion)   
+**Samy Deluxe** (Rap, young generation important for Germany’s future, nation should forgive itself for past crimes, renew national pride based on cosmopolitan viewpoints), *Dis wo ich herkomm* (2009)      
+
+---
+
+*Böhse Onkelz, Deutschland* (1984):    
+
+>Auch zwölf dunkle Jahre in Deiner Geschichte   
+Macht uns're Verbundenheit zu Dir nicht zunichte   
+Es gibt kein Land frei von Dreck und Scherben   
+Wir sind hier geboren, wir wollen hier sterben   
+Deutsche Frauen, deutsches Bier   
+Schwarz-Rot-Gold, wir steh'n zu Dir!
+
+Even twelve dark years in your history   
+Doesn't destroy our bond with you   
+There is no land free of dirt and shards   
+We were born here, we want to die here   
+German women, German beer   
+Black-red-gold, we stand by you!
+
+---
+
+*Böhse Onkelz, Frankreich '84* (1984):    
+
+>Fußball Europameister   
+Es gibt nur einen, Deutschland heißt er   
+Deutschland, Deutschland ist die Macht   
+Ja, wir sehen uns in jedem Fall   
+Im Sommer 84 beim Frankreichüberfall   
+Laßt uns unsere Fahne hissen   
+Unseren Gegner vor die Füße pissen   
+Zeig Ihnen wer wir sind
+
+European Football Champion   
+There is only one, Germany is his name   
+Germany, Germany is the power   
+Yes, see you in any case   
+In the summer of '84 at the French invasion   
+Let's hoist our flag   
+Piss at the feet of our enemies   
+Show them who we are
+
+---
+
+*Fler, A.g.g.r.o.* (2005): "Neue deutsche Welle"   
+
+>Versuch mich 1 mal zu ficken Ich mach dich Spast kaputt ...   
+Hier kommt die neue deutsche Welle   
+Guck ich schlage Nazis   
+Und hab mehr nackte Frauen als 'ne Pyjama-Party   
+Jeder weiß, man ihr Opfer seid schwach   
+Ich box dich box dich und box dich nochma' danach   
+Tony D ist der G, den die Bitches lieben,    
+yeah Du musst gut aussehn um mein Schwanz zu kriegen    
+Männer verriegeln ihre Tür vor mir    
+denn Ich raste aus und töte ganze Familien
+
+Try to fuck me 1 time Ich destroy you moron ...   
+Here comes the new German wave   
+Look, I beat Nazis   
+And I've got more naked women than a pyjama party.   
+Everybody knows you victims are weak   
+I'll box you, I'll box you and I'll box you again after that.   
+Tony D is the G that bitches love,    
+Yeah, you gotta look good to get my dick.    
+Men lock their door on me    
+Cause I go crazy and kill whole families
+
+---
+
+*Fler, Neue deutsche Welle* (2005):   
+
+>Komm nach Berlin und du siehst wie die Leute hier boxen.   
+Das ist normal, das hier ist Multi-Kulti, meine Homies kommen von
+uberall   
+Ihr holt die Bullen, wir sind die Außenseiter, wir sind Aggro-Berlin 
+Schwarz, Weiß - egal, jeder ist hier Aggro in Berlin   
+
+(Come to Berlin and you'll sec how the people here fight. That's normal, this here is multi-culti, my homics come from everywhere, you call the police, we're the outsiders, we're Aggro in Berlin, black, white-it doesn't matter, everyone here is Aggro in Berlin - Kathrin Bower, 2011)
+
+---
+
+*Fler, Ich bin Deutscha* (2008):   
+
+>Ich bin Deutscha, du hast keine Identität,   
+du bist ein niemand okay Junge, ich zeig dir wie es geht.   
+Ich bin Deutscha, auch wenn es niemand versteht,   
+ich bin stolz auf was ich bin, denn ich hab Identität.   
+Ich bin Deutscha, ich bin Berliner hoch zehn   
+und meine Ausländerjungs sagen ich hab Identität   
+
+(I'm German, you don't have an identity,
+you are no one, okay boy, I'll show you how it's done.
+I'm German, even if no one understands it,
+I'm proud of what I am, because I have identity.
+I'm German, I'm a Berliner to the tenth degree
+and my foreigner boys say that I have identity)
+
+---
+
+*Fler, Deutscha Bad Boy* (2008):
+
+>Ich bin zurück, deutsche Welle, ...   
+Und ich komm', fick' dein Leben,    
+ihr seid alle dick am Haten    
+Doch ihr habt nix zu melden, ...   
+Ich bin deutsch und drauf stolz ,    
+Leute sagen, Fler ist Proll   
+Leute sagen ich bin Nazi,    
+mir egal, sagt, was ihr wollt   
+Hauptsache, der Rubel rollt ...
+
+I'm back, German Wave, ...   
+And I'm coming, fuck your life,    
+You are all hating.    
+But you have nothing to report...   
+I am German and proud of it,    
+People say, Fler is a chav   
+People say I'm a Nazi    
+I don't care, say what you want
+The main thing is that the ruble rolls...
+
+---
+
+*Fler, Stabiler Deutscher* (2014):   
+
+>Darum steh ich hier    
+Musste mich beweisen auf der Straße im Revier    
+Darum sagen Leute dieser Deutsche is' stabil    
+Für die ganzen Kids bin ich deswegen kredibil    
+Egal ob ob schwarz oder weißWie du mir so ich dir.
+
+That's why I'm standing here    
+I had to prove myself on the street in the precinct    
+That's why people say this German is stable    
+That's why all the kids think I'm credible    
+No matter if black or whiteAs you me so I you.
+
+---
+
+*Samy Deluxe, Dis wo ich herkomm* (Dis where I come from) (2009):   
+
+>ich werd’ beweisen, dass ich mehr für Deutschland mach’ als der Staat
+mit meinen Partnern,   
+denn wir geben den Kids Perspektive,   
+bisschen Aufmerksamkeit und ein bisschen mehr Liebe   
+
+(I’m going to prove that I do more for Germany than the state
+because my partners and I give kids perspective,
+a little attention, and a little more love). 
+
+---
+
+*Samy Deluxe, Dis wo ich herkomm* (Dis where I come from) (2009):   
+
+>3 Jahre nach der WM   
+Ein' Monat waren wir kurz stolz, dann mussten wir uns wieder schämen, denn es heißt   
+Wir haben beide Weltkriege gestartet, vielleicht kann man da auch keine Selbstliebe erwarten, aber
+Was sollen wir tun? Etwa für immer depressiv sein
+Trotz den ganzen Fortschritten der kulturellen Vielfalt? - Nein, ich find nicht!
+ich will lieber etwas tun,
+deshalb red' ich mit den Kids an den Schulen,
+denn ich glaub’ immer noch an die Jugend und weiß,
+sie sind die Zukunft und brauchen bloß bisschen Hoffnung
+
+3 years after the World Cup, One' month we were proud for a short while, then we had to be ashamed again, because it says We started both world wars, maybe we can't expect self-love, but What should we do? Be depressed forever Despite all the advances in cultural diversity? - No, I don't think so! I would rather do something, that’s why I talk to kids at schools, because I still believe in the youth and know they are our future and just need a little hope)
+
+---
+
+*Rammstein, Deutschland* (2019):   
+
+>Du (Übermächtig, überflüssig)   
+Ich (Übermenschen, überdrüssig)   
+Wir (Wer hoch steigt, der wird tief fallen)   
+Ihr (Deutschland, Deutschland über allen)   
+(Deutschland!) Mein Herz in Flammen    
+Will dich lieben und verdammen   
+(Deutschland!) Dein Atem kalt    
+So jung und doch so alt   
+(Deutschland!) Deine Liebe ist Fluch und Segen   
+(Deutschland!) Meine Liebe kann ich dir nicht geben   
+
+You (Superpowerful, superfluous)   
+I (Superhuman, superfluous)   
+We (He who rises high will fall low)   
+You (Germany, Germany above all)   
+(Germany!) My heart on fire    
+Will love and damn you   
+(Germany!) Your breath cold    
+So young and yet so old   
+(Germany!) Your love is a curse and a blessing   
+(Germany!) My love I cannot give you
+
+---
+
+## Conclusion
+
+- On a formal level, Rap artists tend to use vocabulary which displays a higher degree of proximity. The vocabulary of Rock artists seems to be more controlled.   
+- Rap artists tend to use more negatively connotated words, vulgar words, which is in line with their high degree of emotional involvement they display non-verbically.   
+- The lexical diversity of Rap lyrics tends to be greater than that in Rock lyrics
+- Stereotypes and symbolic images (Nationality symbols of the German Reich, ethnic symbols, Macho image, brotherhood, the role of women in society) play an important role in some types of Rap & Rock lyrics.   
+- After reunification, Germans / German artists struggle with definitions and stances on German citizenship and nationality.   
+
+## Bibliography {.unnumbered}
+
+*Bower, Kathrin M.* (2011): Minority Identity as German Identity in Conscious Rap and Gangsta Rap: Pushing the Margins, Redefining the Center. German Studies Review 34, no. 2 (2011): 377-98.   
+*Culley, Michaela N.* (2021): "SO BITTER, SO BÖSE: SAMY DELUXE DEFINES A BLACK GERMAN IDENTITY THROUGH HIP-HOP". Theses and Dissertations -- Modern and Classical Languages, Literature and Cultures. 8. https://uknowledge.uky.edu/mcllc_etds/8.   
+*Kautny, Oliver* (2013): Immigrant Hip-Hop in Germany: The Cultural Identities of Migrants. In: Nitzsche, Sina A. and Walter Grünzweig, eds. Hip-Hop in Europe: Cultural Identities and Transnational Flows. Münster: Lit, 2013. 405-419.   
+*Koch, Peter & Österreicher, Ulf* (1990), Gesprochene Sprache in der Romania. Tübingen: Niemeyer.   
+*Lindenlaub, Juliane* (2003): Text typology. Erfurt: ASSIDUE 11.    
+*Petrič, Teodor* (1998): Korrelationen zwischen merkmalhaften oder merkmallosen syntaktischen Varianten und verschiedenen Graden der Textsortenkomplexität. Ljubljana: Linguistica 38(1). DOI: 10.4312/linguistica.38.1.201-224.   
+*Petrič, Teodor* (2022): Genius Lyrics German. R Programmming scripts. https://github.com/tpetric7/genius_lyrics_german. 
+*Putnam, Michael T.* (2006): Teaching Controversal Topics in Contemporary German Culture through Hip-Hop. Die Unterrichtspraxis / Teaching German , Fall, 2006, Vol. 39, No. 1/2 (Fall, 2006), pp. 69-79. Wiley on behalf of the American Association of Teachers of German. https://www.jstor.org/stable/20479875.   
+*Schneider, Roman / Hansen, Sandra / Lang, Christian* (2022): Das Vokabular von Songtexten im gesellschaftlichen Kontext – ein diachron-empirischer Beitrag. In: Kämper, Heidrun / Plewnia, Albrecht (Hg.): Sprache in Politik und Gesellschaft: Perspektiven und Zugänge. Berlin, Boston: De Gruyter. 295-304.    
+*Schneider, Roman / Hansen, Sandra & Lang, Christian* (2022):  https://songkorpus.de/download/songkorpus_sociopolitics.tar.gz.   
+*Schneider, Roman* (2020): A Corpus Linguistic Perspective on Contemporary German Pop Lyrics with the Multi-Layer Annotated "Songkorpus". In: Proceedings of the 12th Language Resources and Evaluation Conference (LREC). Marseille: European Language Resources Association (ELRA). 835-841.   
+*Watanabe, Kohei* (2021): Latent Semantic Scaling: A Semisupervised Text Analysis Technique for New Domains and Languages, Communication Methods and Measures, 15:2, 81-102, DOI: 10.1080/19312458.2020.1832976.   
+*Zambon, Kate & Uca, Didem* (2016): Patriots and Pedagogues: Cultural Institutions and the Performative Politics of Minority German Hip-Hop. International Journal of Communication 10(2016), 726–747.   
+
+---
+
+## Appendix
+### Lyrics example 1
+
+::: { .r-fit-text}
+Kettcar<br>Genauer betrachtet (2003)
+Und wir kamen oben an So nach hunderttausend Stufen Irgendjemand sagte: "Wow" Ich sagte nichts mehr Hundert Meter über allem Hielt den Atem an, und ich tauchte, sank hinein In dieses Meer aus Lichtern Überwältigt, staunend, schweigend Und auch leise irritiert Hey verdammt, das ist ein Spielfilm Das hat jemand inszeniert Und nichts ist mehr romantisch Wenn man es genauer betrachtet Und dann beginnt Verteilungskampf Oh hallo Angst, und Dich Kriegen sie auch noch Also komm schon Großhirn wünsch mir Glück Von A nach B und nicht zurück Der lange, lange Weg vom Nichts ins Licht Ganz egal, ob es hält was es verspricht Nicht, dass ich das hier besser wüsste Erkannt, verramscht, vorbei Nicht, dass ich das hier besser wüsste Als ob ich es wüsste Und Eimerweise Endruck, gegen Tröpfchenweise Einsicht. Würde sagen Was das soll jetzt, wenn ich wüsste wie es ist Selbst die Landung ging in Ordnung Das kennt man ja auch anders, da wird Sonst nicht gekleckert, sondern aufgeschlagen Und die Luft bleibt wo sie ist Und der Rest geht in die Lungen Hallo Ursache und Wirkung, kommt zusammen, seid umschlungen Und ich warf einen letzten Blick, einen letzten Blick Zurück. Nahm die ersten Stufen, zurück zum Boden Dachte: Pathos FM, das wird ein gutes, gutes Leben.   
+
+:::
+
+---
+
+### Lyrics example 1
+
+::: { .r-fit-text}
+Moop Mama<br>Orientierungssinn (2011)
+Scheinwerfer ziehen vorbei
+Wie Sternschnuppen durch die Dunkelheit
+Während das Universum um uns kreist
+Unsere Anziehung krümmt die Zeit
+Alles ist relativ irreal
+Unendliche Endlichkeit
+Ich krakel meine Linien ohne Lineal
+Unzulängliche Menschlichkeit
+Ich habe einen Haufen Theorien
+Alle sehr unwahrscheinlich
+Ich such nur Indizien
+Für die, weil ich, glaube, dass ich, ach
+
+
+Von hier aus
+Kann ich nicht wirklich sagen ob ich richtig bin
+Wie auch
+Den Überblick behalten ich steck mittendrin
+Probiers aus
+Ich hab nen ganz passablen Orientierungssinn
+Von mir aus
+Es könnt gehen
+
+
+Die Scheinwerfer sind längst vorbei
+Ich seh immer noch Sterne in die Dunkelheit
+Das Universum dehnt sich unendlich weit
+Was ist wirklich teilbar durch eins
+Alles ist relativ trivial
+Ständige Unbeständigkeit
+Meine Fortschritte sind minimal
+Unvollständige Denkarbeit
+Es gibt einen Haufen Theorien
+Die alle am Ende doch nicht passen
+Ich such nur einen Näherungswert
+Für die, weil ich, glaube, dass ich, ach
+
+:::
+
+---
+
+### Lyrics example 3
+
+::: { .r-fit-text}
+Madsen<br>Du schreibst Geschichte (2006)
+
+Weil die Welt sich so schnell dreht
+Weil die Zeit so schnell vergeht
+Kommst du nicht hinterher
+Weil die Hektik sich nicht legt
+Und du in der Masse untergehst
+Bist du ein Tropfen im Meer
+
+Doch du lebst länger als ein Leben lang Du bist das womit alles begann
+
+Denn du schreibst Geschichte
+Mit jedem Schritt
+Mit jedem Wort
+Setzt du sie fort
+Du schreibst Geschichte
+An jedem Tag
+Denn jetzt und hier
+Bist du ein Teil von ihr
+
+Weil ein Monster vor dir steht
+Und dir bedrohlich in die Augen sieht
+Bist du lieber still
+Weil jeder dir erzählt
+Wer du bist und was dir fehlt
+Vergisst du, was Du sagen willst
+
+Doch du lebst länger als ein Leben lang Du bist das womit alles begann
+
+Denn du schreibst Geschichte
+Mit jedem Schritt
+Mit jedem Wort
+Setzt du sie fort
+Du schreibst Geschichte
+An jedem Tag
+Denn jetzt und hier
+Bist du ein Teil von ihr
+
+Weil du nur einmal lebst
+Willst du, dass sich was bewegt
+Bevor du gehst
+Bevor du gehst
+
+Doch du lebst länger als ein Leben lang Du bist das womit alles begann
+
+Denn du schreibst Geschichte
+Mit jedem Schritt
+Mit jedem Wort
+Setzt du sie fort
+Du schreibst Geschichte
+An jedem Tag
+Denn jetzt und hier
+Bist du ein Teil von ihr
+
+:::
+
+---
+
+### Lyrics example 4
+
+::: { .r-fit-text}
+Udo Lindenberg<br>Rudi Ratlos (1974)
+
+>Rudi Ratlos mit viel Pomade   
+In den wenigen Haaren, die er noch hat   
+Schade, schade, schade, schade, Berlin '33   
+Da war er der schönste Geiger der Stadt   
+Da war er der Liebling aller Frauen   
+Und außerdem Leibmusikalartist   
+Von Adolf Hitler und Eva Braun   
+
+Rudi Ratlos with lots of pomade   
+In the few hairs he still has   
+Too bad, too bad, too bad, Berlin '33   
+He was the most beautiful violinist in the city   
+He was the darling of all the women   
+And he was also the favourite musician   
+Of Adolf Hitler and Eva Braun
+
+:::
+
+---
+
+### Sociopolitical keyword list
+
+```{r}
+#| echo: false
+
+keylist <- readxl::read_xlsx("songkorpus/songkorpus_sociopolitics/keywords_anno.xlsx")
+keylist %>% rmarkdown::paged_table()
+```
+

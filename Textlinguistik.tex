@@ -1,12 +1,10 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
   letterpaper,
-  DIV=11,
-  numbers=noendperiod]{scrreprt}
+]{scrbook}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -110,7 +108,6 @@
 \usepackage{hyperref}
 \usepackage{makeidx}
 \makeindex
-\KOMAoption{captions}{tableheading}
 \makeatletter
 \makeatother
 \makeatletter
@@ -172,11 +169,7 @@
 \hypersetup{
   pdftitle={Textlinguistik},
   pdfauthor={Teodor Petrič},
-  colorlinks=true,
-  linkcolor={blue},
-  filecolor={Maroon},
-  citecolor={Blue},
-  urlcolor={Blue},
+  hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 \title{Textlinguistik}
@@ -191,22 +184,23 @@
 \date{2022-09-26}
 
 \begin{document}
+\frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, enhanced, breakable, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, interior hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}, frame hidden, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
-\hypersetup{linkcolor=}
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
+\mainmatter
 \bookmarksetup{startatroot}
 
 \hypertarget{section}{%
 \chapter*{.}\label{section}}
 \addcontentsline{toc}{chapter}{.}
 
-\includegraphics[width=4.27in,height=\textheight]{./pictures/Diapozitiv1.PNG}
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Diapozitiv1.PNG}
 
 \bookmarksetup{startatroot}
 
@@ -219,7 +213,7 @@ besonderer Berücksichtigung von Textmustern und Textsorten im Deutschen.
 
 \texttt{Quarto\ Book} \url{https://quarto.org/}
 
-\bookmarksetup{startatroot}
+\part{Teil 1:Texte unter der Lupe}
 
 \hypertarget{einfuxfchrung}{%
 \chapter{Einführung}\label{einfuxfchrung}}
@@ -261,8 +255,6 @@ Das ist der RStudio Logotyp (rmdrstudio).
 Das ist eine Warnung (rmdwarning).
 
 Das ist eine Fehlermeldung (rmderror).
-
-\bookmarksetup{startatroot}
 
 \hypertarget{sec-gegenstand}{%
 \chapter{Gegenstand und Sinn der Textlinguistik}\label{sec-gegenstand}}
@@ -685,21 +677,30 @@ Spritze gegeben.\\
 (7b) Paul ist mit seinem Hund Schnuffi zum Tierarzt gegangen. Der hat
 dem Hund eine Spritze gegeben.\\
 
-\bookmarksetup{startatroot}
-
 \hypertarget{sec-textkriterien}{%
 \chapter{Textualitätskriterien}\label{sec-textkriterien}}
 
-\includegraphics[width=0.5\textwidth,height=\textheight]{./pictures/CePivo.jpg}
+\begin{figure}
+
+{\centering 
+
+\href{https://www.sueddeutsche.de/muenchen/oktoberfest-muenchen-corona-zahlen-anstieg-1.5664515?utm_source=Twitter\&utm_medium=twitterbot\&utm_campaign=1.5664515}{\includegraphics[width=1\textwidth,height=\textheight]{./pictures/lebkuchenherzen_sueddeutsche_de_6TAFlTln.jpg}}
+
+}
+
+\caption{(Süddeutsche Zeitung)}
+
+\end{figure}
 
 \hypertarget{textualituxe4tsbegriff}{%
 \section{Textualitätsbegriff}\label{textualituxe4tsbegriff}}
 
 Was versteht man unter \emph{Textualität}?
 
-\textbf{Textualität} ist die Gesamtheit der wesenhaften Merkmale von
-Texten. Textualität (oder Textur) kann sich aber auch auf den Text als
-Gebilde (als Produkt) beziehen.
+\textbf{Textualität} (oder auch: \emph{Texthaftigkeit}) ist die
+Gesamtheit der wesenhaften Merkmale von Texten. Textualität (oder
+Textur) kann sich aber auch auf den Text als Gebilde (als Produkt)
+beziehen.
 
 \textbf{Vertextung} ist ein Begriff, mit dem man sich auf den
 Textproduktions- oder rezeptionsprozess (Textaufbau, Textbildung oder
@@ -715,15 +716,18 @@ In welchen Fällen liegt nach Ihrer derzeitigen Auffassung ein
   Nicht-Texte oder Texte an der Grenze?
 \end{enumerate}
 
-\includegraphics[width=0.5\textwidth,height=\textheight]{./pictures/textkriterien_1.png}
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/textkriterien_1.png}
 
-\includegraphics[width=0.5\textwidth,height=\textheight]{./pictures/textkriterien_2.png}
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/textkriterien_2.png}
 
-\includegraphics[width=0.5\textwidth,height=\textheight]{./pictures/textkriterien_5.jpg}
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/textkriterien_5.jpg}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/CePivo.jpg}
 
 Welche \emph{Eigenschaften} machen Texte \emph{spezifisch}, so dass Sie
 nicht beliebig füreinander austauschbar sind und eine verschiedene
-Interpretation notwendig machen?
+Interpretation (z.b. hinsichtlich ihres Zwecks oder kommunikativen
+Funktion) notwendig machen?
 
 \includegraphics[width=2.26in,height=\textheight]{./pictures/partnerschaftsanzeige.png}
 
@@ -744,7 +748,17 @@ Krisensitzung zu Krisensitzung ziehen und dorthin gehen, wo sie
 herkommt. Eine preisgekrönte Reportage aus dem Jahr 2000, wiederentdeckt
 zum 70. SPIEGEL-Geburtstag. Von Alexander Osang 28.01.2017, 07.55 Uhr
 
-\includegraphics[width=3.69in,height=\textheight]{./pictures/Angela_Merkel_2000.png}
+\begin{figure}
+
+{\centering 
+
+\href{https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html}{\includegraphics[width=3.69in,height=\textheight]{./pictures/Angela_Merkel_2000.png}}
+
+}
+
+\caption{(Spiegel online)}
+
+\end{figure}
 
 Manchmal muss sie noch mal zurück in diese Stadt, die so gut passt zu
 Kohls Ehrenwort, zu Weyrauchs verrostetem Garagentor, zu Leisler Kieps
@@ -1214,7 +1228,7 @@ beschreiben!
 Video: \url{https://www.youtube.com/watch?v=KS7vWUEeQJE}\\
 Songtext: \url{https://genius.com/Ngee-normalitat-lyrics}
 
-\bookmarksetup{startatroot}
+\part{Teil 2:Klassifizierung von Texten}
 
 \hypertarget{nuxe4he--und-distanzsprachlichkeit}{%
 \chapter{Nähe- und
@@ -1276,6 +1290,8 @@ Medien vor (wenn auch nicht ausschließlich).
 \textbf{Konzeptionell mündliche} Texte werden in der Regel unter
 Bedingungen der Nähe produziert und kommen am häufigsten in mündlichen
 Medien vor (wenn auch nicht ausschließlich).
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Naehe_Distanz_Viereck.png}
 
 Daher können wir in bestimmten Texten eher eine Reihe von
 \textbf{sprachlichen Strategien} erwarten, die eher für den
@@ -1348,7 +1364,623 @@ nähe- und distanzsprachlichen Kommunikationsbedingungen ab.
 
 \end{table}
 
-\bookmarksetup{startatroot}
+\hypertarget{textmuster-und-textsorten}{%
+\chapter{Textmuster und Textsorten}\label{textmuster-und-textsorten}}
+
+\hypertarget{textdefinitionen}{%
+\section{Textdefinitionen}\label{textdefinitionen}}
+
+Als Ausgangspunkt greifen wir nochmals auf zwei gängige
+\textbf{Textdefinitionen} zurück.
+
+Text-Definition in der Grammatik von Engel (1988: 33):\\
+Texte sind:\\
+- Geflechte von Äußerungen\\
+- konnex\\
+- haben eine nachvollziehbare Struktur\\
+- sind \emph{sortenspezifisch}.\\
+
+Text-Definition von Beaugrande \& Dressler (1992):\\
+Texte sind Äußerungsfolgen, die sieben Textualitätskriterien genügen:\\
+- Kohärenz\\
+- Kohäsion\\
+- Intentionalität\\
+- Akzeptabilität\\
+- Informativität\\
+- Situationalität\\
+- \emph{Intertextualität}.\\
+
+Wir haben die Auffassung vertreten, dass nur \emph{prototypische Texte}
+alle Kriterien erfüllen.\\
+
+\textbf{Intertextualität} im Sinne der \emph{Musterhaftigkeit} von
+Texten wird in der Textlinguistik insbesondere mit Hilfe der Konzepte
+\emph{Textmuster} und \emph{Textsorte} diskutiert. (weitere Begriffe:
+\emph{Textklasse}, \emph{Texttyp})
+
+\hypertarget{textmuster}{%
+\section{Textmuster}\label{textmuster}}
+
+Heinemann (2000: 519) definiert \textbf{Textmuster} als:\\
+- „{[}\ldots{]} Teilmengen des \emph{Interaktionswissens} der
+Kommunizierenden.\\
+- Sie fungieren als gesellschaftlich determinierte, von Individuen
+interiorisierte \emph{konventionelle Schemata}/Muster, die auf komplexe
+Interaktions- und Textganzheiten bezogen sind.\\
+- Sie basieren auf kommunikativen \emph{Erfahrungen} der Individuen\\
+- und werden als \emph{Orientierungsraster} zur Auslösung kognitiver
+Prozesse der Herstellung von Texten einer bestimmten Klasse\\
+- mit dem Ziel der Lösung \emph{spezifischer kommunikativer Aufgaben}
+aktiviert.``\\
+
+Heinemann betrachtet Textmuster als Teil des Vorwissens, das während des
+Verstehensprozesses aktiviert wird und die Texterwartung des Lesers
+determiniert. Dieses Wissen bezeichnet er als \textbf{Textmusterwissen}.
+
+Gemäß Heinemann (2000a: 517) korrespondiert dieses Textmuster-Konzept
+„mit grundlegenden Speicherungs- und Verarbeitungstheorien der
+kognitiven Psychologie``, und zwar mit dem \emph{frame}-Konzept, mit der
+\emph{Schema}-Theorie, mit den \emph{script}-Modellen und auch teilweise
+mit den \emph{mentalen} Modellen.
+
+Nach Heinemann sind Textmuster gekennzeichnet durch:\\
+- Multidimensionalität (Mehrebenen-Modelle),\\
+- Repetitivität,\\
+- Vagheit und\\
+- Flexibilität.\\
+
+Textmuster spielen demnach eine zentrale Rolle in der Ganzheit der
+Textverarbeitungsprozesse, d.h. sowohl in der Textrezeption als auch in
+der Textproduktion. Anhand der \emph{gespeicherten Textmuster} sind
+Teilnehmende in der Kommunikation \emph{fähig}, bestimmte
+\emph{Textsorten zu identifizieren} und in bestimmten kommunikativen
+Situationen aktiv zu \emph{produzieren}.\\
+
+\emph{Textmuster} sind somit:\\
+- \emph{Rahmenmodelle für den Ablauf} spezifischer
+Kommunikationsereignisse.\\
+- Sie erlauben den Kommunizierenden ein \emph{schnelles verbales
+Agieren} und Re-agieren in bestimmten häufig wiederkehrenden
+Situationen.\\
+- Sie werden von den Kommunizierenden durch „\emph{vorgefertigte}``
+\emph{Äußerungseinheiten} und -strukturen aufgefüllt.\\
+
+Das \emph{Textmusterwissen} (Linke/Nussbaumer/Portmann 1994, S.253-254)
+ermöglicht uns einen \emph{routinierten Alltags-Umgang} mit bestimmten
+\emph{Textsorten}. Es besteht aus den Erfahrungen, die wir mit Texten
+machen und die Protoypen von Textsorten generieren. Mit deren Hilfe
+können wir bestimmte Textmuster leichter erkennen und intuitiv
+bestimmten Textsorten zuordnen. Aufgrund unseres prototypischen
+Textmusterwissens können wir nämlich:\\
+- einen Text, der zerschnitten oder fehlerhaft angeordnet ist, wieder so
+\emph{zusammensetzen}, wie sich für die jeweilige Textsorte gehört.\\
+- als Leser wissenschaftlicher Abhandlungen ``wissen, dass am Schluss
+eines Textes sowie als Abschluss von größeren Unterkapiteln kurze
+\emph{Zusammenfassungen} zu erwarten sind, und dass wir durch gezielte
+Suche nach solchen Textstellen uns auch bei einem dicken Wälzer relativ
+rasch einen gewissen inhaltlichen Überblick verschaffen können''.\\
+- beim Zeitungslesen am Frühstückstisch einfach die Seiten
+``\emph{überfliegen}'' und trotzdem dadurch im Großen und Ganzen
+informiert sein.\\
+
+\textbf{Indizien für Textmuster} (Lörscher, Zhen Li , Miao Wie - Uni
+Leipzig):\\
+- Kommunizierende sind \emph{fähig}, situativ und sozial
+\emph{angemessen} zu handeln.\\
+- Sie bilden in \emph{vergleichbaren} Situationen immer wieder Texte von
+gleicher Struktur, teils mit ähnlichen \emph{Formulierungen}.\\
+- Sie können beim Textverstehen einen gegebenen Text
+\emph{klassifizieren}.\\
+- Sie verwenden bestimmte \emph{Organisationsformen} von Texten und
+spezifische Formulierungen nur in Texten einer je \emph{spezifischen}
+Textklasse.\\
+
+Die \textbf{grundlegenden Dimensionen} (Ebenen) für Textmuster:\\
+- \emph{Funktionalität}: eine spezifische Funktion des Textes\\
+- \emph{Situativität}: situative, interaktionale und diskursive
+Einbettung des Textes\\
+- \emph{Thematizität}: die Text-Thema-Prägung\\
+- \emph{Formulierungsadäquatheit}: das Wissen um spezifische
+Formulierungsmaximen und Formulierungsspezifika.\\
+
+Die vier Ebenen wirken bei der \textbf{Konstitution von Textmustern}
+zusammen. Dabei kann den einzelnen Ebenen unterschiedliches Gewicht.
+zukommen. \emph{Unterschiedliche Gewichtung} der einzelnen Dimensionen
+nach \emph{Distinktivität} und \emph{Dominanz} lässt den
+\emph{prototypischen Charakter} von Textmustern hervortreten: z.B.\\
+- Telegramm/ Privatbrief: situativ dominiert\\
+- Heiratsanzeige/ Sportreportage: inhalt-thematisch dominiert \ldots{}\\
+
+\hypertarget{textsorte}{%
+\section{Textsorte}\label{textsorte}}
+
+Linguistische Definition von \textbf{Textsorten} bei K. Brinker
+(1985/2001):\\
+Textsorten sind:\\
+- \emph{konventionell} geltende Muster für komplexe sprachliche
+Handlungen\\
+- Sie lassen sich als jeweils \emph{typische Verbindungen} von
+kontextuellen (situativen), kommunikativ--funktionalen und strukturellen
+(grammatischen und thematischen) \emph{Merkmalen} beschreiben.\\
+- Sie haben sich in der Sprachgemeinschaft \emph{historisch entwickelt}
+und\\
+- gehören zum \emph{Alltagswissen} der Sprachteilhaber;\\
+- sie besitzen zwar eine \emph{normierende} Wirkung,\\
+- \emph{erleichtern} aber zugleich den kommunikativen \emph{Umgang},
+indem sie den Kommunizierenden mehr oder weniger feste
+\emph{Orientierungen} für die Produktion und Rezeption von Texten geben.
+(Brinker 2001: 124)
+
+Textsorten (Textklassen oder Texttypen) werden allgemein als: komplexe
+Muster sprachlicher Kommunikation verstanden, die innerhalb der
+Sprachgemeinschaft im Laufe der historisch-gesellschaftlichen
+Entwicklung aufgrund kommunikativer Bedürfnisse entstanden sind.``
+(Brinker 2001: 118)
+
+\textbf{Textemplare (Textvorkommen)} können bestimmte Merkmale
+aufweisen, die sie mit gewissen anderen Textemplaren gemeinsam haben.
+Die Textemplare können als \emph{Repräsentanten} einer bestimmten
+Textklasse aufgefasst werden: z.B. der Textsorte:\\
+\emph{Kochrezept, Stelleninserat, Todesanzeige, Werbeanzeige,
+Anmeldeformular, Anweisung, Ausschreibung, Bewerbungsschreiben,
+Lebenslauf, Beschwerde, Vertrag, Abkommen, Gesetzesentwurf, Amendment,
+Gerichtsurteil, Bedienungsanleitung, Lexikon, Vortrag, Abhandlung,
+Wettervorhersage, Meldung, Bericht, Rezension, Reportage, Kommentar,
+Erörterung, Diskussion, Interview, Befragung, Geschäftsbrief,
+Liebesbrief, E-Mail, Forum-Beitrag, Facebook-Post, Tweet, Comic Strip,
+Roman, Novelle, Gedicht, \ldots{}}
+
+\hypertarget{textmuster-vs.-textsorten}{%
+\section{Textmuster vs.~Textsorten}\label{textmuster-vs.-textsorten}}
+
+Textmuster und Textsorten lassen sich folgendermaßen unterscheiden (aus
+der Präsentation von Hartmut Lenk, S. 12):\\
+
+\textbf{Textmuster}: allgemeine kognitive Themen-/Verfahrensvorgabe,
+also kognitive Prozesse zur Generierung und zum Verstehen/Verarbeiten
+konkreter Textexemplare.
+
+\textbf{Textsorten}: Ergebnisse kognitiver Operationen, bezogen auf
+konkreten Textexemplare und deren Merkmale, in Form von Textklassen
+dargestellt. „Jede Textsorte hat ein konventionalisiertes Textmuster,
+aber nicht jedes Textmuster ist automatisch auf eine Textsorte bezogen``
+(Riehl 2001, 96)
+
+\hypertarget{hierarchie-der-textklassen}{%
+\section{Hierarchie der Textklassen}\label{hierarchie-der-textklassen}}
+
+Eine \textbf{Textklasse} (TK) ist eine Menge von Texten.\\
+Eine \textbf{Textsorte} (TS) ist eine Textklasse mit einer Menge von
+\textbf{Gemeinsamkeiten} (G): TS \textgreater\textgreater\textgreater{}
+G*TK.\\
+
+\begin{itemize}
+\item
+  Wenn für „G`` \emph{nur wenige, generelle Gemeinsamkeiten} gesetzt
+  werden, erhält man einen großen Geltungsbereich und eine relative hohe
+  Abstraktionsstufe (Schriftliche Texte, politische Texte,
+  Alltags-Texte, \ldots). Diese Textklasse werden \textbf{Text-Typen}
+  genannt.\\
+\item
+  Wenn für \emph{„G`` eine große Zahl} konkreter Merkmale verwendet
+  werden, entstehen Basisklassen von Texten mit geringem Geltungsbereich
+  und geringerer Abstraktionsstufe. Diese bezeichnen wir als
+  \textbf{Textsorten} (\emph{Arztrezept, Kochrezept, Todesanzeige,
+  Privatbrief} \ldots).
+\item
+  Zwischenstufen sind die \textbf{Textsortenklassen}.\\
+\item
+  Subklassen der Textsorten sind \textbf{Textsortenvarianten}.\\
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/textklassenhierachie.png}
+
+}
+
+\caption{Textklassenhierachie, Hartmut Lenk, Präsentation)}
+
+\end{figure}
+
+\textbf{Textsorten}:\\
+Mengen authentischer Texte in der Alltagskommunikation die in einigen
+Merkmalen übereinstimmen, die aber nicht für alle Texte gelten. Vage
+gehaltene Bezeichnung für jede Erscheinungsform von Texten.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/textklassenhierachie2.jpg}
+
+}
+
+\caption{Textklassenhierachie, Hartmut Lenk, Präsentation S. 12)}
+
+\end{figure}
+
+Nach Isenberg verwendet man den Terminus \textbf{Texttyp} (im
+Unterschied zum Begriff Textsorte) ``als \emph{theoriebezogene}
+Bezeichnung für eine Erscheinungsform von Texten, die im Rahmen einer
+Texttypologie beschrieben und definiert ist'' (Isenberg 1983: 308).
+
+Der Begriff \textbf{Texttyp} ist nach Heinemann/Viehweger (1991:144)
+eine \emph{theoriebezogene} Klassifikation. \textbf{Textsorte und
+-klasse} bezeichnen \emph{empirisch} vorgefundene
+\emph{Gemeinsamkeiten}.
+
+Es gibt zahlreiche Möglichkeiten von Klassenbildungen und Ordnungen. Für
+die Sortierung von Texten und Textsorten gibt es kein verbindliches,
+allgemeines und in sich geschlossenes System \ldots{} Letztlich ist das
+Ziel jeder Textsortendarstellung nicht irgendeine Typisierung, sondern
+die Beschreibung spezieller Routinen. (Adamzik 1995b, 28)
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/textsortenprototypen.jpg}
+
+}
+
+\caption{Textklassenhierachie, Hartmut Lenk, Präsentation S. 14)}
+
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/Funktionale_Klassifizierung_Rolf1993.jpg}
+
+}
+
+\caption{Textklassenhierachie, Hartmut Lenk, Präsentation S. 32)}
+
+\end{figure}
+
+\hypertarget{klassifizierungsschemata}{%
+\section{Klassifizierungsschemata}\label{klassifizierungsschemata}}
+
+\textbf{Spezifizierung der textuellen Merkmale}:
+
+\begin{itemize}
+\item
+  \textbf{Mehrdimensionalität} als Ausgangspunkt
+\item
+  \textbf{Subdifferenzierung} einer jeden Dimension
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Funktionalität}: Hauptfunktionen →\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  Sich Ausdrücken\\
+\item
+  Kontaktieren\\
+\item
+  Informieren\\
+\item
+  Steuern\\
+\item
+  Ästhetisch Wirken\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \textbf{Situationalität}: Situationsklassen →\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  Tätigkeitssituation\\
+\item
+  Kanal/Medium\\
+\item
+  Anzahl der Partner\\
+\item
+  Umgebungssituation \ldots{}\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \textbf{Thematizität \& Strukturiertheit} →\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  Thematische Geprägtheit\\
+\item
+  Text-Thema-Entfaltungen\\
+\item
+  Textstrukturierung ~
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  \textbf{Formulierungsadäquatheit} →\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  Kommunikationsmaximen\\
+\item
+  Textsortenspezifische Formulierungsmuster\\
+\item
+  Stilistische Besonderheiten\\
+\end{enumerate}
+
+\textbf{Merkmalidentifizierung}
+
+Beispiel:\\
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  \textbf{Funktionsklasse}\\
+  1d: \emph{Steuern}\\
+  Das „Steuern`` des Partners kann umschrieben werden durch die
+  \emph{Aufforderungen}\\
+  α) P (=Partner) soll H tun = Aufforderung zum praktischen Handeln\\
+  P soll H´ vorbereiten\\
+  β) P soll X sagen = Aufforderung zu einer Sprachehandlung\\
+\item
+  \textbf{Situationsklasse}\\
+  2d: Anzahl der \emph{Partner}\\
+  α) dyadische Kommunikation = nur ein Partner\\
+  β) Gruppenkommunikation = Kleingruppe als Partner \ldots{}\\
+\item
+  \textbf{Formulierungsklasse} ~ 4b: \emph{Textsortenspezifische
+  Formulierungsmuster}\\
+  α) syntaktische Spezifika\\
+  dominierender Satztyp\\
+  Komplexitätsgrad\\
+  Verhältnis Hauptsätze: Nebensätze\\
+  β) lexikalische Spezifika\\
+  Indikatoren der Textfunktion\\
+  Mehrfachkomposita\\
+  Dominanz bestimmter Derivationen\\
+  Kollokationen ~
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/texterkmalidentifizierung.png}
+
+}
+
+\caption{Merkmalsidentifizierung, Hartmut Lenk, Präsentation)}
+
+\end{figure}
+
+\textbf{Differenzierung verschiedener Textsorten und Texttypen}\\
+Zwei Gesichtspunkte (\emph{Linke/Nussbaumer/Portmann}, S. 251):\\
+
+\textbf{textINtern}\\
+an die Text-Oberfläche gebunden - an die Text-Tiefenstruktur gebunden,\\
+z.B. z.B.\\
+• Wortschatz • Thema/Themenverlauf\\
+• Satzbaumuster • Textstrukturmuster\\
+
+\textbf{textEXtern} an den Kommunikationszusammenhang gebunden, z.B.
+•Textfunktion •Trägermedium
+
+\textbf{Kriterien} bei der Beschreibung/Analyse von \textbf{Textsorten}
+nach den bei W. \emph{Heinemann 2001} genannten begriffsetablierenden
+Kategorien:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  die \textbf{kommunikative Funktion}:\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Mit welcher Absicht oder Intention / zu welchem Zweck / mit welchem
+  kommunikativen Ziel wird ein Text dieser Sorte verfasst? Wozu dient
+  er? Was soll erreicht werden?
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \textbf{situative Bedingungen}\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Sprecher/Schreiber}:\\
+  Wer schreibt solche Texte üblicherweise?\\
+  (Autor(en): individuell/institutionell? beruflich/privat?)\\
+\item
+  \emph{Hörer/Leser}:\\
+  An wen sind sie üblicherweise gerichtet?\\
+  Für wen sind sie bestimmt? (Rezipienten: Alter, Bildung, Zahl,
+  \ldots)\\
+\item
+  \emph{Kommunikationsbereich und Kanal}:\\
+  schriftlich/mündlich/elektronisch?\\
+  öffentlich/nicht-öffentlich?\\
+  vertraut/offiziell? \ldots{}\\
+\item
+  Art der \emph{Relation zwischen Autor(en) und Rezipienten}:\\
+  symmetrisch/hierarchisch?\\
+  Generationszugehörigkeit/Altersunterschied? \ldots{}\\
+\item
+  {[}kommunikative{]} \emph{Vorgeschichte} des Textes / Kontext /
+  Gesprächszug (z.B. Mahnung, Protestschreiben, Entschuldigung)
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \textbf{inhaltlich-thematische Aspekte}\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Welche \emph{Themen/Inhalte} treten in solchen Textsorten
+  üblicherweise auf? Welche Themen sind möglicherweise tabuisiert?\\
+\item
+  Gibt es \emph{obligatorische}, typische und \emph{variierende}
+  Inhaltselemente?\\
+\item
+  Gibt es eine typische \emph{Reihenfolge}, in der die Inhaltselemente
+  erscheinen?\\
+\item
+  Welche \emph{Prozeduren} der inhaltlichen Verarbeitung gibt es?\\
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  \textbf{charakteristische Strukturen und Formulierungen}\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Auf welche Weise werden die einzelnen Inhaltselemente in der
+  betreffenden Textsorte typischerweise realisiert?\\
+  Wortschatz, kommunikative Formeln, Metaphorik, grammatische
+  Konstruktionen, typische Syntax, stilistische Eigenheiten? (z. B.
+  Lexik einschl. Abkürzungen in Wohnungsanzeigen)\\
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  die äußere \textbf{Textgestalt} / das Layout\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Gibt es typische \emph{Gestaltungsmerkmale} für diese Textsorte oder
+  für Textsortenvarianten? (z. B. ``weißer Raum'' in Stellenanzeigen für
+  Berufe mit hohem vs.~geringem Qualifikationsniveau)\\
+\item
+  Dienen äußere (z. B. typographische oder orthographische) Merkmale der
+  \emph{Abgrenzung} von anderen Textsorten? (z. B. Smileys in der
+  Chatkommunikation und in der E-Mail)\\
+\item
+  \emph{Farbsemiotik}: vgl. Websites konventioneller Zeitungen im
+  Gegensatz zu den Online-Versionen der sog. Boulevardblätter\\
+\item
+  Welche Rolle spielen \emph{nonverbale} Elemente wie Bilder, Fotos,
+  Diagramme u. Ä.?\\
+\end{itemize}
+
+\textbf{Textsortenbeschreibungen} sollten \emph{alle relevanten
+Eigenschaften} der genannten Merkmale enthalten.
+
+\hypertarget{basiskriterium}{%
+\section{Basiskriterium}\label{basiskriterium}}
+
+\textbf{Basiskriterium (?) zur Unterscheidung von Textsorten:
+Textfunktion}
+
+\textbf{Was ist eine Textfunktion?}
+
+Große(1976): \emph{dominante Textfunktion} durch sprachliche Ausdrücke
+vermittelte, an den Rezipienten gerichtete Instruktion, wie der Text zu
+verstehen ist( 15ff, 26,68)
+
+Baugrande/Dressler(1981): unterscheiden nach der \emph{dominanten
+Textfunktion}: deskriptive, narrative, argumentative Texte
+
+Brinker(1985): \emph{Textfunktion als Kommunikationsabsicht} des
+Textverfassers, die im Text mit konventionell geltenden Mitteln
+realisiert ist.
+
+\textbf{Textfunktion} (z.B. Brinker 1992):\\
+• wie ist ein Text zu verstehen?\\
+• welche Absicht verfolgt der Autor?\\
+\emph{Informationstexte} (Nachricht, Bericht, Sachbuch, Rezension {[}. .
+.{]} )\\
+\emph{Appelltexte} (Werbeanzeige, Kommentar, Gesetz, Antrag {[}. . .{]}
+)\\
+\emph{Obligationstexte} (Vertrag, Garantieschein, Gelöbnis {[}. . .{]}
+)\\
+\emph{Kontakttexte} (Danksagung, Kondolenzschreiben, Ansichtskarte {[}.
+. .{]} )\\
+\emph{Deklarationstexte} (Testament, Ernennungsurkunde {[}. . .{]} )''
+).\\
+
+\textbf{kontextuelle Kriterien/situative Faktoren} nach Brinker:\\
+• direkte Gespräche\\
+• Telefongespräche\\
+• Rundfunksendungen\\
+• Fernsehsendungen\\
+• Briefe\\
+• Zeitungsartikel/Bücher\\
+
+Kriterien des \textbf{Handlungsbereichs}:\\
+• privat\\
+• offiziell\\
+• öffentlich\\
+
+\textbf{Strukturelle Kriterien} nach Brinker:\\
+\emph{Art des Textthemas}:\\
+``\emph{temporale} Orientierung'': zeitliche Fixierung des Themas
+relativ zum Sprechzeitpunkt (z. B. in Nachricht, Protokoll, Horoskop)
+(130)\\
+``\emph{lokale} Orientierung'': ``Relation zwischen Emittent bzw.
+Rezipient und Thema'' (z. B. in Zeitungsannoncen und -kommentaren).\\
+
+\hypertarget{vertextungsmuster}{%
+\section{Vertextungsmuster}\label{vertextungsmuster}}
+
+\textbf{Formen der thematischen Entfaltung}
+
+\emph{Deskriptive Texte}: füllen Wissenslücken\\
+\emph{Narrative} Texte: zeitliche Anordnung von Ereignisse und
+Handlungen\\
+\emph{Argumentative} Texte: vorliegen von Relationen wie Begründung,
+Signifikanz, Gegensatz etc.\\
+
+\textbf{Texttypen}: Unterscheidung nach ihrer dominanten Funktion im
+sprachlichen Handeln\\
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/thematische_entfaltung.jpg}
+
+}
+
+\caption{Thematische Entfaltungsmuster, Hartmut Lenk, Präsentation)}
+
+\end{figure}
 
 \hypertarget{textkonstellation}{%
 \chapter{Textkonstellation}\label{textkonstellation}}
@@ -1364,8 +1996,6 @@ Situative Achse (Kommunikationsort, -zeit, \ldots)
 soziales Verhältnis der Teilnehmer redetaktisches Verhalten der
 Teilnehmer
 
-\bookmarksetup{startatroot}
-
 \hypertarget{textfunktionen}{%
 \chapter{Textfunktionen}\label{textfunktionen}}
 
@@ -1374,13 +2004,11 @@ Teilnehmer
 
 Sprechaktklassifizierungen als Grundlage für Textfunktionen.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{textklassifizierung}{%
 \chapter{Textklassifizierung}\label{textklassifizierung}}
 
-\hypertarget{textmuster-und-textsorten}{%
-\section{Textmuster und Textsorten}\label{textmuster-und-textsorten}}
+\hypertarget{textmuster-und-textsorten-1}{%
+\section{Textmuster und Textsorten}\label{textmuster-und-textsorten-1}}
 
 \bookmarksetup{startatroot}
 
@@ -1388,6 +2016,8 @@ Sprechaktklassifizierungen als Grundlage für Textfunktionen.
 \chapter{Abschließende Bemerkungen}\label{abschlieuxdfende-bemerkungen}}
 
 Einige Hinweise für selbständige Textanalysen.
+
+\{\{ \textless{} include \_WM\_Presentation.qmd \textgreater{} \}\}
 
 \bookmarksetup{startatroot}
 
@@ -1408,6 +2038,7 @@ Engel, Ulrich. 1996. \emph{Deutsche Grammatik. 3., Korrigierte Auflage}.
 \end{CSLReferences}
 
 
+\backmatter
 
 \printindex
 

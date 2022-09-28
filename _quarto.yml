@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 book:
-  # cover-image: "pictures/intro_2022/Diapozitiv1.PNG"
+  # cover-image: "pictures/Diapozitiv1.PNG"
   # cover-image-alt: |
-  #   Textlinguistik - Einführung in Textmuster und Textsorten
+    # Textlinguistik - Einführung in Textmuster und Textsorten
   title: "Textlinguistik"
   title-block-banner: true
   title-block-banner-color: "darkgreen"
@@ -16,20 +16,34 @@ book:
   chapters:
     - index.qmd
     - preface.qmd
-    - intro.qmd
-    - gegenstand.qmd
-    - textkriterien.qmd
-    - distanzsprache.qmd
-    - textkonstellation.qmd
-    - textfunktionen.qmd
-    - textklassen.qmd
+    - part: "Teil 1:<br>Texte unter der Lupe"
+      chapters: 
+        - intro.qmd
+        - gegenstand.qmd
+        - textkriterien.qmd
+    - part: "Teil 2:<br>Klassifizierung von Texten"
+      chapters: 
+        - distanzsprache.qmd
+        - textmuster.qmd
+        - textkonstellation.qmd
+        - textfunktionen.qmd
+        - textklassen.qmd
     - summary.qmd
     - references.qmd
   page-navigation: true
+  sidebar: 
+    collapse-level: 5
+    pinned: true
+  search: true
+  reader-mode: true
+  repo-url: https://github.com/tpetric7/textlinguistik-2022
+  repo-actions: [edit, issue]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
   page-footer: 
     border: true
     background: light
-    left: "Lehrveranstaltungsmaterialien, Maribor 2022, Teodor Petrič" 
+    left: "Lehrveranstaltungsmaterialien, Universität Maribor 2022, Teodor Petrič" 
     right: 
       - icon: github
         href: https://github.com/tpetric7/
@@ -38,35 +52,50 @@ book:
 
 bibliography: references.bib
 
+comments: 
+  hypothesis: true
+
 execute: 
   warning: false
   message: false
   echo: false
   error: true
 
+highlight-style: arrow
+
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: [style.css, TMwR.css]
+    # scss: [r4ds.scss]
+    # page-layout: full
     toc: true
     toc-depth: 5
-    toc-location: left
+    toc-location: right
     code-fold: true
     code-summary: "Show the code"
     code-tools: true
     code-copy: hover
+    code-overflow: wrap
     number-sections: true
+    number-depth: 5
+    citations-hover: true
+    footnotes-hover: true
     fig-width: 8
     fig-height: 6
-    fig-cap-location: bottom
+    fig-align: left
     fig-responsive: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
     lang: de
     self-contained: false
     anchor-sections: true
     smooth-scroll: true
     hypothesis: true
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook # scrreprt
     keep-tex: true
     include-in-header: 
       text: |
@@ -75,6 +104,10 @@ format:
     include-after-body: 
       text: |
         \printindex
+  epub:
+    cover-image: "pictures/Diapozitiv1.PNG"
+  docx:
+    reference-doc: custom-reference.docx
 
 editor: source
 

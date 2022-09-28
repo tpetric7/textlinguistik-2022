@@ -1,0 +1,366 @@
+# Textmuster und Textsorten
+
+## Textdefinitionen
+
+Als Ausgangspunkt greifen wir nochmals auf zwei gängige **Textdefinitionen** zurück. 
+
+:::rmdnote
+
+:::: { .columns}
+
+::: {.column width="50%"}
+
+Text-Definition in der Grammatik von Engel (1988: 33): \
+Texte sind: \
+-	Geflechte von Äußerungen \
+-	konnex \
+-	haben eine nachvollziehbare Struktur \
+-	sind *sortenspezifisch*. \
+
+:::
+
+::: {.column width="50%"}
+
+Text-Definition von Beaugrande & Dressler (1992): \
+Texte sind Äußerungsfolgen, die sieben Textualitätskriterien genügen: \
+-	Kohärenz \
+-	Kohäsion \
+-	Intentionalität \
+-	Akzeptabilität \
+-	Informativität \
+-	Situationalität \
+-	*Intertextualität*. \
+
+Wir haben die Auffassung vertreten, dass nur *prototypische Texte* alle Kriterien erfüllen. \
+
+:::
+
+::::
+
+:::
+
+**Intertextualität** im Sinne der *Musterhaftigkeit* von Texten wird in der Textlinguistik insbesondere mit Hilfe der Konzepte *Textmuster* und *Textsorte* diskutiert. (weitere Begriffe: *Textklasse*, *Texttyp*)
+
+ 
+## Textmuster
+
+:::rmdnote
+Heinemann (2000: 519) definiert **Textmuster** als: \
+-	„[…] Teilmengen des *Interaktionswissens* der Kommunizierenden. \
+-	Sie fungieren als gesellschaftlich determinierte, von Individuen interiorisierte *konventionelle Schemata*/Muster, die auf komplexe Interaktions- und Textganzheiten bezogen sind. \
+-	Sie basieren auf kommunikativen *Erfahrungen* der Individuen \
+-	und werden als *Orientierungsraster* zur Auslösung kognitiver Prozesse der Herstellung von Texten einer bestimmten Klasse \
+-	mit dem Ziel der Lösung *spezifischer kommunikativer Aufgaben* aktiviert.“ \
+:::
+
+Heinemann betrachtet Textmuster als Teil des Vorwissens, das während des Verstehensprozesses aktiviert wird und die Texterwartung des Lesers determiniert. Dieses Wissen bezeichnet er als **Textmusterwissen**.
+
+Gemäß Heinemann (2000a: 517) korrespondiert dieses Textmuster-Konzept „mit grundlegenden Speicherungs- und Verarbeitungstheorien der kognitiven Psychologie“, und zwar mit dem *frame*-Konzept, mit der *Schema*-Theorie, mit den *script*-Modellen und auch teilweise mit den *mentalen* Modellen.
+
+Nach Heinemann sind Textmuster gekennzeichnet durch: \
+-	Multidimensionalität (Mehrebenen-Modelle), \
+-	Repetitivität, \
+-	Vagheit und \
+-	Flexibilität. \
+
+Textmuster spielen demnach eine zentrale Rolle in der Ganzheit der Textverarbeitungsprozesse, d.h. sowohl in der Textrezeption als auch in der Textproduktion. Anhand der *gespeicherten Textmuster* sind Teilnehmende in der Kommunikation *fähig*, bestimmte *Textsorten zu identifizieren* und in bestimmten kommunikativen Situationen aktiv zu *produzieren*. \
+
+*Textmuster* sind somit: \
+-	*Rahmenmodelle für den Ablauf* spezifischer Kommunikationsereignisse. \
+-	Sie erlauben den Kommunizierenden ein *schnelles verbales Agieren* und Re-agieren in bestimmten häufig wiederkehrenden Situationen. \
+-	Sie werden von den Kommunizierenden durch „*vorgefertigte*“ *Äußerungseinheiten* und -strukturen aufgefüllt. \
+
+Das *Textmusterwissen* (Linke/Nussbaumer/Portmann 1994, S.253-254) ermöglicht uns einen *routinierten Alltags-Umgang* mit bestimmten *Textsorten*. Es besteht aus den Erfahrungen, die wir mit Texten machen und die Protoypen von Textsorten generieren. Mit deren Hilfe können wir bestimmte Textmuster leichter erkennen und intuitiv bestimmten Textsorten zuordnen. Aufgrund unseres prototypischen Textmusterwissens können wir nämlich: \
+- einen Text, der zerschnitten oder fehlerhaft angeordnet ist, wieder so *zusammensetzen*, wie sich für die jeweilige Textsorte gehört. \
+- als Leser wissenschaftlicher Abhandlungen "wissen, dass am Schluss eines Textes sowie als Abschluss von größeren Unterkapiteln kurze *Zusammenfassungen* zu erwarten sind, und dass wir durch gezielte Suche nach solchen Textstellen uns auch bei einem dicken Wälzer relativ rasch einen gewissen inhaltlichen Überblick verschaffen können". \
+- beim Zeitungslesen am Frühstückstisch einfach die Seiten "*überfliegen*" und trotzdem dadurch im Großen und Ganzen informiert sein. \
+
+**Indizien für Textmuster** (Lörscher, Zhen Li , Miao Wie - Uni Leipzig): \
+-	Kommunizierende sind *fähig*, situativ und sozial *angemessen* zu handeln. \
+-	Sie bilden in *vergleichbaren* Situationen immer wieder Texte von gleicher Struktur, teils mit ähnlichen *Formulierungen*. \
+-	Sie können beim Textverstehen einen gegebenen Text *klassifizieren*. \
+-	Sie verwenden bestimmte *Organisationsformen* von Texten und spezifische Formulierungen nur in Texten einer je *spezifischen* Textklasse. \
+
+Die **grundlegenden Dimensionen** (Ebenen) für Textmuster: \
+-	*Funktionalität*: eine spezifische Funktion des Textes \
+-	*Situativität*: situative, interaktionale und diskursive Einbettung des Textes \
+-	*Thematizität*:  die Text-Thema-Prägung \
+-	*Formulierungsadäquatheit*:  das Wissen um spezifische Formulierungsmaximen und Formulierungsspezifika. \
+
+Die vier Ebenen wirken bei der **Konstitution von Textmustern** zusammen. Dabei kann den einzelnen Ebenen unterschiedliches Gewicht. zukommen. *Unterschiedliche Gewichtung* der einzelnen Dimensionen nach *Distinktivität* und *Dominanz* lässt den *prototypischen Charakter* von Textmustern hervortreten: z.B. \
+- Telegramm/ Privatbrief: situativ dominiert \
+- Heiratsanzeige/ Sportreportage: inhalt-thematisch dominiert ... \
+ 
+## Textsorte
+
+:::rmdnote
+Linguistische Definition von **Textsorten** bei K. Brinker (1985/2001): \
+Textsorten sind: \
+-	*konventionell* geltende Muster für komplexe sprachliche Handlungen \
+-	Sie lassen sich als jeweils *typische Verbindungen* von kontextuellen (situativen), kommunikativ--funktionalen und strukturellen (grammatischen und thematischen) *Merkmalen* beschreiben. \
+-	Sie haben sich in der Sprachgemeinschaft *historisch entwickelt* und \
+-	gehören zum *Alltagswissen* der Sprachteilhaber; \
+-	sie besitzen zwar eine *normierende* Wirkung, \
+-	*erleichtern* aber zugleich den kommunikativen *Umgang*, indem sie den Kommunizierenden mehr oder weniger feste *Orientierungen* für die Produktion und Rezeption von Texten geben. (Brinker 2001: 124)
+
+Textsorten (Textklassen oder Texttypen) werden allgemein als:
+komplexe Muster sprachlicher Kommunikation verstanden, die innerhalb der Sprachgemeinschaft im Laufe der
+historisch-gesellschaftlichen Entwicklung aufgrund kommunikativer Bedürfnisse entstanden sind.“ (Brinker 2001: 118)
+
+:::
+
+**Textemplare (Textvorkommen)** können bestimmte Merkmale aufweisen, die sie mit gewissen anderen Textemplaren gemeinsam haben. Die Textemplare können als *Repräsentanten* einer bestimmten Textklasse aufgefasst werden: z.B. der Textsorte: \
+*Kochrezept, Stelleninserat, Todesanzeige, Werbeanzeige, Anmeldeformular, Anweisung, Ausschreibung, Bewerbungsschreiben, Lebenslauf, Beschwerde, Vertrag, Abkommen, Gesetzesentwurf, Amendment, Gerichtsurteil, Bedienungsanleitung, Lexikon, Vortrag, Abhandlung, Wettervorhersage, Meldung, Bericht, Rezension, Reportage, Kommentar, Erörterung, Diskussion, Interview, Befragung, Geschäftsbrief, Liebesbrief, E-Mail, Forum-Beitrag, Facebook-Post, Tweet, Comic Strip, Roman, Novelle, Gedicht,  …*
+
+ 
+## Textmuster vs. Textsorten
+
+Textmuster und Textsorten lassen sich folgendermaßen unterscheiden (aus der Präsentation von Hartmut Lenk, S. 12): \
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Textmuster**: allgemeine kognitive Themen-/Verfahrensvorgabe, also kognitive Prozesse zur Generierung und zum Verstehen/Verarbeiten konkreter Textexemplare.
+:::
+
+::: {.column width="50%"}
+
+**Textsorten**: Ergebnisse kognitiver Operationen, bezogen auf konkreten Textexemplare und deren Merkmale, in Form von Textklassen dargestellt. 
+„Jede Textsorte hat ein konventionalisiertes Textmuster, aber nicht jedes Textmuster ist automatisch auf eine Textsorte bezogen“ (Riehl 2001, 96)  
+:::
+
+::::
+
+## Hierarchie der Textklassen
+
+Eine **Textklasse** (TK) ist eine Menge von Texten. \
+Eine **Textsorte** (TS) ist eine Textklasse mit einer Menge von **Gemeinsamkeiten** (G): TS >>> G*TK. \
+
+- Wenn für „G“ *nur wenige, generelle Gemeinsamkeiten* gesetzt werden, erhält man einen großen Geltungsbereich und eine relative hohe Abstraktionsstufe (Schriftliche Texte, politische Texte, Alltags-Texte, ...). Diese Textklasse werden **Text-Typen** genannt. \
+
+- Wenn für *„G“ eine große Zahl* konkreter Merkmale verwendet werden, entstehen Basisklassen von Texten mit geringem Geltungsbereich und geringerer Abstraktionsstufe. Diese bezeichnen wir als **Textsorten** (*Arztrezept, Kochrezept, Todesanzeige, Privatbrief* ...).
+
+- Zwischenstufen sind die **Textsortenklassen**. \
+
+- Subklassen der Textsorten sind **Textsortenvarianten**. \
+
+```{r out.width="100%"}
+#| fig-cap: "Textklassenhierachie, Hartmut Lenk, Präsentation)"
+knitr::include_graphics("pictures/textklassenhierachie.png")
+```
+
+**Textsorten**: \
+Mengen authentischer Texte in der Alltagskommunikation die in einigen Merkmalen übereinstimmen, die aber nicht für alle Texte
+gelten. Vage gehaltene Bezeichnung für jede Erscheinungsform von Texten.
+
+```{r out.width="100%"}
+#| fig-cap: "Textklassenhierachie, Hartmut Lenk, Präsentation S. 12)"
+knitr::include_graphics("pictures/textklassenhierachie2.jpg")
+```
+
+Nach Isenberg verwendet man den Terminus **Texttyp** (im Unterschied zum Begriff Textsorte) "als *theoriebezogene* Bezeichnung für eine
+Erscheinungsform von Texten, die im Rahmen einer Texttypologie beschrieben und definiert ist" (Isenberg 1983: 308).
+
+Der Begriff **Texttyp** ist nach Heinemann/Viehweger (1991:144) eine *theoriebezogene* Klassifikation. 
+**Textsorte und -klasse** bezeichnen *empirisch* vorgefundene *Gemeinsamkeiten*.
+
+Es gibt zahlreiche Möglichkeiten von Klassenbildungen und Ordnungen. Für die Sortierung von Texten und Textsorten gibt es kein verbindliches, allgemeines und in sich geschlossenes System … Letztlich ist das Ziel jeder Textsortendarstellung nicht irgendeine Typisierung, sondern die Beschreibung spezieller Routinen. (Adamzik 1995b, 28) 
+
+```{r out.width="100%"}
+#| fig-cap: "Textklassenhierachie, Hartmut Lenk, Präsentation S. 14)"
+knitr::include_graphics("pictures/textsortenprototypen.jpg")
+```
+
+```{r out.width="100%"}
+#| fig-cap: "Textklassenhierachie, Hartmut Lenk, Präsentation S. 32)"
+knitr::include_graphics("pictures/Funktionale_Klassifizierung_Rolf1993.jpg")
+```
+
+
+## Klassifizierungsschemata
+
+**Spezifizierung der textuellen Merkmale**:
+
+-	**Mehrdimensionalität** als Ausgangspunkt
+
+-	**Subdifferenzierung** einer jeden Dimension 
+
+1. **Funktionalität**: Hauptfunktionen →	\
+a) Sich Ausdrücken \
+b) Kontaktieren \
+c) Informieren \
+d)  Steuern \
+e) Ästhetisch Wirken \
+
+2. **Situationalität**: Situationsklassen → \
+a) Tätigkeitssituation \
+b) Kanal/Medium \
+c) Anzahl der Partner \
+d) Umgebungssituation ... \
+
+3. **Thematizität & Strukturiertheit**  → \
+a) Thematische Geprägtheit \
+b) Text-Thema-Entfaltungen \
+c) Textstrukturierung \ 
+
+4. **Formulierungsadäquatheit**  → \
+a) Kommunikationsmaximen \
+b) Textsortenspezifische Formulierungsmuster \
+c)  Stilistische Besonderheiten \
+ 
+**Merkmalidentifizierung**
+
+Beispiel: \
+
+1) **Funktionsklasse** \
+1d: *Steuern* \
+Das „Steuern“ des Partners kann umschrieben werden durch die *Aufforderungen* \
+α) P (=Partner) soll H tun = Aufforderung zum praktischen Handeln \
+P soll H´ vorbereiten \
+β) P soll X sagen = Aufforderung zu einer Sprachehandlung \
+
+2) **Situationsklasse** \
+2d: Anzahl der *Partner* \
+α)  dyadische Kommunikation = nur ein Partner \
+β)  Gruppenkommunikation    =  Kleingruppe als Partner … \
+
+4)  **Formulierungsklasse** \ 
+4b: *Textsortenspezifische Formulierungsmuster* \
+α) syntaktische Spezifika \
+dominierender Satztyp \
+Komplexitätsgrad \
+Verhältnis Hauptsätze: Nebensätze \
+β) lexikalische Spezifika \
+Indikatoren der Textfunktion \
+Mehrfachkomposita \
+Dominanz bestimmter Derivationen \
+Kollokationen \      
+
+```{r out.width="100%"}
+#| fig-cap: "Merkmalsidentifizierung, Hartmut Lenk, Präsentation)"
+knitr::include_graphics("pictures/texterkmalidentifizierung.png")
+```
+
+**Differenzierung verschiedener Textsorten und Texttypen** \
+Zwei Gesichtspunkte (*Linke/Nussbaumer/Portmann*, S. 251): \
+
+**textINtern** \
+an die Text-Oberfläche gebunden	- an die Text-Tiefenstruktur gebunden, \
+z.B.							z.B. \
+• Wortschatz 			• Thema/Themenverlauf \
+• Satzbaumuster 	• Textstrukturmuster \
+
+**textEXtern**
+an den Kommunikationszusammenhang gebunden, z.B.
+•Textfunktion
+•Trägermedium
+
+
+**Kriterien** bei der Beschreibung/Analyse von **Textsorten** nach den bei W. *Heinemann 2001* genannten begriffsetablierenden Kategorien:
+
+1. die **kommunikative Funktion**: \
+- Mit welcher Absicht oder Intention / zu welchem Zweck / mit welchem kommunikativen Ziel wird ein Text dieser Sorte
+verfasst? Wozu dient er? Was soll erreicht werden? 
+
+2. **situative Bedingungen** \
+- *Sprecher/Schreiber*: \
+Wer schreibt solche Texte üblicherweise? \
+(Autor(en): individuell/institutionell? beruflich/privat?) \
+- *Hörer/Leser*: \
+An wen sind sie üblicherweise gerichtet? \
+Für wen sind sie bestimmt? (Rezipienten: Alter, Bildung, Zahl, …) \
+- *Kommunikationsbereich und Kanal*: \
+schriftlich/mündlich/elektronisch? \
+öffentlich/nicht-öffentlich? \
+vertraut/offiziell? … \
+- Art der *Relation zwischen Autor(en) und Rezipienten*: \
+symmetrisch/hierarchisch? \
+Generationszugehörigkeit/Altersunterschied? … \
+- [kommunikative] *Vorgeschichte* des Textes / Kontext /
+Gesprächszug (z.B. Mahnung, Protestschreiben, Entschuldigung)
+
+3. **inhaltlich-thematische Aspekte** \
+- Welche *Themen/Inhalte* treten in solchen Textsorten üblicherweise auf? Welche Themen sind möglicherweise tabuisiert? \
+- Gibt es *obligatorische*, typische und *variierende* Inhaltselemente? \
+- Gibt es eine typische *Reihenfolge*, in der die Inhaltselemente erscheinen? \
+- Welche *Prozeduren* der inhaltlichen Verarbeitung gibt es? \
+
+4. **charakteristische Strukturen und Formulierungen** \
+- Auf welche Weise werden die einzelnen Inhaltselemente in der betreffenden Textsorte typischerweise realisiert? \
+Wortschatz, kommunikative Formeln, Metaphorik, grammatische Konstruktionen, typische Syntax, stilistische Eigenheiten? (z. B. Lexik einschl. Abkürzungen in Wohnungsanzeigen) \
+
+5. die äußere **Textgestalt** / das Layout \
+- Gibt es typische *Gestaltungsmerkmale* für diese Textsorte oder für Textsortenvarianten? (z. B. "weißer Raum" in Stellenanzeigen für Berufe mit hohem vs. geringem Qualifikationsniveau) \
+- Dienen äußere (z. B. typographische oder orthographische)
+Merkmale der *Abgrenzung* von anderen Textsorten? (z. B.
+Smileys in der Chatkommunikation und in der E-Mail) \
+- *Farbsemiotik*: vgl. Websites konventioneller Zeitungen im
+Gegensatz zu den Online-Versionen der sog. Boulevardblätter \
+- Welche Rolle spielen *nonverbale* Elemente wie Bilder, Fotos,
+Diagramme u. Ä.? \
+
+**Textsortenbeschreibungen** sollten *alle relevanten Eigenschaften* der genannten Merkmale enthalten.
+ 
+
+## Basiskriterium
+
+**Basiskriterium (?) zur Unterscheidung von Textsorten: Textfunktion**
+
+**Was ist eine Textfunktion?**
+
+Große(1976): *dominante Textfunktion* durch sprachliche Ausdrücke vermittelte, an den Rezipienten gerichtete Instruktion, wie der Text zu
+verstehen ist( 15ff, 26,68)
+
+Baugrande/Dressler(1981): unterscheiden nach der *dominanten Textfunktion*: deskriptive, narrative, argumentative Texte
+
+Brinker(1985): *Textfunktion als Kommunikationsabsicht* des Textverfassers, die im Text mit konventionell geltenden Mitteln realisiert ist.
+
+**Textfunktion** (z.B. Brinker 1992): \
+• wie ist ein Text zu verstehen? \
+• welche Absicht verfolgt der Autor? \
+*Informationstexte* (Nachricht, Bericht, Sachbuch, Rezension [. . .] ) \
+*Appelltexte* (Werbeanzeige, Kommentar, Gesetz, Antrag [. . .] ) \
+*Obligationstexte* (Vertrag, Garantieschein, Gelöbnis [. . .] ) \
+*Kontakttexte* (Danksagung, Kondolenzschreiben, Ansichtskarte [. . .] ) \
+*Deklarationstexte* (Testament, Ernennungsurkunde [. . .] )" ). \
+
+**kontextuelle Kriterien/situative Faktoren** nach Brinker: \
+• direkte Gespräche \
+• Telefongespräche \
+• Rundfunksendungen \
+• Fernsehsendungen \
+• Briefe \
+• Zeitungsartikel/Bücher \
+
+Kriterien des **Handlungsbereichs**: \
+• privat \
+• offiziell \
+• öffentlich \
+
+**Strukturelle Kriterien** nach Brinker: \
+*Art des Textthemas*: \
+"*temporale* Orientierung": zeitliche Fixierung des Themas relativ zum
+Sprechzeitpunkt (z. B. in Nachricht, Protokoll, Horoskop) (130) \
+"*lokale* Orientierung": "Relation zwischen Emittent bzw. Rezipient
+und Thema" (z. B. in Zeitungsannoncen und -kommentaren). \
+
+ 
+## Vertextungsmuster 
+
+**Formen der thematischen Entfaltung**
+
+*Deskriptive Texte*: füllen Wissenslücken \
+*Narrative* Texte: zeitliche Anordnung von Ereignisse und Handlungen \
+*Argumentative* Texte: vorliegen von Relationen wie Begründung, Signifikanz, Gegensatz etc. \
+
+**Texttypen**: Unterscheidung nach ihrer dominanten Funktion im sprachlichen Handeln \
+
+```{r out.width="100%"}
+#| fig-cap: "Thematische Entfaltungsmuster, Hartmut Lenk, Präsentation)"
+knitr::include_graphics("pictures/thematische_entfaltung.jpg")
+```
+ 
+
+
+

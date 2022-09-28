@@ -35,6 +35,10 @@ knitr::include_graphics("pictures/nahe_distanz_diagram3.png")
 
 **Konzeptionell mündliche** Texte werden in der Regel unter Bedingungen der Nähe produziert und kommen am häufigsten in mündlichen Medien vor (wenn auch nicht ausschließlich).
 
+```{r out.width="100%"}
+knitr::include_graphics("pictures/Naehe_Distanz_Viereck.png")
+```
+
 Daher können wir in bestimmten Texten eher eine Reihe von **sprachlichen Strategien** erwarten, die eher für den *konzeptuell schriftlichen Stil* typisch sind (produziert unter Distanzbedingungen), in anderen Texttypen dagegen eher eine Reihe von sprachlichen Strategien, die eher für den *konzeptuell mündlichen Stil* typisch sind (oft, aber nicht ausschließlich, unter Nähebedingungen).
 
 ```{r out.width="100%"}

@@ -1,15 +1,18 @@
 # Textualitätskriterien {#sec-textkriterien}
 
-```{r out.width="50%"}
-knitr::include_graphics("pictures/CePivo.jpg")
+```{r out.width="100%"}
+#| fig-cap: "(Süddeutsche Zeitung)"
+#| fig-link: <https://www.sueddeutsche.de/muenchen/oktoberfest-muenchen-corona-zahlen-anstieg-1.5664515?utm_source=Twitter&utm_medium=twitterbot&utm_campaign=1.5664515>
+knitr::include_graphics("pictures/lebkuchenherzen_sueddeutsche_de_6TAFlTln.jpg")
 ```
+
 
 ## Textualitätsbegriff
 
 Was versteht man unter *Textualität*?
 
 :::rmdnote
-**Textualität** ist die Gesamtheit der wesenhaften Merkmale von Texten. 
+**Textualität** (oder auch: *Texthaftigkeit*) ist die Gesamtheit der wesenhaften Merkmale von Texten. 
 Textualität (oder Textur) kann sich aber auch auf den Text als Gebilde (als Produkt) beziehen. 
 
 **Vertextung** ist ein Begriff, mit dem man sich auf den Textproduktions- oder rezeptionsprozess (Textaufbau, Textbildung oder Textkonstitution) bezieht.
@@ -21,22 +24,46 @@ In welchen Fällen liegt nach Ihrer derzeitigen Auffassung ein *Text* vor?
 
 (1) Nicht-Texte oder Texte an der Grenze?    
 
-```{r out.width="50%"}
+:::: {.columns}
+
+::: {.column width="25%"}
+
+```{r out.width="100%"}
 knitr::include_graphics("pictures/textkriterien_1.png")
 ```
 
-```{r out.width="50%"}
+:::
+
+::: {.column width="25%"}
+
+```{r out.width="100%"}
 knitr::include_graphics("pictures/textkriterien_2.png")
 ```
 
-```{r out.width="50%"}
+:::
+
+::: {.column width="25%"}
+
+```{r out.width="100%"}
 knitr::include_graphics("pictures/textkriterien_5.jpg")
 ```
 
 :::
 
+::: {.column width="25%"}
+
+```{r out.width="100%"}
+knitr::include_graphics("pictures/CePivo.jpg")
+```
+
+:::
+
+::::
+
+:::
+
 :::rmdrobot
-Welche *Eigenschaften* machen Texte *spezifisch*, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation notwendig machen?
+Welche *Eigenschaften* machen Texte *spezifisch*, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation (z.b. hinsichtlich ihres Zwecks oder kommunikativen Funktion) notwendig machen?
 
 ```{r}
 knitr::include_graphics("pictures/partnerschaftsanzeige.png")
@@ -59,6 +86,8 @@ Von Alexander Osang
 28.01.2017, 07.55 Uhr
 
 ```{r}
+#| fig-cap: "(Spiegel online)"
+#| fig-link: <https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html>
 knitr::include_graphics("pictures/Angela_Merkel_2000.png")
 ```
 

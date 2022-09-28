@@ -2,3 +2,4 @@
 
 Einige Hinweise für selbständige Textanalysen. 
 
+{{ < include _WM_Presentation.qmd > }}

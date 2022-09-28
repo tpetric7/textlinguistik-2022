@@ -82,7 +82,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -95,10 +94,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -119,6 +120,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://hypothes.is/embed.js"></script>
 
 <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
@@ -167,6 +169,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Textlinguistik</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/tpetric7/textlinguistik-2022" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./Textlinguistik.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./Textlinguistik.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+    </ul>
+    <a href="" title="Share" id="sidebar-tool-dropdown-1" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-1">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -186,6 +227,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="./preface.html" class="sidebar-item-text sidebar-link">Vorwort</a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Teil 1:<br>Texte unter der Lupe</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einführung</span></a>
@@ -201,6 +250,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="./textkriterien.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Textualitätskriterien</span></a>
   </div>
 </li>
+    </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Teil 2:<br>Klassifizierung von Texten</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./distanzsprache.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Nähe- und Distanzsprachlichkeit</span></a>
@@ -208,22 +267,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./textkonstellation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Textkonstellation</span></a>
+  <a href="./textmuster.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Textmuster und Textsorten</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./textfunktionen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Textfunktionen</span></a>
+  <a href="./textkonstellation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Textkonstellation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./textklassen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Textklassifizierung</span></a>
+  <a href="./textfunktionen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Textfunktionen</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Abschließende Bemerkungen</span></a>
+  <a href="./textklassen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Textklassifizierung</span></a>
+  </div>
+</li>
+    </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Abschließende Bemerkungen</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -233,7 +299,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
     </ul>
     </div>
-    <nav id="TOC" role="doc-toc">
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
@@ -256,10 +325,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#angemessenheit" id="toc-angemessenheit" class="nav-link" data-scroll-target="#angemessenheit"> <span class="header-section-number">3.4.3</span> Angemessenheit</a></li>
   </ul></li>
   </ul>
-</nav>
-</nav>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/tpetric7/textlinguistik-2022/edit/main/textkriterien.qmd" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/tpetric7/textlinguistik-2022/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -282,14 +348,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="pictures/CePivo.jpg" class="img-fluid" style="width:50.0%"></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://www.sueddeutsche.de/muenchen/oktoberfest-muenchen-corona-zahlen-anstieg-1.5664515?utm_source=Twitter&amp;utm_medium=twitterbot&amp;utm_campaign=1.5664515"><img src="pictures/lebkuchenherzen_sueddeutsche_de_6TAFlTln.jpg" class="img-fluid figure-img" style="width:100.0%"></a></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">(Süddeutsche Zeitung)</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 <section id="textualitätsbegriff" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="textualitätsbegriff"><span class="header-section-number">3.1</span> Textualitätsbegriff</h2>
 <p>Was versteht man unter <em>Textualität</em>?</p>
 <div class="rmdnote">
-<p><strong>Textualität</strong> ist die Gesamtheit der wesenhaften Merkmale von Texten. Textualität (oder Textur) kann sich aber auch auf den Text als Gebilde (als Produkt) beziehen.</p>
+<p><strong>Textualität</strong> (oder auch: <em>Texthaftigkeit</em>) ist die Gesamtheit der wesenhaften Merkmale von Texten. Textualität (oder Textur) kann sich aber auch auf den Text als Gebilde (als Produkt) beziehen.</p>
 <p><strong>Vertextung</strong> ist ein Begriff, mit dem man sich auf den Textproduktions- oder rezeptionsprozess (Textaufbau, Textbildung oder Textkonstitution) bezieht.</p>
 </div>
 <div class="rmdrobot">
@@ -297,24 +368,36 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ol type="1">
 <li>Nicht-Texte oder Texte an der Grenze?</li>
 </ol>
+<div class="columns">
+<div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="pictures/textkriterien_1.png" class="img-fluid" style="width:50.0%"></p>
+<p><img src="pictures/textkriterien_1.png" class="img-fluid" style="width:100.0%"></p>
 </div>
 </div>
+</div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="pictures/textkriterien_2.png" class="img-fluid" style="width:50.0%"></p>
+<p><img src="pictures/textkriterien_2.png" class="img-fluid" style="width:100.0%"></p>
 </div>
 </div>
+</div><div class="column" style="width:25%;">
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="pictures/textkriterien_5.jpg" class="img-fluid" style="width:50.0%"></p>
+<p><img src="pictures/textkriterien_5.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+</div><div class="column" style="width:25%;">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="pictures/CePivo.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div class="rmdrobot">
-<p>Welche <em>Eigenschaften</em> machen Texte <em>spezifisch</em>, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation notwendig machen?</p>
+<p>Welche <em>Eigenschaften</em> machen Texte <em>spezifisch</em>, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation (z.b. hinsichtlich ihres Zwecks oder kommunikativen Funktion) notwendig machen?</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="pictures/partnerschaftsanzeige.png" class="img-fluid" width="340"></p>
@@ -329,7 +412,12 @@ Zuletzt aktualisiert: 18.09.2022 14:55</p>
 <p>Merkel-Porträt aus dem Jahr 2000 <strong>Das eiserne Mädchen</strong> Wer das Geheimnis von Angela Merkel ergründen will, muss mit ihr von Krisensitzung zu Krisensitzung ziehen und dorthin gehen, wo sie herkommt. Eine preisgekrönte Reportage aus dem Jahr 2000, wiederentdeckt zum 70. SPIEGEL-Geburtstag. Von Alexander Osang 28.01.2017, 07.55 Uhr</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="pictures/Angela_Merkel_2000.png" class="img-fluid" width="554"></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html"><img src="pictures/Angela_Merkel_2000.png" class="img-fluid figure-img" width="554"></a></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">(Spiegel online)</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Manchmal muss sie noch mal zurück in diese Stadt, die so gut passt zu Kohls Ehrenwort, zu Weyrauchs verrostetem Garagentor, zu Leisler Kieps Einstecktuch, zu Kanthers Frisur, noch mal zurück in dieses Bonner Konrad-Adenauer-Haus, wo man einen dieser Siebziger-Jahre-Sexfilme drehen könnte, ohne ein einziges Möbelstück zu verrücken. Nach der Pressekonferenz will sie schnell weg, schnell nach Berlin, der Rückflug ist ausgebucht, alle sind in der Maschine, nur sie steht noch im Warteraum und telefoniert. Sie weiß, in einer Stunde, in Berlin, kann alles anders sein. Sie hört, dass Kohl heute abend im Fernsehen spricht. Sie schaltet ihr Handy ab und sagt leise: “Er schlägt zurück. Heute schlägt er zurück.”</p>
@@ -562,16 +650,16 @@ ZDF heute (https://www.zdf.de/nachrichten/heute/das-phaenomen-capital-bra-100.ht
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="htmlwidget-0ded7fc5ccb3efea1dec" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0ded7fc5ccb3efea1dec">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td><\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1\" data-max=\"161\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"fillContainer":true,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13"],["doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1"],["ADJ","ADP","ADV","AUX","CCONJ","DET","NOUN","NUM","PART","PRON","PROPN","SCONJ","VERB"],[74,100,50,28,37,110,161,16,5,51,121,1,66]],"container":"<table class=\"ColReorder fill-container\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>doc_id<\/th>\n      <th>upos<\/th>\n      <th>n<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"lengthMenu":[2,12,18],"colReorder":true,"dom":"Bfrtip","buttons":["colvis","copy","csv","excel","pdf","print"],"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[2]; $(row).css({'background-color':value == 0 ? \"gray30\" : value == 1 ? \"lightblue\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+<div id="htmlwidget-d2522f698e6313a24766" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d2522f698e6313a24766">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td><\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1\" data-max=\"161\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"fillContainer":true,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13"],["doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1","doc1"],["ADJ","ADP","ADV","AUX","CCONJ","DET","NOUN","NUM","PART","PRON","PROPN","SCONJ","VERB"],[74,100,50,28,37,110,161,16,5,51,121,1,66]],"container":"<table class=\"ColReorder fill-container\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>doc_id<\/th>\n      <th>upos<\/th>\n      <th>n<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"lengthMenu":[2,12,18],"colReorder":true,"dom":"Bfrtip","buttons":["colvis","copy","csv","excel","pdf","print"],"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[2]; $(row).css({'background-color':value == 0 ? \"gray30\" : value == 1 ? \"lightblue\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
 </div>
 </div>
 <p><strong>Tabelle: Konnektoren</strong></p>
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="htmlwidget-10254d8a5db59397b4b0" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-10254d8a5db59397b4b0">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td><\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1\" data-max=\"32\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"fillContainer":true,"data":[["1","2","3","4","5","6"],["und","sowie","aber","dass","oder","sondern"],["CCONJ","CCONJ","CCONJ","SCONJ","CCONJ","CCONJ"],[32,2,1,1,1,1]],"container":"<table class=\"ColReorder fill-container\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>token<\/th>\n      <th>upos<\/th>\n      <th>n<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"colReorder":true,"dom":"Bfrtip","buttons":["colvis","copy","csv","excel","pdf","print"],"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[2]; $(row).css({'background-color':value == 0 ? \"gray30\" : value == 1 ? \"lightblue\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+<div id="htmlwidget-1febbe678e9247c28825" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1febbe678e9247c28825">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td><\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1\" data-max=\"32\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"fillContainer":true,"data":[["1","2","3","4","5","6"],["und","sowie","aber","dass","oder","sondern"],["CCONJ","CCONJ","CCONJ","SCONJ","CCONJ","CCONJ"],[32,2,1,1,1,1]],"container":"<table class=\"ColReorder fill-container\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>token<\/th>\n      <th>upos<\/th>\n      <th>n<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"colReorder":true,"dom":"Bfrtip","buttons":["colvis","copy","csv","excel","pdf","print"],"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[2]; $(row).css({'background-color':value == 0 ? \"gray30\" : value == 1 ? \"lightblue\" : null});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="cell">
@@ -605,6 +693,103 @@ Songtext: <a href="https://genius.com/Ngee-normalitat-lyrics" class="uri">https:
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+    } else {
+      disableStylesheet(alternateStylesheets);
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -747,406 +932,435 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Quellcode</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Textualitätskriterien {#sec-textkriterien}</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="50%"}</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/CePivo.jpg"</span>)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Textualitätsbegriff</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "(Süddeutsche Zeitung)"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-link: &lt;https://www.sueddeutsche.de/muenchen/oktoberfest-muenchen-corona-zahlen-anstieg-1.5664515?utm_source=Twitter&amp;utm_medium=twitterbot&amp;utm_campaign=1.5664515&gt;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/lebkuchenherzen_sueddeutsche_de_6TAFlTln.jpg"</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>Was versteht man unter *Textualität*?</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>:::rmdnote</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>**Textualität** ist die Gesamtheit der wesenhaften Merkmale von Texten. </span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>Textualität (oder Textur) kann sich aber auch auf den Text als Gebilde (als Produkt) beziehen. </span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>**Vertextung** ist ein Begriff, mit dem man sich auf den Textproduktions- oder rezeptionsprozess (Textaufbau, Textbildung oder Textkonstitution) bezieht.</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Textualitätsbegriff</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>Was versteht man unter *Textualität*?</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>:::rmdnote</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>**Textualität** (oder auch: *Texthaftigkeit*) ist die Gesamtheit der wesenhaften Merkmale von Texten. </span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>Textualität (oder Textur) kann sich aber auch auf den Text als Gebilde (als Produkt) beziehen. </span>
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>In welchen Fällen liegt nach Ihrer derzeitigen Auffassung ein *Text* vor? </span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>(1) Nicht-Texte oder Texte an der Grenze?    </span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="50%"}</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_1.png"</span>)</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="50%"}</span></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_2.png"</span>)</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="50%"}</span></span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_5.jpg"</span>)</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>Welche *Eigenschaften* machen Texte *spezifisch*, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation notwendig machen?</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/partnerschaftsanzeige.png"</span>)</span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>**Vertextung** ist ein Begriff, mit dem man sich auf den Textproduktions- oder rezeptionsprozess (Textaufbau, Textbildung oder Textkonstitution) bezieht.</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>In welchen Fällen liegt nach Ihrer derzeitigen Auffassung ein *Text* vor? </span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>(1) Nicht-Texte oder Texte an der Grenze?    </span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>::: {.column width="25%"}</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_1.png"</span>)</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>::: {.column width="25%"}</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_2.png"</span>)</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>::: {.column width="25%"}</span>
 <span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>Ich bin 50 Jahre, 172 groß und paar kg mehr. Ich suche einen Ehrlichen, Treuen, Zufährlässlichen Partner (keine Affären oder Ons)  Er sollte 50 bis 58 sein. Bitte nur ernstgemeinte Anfragen. </span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>Brigitte   </span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>Standort</span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>1110 Wien, Simmering   </span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>Ad-ID: 263214   </span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>Zuletzt aktualisiert: 18.09.2022 14:55</span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_5.jpg"</span>)</span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>::: {.column width="25%"}</span>
 <span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>------</span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>Merkel-Porträt aus dem Jahr 2000 </span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>**Das eiserne Mädchen**</span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>Wer das Geheimnis von Angela Merkel ergründen will, muss mit ihr von Krisensitzung zu Krisensitzung ziehen und dorthin gehen, wo sie herkommt. Eine preisgekrönte Reportage aus dem Jahr 2000, wiederentdeckt zum 70. SPIEGEL-Geburtstag.</span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>Von Alexander Osang</span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>28.01.2017, 07.55 Uhr</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="100%"}</span></span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/CePivo.jpg"</span>)</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>::::</span>
 <span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/Angela_Merkel_2000.png"</span>)</span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>Manchmal muss sie noch mal zurück in diese Stadt, die so gut passt zu Kohls Ehrenwort, zu Weyrauchs verrostetem Garagentor, zu Leisler Kieps Einstecktuch, zu Kanthers Frisur, noch mal zurück in dieses Bonner Konrad-Adenauer-Haus, wo man einen dieser Siebziger-Jahre-Sexfilme drehen könnte, ohne ein einziges Möbelstück zu verrücken. Nach der Pressekonferenz will sie schnell weg, schnell nach Berlin, der Rückflug ist ausgebucht, alle sind in der Maschine, nur sie steht noch im Warteraum und telefoniert. Sie weiß, in einer Stunde, in Berlin, kann alles anders sein. Sie hört, dass Kohl heute abend im Fernsehen spricht. Sie schaltet ihr Handy ab und sagt leise: "Er schlägt zurück. Heute schlägt er zurück."</span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>Am Abend sieht Angela Merkel Helmut Kohl im Fernsehen. Sie ist zu Besuch bei Freunden und fragt, ob die was dagegen haben. Nein, denn Kohl gucken gehört inzwischen dazu. Es ist spannend. Kohl marschiert in das ZDF-Studio wie ein General. Thomas Bellut vom ZDF knallt die Hacken zusammen. Er fragt nach Angela Merkel.</span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>Er sei nicht hierher gekommen, um über Angela Merkel zu reden, sagt Kohl. Und dann redet er. Wie ein betrogener Liebhaber. Oder ein enttäuschter Vater.</span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>Die Tür öffnet sich am Rande von Templin, es ist die Tür des letzten Hauses in einer kurzen Sackgasse. Horst Kasner ist überraschend groß und überraschend aufrecht für einen 74-jährigen Pfarrer. Er trägt ein graues Cordjeans-Hemd, hat breite Schultern, aber sein linkes Auge ist trübe. Als ich anbiete, die Schuhe auszuziehen, lacht er. Man erkennt jetzt die Tochter in seinen Zügen. Auch die Art, wie er die Arme schwingt, vorfreudig irgendwie, könnte sie von ihm geerbt haben. Die Frage ist, worauf er sich freut. ... ...</span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html&gt;</span>^<span class="co">[</span><span class="ot">Weitere Spiegel-Reportagen: &lt;https://www.spiegel.de/reise/fernweh/bangkok-was-die-demonstrationen-fuer-touristen-bedeuten-a-943253.html&gt;, &lt;https://www.spiegel.de/auto/aktuell/finale-in-le-mans-motorrad-langstrecken-wm-2013-a-923908.html&gt;, &lt;https://www.spiegel.de/geschichte/familie-eines-fixers-heute-setz-ich-mir-den-todesschuss-a-1144782.html&gt;</span><span class="co">]</span></span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>Welche *Eigenschaften* machen Texte *spezifisch*, so dass Sie nicht beliebig füreinander austauschbar sind und eine verschiedene Interpretation (z.b. hinsichtlich ihres Zwecks oder kommunikativen Funktion) notwendig machen?</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/partnerschaftsanzeige.png"</span>)</span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>Ich bin 50 Jahre, 172 groß und paar kg mehr. Ich suche einen Ehrlichen, Treuen, Zufährlässlichen Partner (keine Affären oder Ons)  Er sollte 50 bis 58 sein. Bitte nur ernstgemeinte Anfragen. </span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>Brigitte   </span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>Standort</span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>1110 Wien, Simmering   </span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>Ad-ID: 263214   </span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>Zuletzt aktualisiert: 18.09.2022 14:55</span>
 <span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a><span class="fu">## Konstitutive Kriterien der Textualität</span></span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>------</span>
 <span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>Beaugrande/Dressler (1992:12ff) unterscheiden sieben konstitutive Textualitätskriterien, die bei jedem Text erfüllt sein müssen. </span>
-<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>**Textzentrierte** Kriterien:    </span>
-<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Kohäsion    </span>
-<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Kohärenz.   </span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>Merkel-Porträt aus dem Jahr 2000 </span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>**Das eiserne Mädchen**</span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>Wer das Geheimnis von Angela Merkel ergründen will, muss mit ihr von Krisensitzung zu Krisensitzung ziehen und dorthin gehen, wo sie herkommt. Eine preisgekrönte Reportage aus dem Jahr 2000, wiederentdeckt zum 70. SPIEGEL-Geburtstag.</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>Von Alexander Osang</span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>28.01.2017, 07.55 Uhr</span>
 <span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>**Verwenderzentrierte** Kriterien:   </span>
-<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Intentionalität   </span>
-<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Akzeptabilität   </span>
-<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Informativität   </span>
-<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Situationalität   </span>
-<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Intertextualität.</span>
-<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a><span class="fu">### Kohäsion </span></span>
-<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>Dieses Merkmal reflektiert die Zusammengehörigkeit von Oberflächeneinheiten eines Textes und beruht auf grammatischen Abhängigkeiten.    </span>
-<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>(2) Paul hat angerufen. Er sagt, er kommt morgen.    </span>
-<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>(3) A: Ich liebe dich. - B: Ich dich auch.   </span>
-<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>(4) Paul hat angerufen. Paul war sehr aufgeregt.   </span>
-<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>(5) O Grab ! o Wundergrab! dem alle Gräber weichen! ...    </span>
-<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>    O Grab! das einst begrub die Leiche aller Leichen!    </span>
-<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>(Ausschnitt aus Das unbegreifliche Jesusgrab von Quirinus Kuhlmann)   </span>
-<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>(6) Brüderchen und Schwesterchen   </span>
-<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>(7) Kahn kritisierte seinen Chef. Er wurde entlassen.   </span>
-<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a>(8) Kahn kritisierte seinen Chef. Deshalb wurde er entlassen.   </span>
-<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a>(9) Kahn kritisierte seinen Chef. Danach wurde er entlassen.   </span>
-<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a><span class="fu">### Kohärenz </span></span>
-<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>Kohärenz = Kontinuität des Inhalts, inhaltliche Zusammengehörigkeit von Textteilen.   </span>
-<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>(10)    Die Wetterlage in Europa hat sich in den vergangenen Tagen völlig verändert. Wie aber soll sie von wenig Geld eine Haushaltshilfe bezahlen? Allerdings will kein Meteorologe einen Pfennig darauf verwetten, daß wir nun auch von Juni an mit Sonne rechnen können.</span>
-<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a>Kohärenz: bei de Beaugrande &amp; Dressler nur semantisch-kognitive Zusammenhänge von Texten (z .B. Kausalitäts-, Zeit- und Referenzbeziehungen).    </span>
-<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a>Die Textwelt, ist ihrerseits durch eine Sinnkontinuität bestimmt: Im Gegensatz zur Bedeutung (der Fähigkeit oder des Potentials eines Ausdrucks, Wissen darzustellen oder zu übermitteln) bezeichnen die beiden Autoren mit Sinn das Wissen, das tatsächlich durch die Ausdrücke innerhalb eines Textes übermittelt wird. Die Sinnkontinuität ist Grundlage der Kohärenz. Eine solche dem Text zugrundeliegende Konstellation (d. h. die Gesamtheit der einem Text zugrundeliegenden Sinnbeziehungen) ist die Textwelt, die mit der realen Welt nicht unbedingt übereinstimmen muss. Es handelt sich vielmehr um die vom Sprecher, von seinem Wissen und seinen Intentionen zugrundegelegte Textwelt. </span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "(Spiegel online)"</span></span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-link: &lt;https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html&gt;</span></span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/Angela_Merkel_2000.png"</span>)</span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>Manchmal muss sie noch mal zurück in diese Stadt, die so gut passt zu Kohls Ehrenwort, zu Weyrauchs verrostetem Garagentor, zu Leisler Kieps Einstecktuch, zu Kanthers Frisur, noch mal zurück in dieses Bonner Konrad-Adenauer-Haus, wo man einen dieser Siebziger-Jahre-Sexfilme drehen könnte, ohne ein einziges Möbelstück zu verrücken. Nach der Pressekonferenz will sie schnell weg, schnell nach Berlin, der Rückflug ist ausgebucht, alle sind in der Maschine, nur sie steht noch im Warteraum und telefoniert. Sie weiß, in einer Stunde, in Berlin, kann alles anders sein. Sie hört, dass Kohl heute abend im Fernsehen spricht. Sie schaltet ihr Handy ab und sagt leise: "Er schlägt zurück. Heute schlägt er zurück."</span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>Am Abend sieht Angela Merkel Helmut Kohl im Fernsehen. Sie ist zu Besuch bei Freunden und fragt, ob die was dagegen haben. Nein, denn Kohl gucken gehört inzwischen dazu. Es ist spannend. Kohl marschiert in das ZDF-Studio wie ein General. Thomas Bellut vom ZDF knallt die Hacken zusammen. Er fragt nach Angela Merkel.</span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>Er sei nicht hierher gekommen, um über Angela Merkel zu reden, sagt Kohl. Und dann redet er. Wie ein betrogener Liebhaber. Oder ein enttäuschter Vater.</span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>Die Tür öffnet sich am Rande von Templin, es ist die Tür des letzten Hauses in einer kurzen Sackgasse. Horst Kasner ist überraschend groß und überraschend aufrecht für einen 74-jährigen Pfarrer. Er trägt ein graues Cordjeans-Hemd, hat breite Schultern, aber sein linkes Auge ist trübe. Als ich anbiete, die Schuhe auszuziehen, lacht er. Man erkennt jetzt die Tochter in seinen Zügen. Auch die Art, wie er die Arme schwingt, vorfreudig irgendwie, könnte sie von ihm geerbt haben. Die Frage ist, worauf er sich freut. ... ...</span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://www.spiegel.de/geschichte/angela-merkel-portraet-aus-dem-jahr-2000-das-eiserne-maedchen-a-1131489.html&gt;</span>^<span class="co">[</span><span class="ot">Weitere Spiegel-Reportagen: &lt;https://www.spiegel.de/reise/fernweh/bangkok-was-die-demonstrationen-fuer-touristen-bedeuten-a-943253.html&gt;, &lt;https://www.spiegel.de/auto/aktuell/finale-in-le-mans-motorrad-langstrecken-wm-2013-a-923908.html&gt;, &lt;https://www.spiegel.de/geschichte/familie-eines-fixers-heute-setz-ich-mir-den-todesschuss-a-1144782.html&gt;</span><span class="co">]</span></span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a><span class="fu">## Konstitutive Kriterien der Textualität</span></span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>Beaugrande/Dressler (1992:12ff) unterscheiden sieben konstitutive Textualitätskriterien, die bei jedem Text erfüllt sein müssen. </span>
+<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>**Textzentrierte** Kriterien:    </span>
+<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Kohäsion    </span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Kohärenz.   </span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>**Verwenderzentrierte** Kriterien:   </span>
+<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Intentionalität   </span>
+<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Akzeptabilität   </span>
+<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Informativität   </span>
+<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Situationalität   </span>
+<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Intertextualität.</span>
 <span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a>Konzepte sind in der Psychologie bzw. Kognitionswissenschaft angenommene Einheiten unseres Wissenssystems, die sich aufgrund von Wahrnehmung und Erfahrung dort gebildet haben und die nicht unbedingt ein getreues Abbild der realen Welt ergeben. Eine Diskrepanz zwischen der Konzept-Konstellation in der Textwelt und unserem Wissen führt dazu, dass wir keine Sinnkontinuität herstellen können. Der betreffende Text ist für uns sinnlos. Wenn Konzepte aktiviert werden, meint man damit, dass sie aus dem Langzeitgedächtnis in den aktiven Gedächtnisspeicher geladen werden. </span>
-<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a><span class="fu">### Intentionalität </span></span>
-<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>I. = Einstellung (Attitüde) des Textproduzenten, einen kohäsiven und kohärenten Text zu bilden, um damit Wissen zu verbreiten oder ein in einem Plan angegebenes Ziel zu erreichen.    </span>
-<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>(11)    George W. Bush mit einem republikanischen Senator bei einer Wahlkampagne:   </span>
-<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
-<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_7.png"</span>)</span>
-<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a>Widersprüche, Intentionalität als notwendiges Textualitätskriterium zu fordern (Vater 1992: 50):    </span>
-<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a>(a) Intentionalität: Voraussetzung für jede Art von (bewußter) Kommunikation.    </span>
-<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a>(b) Obwohl Kohärenz und Kohäsion unabhängige Kriterien sind und nicht Teil eines anderen Textualitätskriteriums sein können, verweist der Intentionalitätsbegriff auf diese beiden und macht sie zu Kriterien, die an Intentionalität gebunden sind.    </span>
-<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a>(c) Äußerungskomplexe, die wir intuitiv als Texte auffassen, in denen der Textproduzent jedoch nicht Kohäsion und/oder Kohärenz intendiert. </span>
-<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a>Die Inkohärenzen der in Texten vorkommenden Sprecher stört nicht die Kohärenz des Gesamttextes, sondern können sogar dazu gehören. Darin zeigt sich die Abhängigkeit des Kohärenzbegriffs von der Textsorte.   </span>
-<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-149"><a href="#cb4-149" aria-hidden="true" tabindex="-1"></a><span class="fu">### Akzeptabilität </span></span>
+<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a><span class="fu">### Kohäsion </span></span>
+<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>Dieses Merkmal reflektiert die Zusammengehörigkeit von Oberflächeneinheiten eines Textes und beruht auf grammatischen Abhängigkeiten.    </span>
+<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>(2) Paul hat angerufen. Er sagt, er kommt morgen.    </span>
+<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>(3) A: Ich liebe dich. - B: Ich dich auch.   </span>
+<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>(4) Paul hat angerufen. Paul war sehr aufgeregt.   </span>
+<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>(5) O Grab ! o Wundergrab! dem alle Gräber weichen! ...    </span>
+<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>    O Grab! das einst begrub die Leiche aller Leichen!    </span>
+<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>(Ausschnitt aus Das unbegreifliche Jesusgrab von Quirinus Kuhlmann)   </span>
+<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>(6) Brüderchen und Schwesterchen   </span>
+<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>(7) Kahn kritisierte seinen Chef. Er wurde entlassen.   </span>
+<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a>(8) Kahn kritisierte seinen Chef. Deshalb wurde er entlassen.   </span>
+<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>(9) Kahn kritisierte seinen Chef. Danach wurde er entlassen.   </span>
+<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a><span class="fu">### Kohärenz </span></span>
+<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a>Kohärenz = Kontinuität des Inhalts, inhaltliche Zusammengehörigkeit von Textteilen.   </span>
+<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a>(10)    Die Wetterlage in Europa hat sich in den vergangenen Tagen völlig verändert. Wie aber soll sie von wenig Geld eine Haushaltshilfe bezahlen? Allerdings will kein Meteorologe einen Pfennig darauf verwetten, daß wir nun auch von Juni an mit Sonne rechnen können.</span>
+<span id="cb4-149"><a href="#cb4-149" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb4-150"><a href="#cb4-150" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-151"><a href="#cb4-151" aria-hidden="true" tabindex="-1"></a>A. = Einstellung des Textrezipienten, einen kohäsiven und kohärenten Text zu erwarten, der für ihn nützlich oder relevant ist. </span>
-<span id="cb4-152"><a href="#cb4-152" aria-hidden="true" tabindex="-1"></a>Akzeptabilität bezieht sich außerdem auf die Angemessenheit der verwendeten Sprachmittel, d. h. auf Sprachvariation im weiteren Sinne.</span>
-<span id="cb4-153"><a href="#cb4-153" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-154"><a href="#cb4-154" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-155"><a href="#cb4-155" aria-hidden="true" tabindex="-1"></a>(12) Ein alltägliches Bild in den Straßen des Ruhrgebiets: eine Mutter, ein Kind und Pommes Frites. Im Büdchen an der Ecke kauft die Frau Mama eine Portion Pommes Frites.    </span>
-<span id="cb4-156"><a href="#cb4-156" aria-hidden="true" tabindex="-1"></a>Kind: Mamma, gib mich dat Pommes.    </span>
-<span id="cb4-157"><a href="#cb4-157" aria-hidden="true" tabindex="-1"></a>Mutter: Du dummer Bengel ! Dat heißt: Gib mich dat Pommes, BITTE !   </span>
-<span id="cb4-158"><a href="#cb4-158" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-159"><a href="#cb4-159" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
-<span id="cb4-160"><a href="#cb4-160" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_8.jpg"</span>)</span>
-<span id="cb4-161"><a href="#cb4-161" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a>(13)    Ein Hühnerzüchter schreibt an eine landwirtschaftliche Forschungsstelle:   </span>
-<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a>“Es geht um meine Hühner. Jeden Tag finde ich einige von ihnen mit dem </span>
-<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a>Kopf im Sand und mit den Beinen nach oben. Was ist mit ihnen los?”</span>
-<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a>Nach 14 Tagen kommt die Antwort: “Ihre Hühner sind tot.”</span>
-<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a>(14)    Gespräch in der Straßenbahn.   </span>
-<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a>“Können Sie mir sagen, wie spät es ist?”   </span>
-<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a>“Moment”, sagt der andere und zieht eine Banane aus der Tasche.   </span>
-<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a>Er wirft einen Blick darauf und sagt: “Donnerstag.”   </span>
-<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a>“Du lieber Himmel, da hätte ich ja an der vorigen Haltestelle</span>
-<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a>Aussteigen müssen!”   </span>
-<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a>(15)    Ein Schweizer, ein Schwabe und ein Berliner sitzen </span>
-<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a>im Zugabteil.   </span>
-<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a>Der Schweizer zum Berliner: “Sind Sie schou z’Züri gsi?”   </span>
-<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a>Der Berliner kann mit dem letzten Wort nichts anfangen und fragt zurück: “Gsi?”   </span>
-<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a>Da greift der Schwabe hilfreich ein: “Er moint gwää.”   </span>
-<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a>(16)    Italiens Premier *Berlusconi* über die Anhänger der Opposition vor der damaligen Parlamentswahl in Italien (2006):   </span>
+<span id="cb4-151"><a href="#cb4-151" aria-hidden="true" tabindex="-1"></a>Kohärenz: bei de Beaugrande &amp; Dressler nur semantisch-kognitive Zusammenhänge von Texten (z .B. Kausalitäts-, Zeit- und Referenzbeziehungen).    </span>
+<span id="cb4-152"><a href="#cb4-152" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-153"><a href="#cb4-153" aria-hidden="true" tabindex="-1"></a>Die Textwelt, ist ihrerseits durch eine Sinnkontinuität bestimmt: Im Gegensatz zur Bedeutung (der Fähigkeit oder des Potentials eines Ausdrucks, Wissen darzustellen oder zu übermitteln) bezeichnen die beiden Autoren mit Sinn das Wissen, das tatsächlich durch die Ausdrücke innerhalb eines Textes übermittelt wird. Die Sinnkontinuität ist Grundlage der Kohärenz. Eine solche dem Text zugrundeliegende Konstellation (d. h. die Gesamtheit der einem Text zugrundeliegenden Sinnbeziehungen) ist die Textwelt, die mit der realen Welt nicht unbedingt übereinstimmen muss. Es handelt sich vielmehr um die vom Sprecher, von seinem Wissen und seinen Intentionen zugrundegelegte Textwelt. </span>
+<span id="cb4-154"><a href="#cb4-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-155"><a href="#cb4-155" aria-hidden="true" tabindex="-1"></a>Konzepte sind in der Psychologie bzw. Kognitionswissenschaft angenommene Einheiten unseres Wissenssystems, die sich aufgrund von Wahrnehmung und Erfahrung dort gebildet haben und die nicht unbedingt ein getreues Abbild der realen Welt ergeben. Eine Diskrepanz zwischen der Konzept-Konstellation in der Textwelt und unserem Wissen führt dazu, dass wir keine Sinnkontinuität herstellen können. Der betreffende Text ist für uns sinnlos. Wenn Konzepte aktiviert werden, meint man damit, dass sie aus dem Langzeitgedächtnis in den aktiven Gedächtnisspeicher geladen werden. </span>
+<span id="cb4-156"><a href="#cb4-156" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-157"><a href="#cb4-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-158"><a href="#cb4-158" aria-hidden="true" tabindex="-1"></a><span class="fu">### Intentionalität </span></span>
+<span id="cb4-159"><a href="#cb4-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-160"><a href="#cb4-160" aria-hidden="true" tabindex="-1"></a>I. = Einstellung (Attitüde) des Textproduzenten, einen kohäsiven und kohärenten Text zu bilden, um damit Wissen zu verbreiten oder ein in einem Plan angegebenes Ziel zu erreichen.    </span>
+<span id="cb4-161"><a href="#cb4-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a>(11)    George W. Bush mit einem republikanischen Senator bei einer Wahlkampagne:   </span>
+<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
+<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_7.png"</span>)</span>
+<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a>Widersprüche, Intentionalität als notwendiges Textualitätskriterium zu fordern (Vater 1992: 50):    </span>
+<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a>(a) Intentionalität: Voraussetzung für jede Art von (bewußter) Kommunikation.    </span>
+<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a>(b) Obwohl Kohärenz und Kohäsion unabhängige Kriterien sind und nicht Teil eines anderen Textualitätskriteriums sein können, verweist der Intentionalitätsbegriff auf diese beiden und macht sie zu Kriterien, die an Intentionalität gebunden sind.    </span>
+<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a>(c) Äußerungskomplexe, die wir intuitiv als Texte auffassen, in denen der Textproduzent jedoch nicht Kohäsion und/oder Kohärenz intendiert. </span>
+<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a>Die Inkohärenzen der in Texten vorkommenden Sprecher stört nicht die Kohärenz des Gesamttextes, sondern können sogar dazu gehören. Darin zeigt sich die Abhängigkeit des Kohärenzbegriffs von der Textsorte.   </span>
+<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a><span class="fu">### Akzeptabilität </span></span>
+<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a>A. = Einstellung des Textrezipienten, einen kohäsiven und kohärenten Text zu erwarten, der für ihn nützlich oder relevant ist. </span>
+<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a>Akzeptabilität bezieht sich außerdem auf die Angemessenheit der verwendeten Sprachmittel, d. h. auf Sprachvariation im weiteren Sinne.</span>
 <span id="cb4-182"><a href="#cb4-182" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
-<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_9.png"</span>)</span>
-<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a>Einwände (Vater 1992: 52-54):    </span>
-<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a>(a) Akzeptabilität: allgemeine Voraussetzung für erfolgreiches Kommunizieren.    </span>
-<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a>(b) Subjektivität: für den einen akzeptabel, für den anderen dagegen nicht.    </span>
-<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a>(c) Akzeptabilitätsbegriff zu eng eingegrenzt.    </span>
-<span id="cb4-193"><a href="#cb4-193" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb4-194"><a href="#cb4-194" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-195"><a href="#cb4-195" aria-hidden="true" tabindex="-1"></a><span class="fu">### Informativität </span></span>
+<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a>(12) Ein alltägliches Bild in den Straßen des Ruhrgebiets: eine Mutter, ein Kind und Pommes Frites. Im Büdchen an der Ecke kauft die Frau Mama eine Portion Pommes Frites.    </span>
+<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a>Kind: Mamma, gib mich dat Pommes.    </span>
+<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a>Mutter: Du dummer Bengel ! Dat heißt: Gib mich dat Pommes, BITTE !   </span>
+<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
+<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_8.jpg"</span>)</span>
+<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a>(13)    Ein Hühnerzüchter schreibt an eine landwirtschaftliche Forschungsstelle:   </span>
+<span id="cb4-193"><a href="#cb4-193" aria-hidden="true" tabindex="-1"></a>“Es geht um meine Hühner. Jeden Tag finde ich einige von ihnen mit dem </span>
+<span id="cb4-194"><a href="#cb4-194" aria-hidden="true" tabindex="-1"></a>Kopf im Sand und mit den Beinen nach oben. Was ist mit ihnen los?”</span>
+<span id="cb4-195"><a href="#cb4-195" aria-hidden="true" tabindex="-1"></a>Nach 14 Tagen kommt die Antwort: “Ihre Hühner sind tot.”</span>
 <span id="cb4-196"><a href="#cb4-196" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a>I. = Ausmaß der Erwartetheit bzw. Unerwartetheit, Bekanntheit oder Unbekanntheit, Gewissheit oder Ungewissheit der dargebotenen Textelemente. Das richtige Maß an Informativität eines Textes ist abhängig von Intention, Erwartung und Situation. </span>
-<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a>I. = außerdem als Thematizität verstanden. Keine athematischen Texte; sprachlich sehr stark reduzierte Dialoge durch implizite Thematizität gekennzeichnet sein. </span>
-<span id="cb4-200"><a href="#cb4-200" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-201"><a href="#cb4-201" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-202"><a href="#cb4-202" aria-hidden="true" tabindex="-1"></a>(17)    E = m*c2   </span>
-<span id="cb4-203"><a href="#cb4-203" aria-hidden="true" tabindex="-1"></a>(18)    um herauszufinden ob eine Konversation ein Gespräch oder eine Geschwätz ist, haben wir die ABC-Analyse verwendet, d.h. aufschreiben, ob wieviele wichtige Fachbegriffe vorkommen (welche Themen werden angeschnitten), wichtig hierbei ist zu schauen ob es Wörter mit Inhalt sind oder nur Plastikwörter und zum anderen die 4 Maximen von Grice. Ich hoffe das hat dich geholfen.   </span>
-<span id="cb4-204"><a href="#cb4-204" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-205"><a href="#cb4-205" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-206"><a href="#cb4-206" aria-hidden="true" tabindex="-1"></a>Einwände Vater (1992: 56):</span>
-<span id="cb4-207"><a href="#cb4-207" aria-hidden="true" tabindex="-1"></a>Informativitätsbegriff einschränken: Informativität sei zu definieren als das Ausmaß der Erwartetheit bzw. Unerwartetheit von Zeichen aus einem Zeicheninventar, das dem Rezipienten bekannt ist.    </span>
-<span id="cb4-208"><a href="#cb4-208" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a>(14)    Gespräch in der Straßenbahn.   </span>
+<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a>“Können Sie mir sagen, wie spät es ist?”   </span>
+<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a>“Moment”, sagt der andere und zieht eine Banane aus der Tasche.   </span>
+<span id="cb4-200"><a href="#cb4-200" aria-hidden="true" tabindex="-1"></a>Er wirft einen Blick darauf und sagt: “Donnerstag.”   </span>
+<span id="cb4-201"><a href="#cb4-201" aria-hidden="true" tabindex="-1"></a>“Du lieber Himmel, da hätte ich ja an der vorigen Haltestelle</span>
+<span id="cb4-202"><a href="#cb4-202" aria-hidden="true" tabindex="-1"></a>Aussteigen müssen!”   </span>
+<span id="cb4-203"><a href="#cb4-203" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-204"><a href="#cb4-204" aria-hidden="true" tabindex="-1"></a>(15)    Ein Schweizer, ein Schwabe und ein Berliner sitzen </span>
+<span id="cb4-205"><a href="#cb4-205" aria-hidden="true" tabindex="-1"></a>im Zugabteil.   </span>
+<span id="cb4-206"><a href="#cb4-206" aria-hidden="true" tabindex="-1"></a>Der Schweizer zum Berliner: “Sind Sie schou z’Züri gsi?”   </span>
+<span id="cb4-207"><a href="#cb4-207" aria-hidden="true" tabindex="-1"></a>Der Berliner kann mit dem letzten Wort nichts anfangen und fragt zurück: “Gsi?”   </span>
+<span id="cb4-208"><a href="#cb4-208" aria-hidden="true" tabindex="-1"></a>Da greift der Schwabe hilfreich ein: “Er moint gwää.”   </span>
 <span id="cb4-209"><a href="#cb4-209" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-210"><a href="#cb4-210" aria-hidden="true" tabindex="-1"></a><span class="fu">### Situationalität </span></span>
+<span id="cb4-210"><a href="#cb4-210" aria-hidden="true" tabindex="-1"></a>(16)    Italiens Premier *Berlusconi* über die Anhänger der Opposition vor der damaligen Parlamentswahl in Italien (2006):   </span>
 <span id="cb4-211"><a href="#cb4-211" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-212"><a href="#cb4-212" aria-hidden="true" tabindex="-1"></a>S. = Gesamtheit der Faktoren, die einen Text für eine kommunikative Situation relevant machen. </span>
-<span id="cb4-213"><a href="#cb4-213" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-214"><a href="#cb4-214" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
-<span id="cb4-215"><a href="#cb4-215" aria-hidden="true" tabindex="-1"></a>(19) Langsam spielende Kinder    </span>
-<span id="cb4-216"><a href="#cb4-216" aria-hidden="true" tabindex="-1"></a>(20) Die Morphologie-Vorlesung fällt heute aus.   </span>
-<span id="cb4-217"><a href="#cb4-217" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-218"><a href="#cb4-218" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-219"><a href="#cb4-219" aria-hidden="true" tabindex="-1"></a>Beispiel (19) nur durch situative Faktoren interpretierbar, denn grammatisch sind ist ein solcher Text oft nicht eindeutig. </span>
-<span id="cb4-220"><a href="#cb4-220" aria-hidden="true" tabindex="-1"></a>Beispiel (20): Erwartungen von Germanistik- und Medizinstudenten bezüglich *Morphologie*-Vorlesung (Knochenbau vs. Wortstruktur). </span>
-<span id="cb4-221"><a href="#cb4-221" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb4-222"><a href="#cb4-222" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-223"><a href="#cb4-223" aria-hidden="true" tabindex="-1"></a><span class="fu">### Intertextualität </span></span>
-<span id="cb4-224"><a href="#cb4-224" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-225"><a href="#cb4-225" aria-hidden="true" tabindex="-1"></a>I. = Bezug eines Textes auf andere Texte und deren Geprägtheit als Elemente einer bestimmten Textsorte bzw. Textklasse. </span>
-<span id="cb4-226"><a href="#cb4-226" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-227"><a href="#cb4-227" aria-hidden="true" tabindex="-1"></a>Intertextualität *im Sinne (a)*, d. h. die Textsorte, ergibt sich aus einem Geflecht verschiedener Faktoren und Merkmale: Intention, Form, Situation usw. </span>
-<span id="cb4-228"><a href="#cb4-228" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-229"><a href="#cb4-229" aria-hidden="true" tabindex="-1"></a>Intertextualität *im Sinne (b)*, d. h. der Bezug auf andere Textvorkommen, spielt in der Literatur (Belletristik) eine große Rolle: z. B. Kabarett Schwarz - weiß - tot. </span>
-<span id="cb4-230"><a href="#cb4-230" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb4-231"><a href="#cb4-231" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-232"><a href="#cb4-232" aria-hidden="true" tabindex="-1"></a><span class="fu">## Gesamtheit der Textualitätskriterien</span></span>
-<span id="cb4-233"><a href="#cb4-233" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-234"><a href="#cb4-234" aria-hidden="true" tabindex="-1"></a>Vater (1992: 64-66): Führt nur die Gesamtheit der Textualitätskriterien zu Textualität, um von einem "Text" sprechen zu dürfen?    </span>
-<span id="cb4-235"><a href="#cb4-235" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Intentionalität* und *Akzeptabilität* sind fragwürdige Textualitätskriterien, weil sie Voraussetzung für jegliche Kommunikation sind und nicht nur sprachlicher.    </span>
-<span id="cb4-236"><a href="#cb4-236" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Akzeptabilität* ist relativ: das gleiche sprachliche Gebilde kann von einem Textrezipienten als Text akzeptiert werden, von einem anderen dagegen nicht. Letzteres ist beispielsweise bei moderner Lyrik oft der Fall.    </span>
-<span id="cb4-237"><a href="#cb4-237" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Situationalität* trägt zur Textualität bei, aber ist ein nicht situations-adäquates sprachliches Äußerungsgeflecht kein Text? Vater (1992: 64) scheint es in bestimmten Fällen angemessener, zu behaupten, dass jemand zwar einen Text gebildet habe, aber halt keinen situationsangemessenen Text.    </span>
-<span id="cb4-238"><a href="#cb4-238" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Kohäsion* ist zwar wichtig und fehlt relativ selten in Texten, aber es gibt Äußerungsgeflechte, die durchaus ohne Kohäsionsmittel auskommen und dennoch kohärent sein können, denn man erkennt, dass ein Thema abgehandelt wird.    </span>
-<span id="cb4-239"><a href="#cb4-239" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Kohärenz* stellt offenbar das dominierende Textualitätskriterium dar. Auch wenn alle anderen postulierten Kriterien nicht erfüllt sind, kann es sich um einen Text handeln - solange das Gebilde kohärent ist. Bestimmte Äußerungsgeflechte zeigen zudem, dass Kohärenzbeziehungen vom Text-Thema dominiert werden.    </span>
-<span id="cb4-240"><a href="#cb4-240" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Thema*: eine nichtsprachliche Größe, die erst durch den Text versprachlicht wird und in einen bestimmten Wissenszusammenhang eingebettet ist. Da Textkohärenz an die Wissenssysteme des Textproduzenten und des Textrezipienten gebunden ist, erweist es sich als schwierig, die Textkohärenz zu bestimmen, und somit die Grenze zwischen Text und Nicht-Text als problematisch. Kohärenz = Eigenschaft, die an Leistungen und Urteilen von Rezipienten gebunden.    </span>
-<span id="cb4-241"><a href="#cb4-241" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Scherners Auffassung* (1984: 148), *Kohärenz aufzufächern* in:   </span>
-<span id="cb4-242"><a href="#cb4-242" aria-hidden="true" tabindex="-1"></a>(a) *textbezügliche Konsistenzbedingungen* (weil "Wörter schon etwas mitbringen, bevor sie zur kommunikativen Verwendung gelangen") und    </span>
-<span id="cb4-243"><a href="#cb4-243" aria-hidden="true" tabindex="-1"></a>(b) *Textbenutzer-bezogene* Kohärenzbedingungen. </span>
-<span id="cb4-244"><a href="#cb4-244" aria-hidden="true" tabindex="-1"></a>Die Konsistenzbedingungen unter *(a)* betreffen die semantisch--syntaktischen Regularitäten der Vertextung, die Bedingungen unter *(b)* "die darüber hinausgehenden Sinnerstellungsoperationen und -voraussetzungen des jeweiligen Rezipienten" Scherner (1984: 149; nach Vater 1992: 66).    </span>
-<span id="cb4-245"><a href="#cb4-245" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-246"><a href="#cb4-246" aria-hidden="true" tabindex="-1"></a>:::rmdtip</span>
-<span id="cb4-247"><a href="#cb4-247" aria-hidden="true" tabindex="-1"></a>Kontinuum:   </span>
-<span id="cb4-248"><a href="#cb4-248" aria-hidden="true" tabindex="-1"></a>*Prototypische* Texte &lt;----&gt; *Nicht-prototypische* Texte </span>
-<span id="cb4-249"><a href="#cb4-249" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-250"><a href="#cb4-250" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-251"><a href="#cb4-251" aria-hidden="true" tabindex="-1"></a><span class="fu">## Regulative Textprinzipien</span></span>
-<span id="cb4-252"><a href="#cb4-252" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-253"><a href="#cb4-253" aria-hidden="true" tabindex="-1"></a>Die konstitutiven Prinzipien bestimmen und erzeugen eine natürliche Verhaltensform, die als Textkommunikation erkennbar ist. Daneben werden von de Beaugrande &amp; Dressler (1992) aber auch regulative Prinzipien, die die Textkommunikation regeln, jedoch nicht definieren: Effizienz, Effektivität, Angemessenheit, möglicherweise noch mehrere. </span>
-<span id="cb4-254"><a href="#cb4-254" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-255"><a href="#cb4-255" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effizienz</span></span>
-<span id="cb4-256"><a href="#cb4-256" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-257"><a href="#cb4-257" aria-hidden="true" tabindex="-1"></a>Die Effizienz eines Textes steigt, wenn der Arbeitsaufwand von Textproduzent und Textrezipient bei der Textverwendung (d.h. beim Produzieren und beim Dekodieren) möglichst klein ist. </span>
-<span id="cb4-258"><a href="#cb4-258" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-259"><a href="#cb4-259" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effektivität</span></span>
+<span id="cb4-212"><a href="#cb4-212" aria-hidden="true" tabindex="-1"></a><span class="in">```{r out.width="75%"}</span></span>
+<span id="cb4-213"><a href="#cb4-213" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/textkriterien_9.png"</span>)</span>
+<span id="cb4-214"><a href="#cb4-214" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-215"><a href="#cb4-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-216"><a href="#cb4-216" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-217"><a href="#cb4-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-218"><a href="#cb4-218" aria-hidden="true" tabindex="-1"></a>Einwände (Vater 1992: 52-54):    </span>
+<span id="cb4-219"><a href="#cb4-219" aria-hidden="true" tabindex="-1"></a>(a) Akzeptabilität: allgemeine Voraussetzung für erfolgreiches Kommunizieren.    </span>
+<span id="cb4-220"><a href="#cb4-220" aria-hidden="true" tabindex="-1"></a>(b) Subjektivität: für den einen akzeptabel, für den anderen dagegen nicht.    </span>
+<span id="cb4-221"><a href="#cb4-221" aria-hidden="true" tabindex="-1"></a>(c) Akzeptabilitätsbegriff zu eng eingegrenzt.    </span>
+<span id="cb4-222"><a href="#cb4-222" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-223"><a href="#cb4-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-224"><a href="#cb4-224" aria-hidden="true" tabindex="-1"></a><span class="fu">### Informativität </span></span>
+<span id="cb4-225"><a href="#cb4-225" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-226"><a href="#cb4-226" aria-hidden="true" tabindex="-1"></a>I. = Ausmaß der Erwartetheit bzw. Unerwartetheit, Bekanntheit oder Unbekanntheit, Gewissheit oder Ungewissheit der dargebotenen Textelemente. Das richtige Maß an Informativität eines Textes ist abhängig von Intention, Erwartung und Situation. </span>
+<span id="cb4-227"><a href="#cb4-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-228"><a href="#cb4-228" aria-hidden="true" tabindex="-1"></a>I. = außerdem als Thematizität verstanden. Keine athematischen Texte; sprachlich sehr stark reduzierte Dialoge durch implizite Thematizität gekennzeichnet sein. </span>
+<span id="cb4-229"><a href="#cb4-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-230"><a href="#cb4-230" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-231"><a href="#cb4-231" aria-hidden="true" tabindex="-1"></a>(17)    E = m*c2   </span>
+<span id="cb4-232"><a href="#cb4-232" aria-hidden="true" tabindex="-1"></a>(18)    um herauszufinden ob eine Konversation ein Gespräch oder eine Geschwätz ist, haben wir die ABC-Analyse verwendet, d.h. aufschreiben, ob wieviele wichtige Fachbegriffe vorkommen (welche Themen werden angeschnitten), wichtig hierbei ist zu schauen ob es Wörter mit Inhalt sind oder nur Plastikwörter und zum anderen die 4 Maximen von Grice. Ich hoffe das hat dich geholfen.   </span>
+<span id="cb4-233"><a href="#cb4-233" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-234"><a href="#cb4-234" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-235"><a href="#cb4-235" aria-hidden="true" tabindex="-1"></a>Einwände Vater (1992: 56):</span>
+<span id="cb4-236"><a href="#cb4-236" aria-hidden="true" tabindex="-1"></a>Informativitätsbegriff einschränken: Informativität sei zu definieren als das Ausmaß der Erwartetheit bzw. Unerwartetheit von Zeichen aus einem Zeicheninventar, das dem Rezipienten bekannt ist.    </span>
+<span id="cb4-237"><a href="#cb4-237" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-238"><a href="#cb4-238" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-239"><a href="#cb4-239" aria-hidden="true" tabindex="-1"></a><span class="fu">### Situationalität </span></span>
+<span id="cb4-240"><a href="#cb4-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-241"><a href="#cb4-241" aria-hidden="true" tabindex="-1"></a>S. = Gesamtheit der Faktoren, die einen Text für eine kommunikative Situation relevant machen. </span>
+<span id="cb4-242"><a href="#cb4-242" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-243"><a href="#cb4-243" aria-hidden="true" tabindex="-1"></a>:::rmdrobot</span>
+<span id="cb4-244"><a href="#cb4-244" aria-hidden="true" tabindex="-1"></a>(19) Langsam spielende Kinder    </span>
+<span id="cb4-245"><a href="#cb4-245" aria-hidden="true" tabindex="-1"></a>(20) Die Morphologie-Vorlesung fällt heute aus.   </span>
+<span id="cb4-246"><a href="#cb4-246" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-247"><a href="#cb4-247" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-248"><a href="#cb4-248" aria-hidden="true" tabindex="-1"></a>Beispiel (19) nur durch situative Faktoren interpretierbar, denn grammatisch sind ist ein solcher Text oft nicht eindeutig. </span>
+<span id="cb4-249"><a href="#cb4-249" aria-hidden="true" tabindex="-1"></a>Beispiel (20): Erwartungen von Germanistik- und Medizinstudenten bezüglich *Morphologie*-Vorlesung (Knochenbau vs. Wortstruktur). </span>
+<span id="cb4-250"><a href="#cb4-250" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb4-251"><a href="#cb4-251" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-252"><a href="#cb4-252" aria-hidden="true" tabindex="-1"></a><span class="fu">### Intertextualität </span></span>
+<span id="cb4-253"><a href="#cb4-253" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-254"><a href="#cb4-254" aria-hidden="true" tabindex="-1"></a>I. = Bezug eines Textes auf andere Texte und deren Geprägtheit als Elemente einer bestimmten Textsorte bzw. Textklasse. </span>
+<span id="cb4-255"><a href="#cb4-255" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-256"><a href="#cb4-256" aria-hidden="true" tabindex="-1"></a>Intertextualität *im Sinne (a)*, d. h. die Textsorte, ergibt sich aus einem Geflecht verschiedener Faktoren und Merkmale: Intention, Form, Situation usw. </span>
+<span id="cb4-257"><a href="#cb4-257" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-258"><a href="#cb4-258" aria-hidden="true" tabindex="-1"></a>Intertextualität *im Sinne (b)*, d. h. der Bezug auf andere Textvorkommen, spielt in der Literatur (Belletristik) eine große Rolle: z. B. Kabarett Schwarz - weiß - tot. </span>
+<span id="cb4-259"><a href="#cb4-259" aria-hidden="true" tabindex="-1"></a> </span>
 <span id="cb4-260"><a href="#cb4-260" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-261"><a href="#cb4-261" aria-hidden="true" tabindex="-1"></a>Die Effektivität eines Textes hängt davon ab, ob ein Text beim Rezipienten einen starken Eindruck hinterlässt und günstige Verhältnisse für die Erreichung eines vom Textproduzenten (und möglicherweise auch vom Textrezipienten) angestrebten Ziels schafft.</span>
+<span id="cb4-261"><a href="#cb4-261" aria-hidden="true" tabindex="-1"></a><span class="fu">## Gesamtheit der Textualitätskriterien</span></span>
 <span id="cb4-262"><a href="#cb4-262" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-263"><a href="#cb4-263" aria-hidden="true" tabindex="-1"></a><span class="fu">### Angemessenheit</span></span>
-<span id="cb4-264"><a href="#cb4-264" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-265"><a href="#cb4-265" aria-hidden="true" tabindex="-1"></a>Die Angemessenheit eines Textes folgt aus der Art, wie die Textualitätskriterien in Wirklichkeit an die Situation angepasst sind. </span>
-<span id="cb4-266"><a href="#cb4-266" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-267"><a href="#cb4-267" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-268"><a href="#cb4-268" aria-hidden="true" tabindex="-1"></a>::: rmdrobot</span>
-<span id="cb4-269"><a href="#cb4-269" aria-hidden="true" tabindex="-1"></a>Lesen Sie den Text über den Rapper *Capital Bra* (&lt;https://www.zdf.de/nachrichten/heute/das-phaenomen-capital-bra-100.html&gt;)! Sehen Sie sich den Video-Beitrag (mit Untertiteln an)! *YouTube*-Video der Sendung *Germania* über *Capital Bra*: <span class="ot">&lt;https://www.youtube.com/watch?v=7_oNPNvjphs&gt;</span></span>
-<span id="cb4-270"><a href="#cb4-270" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-271"><a href="#cb4-271" aria-hidden="true" tabindex="-1"></a>Beschreiben Sie, welchen Eindruck Sie beim Lesen von der Sprache in den beiden Texten erhalten haben? Können Sie Unterschiede zwischen den beiden Texten erkennen? *Wie* wird gesprochen bzw. geschrieben?</span>
-<span id="cb4-272"><a href="#cb4-272" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb4-273"><a href="#cb4-273" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-274"><a href="#cb4-274" aria-hidden="true" tabindex="-1"></a>::: rmdrobot</span>
-<span id="cb4-275"><a href="#cb4-275" aria-hidden="true" tabindex="-1"></a>Zur computergestützen Textanalyse verwenden wir nun *Voyant Tools*: <span class="ot">&lt;https://voyant-tools.org/&gt;</span>. Adresse des Tutorials: <span class="ot">&lt;https://voyant-tools.org/docs/#!/guide/tutorial&gt;</span>.</span>
-<span id="cb4-276"><a href="#cb4-276" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-277"><a href="#cb4-277" aria-hidden="true" tabindex="-1"></a>Wir "füttern" das Programm mit beiden Texten (*ZDF*-Beitrag, Untertitel zum *YouTube*-Video). Die Daten sollen uns bei unserer stilistischen Analyse behilflich sein.</span>
-<span id="cb4-278"><a href="#cb4-278" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-279"><a href="#cb4-279" aria-hidden="true" tabindex="-1"></a>Wir erhalten mehrere Angaben und Darstellungen von *Voyant Tools*: z.B.\</span>
-<span id="cb4-280"><a href="#cb4-280" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>*Wortwolke* (Cirrus): Welche (inhaltlich relevanten) Wortformen kommen im ZDF-Text am häufigsten vor, welche in den Germania-Untertiteln? Wie erklären Sie sich die Unterschiede? Schauen Sie sich auch die *Trends*-Darstellung an!\</span>
-<span id="cb4-281"><a href="#cb4-281" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Haben Sie beim Lesen noch *weitere Unterschiede* in der Wortwahl bemerkt, die in den beiden Bilddarstellungen nicht sichtbar sind?\</span>
-<span id="cb4-282"><a href="#cb4-282" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>*Dokumentlänge*: Wie viele *Äußerungen* umfassen die beiden Texte? Welcher ist länger? Kann man den Unterschied mit Hilf der syntaktischen Einheit *Satz* beschreiben?\</span>
-<span id="cb4-283"><a href="#cb4-283" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>*Wortschatzdichte* (lexikalische Diversität): In welchem der beiden Texte werden mehr unterschiedliche Wortformen verwendet? In welchem der beiden werden öfters dieselben Wortformen benutzt?\</span>
-<span id="cb4-284"><a href="#cb4-284" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>*Phrasen*: Welche Wortverbindungen werden in dem einen oder anderen Text wiederholt verwendet?\</span>
-<span id="cb4-285"><a href="#cb4-285" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>*Korrelationen*<span class="ot">[^gegenstand-1]</span> (Zusammenhänge): Welche Wörter kommen in dem einen oder anderen Text gemeinsam vor (hohe Korrelation + Signifikanz kleiner als 0,05)?</span>
-<span id="cb4-286"><a href="#cb4-286" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-263"><a href="#cb4-263" aria-hidden="true" tabindex="-1"></a>Vater (1992: 64-66): Führt nur die Gesamtheit der Textualitätskriterien zu Textualität, um von einem "Text" sprechen zu dürfen?    </span>
+<span id="cb4-264"><a href="#cb4-264" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Intentionalität* und *Akzeptabilität* sind fragwürdige Textualitätskriterien, weil sie Voraussetzung für jegliche Kommunikation sind und nicht nur sprachlicher.    </span>
+<span id="cb4-265"><a href="#cb4-265" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Akzeptabilität* ist relativ: das gleiche sprachliche Gebilde kann von einem Textrezipienten als Text akzeptiert werden, von einem anderen dagegen nicht. Letzteres ist beispielsweise bei moderner Lyrik oft der Fall.    </span>
+<span id="cb4-266"><a href="#cb4-266" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Situationalität* trägt zur Textualität bei, aber ist ein nicht situations-adäquates sprachliches Äußerungsgeflecht kein Text? Vater (1992: 64) scheint es in bestimmten Fällen angemessener, zu behaupten, dass jemand zwar einen Text gebildet habe, aber halt keinen situationsangemessenen Text.    </span>
+<span id="cb4-267"><a href="#cb4-267" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Kohäsion* ist zwar wichtig und fehlt relativ selten in Texten, aber es gibt Äußerungsgeflechte, die durchaus ohne Kohäsionsmittel auskommen und dennoch kohärent sein können, denn man erkennt, dass ein Thema abgehandelt wird.    </span>
+<span id="cb4-268"><a href="#cb4-268" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Kohärenz* stellt offenbar das dominierende Textualitätskriterium dar. Auch wenn alle anderen postulierten Kriterien nicht erfüllt sind, kann es sich um einen Text handeln - solange das Gebilde kohärent ist. Bestimmte Äußerungsgeflechte zeigen zudem, dass Kohärenzbeziehungen vom Text-Thema dominiert werden.    </span>
+<span id="cb4-269"><a href="#cb4-269" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Thema*: eine nichtsprachliche Größe, die erst durch den Text versprachlicht wird und in einen bestimmten Wissenszusammenhang eingebettet ist. Da Textkohärenz an die Wissenssysteme des Textproduzenten und des Textrezipienten gebunden ist, erweist es sich als schwierig, die Textkohärenz zu bestimmen, und somit die Grenze zwischen Text und Nicht-Text als problematisch. Kohärenz = Eigenschaft, die an Leistungen und Urteilen von Rezipienten gebunden.    </span>
+<span id="cb4-270"><a href="#cb4-270" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Scherners Auffassung* (1984: 148), *Kohärenz aufzufächern* in:   </span>
+<span id="cb4-271"><a href="#cb4-271" aria-hidden="true" tabindex="-1"></a>(a) *textbezügliche Konsistenzbedingungen* (weil "Wörter schon etwas mitbringen, bevor sie zur kommunikativen Verwendung gelangen") und    </span>
+<span id="cb4-272"><a href="#cb4-272" aria-hidden="true" tabindex="-1"></a>(b) *Textbenutzer-bezogene* Kohärenzbedingungen. </span>
+<span id="cb4-273"><a href="#cb4-273" aria-hidden="true" tabindex="-1"></a>Die Konsistenzbedingungen unter *(a)* betreffen die semantisch--syntaktischen Regularitäten der Vertextung, die Bedingungen unter *(b)* "die darüber hinausgehenden Sinnerstellungsoperationen und -voraussetzungen des jeweiligen Rezipienten" Scherner (1984: 149; nach Vater 1992: 66).    </span>
+<span id="cb4-274"><a href="#cb4-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-275"><a href="#cb4-275" aria-hidden="true" tabindex="-1"></a>:::rmdtip</span>
+<span id="cb4-276"><a href="#cb4-276" aria-hidden="true" tabindex="-1"></a>Kontinuum:   </span>
+<span id="cb4-277"><a href="#cb4-277" aria-hidden="true" tabindex="-1"></a>*Prototypische* Texte &lt;----&gt; *Nicht-prototypische* Texte </span>
+<span id="cb4-278"><a href="#cb4-278" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-279"><a href="#cb4-279" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-280"><a href="#cb4-280" aria-hidden="true" tabindex="-1"></a><span class="fu">## Regulative Textprinzipien</span></span>
+<span id="cb4-281"><a href="#cb4-281" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-282"><a href="#cb4-282" aria-hidden="true" tabindex="-1"></a>Die konstitutiven Prinzipien bestimmen und erzeugen eine natürliche Verhaltensform, die als Textkommunikation erkennbar ist. Daneben werden von de Beaugrande &amp; Dressler (1992) aber auch regulative Prinzipien, die die Textkommunikation regeln, jedoch nicht definieren: Effizienz, Effektivität, Angemessenheit, möglicherweise noch mehrere. </span>
+<span id="cb4-283"><a href="#cb4-283" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-284"><a href="#cb4-284" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effizienz</span></span>
+<span id="cb4-285"><a href="#cb4-285" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-286"><a href="#cb4-286" aria-hidden="true" tabindex="-1"></a>Die Effizienz eines Textes steigt, wenn der Arbeitsaufwand von Textproduzent und Textrezipient bei der Textverwendung (d.h. beim Produzieren und beim Dekodieren) möglichst klein ist. </span>
 <span id="cb4-287"><a href="#cb4-287" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-288"><a href="#cb4-288" aria-hidden="true" tabindex="-1"></a><span class="ot">[^gegenstand-1]: </span>"The correlation coefficient is calculated by comparing the relative frequencies of terms (relative to each document for the corpus or relative to each segment of document). A coefficient that approaches 1 indicates that values correlate positively, they rise and fall together. A coefficient that approaches -1 indicates that values correlate negatively, frequencies rise for one term as it drops for the other. Coefficients that approach 0 indicate little correlation, positive or negative." - <span class="ot">&lt;https://voyant-tools.org/docs/#!/guide/correlations&gt;</span></span>
+<span id="cb4-288"><a href="#cb4-288" aria-hidden="true" tabindex="-1"></a><span class="fu">### Effektivität</span></span>
 <span id="cb4-289"><a href="#cb4-289" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-290"><a href="#cb4-290" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}</span></span>
-<span id="cb4-291"><a href="#cb4-291" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/capital_bra_untertitel.png"</span>)</span>
-<span id="cb4-292"><a href="#cb4-292" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/capital_bra_zdf.png"</span>)</span>
-<span id="cb4-293"><a href="#cb4-293" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-294"><a href="#cb4-294" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-295"><a href="#cb4-295" aria-hidden="true" tabindex="-1"></a>**Text (ZDF)**:</span>
+<span id="cb4-290"><a href="#cb4-290" aria-hidden="true" tabindex="-1"></a>Die Effektivität eines Textes hängt davon ab, ob ein Text beim Rezipienten einen starken Eindruck hinterlässt und günstige Verhältnisse für die Erreichung eines vom Textproduzenten (und möglicherweise auch vom Textrezipienten) angestrebten Ziels schafft.</span>
+<span id="cb4-291"><a href="#cb4-291" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-292"><a href="#cb4-292" aria-hidden="true" tabindex="-1"></a><span class="fu">### Angemessenheit</span></span>
+<span id="cb4-293"><a href="#cb4-293" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-294"><a href="#cb4-294" aria-hidden="true" tabindex="-1"></a>Die Angemessenheit eines Textes folgt aus der Art, wie die Textualitätskriterien in Wirklichkeit an die Situation angepasst sind. </span>
+<span id="cb4-295"><a href="#cb4-295" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-296"><a href="#cb4-296" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-297"><a href="#cb4-297" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}</span></span>
-<span id="cb4-298"><a href="#cb4-298" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readtext)</span>
-<span id="cb4-299"><a href="#cb4-299" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-300"><a href="#cb4-300" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda)</span>
-<span id="cb4-301"><a href="#cb4-301" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(udpipe)</span>
+<span id="cb4-297"><a href="#cb4-297" aria-hidden="true" tabindex="-1"></a>::: rmdrobot</span>
+<span id="cb4-298"><a href="#cb4-298" aria-hidden="true" tabindex="-1"></a>Lesen Sie den Text über den Rapper *Capital Bra* (&lt;https://www.zdf.de/nachrichten/heute/das-phaenomen-capital-bra-100.html&gt;)! Sehen Sie sich den Video-Beitrag (mit Untertiteln an)! *YouTube*-Video der Sendung *Germania* über *Capital Bra*: <span class="ot">&lt;https://www.youtube.com/watch?v=7_oNPNvjphs&gt;</span></span>
+<span id="cb4-299"><a href="#cb4-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-300"><a href="#cb4-300" aria-hidden="true" tabindex="-1"></a>Beschreiben Sie, welchen Eindruck Sie beim Lesen von der Sprache in den beiden Texten erhalten haben? Können Sie Unterschiede zwischen den beiden Texten erkennen? *Wie* wird gesprochen bzw. geschrieben?</span>
+<span id="cb4-301"><a href="#cb4-301" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb4-302"><a href="#cb4-302" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-303"><a href="#cb4-303" aria-hidden="true" tabindex="-1"></a>capbra_docx <span class="ot">&lt;-</span> <span class="fu">readtext</span>(<span class="st">"data/*.docx"</span>, <span class="at">docvarsfrom =</span> <span class="st">"filename"</span>, </span>
-<span id="cb4-304"><a href="#cb4-304" aria-hidden="true" tabindex="-1"></a>                        <span class="at">dvsep =</span> <span class="st">"_"</span>)</span>
-<span id="cb4-305"><a href="#cb4-305" aria-hidden="true" tabindex="-1"></a>capbra <span class="ot">&lt;-</span> <span class="fu">corpus</span>(capbra_docx<span class="sc">$</span>text[<span class="dv">1</span>])</span>
-<span id="cb4-306"><a href="#cb4-306" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(capbra_docx<span class="sc">$</span>text[<span class="dv">1</span>])</span>
-<span id="cb4-307"><a href="#cb4-307" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-308"><a href="#cb4-308" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-309"><a href="#cb4-309" aria-hidden="true" tabindex="-1"></a>**Tabelle: Wortklassen** (<span class="in">`Rmarkdown`</span>, T.P.)</span>
-<span id="cb4-310"><a href="#cb4-310" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-311"><a href="#cb4-311" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}</span></span>
-<span id="cb4-312"><a href="#cb4-312" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(udpipe)</span>
-<span id="cb4-313"><a href="#cb4-313" aria-hidden="true" tabindex="-1"></a>destfile <span class="ot">=</span> <span class="st">"german-gsd-ud-2.5-191206.udpipe"</span></span>
-<span id="cb4-314"><a href="#cb4-314" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-315"><a href="#cb4-315" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">file.exists</span>(destfile)){</span>
-<span id="cb4-316"><a href="#cb4-316" aria-hidden="true" tabindex="-1"></a>   sprachmodell <span class="ot">&lt;-</span> <span class="fu">udpipe_download_model</span>(<span class="at">language =</span> <span class="st">"german"</span>)</span>
-<span id="cb4-317"><a href="#cb4-317" aria-hidden="true" tabindex="-1"></a>   udmodel_de <span class="ot">&lt;-</span> <span class="fu">udpipe_load_model</span>(sprachmodell<span class="sc">$</span>file_model)</span>
-<span id="cb4-318"><a href="#cb4-318" aria-hidden="true" tabindex="-1"></a>   } <span class="cf">else</span> {</span>
-<span id="cb4-319"><a href="#cb4-319" aria-hidden="true" tabindex="-1"></a>  file_model <span class="ot">=</span> destfile</span>
-<span id="cb4-320"><a href="#cb4-320" aria-hidden="true" tabindex="-1"></a>  udmodel_de <span class="ot">&lt;-</span> <span class="fu">udpipe_load_model</span>(file_model)</span>
-<span id="cb4-321"><a href="#cb4-321" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-322"><a href="#cb4-322" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-323"><a href="#cb4-323" aria-hidden="true" tabindex="-1"></a>udp <span class="ot">&lt;-</span> <span class="fu">udpipe_annotate</span>(udmodel_de, </span>
-<span id="cb4-324"><a href="#cb4-324" aria-hidden="true" tabindex="-1"></a>                       <span class="at">x =</span> <span class="fu">as.character</span>(capbra), <span class="at">trace =</span> F)</span>
-<span id="cb4-325"><a href="#cb4-325" aria-hidden="true" tabindex="-1"></a>udpiped <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(udp)</span>
-<span id="cb4-326"><a href="#cb4-326" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-327"><a href="#cb4-327" aria-hidden="true" tabindex="-1"></a>tabela <span class="ot">&lt;-</span> udpiped <span class="sc">%&gt;%</span> </span>
-<span id="cb4-328"><a href="#cb4-328" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(doc_id) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-329"><a href="#cb4-329" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(upos) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-330"><a href="#cb4-330" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(upos),</span>
-<span id="cb4-331"><a href="#cb4-331" aria-hidden="true" tabindex="-1"></a>         upos <span class="sc">!=</span> <span class="st">"PUNCT"</span>)</span>
-<span id="cb4-332"><a href="#cb4-332" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-333"><a href="#cb4-333" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DT)</span>
-<span id="cb4-334"><a href="#cb4-334" aria-hidden="true" tabindex="-1"></a>tabela <span class="sc">%&gt;%</span> </span>
-<span id="cb4-335"><a href="#cb4-335" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>(<span class="at">filter =</span> <span class="st">"top"</span>, <span class="at">fillContainer =</span> <span class="cn">TRUE</span>, </span>
-<span id="cb4-336"><a href="#cb4-336" aria-hidden="true" tabindex="-1"></a>              <span class="at">extensions =</span> <span class="st">'Buttons'</span>, <span class="st">"ColReorder"</span>, </span>
-<span id="cb4-337"><a href="#cb4-337" aria-hidden="true" tabindex="-1"></a>              <span class="co"># caption = "Tabelle: Wortklassen im Text",</span></span>
-<span id="cb4-338"><a href="#cb4-338" aria-hidden="true" tabindex="-1"></a>              <span class="at">options =</span> <span class="fu">list</span>(<span class="at">pageLength =</span> <span class="dv">10</span>, </span>
-<span id="cb4-339"><a href="#cb4-339" aria-hidden="true" tabindex="-1"></a>                             <span class="at">lengthMenu =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">12</span>, <span class="dv">18</span>),</span>
-<span id="cb4-340"><a href="#cb4-340" aria-hidden="true" tabindex="-1"></a>                             <span class="at">colReorder =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb4-341"><a href="#cb4-341" aria-hidden="true" tabindex="-1"></a>                             <span class="at">dom =</span> <span class="st">'Bfrtip'</span>,</span>
-<span id="cb4-342"><a href="#cb4-342" aria-hidden="true" tabindex="-1"></a>    <span class="at">buttons =</span> <span class="fu">c</span>(<span class="st">'colvis'</span>,<span class="st">'copy'</span>, <span class="st">'csv'</span>, <span class="st">'excel'</span>, <span class="st">'pdf'</span>, <span class="st">'print'</span>)</span>
-<span id="cb4-343"><a href="#cb4-343" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-344"><a href="#cb4-344" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatStyle</span>(<span class="st">"upos"</span>,</span>
-<span id="cb4-345"><a href="#cb4-345" aria-hidden="true" tabindex="-1"></a>  <span class="at">target =</span> <span class="st">'row'</span>, </span>
-<span id="cb4-346"><a href="#cb4-346" aria-hidden="true" tabindex="-1"></a>  <span class="at">backgroundColor =</span> <span class="fu">styleEqual</span>(<span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="st">'gray30'</span>, <span class="st">'lightblue'</span>)))</span>
-<span id="cb4-347"><a href="#cb4-347" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-348"><a href="#cb4-348" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-349"><a href="#cb4-349" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-350"><a href="#cb4-350" aria-hidden="true" tabindex="-1"></a>**Tabelle: Konnektoren**</span>
+<span id="cb4-303"><a href="#cb4-303" aria-hidden="true" tabindex="-1"></a>::: rmdrobot</span>
+<span id="cb4-304"><a href="#cb4-304" aria-hidden="true" tabindex="-1"></a>Zur computergestützen Textanalyse verwenden wir nun *Voyant Tools*: <span class="ot">&lt;https://voyant-tools.org/&gt;</span>. Adresse des Tutorials: <span class="ot">&lt;https://voyant-tools.org/docs/#!/guide/tutorial&gt;</span>.</span>
+<span id="cb4-305"><a href="#cb4-305" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-306"><a href="#cb4-306" aria-hidden="true" tabindex="-1"></a>Wir "füttern" das Programm mit beiden Texten (*ZDF*-Beitrag, Untertitel zum *YouTube*-Video). Die Daten sollen uns bei unserer stilistischen Analyse behilflich sein.</span>
+<span id="cb4-307"><a href="#cb4-307" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-308"><a href="#cb4-308" aria-hidden="true" tabindex="-1"></a>Wir erhalten mehrere Angaben und Darstellungen von *Voyant Tools*: z.B.\</span>
+<span id="cb4-309"><a href="#cb4-309" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>*Wortwolke* (Cirrus): Welche (inhaltlich relevanten) Wortformen kommen im ZDF-Text am häufigsten vor, welche in den Germania-Untertiteln? Wie erklären Sie sich die Unterschiede? Schauen Sie sich auch die *Trends*-Darstellung an!\</span>
+<span id="cb4-310"><a href="#cb4-310" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Haben Sie beim Lesen noch *weitere Unterschiede* in der Wortwahl bemerkt, die in den beiden Bilddarstellungen nicht sichtbar sind?\</span>
+<span id="cb4-311"><a href="#cb4-311" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>*Dokumentlänge*: Wie viele *Äußerungen* umfassen die beiden Texte? Welcher ist länger? Kann man den Unterschied mit Hilf der syntaktischen Einheit *Satz* beschreiben?\</span>
+<span id="cb4-312"><a href="#cb4-312" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>*Wortschatzdichte* (lexikalische Diversität): In welchem der beiden Texte werden mehr unterschiedliche Wortformen verwendet? In welchem der beiden werden öfters dieselben Wortformen benutzt?\</span>
+<span id="cb4-313"><a href="#cb4-313" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>*Phrasen*: Welche Wortverbindungen werden in dem einen oder anderen Text wiederholt verwendet?\</span>
+<span id="cb4-314"><a href="#cb4-314" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>*Korrelationen*<span class="ot">[^gegenstand-1]</span> (Zusammenhänge): Welche Wörter kommen in dem einen oder anderen Text gemeinsam vor (hohe Korrelation + Signifikanz kleiner als 0,05)?</span>
+<span id="cb4-315"><a href="#cb4-315" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-316"><a href="#cb4-316" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-317"><a href="#cb4-317" aria-hidden="true" tabindex="-1"></a><span class="ot">[^gegenstand-1]: </span>"The correlation coefficient is calculated by comparing the relative frequencies of terms (relative to each document for the corpus or relative to each segment of document). A coefficient that approaches 1 indicates that values correlate positively, they rise and fall together. A coefficient that approaches -1 indicates that values correlate negatively, frequencies rise for one term as it drops for the other. Coefficients that approach 0 indicate little correlation, positive or negative." - <span class="ot">&lt;https://voyant-tools.org/docs/#!/guide/correlations&gt;</span></span>
+<span id="cb4-318"><a href="#cb4-318" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-319"><a href="#cb4-319" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}</span></span>
+<span id="cb4-320"><a href="#cb4-320" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/capital_bra_untertitel.png"</span>)</span>
+<span id="cb4-321"><a href="#cb4-321" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"pictures/capital_bra_zdf.png"</span>)</span>
+<span id="cb4-322"><a href="#cb4-322" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-323"><a href="#cb4-323" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-324"><a href="#cb4-324" aria-hidden="true" tabindex="-1"></a>**Text (ZDF)**:</span>
+<span id="cb4-325"><a href="#cb4-325" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-326"><a href="#cb4-326" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}</span></span>
+<span id="cb4-327"><a href="#cb4-327" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readtext)</span>
+<span id="cb4-328"><a href="#cb4-328" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-329"><a href="#cb4-329" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda)</span>
+<span id="cb4-330"><a href="#cb4-330" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(udpipe)</span>
+<span id="cb4-331"><a href="#cb4-331" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-332"><a href="#cb4-332" aria-hidden="true" tabindex="-1"></a>capbra_docx <span class="ot">&lt;-</span> <span class="fu">readtext</span>(<span class="st">"data/*.docx"</span>, <span class="at">docvarsfrom =</span> <span class="st">"filename"</span>, </span>
+<span id="cb4-333"><a href="#cb4-333" aria-hidden="true" tabindex="-1"></a>                        <span class="at">dvsep =</span> <span class="st">"_"</span>)</span>
+<span id="cb4-334"><a href="#cb4-334" aria-hidden="true" tabindex="-1"></a>capbra <span class="ot">&lt;-</span> <span class="fu">corpus</span>(capbra_docx<span class="sc">$</span>text[<span class="dv">1</span>])</span>
+<span id="cb4-335"><a href="#cb4-335" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(capbra_docx<span class="sc">$</span>text[<span class="dv">1</span>])</span>
+<span id="cb4-336"><a href="#cb4-336" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-337"><a href="#cb4-337" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-338"><a href="#cb4-338" aria-hidden="true" tabindex="-1"></a>**Tabelle: Wortklassen** (<span class="in">`Rmarkdown`</span>, T.P.)</span>
+<span id="cb4-339"><a href="#cb4-339" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-340"><a href="#cb4-340" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}</span></span>
+<span id="cb4-341"><a href="#cb4-341" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(udpipe)</span>
+<span id="cb4-342"><a href="#cb4-342" aria-hidden="true" tabindex="-1"></a>destfile <span class="ot">=</span> <span class="st">"german-gsd-ud-2.5-191206.udpipe"</span></span>
+<span id="cb4-343"><a href="#cb4-343" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-344"><a href="#cb4-344" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">file.exists</span>(destfile)){</span>
+<span id="cb4-345"><a href="#cb4-345" aria-hidden="true" tabindex="-1"></a>   sprachmodell <span class="ot">&lt;-</span> <span class="fu">udpipe_download_model</span>(<span class="at">language =</span> <span class="st">"german"</span>)</span>
+<span id="cb4-346"><a href="#cb4-346" aria-hidden="true" tabindex="-1"></a>   udmodel_de <span class="ot">&lt;-</span> <span class="fu">udpipe_load_model</span>(sprachmodell<span class="sc">$</span>file_model)</span>
+<span id="cb4-347"><a href="#cb4-347" aria-hidden="true" tabindex="-1"></a>   } <span class="cf">else</span> {</span>
+<span id="cb4-348"><a href="#cb4-348" aria-hidden="true" tabindex="-1"></a>  file_model <span class="ot">=</span> destfile</span>
+<span id="cb4-349"><a href="#cb4-349" aria-hidden="true" tabindex="-1"></a>  udmodel_de <span class="ot">&lt;-</span> <span class="fu">udpipe_load_model</span>(file_model)</span>
+<span id="cb4-350"><a href="#cb4-350" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb4-351"><a href="#cb4-351" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-352"><a href="#cb4-352" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}</span></span>
-<span id="cb4-353"><a href="#cb4-353" aria-hidden="true" tabindex="-1"></a>vezniki <span class="ot">&lt;-</span> tabela <span class="sc">%&gt;%</span> </span>
-<span id="cb4-354"><a href="#cb4-354" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"CCONJ"</span>, <span class="st">"SCONJ"</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-355"><a href="#cb4-355" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">prozent =</span> n<span class="sc">/</span><span class="fu">sum</span>(n)) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-356"><a href="#cb4-356" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> upos, </span>
-<span id="cb4-357"><a href="#cb4-357" aria-hidden="true" tabindex="-1"></a>              <span class="at">names_from =</span> doc_id, <span class="at">values_from =</span> n<span class="sc">:</span>prozent)</span>
-<span id="cb4-358"><a href="#cb4-358" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-359"><a href="#cb4-359" aria-hidden="true" tabindex="-1"></a>connectors <span class="ot">=</span> udpiped <span class="sc">%&gt;%</span> </span>
-<span id="cb4-360"><a href="#cb4-360" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">token =</span> <span class="fu">str_to_lower</span>(token)) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-361"><a href="#cb4-361" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(token) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-362"><a href="#cb4-362" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(upos),</span>
-<span id="cb4-363"><a href="#cb4-363" aria-hidden="true" tabindex="-1"></a>         upos <span class="sc">!=</span> <span class="st">"PUNCT"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-364"><a href="#cb4-364" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"CCONJ"</span>, <span class="st">"SCONJ"</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-365"><a href="#cb4-365" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(upos, <span class="at">sort =</span> T)</span>
-<span id="cb4-366"><a href="#cb4-366" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-367"><a href="#cb4-367" aria-hidden="true" tabindex="-1"></a>connectors <span class="sc">%&gt;%</span> </span>
-<span id="cb4-368"><a href="#cb4-368" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>(<span class="at">filter =</span> <span class="st">"top"</span>, <span class="at">fillContainer =</span> <span class="cn">TRUE</span>, </span>
-<span id="cb4-369"><a href="#cb4-369" aria-hidden="true" tabindex="-1"></a>              <span class="at">extensions =</span> <span class="st">'Buttons'</span>, <span class="st">"ColReorder"</span>, </span>
-<span id="cb4-370"><a href="#cb4-370" aria-hidden="true" tabindex="-1"></a>              <span class="at">options =</span> <span class="fu">list</span>(<span class="at">pageLength =</span> <span class="dv">10</span>, </span>
-<span id="cb4-371"><a href="#cb4-371" aria-hidden="true" tabindex="-1"></a>                             <span class="at">colReorder =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb4-372"><a href="#cb4-372" aria-hidden="true" tabindex="-1"></a>                             <span class="at">dom =</span> <span class="st">'Bfrtip'</span>,</span>
-<span id="cb4-373"><a href="#cb4-373" aria-hidden="true" tabindex="-1"></a>    <span class="at">buttons =</span> <span class="fu">c</span>(<span class="st">'colvis'</span>,<span class="st">'copy'</span>, <span class="st">'csv'</span>, <span class="st">'excel'</span>, <span class="st">'pdf'</span>, <span class="st">'print'</span>)</span>
-<span id="cb4-374"><a href="#cb4-374" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-375"><a href="#cb4-375" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatStyle</span>(<span class="st">"upos"</span>,</span>
-<span id="cb4-376"><a href="#cb4-376" aria-hidden="true" tabindex="-1"></a>  <span class="at">target =</span> <span class="st">'row'</span>,</span>
-<span id="cb4-377"><a href="#cb4-377" aria-hidden="true" tabindex="-1"></a>  <span class="at">backgroundColor =</span> <span class="fu">styleEqual</span>(<span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="st">'gray30'</span>, <span class="st">'lightblue'</span>)))</span>
+<span id="cb4-352"><a href="#cb4-352" aria-hidden="true" tabindex="-1"></a>udp <span class="ot">&lt;-</span> <span class="fu">udpipe_annotate</span>(udmodel_de, </span>
+<span id="cb4-353"><a href="#cb4-353" aria-hidden="true" tabindex="-1"></a>                       <span class="at">x =</span> <span class="fu">as.character</span>(capbra), <span class="at">trace =</span> F)</span>
+<span id="cb4-354"><a href="#cb4-354" aria-hidden="true" tabindex="-1"></a>udpiped <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(udp)</span>
+<span id="cb4-355"><a href="#cb4-355" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-356"><a href="#cb4-356" aria-hidden="true" tabindex="-1"></a>tabela <span class="ot">&lt;-</span> udpiped <span class="sc">%&gt;%</span> </span>
+<span id="cb4-357"><a href="#cb4-357" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(doc_id) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-358"><a href="#cb4-358" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(upos) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-359"><a href="#cb4-359" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(upos),</span>
+<span id="cb4-360"><a href="#cb4-360" aria-hidden="true" tabindex="-1"></a>         upos <span class="sc">!=</span> <span class="st">"PUNCT"</span>)</span>
+<span id="cb4-361"><a href="#cb4-361" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-362"><a href="#cb4-362" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DT)</span>
+<span id="cb4-363"><a href="#cb4-363" aria-hidden="true" tabindex="-1"></a>tabela <span class="sc">%&gt;%</span> </span>
+<span id="cb4-364"><a href="#cb4-364" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>(<span class="at">filter =</span> <span class="st">"top"</span>, <span class="at">fillContainer =</span> <span class="cn">TRUE</span>, </span>
+<span id="cb4-365"><a href="#cb4-365" aria-hidden="true" tabindex="-1"></a>              <span class="at">extensions =</span> <span class="st">'Buttons'</span>, <span class="st">"ColReorder"</span>, </span>
+<span id="cb4-366"><a href="#cb4-366" aria-hidden="true" tabindex="-1"></a>              <span class="co"># caption = "Tabelle: Wortklassen im Text",</span></span>
+<span id="cb4-367"><a href="#cb4-367" aria-hidden="true" tabindex="-1"></a>              <span class="at">options =</span> <span class="fu">list</span>(<span class="at">pageLength =</span> <span class="dv">10</span>, </span>
+<span id="cb4-368"><a href="#cb4-368" aria-hidden="true" tabindex="-1"></a>                             <span class="at">lengthMenu =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">12</span>, <span class="dv">18</span>),</span>
+<span id="cb4-369"><a href="#cb4-369" aria-hidden="true" tabindex="-1"></a>                             <span class="at">colReorder =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb4-370"><a href="#cb4-370" aria-hidden="true" tabindex="-1"></a>                             <span class="at">dom =</span> <span class="st">'Bfrtip'</span>,</span>
+<span id="cb4-371"><a href="#cb4-371" aria-hidden="true" tabindex="-1"></a>    <span class="at">buttons =</span> <span class="fu">c</span>(<span class="st">'colvis'</span>,<span class="st">'copy'</span>, <span class="st">'csv'</span>, <span class="st">'excel'</span>, <span class="st">'pdf'</span>, <span class="st">'print'</span>)</span>
+<span id="cb4-372"><a href="#cb4-372" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-373"><a href="#cb4-373" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatStyle</span>(<span class="st">"upos"</span>,</span>
+<span id="cb4-374"><a href="#cb4-374" aria-hidden="true" tabindex="-1"></a>  <span class="at">target =</span> <span class="st">'row'</span>, </span>
+<span id="cb4-375"><a href="#cb4-375" aria-hidden="true" tabindex="-1"></a>  <span class="at">backgroundColor =</span> <span class="fu">styleEqual</span>(<span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="st">'gray30'</span>, <span class="st">'lightblue'</span>)))</span>
+<span id="cb4-376"><a href="#cb4-376" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-377"><a href="#cb4-377" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb4-378"><a href="#cb4-378" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-379"><a href="#cb4-379" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-379"><a href="#cb4-379" aria-hidden="true" tabindex="-1"></a>**Tabelle: Konnektoren**</span>
 <span id="cb4-380"><a href="#cb4-380" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-381"><a href="#cb4-381" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}</span></span>
-<span id="cb4-382"><a href="#cb4-382" aria-hidden="true" tabindex="-1"></a>cc <span class="ot">&lt;-</span> connectors <span class="sc">%&gt;%</span> </span>
-<span id="cb4-383"><a href="#cb4-383" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">==</span> <span class="st">"CCONJ"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-384"><a href="#cb4-384" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(token) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-385"><a href="#cb4-385" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">50</span>)</span>
-<span id="cb4-386"><a href="#cb4-386" aria-hidden="true" tabindex="-1"></a>sc <span class="ot">&lt;-</span> connectors <span class="sc">%&gt;%</span> </span>
-<span id="cb4-387"><a href="#cb4-387" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">==</span> <span class="st">"SCONJ"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-388"><a href="#cb4-388" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(token) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-389"><a href="#cb4-389" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">50</span>)</span>
-<span id="cb4-390"><a href="#cb4-390" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-391"><a href="#cb4-391" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Konjunktor: "</span>, cc))</span>
-<span id="cb4-392"><a href="#cb4-392" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Subjunktor: "</span>, sc))</span>
-<span id="cb4-393"><a href="#cb4-393" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-394"><a href="#cb4-394" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-395"><a href="#cb4-395" aria-hidden="true" tabindex="-1"></a>::: rmdrobot</span>
-<span id="cb4-396"><a href="#cb4-396" aria-hidden="true" tabindex="-1"></a>Versuchen Sie die sprachlichen Merkmale des Songtexts *Normalität* von *Capital Bra* mit Unterstützung von *Voyant Tools* zu beschreiben!</span>
-<span id="cb4-397"><a href="#cb4-397" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-398"><a href="#cb4-398" aria-hidden="true" tabindex="-1"></a>Video: <span class="ot">&lt;https://www.youtube.com/watch?v=KS7vWUEeQJE&gt;</span>\</span>
-<span id="cb4-399"><a href="#cb4-399" aria-hidden="true" tabindex="-1"></a>Songtext: <span class="ot">&lt;https://genius.com/Ngee-normalitat-lyrics&gt;</span></span>
-<span id="cb4-400"><a href="#cb4-400" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-382"><a href="#cb4-382" aria-hidden="true" tabindex="-1"></a>vezniki <span class="ot">&lt;-</span> tabela <span class="sc">%&gt;%</span> </span>
+<span id="cb4-383"><a href="#cb4-383" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"CCONJ"</span>, <span class="st">"SCONJ"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-384"><a href="#cb4-384" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">prozent =</span> n<span class="sc">/</span><span class="fu">sum</span>(n)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-385"><a href="#cb4-385" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> upos, </span>
+<span id="cb4-386"><a href="#cb4-386" aria-hidden="true" tabindex="-1"></a>              <span class="at">names_from =</span> doc_id, <span class="at">values_from =</span> n<span class="sc">:</span>prozent)</span>
+<span id="cb4-387"><a href="#cb4-387" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-388"><a href="#cb4-388" aria-hidden="true" tabindex="-1"></a>connectors <span class="ot">=</span> udpiped <span class="sc">%&gt;%</span> </span>
+<span id="cb4-389"><a href="#cb4-389" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">token =</span> <span class="fu">str_to_lower</span>(token)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-390"><a href="#cb4-390" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(token) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-391"><a href="#cb4-391" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(upos),</span>
+<span id="cb4-392"><a href="#cb4-392" aria-hidden="true" tabindex="-1"></a>         upos <span class="sc">!=</span> <span class="st">"PUNCT"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-393"><a href="#cb4-393" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"CCONJ"</span>, <span class="st">"SCONJ"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-394"><a href="#cb4-394" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(upos, <span class="at">sort =</span> T)</span>
+<span id="cb4-395"><a href="#cb4-395" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-396"><a href="#cb4-396" aria-hidden="true" tabindex="-1"></a>connectors <span class="sc">%&gt;%</span> </span>
+<span id="cb4-397"><a href="#cb4-397" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>(<span class="at">filter =</span> <span class="st">"top"</span>, <span class="at">fillContainer =</span> <span class="cn">TRUE</span>, </span>
+<span id="cb4-398"><a href="#cb4-398" aria-hidden="true" tabindex="-1"></a>              <span class="at">extensions =</span> <span class="st">'Buttons'</span>, <span class="st">"ColReorder"</span>, </span>
+<span id="cb4-399"><a href="#cb4-399" aria-hidden="true" tabindex="-1"></a>              <span class="at">options =</span> <span class="fu">list</span>(<span class="at">pageLength =</span> <span class="dv">10</span>, </span>
+<span id="cb4-400"><a href="#cb4-400" aria-hidden="true" tabindex="-1"></a>                             <span class="at">colReorder =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb4-401"><a href="#cb4-401" aria-hidden="true" tabindex="-1"></a>                             <span class="at">dom =</span> <span class="st">'Bfrtip'</span>,</span>
+<span id="cb4-402"><a href="#cb4-402" aria-hidden="true" tabindex="-1"></a>    <span class="at">buttons =</span> <span class="fu">c</span>(<span class="st">'colvis'</span>,<span class="st">'copy'</span>, <span class="st">'csv'</span>, <span class="st">'excel'</span>, <span class="st">'pdf'</span>, <span class="st">'print'</span>)</span>
+<span id="cb4-403"><a href="#cb4-403" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-404"><a href="#cb4-404" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatStyle</span>(<span class="st">"upos"</span>,</span>
+<span id="cb4-405"><a href="#cb4-405" aria-hidden="true" tabindex="-1"></a>  <span class="at">target =</span> <span class="st">'row'</span>,</span>
+<span id="cb4-406"><a href="#cb4-406" aria-hidden="true" tabindex="-1"></a>  <span class="at">backgroundColor =</span> <span class="fu">styleEqual</span>(<span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="st">'gray30'</span>, <span class="st">'lightblue'</span>)))</span>
+<span id="cb4-407"><a href="#cb4-407" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-408"><a href="#cb4-408" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-409"><a href="#cb4-409" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-410"><a href="#cb4-410" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, message=FALSE, warning=FALSE, out.height="100%"}</span></span>
+<span id="cb4-411"><a href="#cb4-411" aria-hidden="true" tabindex="-1"></a>cc <span class="ot">&lt;-</span> connectors <span class="sc">%&gt;%</span> </span>
+<span id="cb4-412"><a href="#cb4-412" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">==</span> <span class="st">"CCONJ"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-413"><a href="#cb4-413" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(token) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-414"><a href="#cb4-414" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">50</span>)</span>
+<span id="cb4-415"><a href="#cb4-415" aria-hidden="true" tabindex="-1"></a>sc <span class="ot">&lt;-</span> connectors <span class="sc">%&gt;%</span> </span>
+<span id="cb4-416"><a href="#cb4-416" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(upos <span class="sc">==</span> <span class="st">"SCONJ"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-417"><a href="#cb4-417" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(token) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-418"><a href="#cb4-418" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">50</span>)</span>
+<span id="cb4-419"><a href="#cb4-419" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-420"><a href="#cb4-420" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Konjunktor: "</span>, cc))</span>
+<span id="cb4-421"><a href="#cb4-421" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Subjunktor: "</span>, sc))</span>
+<span id="cb4-422"><a href="#cb4-422" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-423"><a href="#cb4-423" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-424"><a href="#cb4-424" aria-hidden="true" tabindex="-1"></a>::: rmdrobot</span>
+<span id="cb4-425"><a href="#cb4-425" aria-hidden="true" tabindex="-1"></a>Versuchen Sie die sprachlichen Merkmale des Songtexts *Normalität* von *Capital Bra* mit Unterstützung von *Voyant Tools* zu beschreiben!</span>
+<span id="cb4-426"><a href="#cb4-426" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-427"><a href="#cb4-427" aria-hidden="true" tabindex="-1"></a>Video: <span class="ot">&lt;https://www.youtube.com/watch?v=KS7vWUEeQJE&gt;</span>\</span>
+<span id="cb4-428"><a href="#cb4-428" aria-hidden="true" tabindex="-1"></a>Songtext: <span class="ot">&lt;https://genius.com/Ngee-normalitat-lyrics&gt;</span></span>
+<span id="cb4-429"><a href="#cb4-429" aria-hidden="true" tabindex="-1"></a>:::</span>
 </code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Lehrveranstaltungsmaterialien, Maribor 2022, Teodor Petrič</div>   
+    <div class="nav-footer-left">Lehrveranstaltungsmaterialien, Universität Maribor 2022, Teodor Petrič</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

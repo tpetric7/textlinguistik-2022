@@ -1,6 +1,6 @@
 # . {.unnumbered}
 
-```{r}
+```{r out.width="100%"}
 knitr::include_graphics("pictures/Diapozitiv1.PNG")
 ```
 
