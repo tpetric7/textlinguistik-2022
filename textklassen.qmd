@@ -1,4 +1,272 @@
-# Textklassifizierung
+# Kriterien für Textklassen
 
-## Textmuster und Textsorten
+```{r out.width="100%"}
+#| fig-link: <http://antikonline.com/sortiment/kommoden/schubladen-schrank/>
+knitr::include_graphics("pictures/schubladenschrank.jpg")
+```
 
+Es gibt zahlreiche Möglichkeiten von Klassenbildungen und Ordnungen. Für die Sortierung von Texten und Textsorten gibt es kein verbindliches, allgemeines und in sich geschlossenes System … Letztlich ist das Ziel jeder Textsortendarstellung nicht irgendeine Typisierung, sondern die Beschreibung spezieller Routinen. (Adamzik 1995b, 28) 
+
+
+## Freiburger Redekonstellationen
+
+Im Rahmen der Freiburger Schule wurden aufgenommene Gesprächstexte transkribiert und gemäß einem linearen Klassifizierungsschema in *Gesprächssorten* eingeordnet. Hier ist ein Beispiel für eine dieser **Redekonstellationen** (Heutiges Deutsch II/3 (1975), Institutu für deutsche Sprache (IDS) in Freiburg im Breisgau): 
+
+>1. Gespräch über Familien und Erziehungsprobleme (XEG) 
+>(1) S p r e c h e r b e s c h r e i b u n g \
+>    AA: weiblich; 35 Jahre; verheiratet; Weiler (Kr. Villingen), 
+        Königsfeld, London, Freiburg, Heidelberg, Berlin, 
+        Wien, Zürich, Gaienhofen (Radolfzell), Karlsruhe, 
+        Wiesloch, Freiburg; Pfarrerin. \
+    AB: männlich; 33 Jahre; verheiratet; Freiburg, Göttingen, 
+        Heidelberg, Tübingen, Zürich, Freiburg; Pfarrer. 
+    
+>(2) R K  B e s c h r e i b u n g \
+    1. Verhältnis der Teilnehmer: AA und AB sind miteinander 
+       verheiratet \
+       situativer Rang während des Gesprächs: gleichberechtigt 
+       Häufigkeit der Interaktion der Teilnehmer: oft \
+       Vorwissen: hoch \
+    2. Kommunikationsmedium: facetoface \
+    3. Kommunikationsort: Wohnung von AA und AB \
+    4. Zeitpunkt: nicht verabredet \
+    5. Themenbehandlung: vorwiegend argumentativ \
+    6. Situationsverschränkung: kaum vorhanden \
+    7. Sprecher und Thema: Interesse: ja \
+                           Vorbereitung: keine spezielle Vor 
+                                         bereitung \
+                           Vorwissen: ja  \
+    8. Themafixierung: nein \
+    9. Öffentlichkeitsgrad: privat \
+   10. Situationsvertrautheit: groß \
+   11. Situationsdistanz: bei AB größer als bei AA \
+ 
+>(3) T h e m e n  i m  G e s p r ä c h s v e r l a u f \
+    Über ein Theaterstück. Angst des Kindes. Märchenerzählen 
+    oder nicht Märchenerzählen? Beispiel für den hohen Rea 
+    litätsgehalt der Märchen für ein Kind. Problem der Ver 
+    mittlung zwischen Märchenwelt und Realität. "Magische 
+    Phase" des Kindes. Ausräumung der Angst durch Bestärken 
+    der Persönlichkeit oder durch Aufheben der Angstmotive. 
+    Unsicherheit als Ursache von Angst. Eingeschlossensein 
+    als Ursache von Angst. Wer ist für den Entschluß, das 
+    Kind einzuschließen, verantwortlich? Notwendigkeit eines 
+    eindeutigen Erziehungsprinzips. AA's Angst vor den Un 
+    willensäußerungen von AB. AA's Abwehrmechanismen. Modus 
+    zukünftiger Diskussionen zwischen AA und AB. Verstehen 
+    des gesehenen Theaterstückes. Personen im Theaterstück. 
+    Zeitplanung für den nächsten Vormittag. Servierfähig 
+    keiten der Hausangestellten als grundsätzliche Voraus 
+    setzung für ihre Einstellung. Hausangestellte als Unter 
+    stützung von AA. 
+ 
+>(4) Dauer der Aufnahme des Ausschnitts: 32 min  sec \
+    Dauer der Textbuchwiedergabe: 32 min  sec \
+    Anzahl der Wörter: 3498 
+ 
+>(5) Aufnahme: Originalaufnahme IdSFreiburg, 1971, in 
+    Freiburg 
+
+
+## Spezifizierung textueller Merkmale
+
+-	**Mehrdimensionalität** von Texten als Ausgangspunkt für Klassifizierungen
+
+-	**Subdifferenzierung** einer jeden Dimension 
+
+1. **Funktionalität**: Hauptfunktionen →	\
+a) Sich Ausdrücken \
+b) Kontaktieren \
+c) Informieren \
+d)  Steuern \
+e) Ästhetisch Wirken \
+
+2. **Situationalität**: Situationsklassen → \
+a) Tätigkeitssituation \
+b) Kanal/Medium \
+c) Anzahl der Partner \
+d) Umgebungssituation ... \
+
+3. **Thematizität & Strukturiertheit**  → \
+a) Thematische Geprägtheit \
+b) Text-Thema-Entfaltungen \
+c) Textstrukturierung \ 
+
+4. **Formulierungsadäquatheit**  → \
+a) Kommunikationsmaximen \
+b) Textsortenspezifische Formulierungsmuster \
+c)  Stilistische Besonderheiten \
+ 
+**Merkmalidentifizierung**
+
+Beispiel: \
+
+1) **Funktionsklasse** \
+1d: *Steuern* \
+Das „Steuern“ des Partners kann umschrieben werden durch die *Aufforderungen* \
+α) P (=Partner) soll H tun = Aufforderung zum praktischen Handeln \
+P soll H´ vorbereiten \
+β) P soll X sagen = Aufforderung zu einer Sprachehandlung \
+
+2) **Situationsklasse** \
+2d: Anzahl der *Partner* \
+α)  dyadische Kommunikation = nur ein Partner \
+β)  Gruppenkommunikation    =  Kleingruppe als Partner … \
+
+4)  **Formulierungsklasse** \ 
+4b: *Textsortenspezifische Formulierungsmuster* \
+α) syntaktische Spezifika \
+dominierender Satztyp \
+Komplexitätsgrad \
+Verhältnis Hauptsätze: Nebensätze \
+β) lexikalische Spezifika \
+Indikatoren der Textfunktion \
+Mehrfachkomposita \
+Dominanz bestimmter Derivationen \
+Kollokationen \      
+
+```{r out.width="100%"}
+#| fig-cap: "Merkmalsidentifizierung, Hartmut Lenk, Präsentation)"
+knitr::include_graphics("pictures/texterkmalidentifizierung.png")
+```
+
+
+## Differenzierung verschiedener Textsorten und Texttypen
+
+Zwei Gesichtspunkte (*Linke/Nussbaumer/Portmann* 1994: 251): \
+
+```{r out.width="100%"}
+#| fig-link: <http://teachsam.de/deutsch/d_lingu/txtlin/txtsort_1.htm>
+knitr::include_graphics("pictures/textfunktionen_dia_2_int_ext_klassen.PNG")
+```
+
+**textINtern** \
+an die Text-Oberfläche gebunden	- an die Text-Tiefenstruktur gebunden, \
+z.B.							z.B. \
+• Wortschatz 			• Thema/Themenverlauf \
+• Satzbaumuster 	• Textstrukturmuster \
+
+**textEXtern**
+an den Kommunikationszusammenhang gebunden, z.B.
+•Textfunktion
+•Trägermedium
+
+
+## Textsortenkriterien
+
+**Kriterien** bei der Beschreibung/Analyse von **Textsorten** nach den bei W. *Heinemann 2001* genannten begriffsetablierenden Kategorien:
+
+1. die **kommunikative Funktion**: \
+- Mit welcher Absicht oder Intention / zu welchem Zweck / mit welchem kommunikativen Ziel wird ein Text dieser Sorte
+verfasst? Wozu dient er? Was soll erreicht werden? 
+
+2. **situative Bedingungen** \
+- *Sprecher/Schreiber*: \
+Wer schreibt solche Texte üblicherweise? \
+(Autor(en): individuell/institutionell? beruflich/privat?) \
+- *Hörer/Leser*: \
+An wen sind sie üblicherweise gerichtet? \
+Für wen sind sie bestimmt? (Rezipienten: Alter, Bildung, Zahl, …) \
+- *Kommunikationsbereich und Kanal*: \
+schriftlich/mündlich/elektronisch? \
+öffentlich/nicht-öffentlich? \
+vertraut/offiziell? … \
+- Art der *Relation zwischen Autor(en) und Rezipienten*: \
+symmetrisch/hierarchisch? \
+Generationszugehörigkeit/Altersunterschied? … \
+- [kommunikative] *Vorgeschichte* des Textes / Kontext /
+Gesprächszug (z.B. Mahnung, Protestschreiben, Entschuldigung)
+
+3. **inhaltlich-thematische Aspekte** \
+- Welche *Themen/Inhalte* treten in solchen Textsorten üblicherweise auf? Welche Themen sind möglicherweise tabuisiert? \
+- Gibt es *obligatorische*, typische und *variierende* Inhaltselemente? \
+- Gibt es eine typische *Reihenfolge*, in der die Inhaltselemente erscheinen? \
+- Welche *Prozeduren* der inhaltlichen Verarbeitung gibt es? \
+
+4. **charakteristische Strukturen und Formulierungen** \
+- Auf welche Weise werden die einzelnen Inhaltselemente in der betreffenden Textsorte typischerweise realisiert? \
+Wortschatz, kommunikative Formeln, Metaphorik, grammatische Konstruktionen, typische Syntax, stilistische Eigenheiten? (z. B. Lexik einschl. Abkürzungen in Wohnungsanzeigen) \
+
+5. die äußere **Textgestalt** / das Layout \
+- Gibt es typische *Gestaltungsmerkmale* für diese Textsorte oder für Textsortenvarianten? (z. B. "weißer Raum" in Stellenanzeigen für Berufe mit hohem vs. geringem Qualifikationsniveau) \
+- Dienen äußere (z. B. typographische oder orthographische)
+Merkmale der *Abgrenzung* von anderen Textsorten? (z. B.
+Smileys in der Chatkommunikation und in der E-Mail) \
+- *Farbsemiotik*: vgl. Websites konventioneller Zeitungen im
+Gegensatz zu den Online-Versionen der sog. Boulevardblätter \
+- Welche Rolle spielen *nonverbale* Elemente wie Bilder, Fotos,
+Diagramme u. Ä.? \
+
+**Textsortenbeschreibungen** sollten *alle relevanten Eigenschaften* der genannten Merkmale enthalten.
+
+
+## Illokution als Basiskriterium
+
+Rolf (1993) strebte eine Sortierung von Texten an, die konsequent nach einem Kriterien (die dominierende Illokution als Basiskriterium) vorgenommen wurde. 
+
+```{r out.width="100%"}
+#| fig-cap: "Textklassenhierachie, Hartmut Lenk, Präsentation S. 32)"
+knitr::include_graphics("pictures/Funktionale_Klassifizierung_Rolf1993.jpg")
+```
+
+Die Verwendung eines einzigen Kriteriums zur Unterscheidung von Texten führt zu fragwürdigen Einordnungen. Um derartige Ungereimtheiten in der Klassifizierung zu vermeiden, ist es ratsam, die Mehrdimensionalität von Texten und ihre Dynamik zu akzeptieren. Die einzelnen Ebenen sind demnach hierarchisch zu ordnen und die Kriterien (etwa das Basiskriterium) an den jeweiligen Verwendungszweck dynamisch anzupassen. 
+
+
+## Textfunktion als Basiskriterium
+
+**Basiskriterium (?) zur Unterscheidung von Textsorten: Textfunktion**
+
+**Was ist eine Textfunktion?**
+
+Große(1976): *dominante Textfunktion* durch sprachliche Ausdrücke vermittelte, an den Rezipienten gerichtete Instruktion, wie der Text zu
+verstehen ist( 15ff, 26,68)
+
+Baugrande/Dressler(1981): unterscheiden nach der *dominanten Textfunktion*: deskriptive, narrative, argumentative Texte
+
+Brinker(1985): *Textfunktion als Kommunikationsabsicht* des Textverfassers, die im Text mit konventionell geltenden Mitteln realisiert ist.
+
+**Textfunktion** (z.B. Brinker 1992): \
+• wie ist ein Text zu verstehen? \
+• welche Absicht verfolgt der Autor? \
+*Informationstexte* (Nachricht, Bericht, Sachbuch, Rezension [. . .] ) \
+*Appelltexte* (Werbeanzeige, Kommentar, Gesetz, Antrag [. . .] ) \
+*Obligationstexte* (Vertrag, Garantieschein, Gelöbnis [. . .] ) \
+*Kontakttexte* (Danksagung, Kondolenzschreiben, Ansichtskarte [. . .] ) \
+*Deklarationstexte* (Testament, Ernennungsurkunde [. . .] )" ). \
+
+**kontextuelle Kriterien/situative Faktoren** nach Brinker: \
+• direkte Gespräche \
+• Telefongespräche \
+• Rundfunksendungen \
+• Fernsehsendungen \
+• Briefe \
+• Zeitungsartikel/Bücher \
+
+Kriterien des **Handlungsbereichs**: \
+• privat \
+• offiziell \
+• öffentlich \
+
+**Strukturelle Kriterien** nach Brinker: \
+*Art des Textthemas*: \
+"*temporale* Orientierung": zeitliche Fixierung des Themas relativ zum
+Sprechzeitpunkt (z. B. in Nachricht, Protokoll, Horoskop) (130) \
+"*lokale* Orientierung": "Relation zwischen Emittent bzw. Rezipient
+und Thema" (z. B. in Zeitungsannoncen und -kommentaren). \
+
+ 
+## Vertextungsmuster 
+
+**Formen der thematischen Entfaltung**
+
+*Deskriptive Texte*: füllen Wissenslücken \
+*Narrative* Texte: zeitliche Anordnung von Ereignisse und Handlungen \
+*Argumentative* Texte: vorliegen von Relationen wie Begründung, Signifikanz, Gegensatz etc. \
+
+**Texttypen**: Unterscheidung nach ihrer dominanten Funktion im sprachlichen Handeln \
+
+```{r out.width="100%"}
+#| fig-cap: "Thematische Entfaltungsmuster, Hartmut Lenk, Präsentation)"
+knitr::include_graphics("pictures/thematische_entfaltung.jpg")
+```
+ 

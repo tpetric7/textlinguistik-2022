@@ -1,0 +1,272 @@
+# Textstruktur
+
+```{r out.width="100%"}
+#| fig-link: <https://p0.pikist.com/photos/252/925/dusseldorf-germany-building-structure-facade-architecture-figures-spiderman-unique.jpg>
+knitr::include_graphics("pictures/dusseldorf_spiderman.jpg")
+```
+
+## Gesprächsstruktur
+
+Henne/Rehbock (1982: 20) unterscheiden für die Analyse von Gesprächen Kategorien auf drei Ebenen: \
+a)	Kategorien der Makroebene: Gesprächsphasen (-teile, -stücke) \
+	 - Gesprächseröffnung \
+	 - Gesprächsmitte (Entfaltung des Hauptthemas/der Unterthemen) \
+	 - Gesprächs-Ränder (Nebenthemen, Episoden) \
+	 - Gesprächsbeendigung \
+b)	Kategorien der mittleren Ebene \
+	 - Gesprächsschritt ('turn') \
+	 - Sprecherwechsel ('turn-taking'): \ Regeln der Schrittfolge \
+	 - Gesprächssequenz \
+	 - Sprechakt/Hörverstehensakt \
+	 - Gliederungssignal \
+	 - back-channel-behavior (Rückmeldungsverhalten des Hörers) \
+c)	Kategorien der Mikroebene \
+	 - Sprechaktinterne Elemente: \ syntaktische, lexikalische,  phonologische und prosodische Struktur. \
+
+Der Aufbau von Gesprächen kann uns als Ausgangspunkt für eine entsprechende Gliederung monologischer Texte dienen. 
+
+## Makrostrukturen
+
+In der Grammatik Engel (1988) werden die folgenden makrostrukturellen Textphasen unterschieden: \
+
+###	Eröffnungsphase
+
+Eröffnungssignale: \
+(1)	Absender  \
+- Betreff  \
+- Anlaß oder Rechtsgrundlage (Mitteilung) \
+(2)	Überschrift einer Geschichte, eines Gedichts oder Romans \
+(3)	Verbform 'Perfekt' als Eröffnungssignal in Pressenachrichten \
+(4)	Gruß -- (Anrede) -- Eröffnungsformel in gesprochener Sprache \
+
+### Hauptphase
+
+Die Hauptphase ist gewöhnlich die längste und differenzierteste makrostrukturelle Phase. Sie kann durch mediostrukturelle Gliederungssignale (s. unten) von der Eröffnungs- und Schlussphase formal getrennt sein. Wichtig für die Identifizierung der Hauptphase ist der inhaltliche Gesichtspunkt, das Text-Thema. 
+
+### Schlußphase
+
+Schlußsignale: \
+(5)	Ort -- Datum -- Absender (behördliche Bekanntmachung) \
+(6)	(Schlußformel) -- Gruß -- (Anrede) in einem Gespräch \
+
+### Absätze
+
+Makrostrukturen können und werden insbesondere in längeren Texten zusätzlich durch Absätze angedeutet. \
+
+
+## Mediostrukturen \
+
+### Absatzbildung
+
+In schriftlichen oder verschriftlichten Texten, insbesondere in längeren und geplanten Texten werden Absätze nicht nur zur Unterscheidung der Makrostrukturen, sondern auch für die Abgrenzung von Sinnschritten innerhalb der einzelnen Makrophasen eingesetzt. Die ist besonders häufig bei in der Hauptphase von Texten zu beobachten. \
+
+### Positionsmarkierungen
+
+Nach ihrer *Position* sind drei Positionsmarkierungen unterscheidbar: \
+Vorschaltungen, Nachschaltungen und Reaktionssignale (des Hörers). \
+
+#### Vorschaltungen
+
+Beispiele: \
+(8)	Ein weiteres Problem besteht darin, daß ... (geschr.) \
+(9)	Ich komme jetzt zu ... (gespr.) \
+(10)	Darf ich dazu mal was sagen. (gespr.) \
+(11)	Schau mal ... (Kontaktformeln, gespr.)  \
+
+Zu den Vorschaltungen ist auch die *Schrittforderung* (s.u.) zu rechnen, die einen neuen *Gesprächsschritt* (s.u.) einleiten soll. \
+
+#### Nachschaltungen
+
+Beispiele: \
+(12)	Damit dürfte erwiesen sein, daß ... (geschr.) \
+(13)	Das ist schon ein toller Kerl, der Emil. (gespr.) \
+(14)	Das wär's. (gespr.) \
+
+Die wichtigsten Nachschaltungen der gesprochenen Sprache sind die *Kontaktfragen* (Kontaktsignale des Sprechers). \
+(15)	Nicht wahr ? \
+(16)	Ja ? \
+(17)	Stimmt's ? \
+
+#### Reaktionssignale ('Rückmeldungen')
+
+Beispiele: \
+(18)	A: \ Frau Schneider!  B: \ Ja bitte ? \
+(19)	A: \ Nehmen wir mal an, daß meine Behauptung stimmt ! \
+	B: \ Mhm. \
+	A: \ Dann ergäbe sich folgende Perspektive ... \
+
+Zu den Reaktionssignalen *auch Antworten verschiedenster Art*: \
+positive, negative, aber auch informative Sprechakte. \
+(20)	A: Sie haben keine Zeit heute ?  B: \ Doch, doch. \
+(21)	A: Du könntest mal den Abwasch machen. \
+	B: Ich denke ja gar nicht dran. (Einstellugsbekundung) \
+(22)	A: Sabine hat ein tolles Kleid.  \
+	B: Und Ilse erst ! \
+(23)	Wie bitte ? (Rückfrage, Gegenfrage) \
+	Wie meinen Sie ? \
+
+Sonderformen der Reaktionssignale: \
+*Satzvollendungen* und kurze *Nachformulierungen*: \
+(24)	A: Das müßte ich mir dann vielleicht nochmal ... \
+	B: in Ruhe überlegen. \
+(25)	A: Vielleicht sollte man das nochmal nachlesen. \
+	B: nochmal nachlesen. \
+
+Die einzelnen Gliederungsmittel sind zwar oft nicht eindeutig, aber sie treten im Text vielfach in Verbänden auf, in sog. *Clustern*, und geben dann zusammen mit anderen Gliederungsmitteln deutlich Aufschluß darüber, wie der Sprecher seinen Beitrag gegliedert haben will (Brinker 1989: 66). 
+
+### Gesprächssequenzen
+
+:::rmdnote
+1. Eine Gesprächssequenz setzt sich immer aus zwei aufeinanderfolgenden Beiträgen verschiedener Sprecher zusammen (--> Sprecherwechsel).  \
+2. Außerdem muß der zweite dieser Beiträge durch aufgrund geltender Regeln oder Gesprächskonventionen durch den ersten bedingt sein. \
+
+Gesprächssequenzen kommen also nur zustande, wenn die beteiligten Sprecher sich kooperativ verhalten, d.h. die ihnen im Gespräch zukommenden Rollen akzeptieren, indem sie sich an die geltenden Regeln halten.
+:::
+
+Beispiele: \
+(26)	Frage-Antwort-Sequenz (initiativer --> reaktiver Sprechakt) \
+(27)	Gruß -- Grußerwiderung \
+(28)	Dank / Entschuldigung  -- Aufhebung der Schuld \
+(29)	Behauptung  -- Widerspruch / Einschränkung / Kommentierung ... \
+
+### Verstöße gegen die Sequenzregeln
+
+Verstöße gegen die Sequenzregeln >> kommunikative Störungen. \
+
+#### Propositionale Störungen
+
+Störungen im propositionalen Bereich kommen vor, wenn der Partner die Proposition (den Satzinhalt) der Voräußerung nicht richtig erkannt hat. \
+Beispiel: \
+(30)	Am Fahrkartenschalter. \
+	Kunde: Einmal Maribor erster Klasse und zurück. \
+	Angestellter: *Nein, ich kann nicht wechseln. \
+
+#### Illokutive Störungen
+
+Störungen im illokutiven Bereich kommen vor, wenn der Partner den Sprechakttyp der Voräußerung mißdeutet. \
+
+Beispiele: \
+(31)	Am Fahrkartenschalter. \
+	Kunde: Einmal Maribor erster Klasse und zurück. \
+	Angestellter: *Gute Nacht. \
+	Angestellter': *Machen Sie mal einen vollständigen Satz. \
+(32)	Im Geschäft. \
+	Kunde: Wieviel kostet der Hut ? \
+	Verkäufer: Das geht Sie nichts an. \
+
+Störungen im illokutiven Bereich haben häufig auch *Störungen im sozialen Verhältnis* der Partner zur Folge. \
+Beispiele: \
+(33)	Ein Sprecher, der Fragen stellt, aber gar keine Antwort abwartet, sondern einfach weiterredet. \
+(34)	Kunde: Fünf Apfelsinen. \
+Verkäufer: Können Sie nicht 'bitte' sagen ? \
+ 
+### Gesprächsschritt
+
+Unter einem **Gesprächsschritt** versteht man einen zusammenhängenden Gesprächsbeitrag eines Teilnehmers. Jede Sequenz besteht also aus zwei Schritten oder aus Teilen zweier Schritte. \
+
+Gesprächsschritt und Hörersignal werden unter dem Begriff des **Gesprächsbeitrags** zusammengefaßt. \
+
+Der geregelte **Sprecherwechsel**, durch den jeder dialogische Text in eine Folge von Gesprächsschritten aufgeteilt wird, ist meist auch sprachlich markiert und besteht aus *zwei Phasen*: \
+a) der Schrittforderung und \
+b) der Schrittübergabe bzw. Schrittverweigerung. \
+
+#### Schrittforderung
+a)	Unterbrechung, \
+b)	Stereotyp (als Unterbrechung, in Sprechpausen), \
+(35)	Moment mal ! \
+(36)	Entschuldigung ! \
+(37)	Ja aber ... \
+c)	Satzvollendung, \
+d)	Nachformulierung. \
+
+Schrittforderungen enthalten häufig eine Anrede (Höflichkeit) -- nicht immer höflich. \
+(38)	Herr Siedentopf, jetzt werden Sie aber unsachlich. \
+
+Führen Schrittforderungen nicht zum Ziel, so führt dies zu: \
+a)	zu zeitweiligem Simultansprechen, \
+b)	zusätzlich möglich: \ erhöhte Lautstärke (weniger höflich). \
+
+#### Schrittübergabe
+a)	ungesteuert \
+b)	sprechergesteuert \
+(39)	Also ? \
+(40)	Und was meinen Sie dazu ? \
+(41)	Nun, Herr Maier ! ... \
+c)	leitergesteuert \
+(42)	Das Wort hat der Abgeordnete Maier. (formelhaft) \
+(43)	Dürften wir dazu mal Ihre Meinung hören ? (formloser) \
+(44)	Bitte schön, Herr Maier ! (z.B. nachdem Sprecher schon Schrittforderung eingebracht hat, sagt das Leiter) \
+Solche autorisierenden Akte sind Gliederungssignale. \
+
+#### Schrittverweigerung
+a)	Sprecher erhöht Lautstärke, \
+b)	Sprecher spricht schneller \
+c)	Sprecher spricht deutlicher, \
+d)	Sprecher ignoriert Schrittforderung, \
+e)	längeres Simultansprechen, \
+f)	Sprecher senkt die Stimme am Ende einer Äußerung nicht, \
+g)	Sprecher zeigt durch Mimik und/oder Gestik seinen Unwillen, \
+h)	Sprecher vermeidet oder fixiert Blickkontakt, \
+i)	Sprecher verwendet sprachliche Formeln: \
+(45)	Darf ich mal ausreden ? \
+(46)	Hören Sie mir doch erst mal zu ! \
+(47)	Halten Sie den Mund ! \
+Grobe Formen der Schrittverweigerung wie (47) wirken unhöflich und führen meist zum Zusammenbruch der Kommunikation. \
+
+### Sprecherwechsel
+
+**Sprecherwechsel** (nach Henne/Rehbock 21982: \190-197)
+unter *zwei Aspekten* klassifiziert: \
+a) nach der **Art ihres Zustandekommens** (vgl. oben Selbstwahl/Selbstzuweisung und Fremdzuweisung mit den drei Arten der Schrittübergabe) und \
+b) nach der **Art ihres (zeitlichen) Verlaufs**. \
+Hinsichtlich des relativen Zeitpunkts der Gesprächsschrittübernahme (der Art ihres Verlaufs) kann man drei grundlegende Arten von Sprecherwechsel unterscheiden: \
+a)	Wechsel nach Unterbrechung, \
+b)	'glatten' Wechsel, \
+c)	Wechsel nach Pause. \
+
+*Glatter Wechsel*: \
+a)	wenn der Sprecher ein 'turn signal' gibt, \
+b)	wenn der Hörer die Sprecherrolle übernimmt, \
+c)	wenn der Sprecher seinen Gesprächsschritt aufgibt und zum Hörer wird. \
+
+Beim sogenannten glatten Wechsel drei Typen (Beispiele Henne/Rehbock 1982: 194): \
+a)	den fugenlosen Wechsel, \
+b)	den überlappenden Wechsel, \
+c)	den zäsurierten Wechsel. \
+
+Sprecherwechsel vor allem von **drei Faktoren** abhängig (nach Brinker 1989: 62-63): \
+a)	von der Art der Sprechsituation, \
+b)	vom sozialen Status der Kommunikationsteilnehmer, \
+c)	von der Organisiertheit des Gesprächs. \
+
+In der **Art und Zahl der Sprecherwechsel** zeigen sich grundlegende Bedingungen der Interaktion; daher ist die Untersuchung von Formen und Sprecherwechsel ein wichtiger Teilschritt innerhalb des gesprächsanalytischen Vorgehens.
+
+### Klassifikation von Gesprächsschritten
+
+Nach Brinker 1989: \69-72 in Dialogen prinzipiell initiierende und respondierende (reaktiven, reagierenden) Schritten. \
+
+Grob gesehen gibt es **drei Grundmöglichkeiten**, auf einen initiierenden Schritt zu reagieren: \
+a)	Akzeptierung (A-Schritt, A-Zug), \
+b)	Zurückweisung (Z-Schritt, Z-Zug), \
+c)	Selektion (S-Schritt, S-Zug). \
+
+Weitere Möglichkeit: \ gemischte Gesprächsschritte (reaktiv-initiative bzw. reaktivierende Gesprächsschritte). \
+
+### Zur grammatischen Verknüpfung von Gesprächsschritten
+
+Die *Gesprächskohärenz* beruht (nach Brinker 1989: 72ff.) darauf, daß die Gesprächspartner in der Regel wechselseitig die Geltung des *Kooperationsprinzips* als gemeinsame Basis unterstellen und jeden Gesprächsschritt in den inhaltlichen und kommunikativen Rahmen einordnen, der durch die vorausgehenden Gesprächsbeiträge geschaffen wurde. Jeder Gesprächsschritt eines Teilnehmers wird also als Reaktion auf den/die vorausgehenden Schritte der anderen Teilnehmer interpretiert. 
+
+Die Gesprächskohärenz drückt sich in spezifischen grammatischen, thematischen und kommunikativ-funktionalen Beziehungen zwischen den einzelnen Gesprächsschritten aus. In grammatischer Hinsicht finden sich in Gesprächen *ähnliche Verknüpfungsmittel wie in monologischen Texten*: \
+Prinzip der Wiederaufnahme in expliziter oder impliziter Form (siehe II.), \
+syntaktischer Parallelismus (spezifisch für Gespräche sind Konstruktionsübernahmen: \
+Satzvollendungen oder Nachformulierungen). \
+
+### Thematische Verknüpfung von Gesprächsschritten
+
+Formen der Themenentfaltung unterscheiden: \
+a)	deskriptive (beschreibende) Themenentfaltung, \
+b)	narrative (erzählende) Themenentfaltung, \
+c)	explikative (erklärende) Themenentfaltung, \
+d)	argumentative (begründende) Themenentfaltung, \
+e)	assoziative (frei verbindende) Themenentfaltung. \
+ 

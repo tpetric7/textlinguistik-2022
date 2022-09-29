@@ -25,9 +25,10 @@ book:
       chapters: 
         - distanzsprache.qmd
         - textmuster.qmd
-        - textkonstellation.qmd
-        - textfunktionen.qmd
         - textklassen.qmd
+        - textstruktur.qmd
+        - textfunktionen.qmd
+        - textkonstellation.qmd
     - summary.qmd
     - references.qmd
   page-navigation: true
@@ -69,6 +70,7 @@ format:
       light: flatly
       dark: darkly
     css: [style.css, TMwR.css]
+    scss: [colors.scss]
     # scss: [r4ds.scss]
     # page-layout: full
     toc: true

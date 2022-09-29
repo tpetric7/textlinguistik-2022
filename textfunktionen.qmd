@@ -1,5 +1,213 @@
 # Textfunktionen
 
-## Sprechhandlungen
+```{r out.width="100%"}
+#| fig-link: <https://www.zukunftsinstitut.de/artikel/fuenf-thesen-zur-zukunft-der-arbeit/>
+knitr::include_graphics("pictures/04_flickr_JH_Hancock_cc__by.jpg")
+```
 
-Sprechaktklassifizierungen als Grundlage für Textfunktionen. 
+## Was Textfunktionen sind
+
+*Textfunktionen*: *textextern*, betreffen: die *textinterne* Ebene
+
+*Ausgangspunkt*: Sprechakttheorie/Sprachhandlungen sind Grundlage der Kommunikation
+
+**Illokution** als wichtigster Teilakt – gibt Hinweise, wie die Proposition aufzufassen ist, bezeichnet die kommunikative Funktion der Sprechhandlung, „legt den Handlungscharakter einer Äußerung fest“ (BRINKER)
+
+*Illokutionsindikatoren*, performative Verben
+
+*Textfunktion*: bestimmt den „Kommunikationsmodus des Textes“ (Brinker, 101)
+
+:::rmdnote
+„Der Terminus **Textfunktion** bezeichnet die im Text mit bestimmten, konventionell geltenden, d.h. in der Kommunikationsgemeinschaft verbindlich festgelegten Mitteln ausgedrückte Kommunikationsabsicht des Emittenten. Es handelt sich also um die Absicht des Emittenten, die der Rezipient erkennen soll, sozusagen um die Anweisung (Instruktion) des Emittenten an den Rezipienten, als was dieser den Text insgesamt auffassen soll, z. B. als informativen oder als appellativen Text.“ (Brinker 2001, S. 95) 
+:::
+
+## Indikatoren der Textfunktion
+
+:::rmdnote
+Die Textfunktion wird durch bestimmte *innertextliche* (sprachliche) und *außertextliche* (kontextuelle) Mittel angezeigt -->> **Indikatoren der Textfunktion** Brinker, 104 ff.
+:::
+
+Drei **Grundtypen**: 
+- Typ 1 signalisiert die **Art des intendierten kommunikativen Kontakts** –- explizit performative Formeln, Satzmuster, „**direkte**” Signalisierung der Textfunkton \
+- Typ 2 signalisiert die **Einstellung** des Emittenten zu Textinhalt und Textthema – Wahrheit und *Wahrscheinlichkeit* des Textinhalts, Sicherheitsgrad seines Wissens ... Wertung, Interesse, psychische Haltung – „*Thematische* Einstellung“. Wichtig ist auch die *evaluative* Einstellung. \
+- Typ 3 sind **Kontextuelle Indikatoren**, *situativer* u. insbesondere *institutioneller* Rahmen des Textes, gesellschaftlicher *Handlungsbereich*, *Hintergrundwissen* usw. – ausschlaggebend, wenn die TF durch 1. und 2. nicht ermittelt werden kann, dann geben Kontextindikatoren darüber Aufschluss. \
+
+
+## Klassifikationsansätze
+
+Fast alle Ansätze gehen auf **BÜHLERS Organon-Modell** zurück.
+
+*Sprache als Werkzeug*, mittels dessen der Emittent mit dem Rezipienten über Dinge in der Welt kommuniziert. \
+
+*Sprachliche Zeichen* fungieren gleichzeitig \
+- als „**Symbol**“ für Gegenstände und Sachverhalte in der Wirklichkeit (= *Darstellungsfunktion*), \
+- als „**Symptom**“ der Innerlichkeit des Emittenten (= *Ausdrucksfunktion*) \
+- und als „**Signal**“, indem sie an den Rezipienten appellieren (= *Appellfunktion*). \
+
+**Illokutionsklassen nach SEARLE**: \
+- Repräsentative (Assertive), \
+- Direktive, \
+- Kommissive, \
+- Expressive, \
+- Deklarative. \
+
+Repräsentative ≈ Darstellung, \
+Expressive ≈ Ausdruck, 
+Direktive ≈ Appell
+uneinheitliche Klassifikationskriterien. \
+
+
+## Exkurs: Sprechhandlungen
+
+Sprechaktklassifizierungen als Grundlage für Textfunktionen. Searles Sprechaktklassen. 
+
+
+## Brinkers Klassifikation der Textfunktionen
+
+*Kriterium*: **Art des kommunikativen Kontakts**, die der Emittent mit dem Text dem Rezipienten gegenüber zum Ausdruck bringt. (Ausgehend von *Searles Illokutionstypologie*, anstelle der Kategorien „Repräsentativ“ und „Expressiv“ werden „Informations-“ und „Kontaktfunktion“ eingeführt.)
+
+- Informationsfunktion \
+- Appellfunktion \
+- Obligationsfunktion \
+- Kontaktfunktion \
+- Deklarationsfunktion \
+
+### Informationsfunktion
+
+:::rmdnote
+Der Emittent gibt dem Rezipienten zu verstehen, dass er ihm ein **Wissen vermitteln**, ihn über etwas informieren will.
+:::
+
+- **Paraphrase**: Ich (der E.) informiere dich (den R.) über den Sachverhalt X (Textinhalt)
+
+- **Indikatoren**: *explizit performative Formeln* mit den Verben *informieren, melden, mitteilen, eröffnen, berichten, benachrichtigen, unterrichten* usw.
+
+- **Thematische Einstellung**: Sicherheitsgrad, Wahrscheinlichkeitswert ... \
+Beispiele: \
+Ich weiß /Mir ist bekannt, dass ... Es ist der Fall/es steht fest / es trifft (nicht) zu, dass ... Es ist wahrscheinlich / möglich / unwahrscheinlich, dass, ... 
+
+- *Einschränkung des Wissens* des Textemittenten – Angabe der Quelle, Modalverben, Modalwörter (offenbar, vermutlich ...) etc.
+
+>Textbeispiel:
+Die Initiative „Kein Atommüll in Würgassen“ will nach eigenen Angaben ermittelt haben, daß bei einem Betriebsunfall im Kernkraftwerk Würgassen (Weser) 14 Arbeiter mit Radioaktivität in Berührung gekommen sind. (aus: Hamburger Abendblatt vom 30.8.82)
+
+- **Textsorten** (TS): Nachricht, Meldung, Bericht, Beschreibung, Untersuchungsbefund, Sachbuch, Buchbesprechung ... \
+*Manchmal* verbunden mit Bewertung, „*evaluativer Einstellung*“ (*etw. gut/schlecht finden*). TS: Leserbrief, Gutachten, Rezension
+
+>Beispiel: 
+Eine sprachlich differenzierte Prosa bietet dieses (schludrig lektorierte) Buch nicht; es liefert jedoch etliche Informationen über einen bei uns fast unbekannten Kontinent. (DIE ZEIT vom 21.11.80)
+
+INFORMATION + negative Wertung + positive Wertung
+Neutralität durch ‚referierenden Konjunktiv‘
+
+*Wertung* von Nachrichten auch durch *Auswahl* und *Anordnung.*
+Verschiedene *Sichtweisen* / *Formulierungen* eines Ereignisses.
+
+
+### Appellfunktion
+
+:::rmdnote
+Der E. Gibt dem R. zu verstehen, dass er ihn dazu bewegen will, eine bestimmte Einstellung einer Sache gegenüber einzunehmen oder eine bestimmte Handlung zu vollziehen. (Meinungs-/Verhaltensbeeinflussung)
+:::
+
+- **Paraphrase**: Ich (der E.) fodere dich (den R.) auf, die Einstellung X zu übernehmen/die Handlung Y zu vollziehen.
+
+>Beispiel (Zeitungskommentar) \
+In dieser Zwischenphase … ist eine Kredithilfe für wirklich in ihrer Existenz gefährdete Landwirte eine vernünftige Lösung. Sie sollte jedoch bald doppelt wirksam werden. Denn auch hier gilt: Wer schnell gibt, gibt doppelt. (HA v. 28.7.76)
+
+*Politische Kommentare* appellieren sowohl an politisch interessierte Leser als auch an die politischen Akteure.
+
+- **Textsorten (TS)**: Werbeanzeige, Propagandatext, Kommentare in verschiedenen Medien, Arbeitsanleitung, Rezept, Gesetzestext, Gesuch, Antrag, Bittschrift, Predigt usw.
+
+- **Indikatoren**: \
+- **explizit performative Formeln** mit den Verben: *auffordern, anordnen, befehlen, bitten, raten, empflehlen, fragen, verlangen, fordern, beantragen, beauftragen …* \
+- **grammatische** Indikatoren:
+a) *Imperativsatz* (Nimm Vim!)
+b) *Infinitivkonstruktion* (Pflegen und pflegen lassen – Werbung für Nivea milk) \
+Häufig auch in Kochrezepten, Gebrauchsanweisung, Bedienungsanleitung. \
+Instruktion – besondere Variante der Appellfunktion (Veranlassen und Informieren; Wenn-dann-Relation; im Vordergrund steht das Interesse des Emittenten  an der Durchführung der in der Proposition bezeichneten Handlung)
+c) *Interrogativsatz* (TS: Fragebogen, Interview, Lehrbuch) \
+d) *Satzmuster* mit *sollen, müssen + Infintiv, haben + zu + Infinitiv, sein + zu + Infinitiv* u.a. in Textsorten: Gesetz, Verordnung ...
+
+- **Thematische Einstellung**: \
+a) **Normative** Einstellung und Einstellungen, die die *Interessen* (Bedürfnisse, Wünsche, Präferenzen) des Emittenten selbst bezeichnen, z.B. *Ich möchte, dass der Sachverhalt X realisiert wird; ich hätte gern, wenn ...; ich wünsche mir, dass ...; ich brauche die Sache X* usw. \
+b) **Evaluative** Einstellung. Der Emittent möchte, dass der Rezipienten seine  (positive oder negative) Bewertung des Sachverhalts übernimmt (und sich entsprechend verhält).
+
+Bei Werbetexten wird die Kaufaufforderung nur **selten in direkter Form** realisiert. Aufforderungen werden indirekt geäußert (indirekte Sprechakte), etwa durch Empfehlungen, Expertenmeinungen usw.
+
+
+### Obligationsfunktion
+
+:::rmdnote
+Der Emittent gibt den Rezipienten zu verstehen, dass er sich ihm gegenüber dazu verpflichtet eine bestimmte Handlung zu vollziehen.
+:::
+
+- **Textsorten** (TS): Vertrag, (schriftliche) Vereinbarung, Garantieschein, Gelübde, Gelöbnis, Diensteid, Angebot usw.
+
+- **Paraphrase**: Ich (der Emittent) verpflichte mich (dem Rezipienten gegenüber), die Handlung X zu tun.
+
+>Beispiel Vaterschaftsanerkenntnis:
+Demgemäß verpflichte ich mich, dem Kinde vom 15.6.1962 an bis auf weiteres eine monatliche Rente von 100 DM ... zu entrichten.
+
+Stark **institutionalisiert**, meist durch eine **direkte** Signalisierung der Textfunktion gekennzeichnetund zwar die **explizit performative** Verben: *sich verpflichten, schwören, übernehmen, sich bereit erklären, garantieren, sich verbürgen, wetten, anbieten* usw.
+
+- **Thematische Einstellung** *voluntativer* und *intentionaler* Art: *ich beabsichtige, habe vor, plane, werde, bin entschlossen* usw.
+Dadurch wird auch der Grad an Bereitschaft ausgedrückt.
+
+Nicht immer sind *Obligationensignale* vorhanden. Dann ergibt sich die Obligationsfunktion *aus* dem *thematischen Zusammenhang*, aus anderen innertextlichen Merkmalen (z.B.  *Überschriften*) und/oder dem Handlungs- und *Situationskontext*.
+
+>Beispiel Vertragstext \
+Sämtliche mit diesem Vertrag und seiner Durchführung verbundenen Kosten trägt der Käufer allein. Die Kosten für die Löschung etwa vorhandener, vom Käufer nicht übernommener Belastungen trägt jedoch der Verkäufer.
+
+
+### Kontaktfunktion
+
+:::rmdnote
+Der Emittent gibt den Rezipienten zu verstehen, dass es ihm um die personale Beziehung zu Rezipienten geht (insbesondere um die Herstellung und Erhaltung des persönlichen Kontakts).
+:::
+
+- **Textsorten** (TS): Brief, Kondolenzschreiben, Danksagung, Gratulationsschreiben, Leserbrief
+
+- **Performative Formeln**: *danken, um Entschuldigung bitten, beglückwünschen, gratulieren, sich beschweren, willkommen heißen, Beileid aussprechen, verfluchen* usw.
+
+- Häufig an *feste gesellschaftliche Anlässe* geknüpft, die den Ausdruck der **psychischen Einstellung** des Emittenten verlangen (*bedauern, entzückt sein, sich freuen* ...). Entscheidend ist nicht die Gefühlsäußerung als solche, sondern die Erfüllung einer *sozialen Erwartung* durch die Emittenten.
+
+>Beispiel Danksagung auf Briefkarte \
+Über die Glückwünsche und Aufmerksamkeiten zu unserer Verlobung haben wir uns sehr gefreut und danken Ihnen herzlich dafür.
+
+*performative Formeln* \
+*psychisch-emotionale Einstellung*
+
+**Partizipationstexte**: der Emittent bringt seine Anteilnahme mit den Rezipienten zum Ausdruck. Wenn sich die zugrunde liegenden Ereignisse wiederholen, werden sprachliche Formen benutzt, die einen formelhaften Charakter besitzen, zum Beispiel in *Kondolenzbriefen*.
+
+:::rmdrobot
+
+>Geschäftsbrief (Brinker 106)
+
+>Sehr geehrter Herr B., \
+wir danken Ihnen für den von uns erteilten Auftrag und sichern Ihnen die Fertigstellung der Arbeiten zum 30 d.M. verbindlich zu. \
+Mit freundlichen Grüßen \
+Fa. A. \
+Auftragsbestätigung mit Termingarantie \
+
+Kontakt- oder Obligationsfunktion?
+:::
+
+
+### Deklarationsfunktion
+
+:::rmdnote
+Der Emittent gibt den Rezipienten zu verstehen, dass der Text eine neue Realität schafft, dass die (erfolgreiche) Äußerung des Textes die Einführung eines bestimmten Faktums bedeutet.
+:::
+
+- **Textsorten** (TS): Testament, Ernennungsurkunde, Schuldspruch, Bevollmächtigung, Bescheinigung
+
+- Fast immer an **gesellschaftliche Institutionen** gebunden und **direkt** - durch feste, *ritualisierte* und **explizite Formeln** - ausgedrückt.
+
+- **Paraphrase**: Ich (der Emittent) bewirke hiermit, dass X als Y gilt.
+
+>Beispiel Testament \
+Ich setze meinen Bruder Franz S. zu meinem alleinigen Erben ein.
+
+- Als **Indikatoren** der Textfunktion dienen häufig auch *Überschriften*: Testament, Urkunde, Bescheinigung, Vollmacht usw.
+
