@@ -68,6 +68,113 @@ Im Rahmen der Freiburger Schule wurden aufgenommene Gesprächstexte transkribier
     Freiburg 
 
 
+## Textsorten in Engel (1988)
+
+Die Grammatik von Engel (1988) enthält auch einen textgrammatischen Teil, in dem unter anderem auch eine Textsortensystematik und zahlreiche Textsortenexemplare zu finden sind. Vorüberlegungen: \
+- *Ausdrucksform* des Textes sind von *außer- und vorsprachlichen* Gegebenheiten abhängig; genauer: \
+- jeder Text hat ein spezielles *Ziel* (Zu welchem Zweck?), \
+- zu jedem Text gibt es eine spezielle *Konstellation* (für wen, von wem, unter welchen Umständen?). \
+
+**Ziel und Konstellation** eines Textes --> legen seine **Textsorte** fest (d. h. die allgemeine Ausdrucksform dieses Textes mit). \
+
+Diese regelhaften Beziehungen sind in einer Grammatik zu behandeln: \
+- *Textproduzent* muss wissen, dass ihm Ziel und Konstellation \
+**Ausdrucksformen vorschreiben oder nahe legen**; \
+- *Textrezipient* sollte wissen, dass **aus Ausdrucksformen auf Ziel und Konstellation geschlossen** werden kann. \
+
+```{r out.width="100%"}
+#| fig-cap: "Einflussgrößen in Engels Textsortensystematik (1988)"
+knitr::include_graphics("pictures/Engels_Textsortensystematik.png")
+```
+
+Die wichtigsten **Globalziele** von Texten: \
+- **Informieren**: Teilnehmer übermittelt Inhalte, andere (in Sonderfällen: dieselben) übernehmen diese Inhalte und vermehren dadurch ihr Wissen. \
+- **Veranlassen**: Teilnehmer bemüht sich, seine(n) Partner zu (meist nichtsprachlichen) Handlungen zu bewegen. \
+- **Überzeugen**: Teilnehmer bemüht sich, einen oder mehrere Kommunikationspartner mit Hilfe von Argumenten zur Übernahme der eigenen Meinung zu bewegen. \
+- **Belehren**: Teilnehmer bemüht sich, seine(n) Partner dazu zu bringen, sich gewisse Fertigkeiten anzueignen (L2-Erwerb …). \
+- **Kontaktpflege**: dominiert bei zwanglosen Unterhaltungen, die in erster Linie der Herstellung und Aufrechterhaltung von persönlichen Kontakten dienen. \
+- **Emphase-Abbau**: Texte, in denen primär Empfindungen ausgedrückt und dadurch emphatische Spannungen abgebaut werden (Lyrik, Klagelitaneien, Schimpfereien usw). \
+
+**Globalziele sind vorsprachlich und textkonstitutiv**. 
+
+Diese sechs Globalziele nicht scharf gegeneinander abgrenzbar. Auch gibt es verschiedentlich **Implikationen**: z.B. \
+- Text, der informiert, veranlasst häufig zugleich zu bestimmten Handlungen (und dies oft auch beabsichtigt); \
+- Text, der überzeugen soll, muss meist erst Informationen liefern. 
+
+Für die Praxis: zu jedem Text ein **dominantes Globalziel** (neben subdominanten Zielen bzw. *Nebenzielen*) angeben. 
+
+*Globalziele* erinnern teilweise deutlich an bestimmte *Sprechakttypen*: z.B. \
+-Informieren erinnert an die „informativen“ Sprechakte,  \
+- Veranlassen an Aufforderungen.  \
+
+**Unterschiede** zwischen Globalzielen und Sprechakttypen: \
+- **Globalziele äußerungsübergreifend** (d. h. Globalziel eines Textes bestimmt nicht Typ jedes Sprechakts: z.B. emphatische Texte auch mit informativen und auffordernden Passagen). \
+- **Globalziele schrittübergreifend** (d. h. sie ändern sich nicht mit dem Sprecherwechsel und gelten für alle Teilnehmer, weil sie ein Charakte¬ristikum des ganzen Textes sind).
+
+Die *modifizierenden Ziele* in Engels Grammatik (eine offene Liste zur näheren Bestimmung der Texte) werden in anderen Klassifizierungen unter situativen oder anderen Gesichtspunkten eingeordnet. Es handelt sich entweder um Umstände der Kommunikation (z.B. abhängig vom Partner oder vom Kommunikationsort) bzw. um Faktoren, die nicht unbedingt der willentlichen Kontrolle des Textproduzenten unterliegen. 
+
+Während die Globalziele vorsprachliche Einflussgrößen darstellen, handelt es sich bei der **Textkonstellation** (ähnlich wie im Freiburger Redekonstellationsmodell) um Bündel von **außersprachliche** Einflussgrößen und Gegebenheiten. 
+
+**Textsortensystematik** in Engel (1988): \
+- Texte grundsätzlich *gemischttypisch* --> Textsortenzuordnung nach 
+*dominierenden Merkmalen*: z.B. Hauptziel (=Globalziel) und Nebenziele; *Sekundär*: Texte durch Textkonstellation charakterisiert (z.B. Gesprächstaktik (aktiv / passiv) und Öffentlichkeitsgrad). \
+
+- Grundlage der Textsortensystematik in Engel (1988): \
+(a) Hauptziel, \
+(b) Gesprächstaktik und \
+(c) Öffentlich¬keitsgrad 
+Daraus folgen --> *sechs Typen* mit mehreren Subtypen. 
+
+**Informieren** \
+Partner sind meist gleichmäßig aktiv:InformierenInformieren \
+Partner sind meist gleichmäßig aktiv: \
+-	öffentlich: Informationsgespräch, Interview, Talkshow, Ratespiel. \
+-	halböffentlich: Informationsgespräch, Interview, Beratungsgespräch. \
+-	individuell: Informationsgespräch, Beratungsgespräch, Telefongespräch mit infor¬mativem Inhalt. \
+
+aktiver Sprecher/Schreiber, passive Adressaten: \
+-	öffentlich: Telefonbuch, Einwohnerbuch, Kursbuch, Fahrplan, Lexikon, Wörter¬buch, Warenkatalog, Zeitungsnachricht, Jahresbericht, Hinweistafel, Hinweisschild, Kochrezept. \
+-	halböffentlich: Handbuch, Heimatbuch, Diplomarbeit, Referat, Bericht, Memoiren, Betriebsanleitung (s. auch „Veranlassen“), Montageanweisung (s. auch „Veranlassen“), Testament, Lebenslauf, selbständiger Diskussionsbei-trag, Gebrauchsanweisung, Zeugenaussage, Anmeldung (Einwohner-meldeamt, Hotel), Protokoll. \
+-	individuell: Bestätigung einer Bestellung, Lebenslauf, informativer Brief, Arztre¬zept, Quittung. \
+
+**Veranlassen** \
+aktiver Sprecher/Schreiber, meist passive Adressaten: \
+-	öffentlich:	Gesetzbuch, (Partei-)Programm, Koalitionsvereinbarung, Vermächtnis, Werbebroschüre, Verpflichtung (Erklärung), Werbean¬zeige, Gebotsschild, Verbotsschild, Kochrezept. \
+-	halböffentlich: Gesellschaftsvertrag, bestimmte Werbebroschüren und Werbeanzei¬gen, Betriebsanleitung ( Informieren), Montageanweisung ( Informieren), Vortrag, Predigt, Hausordnung, Bekanntma¬chung, Verpflichtung (Erklärung), dienstliche/betriebliche Anwei¬sung. \
+-	individuell:	Bewerbung, Bittschrift, Antrag, Bestellung, Verpflichtung (Erklä¬rung), dienstliche/betriebliche Anweisung, Rechnung, Mahnung. \
+
+Gleichmäßige Aktivität aller Partner  \
+-	nur individuell: Mietvertrag, Kaufvertrag. \
+
+**Überzeugen** \
+Partner meist gleichmäßig aktiv,  \
+-	beliebiger Öffentlichkeitsgrad: Diskussion, Streitgespräch. \
+aktiver Sprecher/Schreiber, meist passive Adressaten,  \
+-	beliebiger Öffentlichkeitsgrad: tendenziöses Buch, Plädoyer, Traktat, Streitschrift, Leitartikel, Kom¬mentar, Brief, Flugblatt, bestimmte Aufkleber. \
+
+**Belehren** \
+Partner sind meist gleichmäßig aktiv: \
+-	halböffentlich: Unterrichtsgespräch \
+-	individuell: Einzelunterricht (bei entsprechender Organisation) \
+
+aktive(r) Sprecher/Schreiber, meist passive Adressaten: \
+-	öffentlich: Liederbuch \
+-	halböffentlich: Lehrbuch, Lehrtext, autoritatives \ Unterrichtsgespräch, Gebetbuch \
+-	individuell: bestimmte Briefe \
+
+**Kontaktpflege** \
+Partner sind meist gleichmäßig aktiv: \
+-	öffentlich: Talkshow, Plauderei \
+-	individuell: bestimmte Telefongespräche, u. U. Briefwechsel  \
+
+aktiver Sprecher/Schreiber, meist passive Adressaten: \
+-	öffentlich: Roman, Novelle, Erzählung \
+-	individuell: bestimmte Briefe \
+
+**Emphase-Abbau** \
+lyrische Texte und Schimpfereien. \
+
+
 ## Spezifizierung textueller Merkmale
 
 -	**Mehrdimensionalität** von Texten als Ausgangspunkt für Klassifizierungen
@@ -152,7 +259,7 @@ an den Kommunikationszusammenhang gebunden, z.B.
 •Trägermedium
 
 
-## Textsortenkriterien
+## Textsortenkriterien (Heinemann 2001)
 
 **Kriterien** bei der Beschreibung/Analyse von **Textsorten** nach den bei W. *Heinemann 2001* genannten begriffsetablierenden Kategorien:
 
@@ -200,9 +307,52 @@ Diagramme u. Ä.? \
 **Textsortenbeschreibungen** sollten *alle relevanten Eigenschaften* der genannten Merkmale enthalten.
 
 
+## Situative Merkmalsachse als Basis
+
+Nach Diewald (1991) lassen sich aufgrund dreier situativer
+Merkmale, die laut Diewald den höchsten Rang in der Hierarchie der textsortenkonstituierenden Merkmale einnehmen, unter den acht theoretisch möglichen Textsorten die folgenden **Grundtextsorten** (nach Diewald 1991: 296, terminologisch modifiziert von T.P.)1 unterscheiden:
+
+```{r out.width="100%"}
+#| fig-cap: "Diewalds Grundtextsorten, Benennungen nach Petrič (1998)"
+knitr::include_graphics("pictures/Grundtextsorten_Diewald1991.png")
+```
+
+Die drei situativen Merkmale sind: \
+- dialogische oder monologische Verständigungsform [+/-d], \
+- mündliches oder schriftliches Medium [+/-m], \
+- vorhandener oder fehlender Hör- und Sichtkontakt [+/-f]. \
+
+Der mündliche Nahdialog ist die unmarkierte Grundtextsorte, da er das dialogische Prinzip der Sprache optimal verwirklicht und der ihm zugeordnete Situationstyp die grundlegende Äußerungsssituation darstellt. 
+
+Der schriftliche Fernmonolog ist die markierteste Grundtextsorte, denn er weicht in all seinen Merkmale von der grundlegenden Äußerungssituation ab.
+
+Die anderen Grundtextsorten bilden mit ihrer jeweiligen Merkmalskombination eine Skala von Übergängen von der unmarkierten zur markiertesten Grundtextsorte. 
+
+Diese fünf Grundtextsorten gehören zum Kernbestand der Textsorten und sind universal in Gesellschaften, die die Übermittlungstechniken Schrift und Telefon zur Verfügung haben. 
+
+Die Spezifikation der anderen Bereiche der Redekonstellation ergibt auf der Basis der Grundtextsorten weitere Differenzierungsmöglichkeiten. 
+
+Die situativen Merkmale sind deshalb als die hierachiehöchsten Merkmale anzusehen, weil sie direkten Einfluss auf bestimmte sprachliche Elemente des Textes haben, insbesondere das Subsystem der Deixis (welches sich daher für Textsortenklassifizierungen eignet). 
+
+Andere Merkmalsebenen (Handlungsbereich, Textfunktion, Redegegenstand) sind für eine umfassende Textsortenklassifikation unerlässlich, ihr Einfluss auf die sprachlichen Elemente des Textes ist jedoch indirekter und von den Merkmalsausprägungen der situativen Ebene abhängig. 
+
+Mit dem Begriff Handlungsbereich bezieht sich Diewald auf das soziale Umfeld jeglicher menschlicher Kommunikation. 
+
+Die Textfunktionen stellen universale Parameter der sprachlichen Kommunikation dar und somit in jedem Text notwendigerweise vorhanden. 
+
+Während Situation und Textfunktion bei einer Klassifikation auf einer Ebene stehen, so ist der Redegegenstand (das Thema) des Textes als Klassifikationskategorie untergeordnet. Das Thema kann jedoch in unterscheidlicher Weise mit dem außersprachlichen Kontext verschränkt (*Situations- oder Kontextverschränkung*). Dies beeinflusst, wie ein Thema im Text versprachlicht wird. Liegt das Thema außerhalb des außersprachlichen Kontexts, muss es explizit eingeführt und benant werden. Im anderen Fall genügt ein Verweis auf das Thema oder die Verwendung deiktischer Formen. Auf diese indirekte Weise gibt der Redegegenstand Aufschluss über die Situation und die damit vorliegende Grundtextsorte. 
+
+Diewalds Textsortenmatrix (1991: 330): \
+
+- Situation: +/-dialogisch, +/-face-to-face, +/-mündlich; \
+- Handlungsbereich: +/-privat, +/-soziale Nähe, +/-freies Rollenverhältnis, +/-freie Themenwahl; \
+- Textfunktion: Kontaktfunktion, Darstellungsfunktion, Appellfunktion; \
+- Redegegenstand: +/-Kontextverschränkung. \
+
+
 ## Illokution als Basiskriterium
 
-Rolf (1993) strebte eine Sortierung von Texten an, die konsequent nach einem Kriterien (die dominierende Illokution als Basiskriterium) vorgenommen wurde. 
+Rolf (1993) strebt eine Sortierung von Texten an, die sich konsequent nach einem Kriterien (die dominierende Illokution als Basiskriterium) richtet. 
 
 ```{r out.width="100%"}
 #| fig-cap: "Textklassenhierachie, Hartmut Lenk, Präsentation S. 32)"
@@ -253,6 +403,26 @@ Kriterien des **Handlungsbereichs**: \
 Sprechzeitpunkt (z. B. in Nachricht, Protokoll, Horoskop) (130) \
 "*lokale* Orientierung": "Relation zwischen Emittent bzw. Rezipient
 und Thema" (z. B. in Zeitungsannoncen und -kommentaren). \
+
+
+**Dimensionen oder Achsen von Texten** (--> Skalen) \
+1.	Deixis: lokal, temporal, personal, objektal, modal \
+
+2.	Textsorte: \
+
+a.	Textextern: \
+i.	Kom. Umstände: Situation (±dialogisch, ±face2face, ±mündlich), \
+ii.	Kom. Umstände: Handlungsbereich (±privat, ±soziale Nähe, ±freies Rollenverhältnis, ±freie Themenwahl), \
+iii.	Textfunktion (±Kontakt, ±Darstellung, ±Appell, …), \
+iv.	Kontextverschränkung Situation - Redegegenstand (Thema), \
+
+b.	Textintern: \
+i.	Lautlich-paraverbale (graphische) Ebene (Gesprächston, ±Handschrift) \
+ii.	Lexikalische Ebene (Wortwahl: Adjektive, Fachwortschatz, …),  \
+iii.	Satzbaumuster (Art und Häufigkeit: z.B. Thematisierung oder Deagentivierung mittels Passiv, Komprimierung mittels Nominalisierung, Partizipialkonstruktionen, …) <----> Sprechakte (Repräsentative, Direktive, Kommissive, Expressive, Deklarative), \
+iv.	Themenbindung und Themenverlauf (ein Thema festgelegt, Themenwechsel), \
+v.	Thema (Grundlage: Kohärenz) \
+vi.	Textstrukturmuster (Makrostrukturen, Mediostrukturen, Mikrostrukturen). \
 
  
 ## Vertextungsmuster 

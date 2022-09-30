@@ -7,11 +7,11 @@ book:
   # cover-image-alt: |
     # Textlinguistik - Einführung in Textmuster und Textsorten
   title: "Textlinguistik"
-  title-block-banner: true
-  title-block-banner-color: "darkgreen"
+  # title-block-banner: true
+  # title-block-banner-color: "darkgreen"
   subtitle: "Textmuster und Textsorten im Deutschen"
   author: "Teodor Petrič"
-  affiliation-title: Univerza v Mariboru<br>Universität Maribor
+  affiliation-title: "Univerza v Mariboru<br>Universität Maribor"
   date: "2022-09-26"
   chapters:
     - index.qmd
@@ -83,6 +83,8 @@ format:
     code-overflow: wrap
     number-sections: true
     number-depth: 5
+    callout-appearance: default
+    callout-icon: true
     citations-hover: true
     footnotes-hover: true
     fig-width: 8

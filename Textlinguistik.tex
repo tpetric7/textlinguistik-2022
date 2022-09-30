@@ -109,6 +109,22 @@
 \usepackage{makeidx}
 \makeindex
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \makeatother
 \makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
@@ -186,7 +202,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, breakable, enhanced, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -1768,6 +1784,183 @@ Institutu für deutsche Sprache (IDS) in Freiburg im Breisgau):
 \end{enumerate}
 \end{quote}
 
+\hypertarget{textsorten-in-engel-1988}{%
+\section{Textsorten in Engel (1988)}\label{textsorten-in-engel-1988}}
+
+Die Grammatik von Engel (1988) enthält auch einen textgrammatischen
+Teil, in dem unter anderem auch eine Textsortensystematik und zahlreiche
+Textsortenexemplare zu finden sind. Vorüberlegungen:\\
+- \emph{Ausdrucksform} des Textes sind von \emph{außer- und
+vorsprachlichen} Gegebenheiten abhängig; genauer:\\
+- jeder Text hat ein spezielles \emph{Ziel} (Zu welchem Zweck?),\\
+- zu jedem Text gibt es eine spezielle \emph{Konstellation} (für wen,
+von wem, unter welchen Umständen?).\\
+
+\textbf{Ziel und Konstellation} eines Textes --\textgreater{} legen
+seine \textbf{Textsorte} fest (d.~h. die allgemeine Ausdrucksform dieses
+Textes mit).\\
+
+Diese regelhaften Beziehungen sind in einer Grammatik zu behandeln:\\
+- \emph{Textproduzent} muss wissen, dass ihm Ziel und Konstellation\\
+\textbf{Ausdrucksformen vorschreiben oder nahe legen};\\
+- \emph{Textrezipient} sollte wissen, dass \textbf{aus Ausdrucksformen
+auf Ziel und Konstellation geschlossen} werden kann.\\
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/Engels_Textsortensystematik.png}
+
+}
+
+\caption{Einflussgrößen in Engels Textsortensystematik (1988)}
+
+\end{figure}
+
+Die wichtigsten \textbf{Globalziele} von Texten:\\
+- \textbf{Informieren}: Teilnehmer übermittelt Inhalte, andere (in
+Sonderfällen: dieselben) übernehmen diese Inhalte und vermehren dadurch
+ihr Wissen.\\
+- \textbf{Veranlassen}: Teilnehmer bemüht sich, seine(n) Partner zu
+(meist nichtsprachlichen) Handlungen zu bewegen.\\
+- \textbf{Überzeugen}: Teilnehmer bemüht sich, einen oder mehrere
+Kommunikationspartner mit Hilfe von Argumenten zur Übernahme der eigenen
+Meinung zu bewegen.\\
+- \textbf{Belehren}: Teilnehmer bemüht sich, seine(n) Partner dazu zu
+bringen, sich gewisse Fertigkeiten anzueignen (L2-Erwerb \ldots).\\
+- \textbf{Kontaktpflege}: dominiert bei zwanglosen Unterhaltungen, die
+in erster Linie der Herstellung und Aufrechterhaltung von persönlichen
+Kontakten dienen.\\
+- \textbf{Emphase-Abbau}: Texte, in denen primär Empfindungen
+ausgedrückt und dadurch emphatische Spannungen abgebaut werden (Lyrik,
+Klagelitaneien, Schimpfereien usw).\\
+
+\textbf{Globalziele sind vorsprachlich und textkonstitutiv}.
+
+Diese sechs Globalziele nicht scharf gegeneinander abgrenzbar. Auch gibt
+es verschiedentlich \textbf{Implikationen}: z.B.\\
+- Text, der informiert, veranlasst häufig zugleich zu bestimmten
+Handlungen (und dies oft auch beabsichtigt);\\
+- Text, der überzeugen soll, muss meist erst Informationen liefern.
+
+Für die Praxis: zu jedem Text ein \textbf{dominantes Globalziel} (neben
+subdominanten Zielen bzw. \emph{Nebenzielen}) angeben.
+
+\emph{Globalziele} erinnern teilweise deutlich an bestimmte
+\emph{Sprechakttypen}: z.B.\\
+-Informieren erinnert an die „informativen`` Sprechakte,\\
+- Veranlassen an Aufforderungen.\\
+
+\textbf{Unterschiede} zwischen Globalzielen und Sprechakttypen:\\
+- \textbf{Globalziele äußerungsübergreifend} (d.~h. Globalziel eines
+Textes bestimmt nicht Typ jedes Sprechakts: z.B. emphatische Texte auch
+mit informativen und auffordernden Passagen).\\
+- \textbf{Globalziele schrittübergreifend} (d.~h. sie ändern sich nicht
+mit dem Sprecherwechsel und gelten für alle Teilnehmer, weil sie ein
+Charakte¬ristikum des ganzen Textes sind).
+
+Die \emph{modifizierenden Ziele} in Engels Grammatik (eine offene Liste
+zur näheren Bestimmung der Texte) werden in anderen Klassifizierungen
+unter situativen oder anderen Gesichtspunkten eingeordnet. Es handelt
+sich entweder um Umstände der Kommunikation (z.B. abhängig vom Partner
+oder vom Kommunikationsort) bzw. um Faktoren, die nicht unbedingt der
+willentlichen Kontrolle des Textproduzenten unterliegen.
+
+Während die Globalziele vorsprachliche Einflussgrößen darstellen,
+handelt es sich bei der \textbf{Textkonstellation} (ähnlich wie im
+Freiburger Redekonstellationsmodell) um Bündel von
+\textbf{außersprachliche} Einflussgrößen und Gegebenheiten.
+
+\textbf{Textsortensystematik} in Engel (1988):\\
+- Texte grundsätzlich \emph{gemischttypisch} --\textgreater{}
+Textsortenzuordnung nach \emph{dominierenden Merkmalen}: z.B. Hauptziel
+(=Globalziel) und Nebenziele; \emph{Sekundär}: Texte durch
+Textkonstellation charakterisiert (z.B. Gesprächstaktik (aktiv / passiv)
+und Öffentlichkeitsgrad).\\
+
+\begin{itemize}
+\tightlist
+\item
+  Grundlage der Textsortensystematik in Engel (1988):\\
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\tightlist
+\item
+  Hauptziel,\\
+\item
+  Gesprächstaktik und\\
+\item
+  Öffentlich¬keitsgrad Daraus folgen --\textgreater{} \emph{sechs Typen}
+  mit mehreren Subtypen.
+\end{enumerate}
+
+\textbf{Informieren}\\
+Partner sind meist gleichmäßig aktiv:InformierenInformieren\\
+Partner sind meist gleichmäßig aktiv:\\
+- öffentlich: Informationsgespräch, Interview, Talkshow, Ratespiel.\\
+- halböffentlich: Informationsgespräch, Interview, Beratungsgespräch.\\
+- individuell: Informationsgespräch, Beratungsgespräch, Telefongespräch
+mit infor¬mativem Inhalt.\\
+
+aktiver Sprecher/Schreiber, passive Adressaten:\\
+- öffentlich: Telefonbuch, Einwohnerbuch, Kursbuch, Fahrplan, Lexikon,
+Wörter¬buch, Warenkatalog, Zeitungsnachricht, Jahresbericht,
+Hinweistafel, Hinweisschild, Kochrezept.\\
+- halböffentlich: Handbuch, Heimatbuch, Diplomarbeit, Referat, Bericht,
+Memoiren, Betriebsanleitung (s. auch „Veranlassen``), Montageanweisung
+(s. auch „Veranlassen``), Testament, Lebenslauf, selbständiger
+Diskussionsbei-trag, Gebrauchsanweisung, Zeugenaussage, Anmeldung
+(Einwohner-meldeamt, Hotel), Protokoll.\\
+- individuell: Bestätigung einer Bestellung, Lebenslauf, informativer
+Brief, Arztre¬zept, Quittung.\\
+
+\textbf{Veranlassen}\\
+aktiver Sprecher/Schreiber, meist passive Adressaten:\\
+- öffentlich: Gesetzbuch, (Partei-)Programm, Koalitionsvereinbarung,
+Vermächtnis, Werbebroschüre, Verpflichtung (Erklärung), Werbean¬zeige,
+Gebotsschild, Verbotsschild, Kochrezept.\\
+- halböffentlich: Gesellschaftsvertrag, bestimmte Werbebroschüren und
+Werbeanzei¬gen, Betriebsanleitung ( Informieren), Montageanweisung (
+Informieren), Vortrag, Predigt, Hausordnung, Bekanntma¬chung,
+Verpflichtung (Erklärung), dienstliche/betriebliche Anwei¬sung.\\
+- individuell: Bewerbung, Bittschrift, Antrag, Bestellung, Verpflichtung
+(Erklä¬rung), dienstliche/betriebliche Anweisung, Rechnung, Mahnung.\\
+
+Gleichmäßige Aktivität aller Partner\\
+- nur individuell: Mietvertrag, Kaufvertrag.\\
+
+\textbf{Überzeugen}\\
+Partner meist gleichmäßig aktiv,\\
+- beliebiger Öffentlichkeitsgrad: Diskussion, Streitgespräch.\\
+aktiver Sprecher/Schreiber, meist passive Adressaten,\\
+- beliebiger Öffentlichkeitsgrad: tendenziöses Buch, Plädoyer, Traktat,
+Streitschrift, Leitartikel, Kom¬mentar, Brief, Flugblatt, bestimmte
+Aufkleber.\\
+
+\textbf{Belehren}\\
+Partner sind meist gleichmäßig aktiv:\\
+- halböffentlich: Unterrichtsgespräch\\
+- individuell: Einzelunterricht (bei entsprechender Organisation)\\
+
+aktive(r) Sprecher/Schreiber, meist passive Adressaten:\\
+- öffentlich: Liederbuch\\
+- halböffentlich: Lehrbuch, Lehrtext, autoritatives
+~Unterrichtsgespräch, Gebetbuch\\
+- individuell: bestimmte Briefe\\
+
+\textbf{Kontaktpflege}\\
+Partner sind meist gleichmäßig aktiv:\\
+- öffentlich: Talkshow, Plauderei\\
+- individuell: bestimmte Telefongespräche, u. U. Briefwechsel\\
+
+aktiver Sprecher/Schreiber, meist passive Adressaten:\\
+- öffentlich: Roman, Novelle, Erzählung\\
+- individuell: bestimmte Briefe\\
+
+\textbf{Emphase-Abbau}\\
+lyrische Texte und Schimpfereien.\\
+
 \hypertarget{spezifizierung-textueller-merkmale}{%
 \section{Spezifizierung textueller
 Merkmale}\label{spezifizierung-textueller-merkmale}}
@@ -1929,8 +2122,9 @@ z.B. z.B.\\
 \textbf{textEXtern} an den Kommunikationszusammenhang gebunden, z.B.
 •Textfunktion •Trägermedium
 
-\hypertarget{textsortenkriterien}{%
-\section{Textsortenkriterien}\label{textsortenkriterien}}
+\hypertarget{textsortenkriterien-heinemann-2001}{%
+\section{Textsortenkriterien (Heinemann
+2001)}\label{textsortenkriterien-heinemann-2001}}
 
 \textbf{Kriterien} bei der Beschreibung/Analyse von \textbf{Textsorten}
 nach den bei W. \emph{Heinemann 2001} genannten begriffsetablierenden
@@ -2054,13 +2248,102 @@ Kategorien:
 \textbf{Textsortenbeschreibungen} sollten \emph{alle relevanten
 Eigenschaften} der genannten Merkmale enthalten.
 
+\hypertarget{situative-merkmalsachse-als-basis}{%
+\section{Situative Merkmalsachse als
+Basis}\label{situative-merkmalsachse-als-basis}}
+
+Nach Diewald (1991) lassen sich aufgrund dreier situativer Merkmale, die
+laut Diewald den höchsten Rang in der Hierarchie der
+textsortenkonstituierenden Merkmale einnehmen, unter den acht
+theoretisch möglichen Textsorten die folgenden \textbf{Grundtextsorten}
+(nach Diewald 1991: 296, terminologisch modifiziert von T.P.)1
+unterscheiden:
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/Grundtextsorten_Diewald1991.png}
+
+}
+
+\caption{Diewalds Grundtextsorten, Benennungen nach Petrič (1998)}
+
+\end{figure}
+
+Die drei situativen Merkmale sind:\\
+- dialogische oder monologische Verständigungsform {[}+/-d{]},\\
+- mündliches oder schriftliches Medium {[}+/-m{]},\\
+- vorhandener oder fehlender Hör- und Sichtkontakt {[}+/-f{]}.\\
+
+Der mündliche Nahdialog ist die unmarkierte Grundtextsorte, da er das
+dialogische Prinzip der Sprache optimal verwirklicht und der ihm
+zugeordnete Situationstyp die grundlegende Äußerungsssituation
+darstellt.
+
+Der schriftliche Fernmonolog ist die markierteste Grundtextsorte, denn
+er weicht in all seinen Merkmale von der grundlegenden
+Äußerungssituation ab.
+
+Die anderen Grundtextsorten bilden mit ihrer jeweiligen
+Merkmalskombination eine Skala von Übergängen von der unmarkierten zur
+markiertesten Grundtextsorte.
+
+Diese fünf Grundtextsorten gehören zum Kernbestand der Textsorten und
+sind universal in Gesellschaften, die die Übermittlungstechniken Schrift
+und Telefon zur Verfügung haben.
+
+Die Spezifikation der anderen Bereiche der Redekonstellation ergibt auf
+der Basis der Grundtextsorten weitere Differenzierungsmöglichkeiten.
+
+Die situativen Merkmale sind deshalb als die hierachiehöchsten Merkmale
+anzusehen, weil sie direkten Einfluss auf bestimmte sprachliche Elemente
+des Textes haben, insbesondere das Subsystem der Deixis (welches sich
+daher für Textsortenklassifizierungen eignet).
+
+Andere Merkmalsebenen (Handlungsbereich, Textfunktion, Redegegenstand)
+sind für eine umfassende Textsortenklassifikation unerlässlich, ihr
+Einfluss auf die sprachlichen Elemente des Textes ist jedoch indirekter
+und von den Merkmalsausprägungen der situativen Ebene abhängig.
+
+Mit dem Begriff Handlungsbereich bezieht sich Diewald auf das soziale
+Umfeld jeglicher menschlicher Kommunikation.
+
+Die Textfunktionen stellen universale Parameter der sprachlichen
+Kommunikation dar und somit in jedem Text notwendigerweise vorhanden.
+
+Während Situation und Textfunktion bei einer Klassifikation auf einer
+Ebene stehen, so ist der Redegegenstand (das Thema) des Textes als
+Klassifikationskategorie untergeordnet. Das Thema kann jedoch in
+unterscheidlicher Weise mit dem außersprachlichen Kontext verschränkt
+(\emph{Situations- oder Kontextverschränkung}). Dies beeinflusst, wie
+ein Thema im Text versprachlicht wird. Liegt das Thema außerhalb des
+außersprachlichen Kontexts, muss es explizit eingeführt und benant
+werden. Im anderen Fall genügt ein Verweis auf das Thema oder die
+Verwendung deiktischer Formen. Auf diese indirekte Weise gibt der
+Redegegenstand Aufschluss über die Situation und die damit vorliegende
+Grundtextsorte.
+
+Diewalds Textsortenmatrix (1991: 330):\\
+
+\begin{itemize}
+\tightlist
+\item
+  Situation: +/-dialogisch, +/-face-to-face, +/-mündlich;\\
+\item
+  Handlungsbereich: +/-privat, +/-soziale Nähe, +/-freies
+  Rollenverhältnis, +/-freie Themenwahl;\\
+\item
+  Textfunktion: Kontaktfunktion, Darstellungsfunktion, Appellfunktion;\\
+\item
+  Redegegenstand: +/-Kontextverschränkung.\\
+\end{itemize}
+
 \hypertarget{illokution-als-basiskriterium}{%
 \section{Illokution als
 Basiskriterium}\label{illokution-als-basiskriterium}}
 
-Rolf (1993) strebte eine Sortierung von Texten an, die konsequent nach
-einem Kriterien (die dominierende Illokution als Basiskriterium)
-vorgenommen wurde.
+Rolf (1993) strebt eine Sortierung von Texten an, die sich konsequent
+nach einem Kriterien (die dominierende Illokution als Basiskriterium)
+richtet.
 
 \begin{figure}
 
@@ -2133,6 +2416,71 @@ relativ zum Sprechzeitpunkt (z. B. in Nachricht, Protokoll, Horoskop)
 (130)\\
 ``\emph{lokale} Orientierung'': ``Relation zwischen Emittent bzw.
 Rezipient und Thema'' (z. B. in Zeitungsannoncen und -kommentaren).\\
+
+\textbf{Dimensionen oder Achsen von Texten} (--\textgreater{} Skalen)\\
+1. Deixis: lokal, temporal, personal, objektal, modal\\
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Textsorte:\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Textextern:\\
+\item
+  Kom. Umstände: Situation (±dialogisch, ±face2face, ±mündlich),\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Kom. Umstände: Handlungsbereich (±privat, ±soziale Nähe, ±freies
+  Rollenverhältnis, ±freie Themenwahl),\\
+\item
+  Textfunktion (±Kontakt, ±Darstellung, ±Appell, \ldots),\\
+\item
+  Kontextverschränkung Situation - Redegegenstand (Thema),\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Textintern:\\
+\item
+  Lautlich-paraverbale (graphische) Ebene (Gesprächston, ±Handschrift)\\
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Lexikalische Ebene (Wortwahl: Adjektive, Fachwortschatz, \ldots),\\
+\item
+  Satzbaumuster (Art und Häufigkeit: z.B. Thematisierung oder
+  Deagentivierung mittels Passiv, Komprimierung mittels Nominalisierung,
+  Partizipialkonstruktionen, \ldots) \textless----\textgreater{}
+  Sprechakte (Repräsentative, Direktive, Kommissive, Expressive,
+  Deklarative),\\
+\item
+  Themenbindung und Themenverlauf (ein Thema festgelegt,
+  Themenwechsel),\\
+\item
+  Thema (Grundlage: Kohärenz)\\
+\item
+  Textstrukturmuster (Makrostrukturen, Mediostrukturen,
+  Mikrostrukturen).\\
+\end{enumerate}
 
 \hypertarget{vertextungsmuster}{%
 \section{Vertextungsmuster}\label{vertextungsmuster}}
@@ -2531,8 +2879,8 @@ b) zusätzlich möglich: ~erhöhte Lautstärke (weniger höflich).\\
 \hypertarget{sprecherwechsel}{%
 \subsection{Sprecherwechsel}\label{sprecherwechsel}}
 
-\textbf{Sprecherwechsel} (nach Henne/Rehbock 21982:
-\textbackslash190-197) unter \emph{zwei Aspekten} klassifiziert:\\
+\textbf{Sprecherwechsel} (nach Henne/Rehbock 21982: 190-197) unter
+\emph{zwei Aspekten} klassifiziert:\\
 a) nach der \textbf{Art ihres Zustandekommens} (vgl. oben
 Selbstwahl/Selbstzuweisung und Fremdzuweisung mit den drei Arten der
 Schrittübergabe) und\\
@@ -2571,8 +2919,8 @@ gesprächsanalytischen Vorgehens.
 \subsection{Klassifikation von
 Gesprächsschritten}\label{klassifikation-von-gespruxe4chsschritten}}
 
-Nach Brinker 1989: \textbackslash69-72 in Dialogen prinzipiell
-initiierende und respondierende (reaktiven, reagierenden) Schritten.\\
+Nach Brinker 1989: 69-72 in Dialogen prinzipiell initiierende und
+respondierende (reaktiven, reagierenden) Schritten.\\
 
 Grob gesehen gibt es \textbf{drei Grundmöglichkeiten}, auf einen
 initiierenden Schritt zu reagieren:\\
@@ -2618,6 +2966,9 @@ c) explikative (erklärende) Themenentfaltung,\\
 d) argumentative (begründende) Themenentfaltung,\\
 e) assoziative (frei verbindende) Themenentfaltung.\\
 
+Die thematische Entfaltung des Textes wird eingehender im Zusammenhang
+mit Brinkers Textfunktionen besprochen.
+
 \hypertarget{textfunktionen}{%
 \chapter{Textfunktionen}\label{textfunktionen}}
 
@@ -2631,8 +2982,9 @@ e) assoziative (frei verbindende) Themenentfaltung.\\
 
 \end{figure}
 
-\hypertarget{was-textfunktionen-sind}{%
-\section{Was Textfunktionen sind}\label{was-textfunktionen-sind}}
+\hypertarget{brinkers-textfunktionsbegriff}{%
+\section{Brinkers
+Textfunktionsbegriff}\label{brinkers-textfunktionsbegriff}}
 
 \emph{Textfunktionen}: \emph{textextern}, betreffen: die
 \emph{textinterne} Ebene
@@ -2657,7 +3009,7 @@ Kommunikationsabsicht des Emittenten. Es handelt sich also um die
 Absicht des Emittenten, die der Rezipient erkennen soll, sozusagen um
 die Anweisung (Instruktion) des Emittenten an den Rezipienten, als was
 dieser den Text insgesamt auffassen soll, z. B. als informativen oder
-als appellativen Text.`` (Brinker 2001, S.~95)
+als appellativen Text.`` (Brinker 2001: 95)
 
 \hypertarget{indikatoren-der-textfunktion}{%
 \section{Indikatoren der
@@ -2668,9 +3020,10 @@ Die Textfunktion wird durch bestimmte \emph{innertextliche}
 --\textgreater\textgreater{} \textbf{Indikatoren der Textfunktion}
 Brinker, 104 ff.
 
-Drei \textbf{Grundtypen}: - Typ 1 signalisiert die \textbf{Art des
-intendierten kommunikativen Kontakts} --- explizit performative Formeln,
-Satzmuster, „\textbf{direkte}'' Signalisierung der Textfunkton\\
+Drei \textbf{Grundtypen}:\\
+- Typ 1 signalisiert die \textbf{Art des intendierten kommunikativen
+Kontakts} --- explizit performative Formeln, Satzmuster,
+„\textbf{direkte}'' Signalisierung der Textfunkton\\
 - Typ 2 signalisiert die \textbf{Einstellung} des Emittenten zu
 Textinhalt und Textthema -- Wahrheit und \emph{Wahrscheinlichkeit} des
 Textinhalts, Sicherheitsgrad seines Wissens \ldots{} Wertung, Interesse,
@@ -3016,28 +3369,376 @@ Ich setze meinen Bruder Franz S. zu meinem alleinigen Erben ein.
   usw.
 \end{itemize}
 
-\hypertarget{textkonstellation}{%
-\chapter{Textkonstellation}\label{textkonstellation}}
+\hypertarget{redegegenstand-thema}{%
+\section{Redegegenstand (Thema)}\label{redegegenstand-thema}}
 
-\hypertarget{kommunikative-umstuxe4nde}{%
-\section{Kommunikative Umstände}\label{kommunikative-umstuxe4nde}}
+\textbf{Thema als Kern des Textinhalts}:
 
-Situative Achse (Kommunikationsort, -zeit, \ldots)
+\emph{Textinhalt}: bezogen auf ``Gegenstände'': Person(en),
+Sachverhalt(e), Ereignis(se), Handlung(en), Vorstellung(en) \ldots{}
 
-\hypertarget{teilnehmer}{%
-\section{Teilnehmer}\label{teilnehmer}}
+\emph{Textthema}: größtmögliche Kurzfassung des Textinhalts
 
-soziales Verhältnis der Teilnehmer redetaktisches Verhalten der
-Teilnehmer
+\textbf{Intention} -- kommunikative Absicht, die der Produzent mit
+seinem Text nach Meinung des Rezipienten verfolgt
+
+\textbf{Erschließung des Textthemas}:
+
+\emph{Wiederaufnahmeprinzip} -- zentrale Textgegenstände werden im Text
+wiederholt aufgerufen\\
+- Die meisten Texte enthalten mehrere Themen: Themenhierarchie →
+Differenzierung zwischen Hauptthema und Nebenthemen
+
+\emph{Ableitbarkeitsprinzip}\\
+Hauptthema: jenes, aus dem sich die übrigen Themen am überzeugendsten
+``ableiten'' lassen
+
+\emph{Kompatibilitätsprinzip}\\
+Thema und kommunikative Funktion des Textes bedingen sich gegenseitig.
+Hauptthema: jenes, das sich am besten mit der Textfunkton verträgt.
+
+Beispieltext 1: Zimmer ausgebrannt
+
+Aachen. -- (1) Gegen 15 Uhr wurde gestern die Aachener Berufsfeuerwehr
+alarmiert. (2) Sie rückte in die Thomashofstraße aus, wo es in einer
+Wohnung brannte. (3) Die Feuerwehrleute löschten mit drei C-Rohren. (4)
+Oberbrandrat Starke war ebenfalls am Einsatzort. (5) Zwei Zimmer
+brannten vollkommen aus. (6) Drei weitere wurden ebenfalls in
+Mitleidenschaft gezogen. (7) Die Ursache des Brandes ist noch nicht
+bekannt. (8) Die Kripo hat sich inzwischen eingeschaltet. (9) Die
+Feuerwehleut mußten aus dem oberen Geschoß ein Kleinkind retten. (10)
+Während des Brandes befand sich niemand in der heimgesuchten Wohnung.\\
+{[}Aachener Nachrichten, 17.2.1973{]}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Zentrale Textgegenstände}: a. Feuerwehr, b. Wohnung\\
+\item
+  \emph{Wiederaufnahmen}:
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  die Aachener Berufsfeuerwehr, sie, die Feuerwehrleute, Oberbrandrat
+  Starke, die Feuerwehrleute
+\item
+  In einer Wohnung, zwei Zimmer, drei weitere, in der heimgesuchten
+  Wohnung → Feuerwehreinsatz, Wohnungsbrand\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Textfunktion}: informativ
+\item
+  \emph{Textsorte}: Zeitungsnachricht
+\item
+  Gesamttext unter `Wohnungsbrand' subsumierbar, jedoch nur teilweise
+  unter `Feuerwehreinsatz'. → \emph{Ableitungsprinzip} \emph{Kompatibel
+  zur Textsorte} (TS): `Wohnungsbrand' als räumlich und zeitlich
+  situiertes Ereignis.
+\end{itemize}
+
+Beispieltext 2: Pflegen und pflegen lassen\\
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\tightlist
+\item
+  Lassen Sie sich pflegen und pflegen Sie zurück. (2) Das macht nicht
+  nur Spaß, es ist auch gut für die Haut.\\
+\item
+  Für die Hautpflege am ganzen Körper gibt es nichts Besseres als Nivea
+  milk. (4) Denn sie enthält alles, was die Haut braucht, um glatt,
+  geschmeidig und jung zu bleiben.\\
+\item
+  Nivea milk hat einen dezenten, angenehm frischen Duft. (6) Sie läßt
+  sich leicht verteilen: sanftes Streicheln genügt. (7) Und sie zieht
+  schnell ein, ohne Fettglanz zu hinterlassen.\\
+\item
+  Machen Sie den nächsten Badetag zum Pflegetag. (9) Baden Sie sich und
+  Ihre Familie nicht nur mit Wasser und Seife. (10) Sondern pflegen Sie
+  sich anschließend auch mit Nivea milk.\\
+  {[}Für Sie, Juni 1972{]}
+\end{enumerate}
+
+\emph{Textfunktion}: Aufforderung, Empfehlung, teilweise argumentativ
+\emph{Thema} (These) \emph{1} -- Für die Hautpflege gibt es nichts
+Besseres als Nivea milk. \emph{Thema} (These) \emph{2} -- Hautpflege mit
+Nivea milk macht Spaß. T1 und T2 kopulativ verbunden Thematischer
+\emph{Schlüsselbegriff}: `Pflege' \emph{T1} ist her \emph{kompatibel}
+mit der \emph{Textfunktion} Pragmatisch ist \emph{T2 wichtiger} (für den
+Rezipienten)
+
+\hypertarget{thematische-entfaltung}{%
+\subsection{Thematische Entfaltung}\label{thematische-entfaltung}}
+
+Thematische Entfaltung = gedankliche Ausführung des Themas, wird durch
+situative und andere kommunikative Faktoren gesteuert.
+
+Verknüpfung bzw. Kombination relationaler, logisch-semantisch
+definierter Kategorien, die die internen Beziehungen der in den
+einzelnen Textteilen ausgedrückten Teilinhalte bzw. Teilthemen zum
+thematischen Kern des Textes angeben.
+
+\emph{Analyse}: 1. Inhalt (in Form von Wortgruppe oder Aussagesatz) 2.
+logisch-semantische Relationen / kategoriale Bezeichnung T1 =
+Wohnungsbrand Teilthemen: Bekämpfung / Folgen / Ursachen
+
+Werbeanzeige: Themen (Haupt- und Nebenthema) sind anders angeordnet und
+entfaltet als in der Zeitungsnachricht.
+
+Hauptthema (HT) wird erwartungsgemäß begründet.
+
+Nebenthema (NT) wird sprachlich und nicht-sprachlich (Abbildung)
+verdeutlicht.
+
+HT und NT sind nicht logisch miteinander verbunden.
+
+\textbf{Grundformen der thematischen Entfaltung}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/Thematische_Entfaltung.png}
+
+}
+
+\caption{Thematische Entfaltungsweisen}
+
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  deskriptiv (beschreibend)\\
+\item
+  narrativ (erzählend)\\
+\item
+  explikativ (erklärend)\\
+\item
+  argumentativ (begründend)\\
+\end{itemize}
+
+Gehören zum Alltagswissen der Sprachteilhaber.
+
+Für jede von ihnen sind bestimmte semantisch-thematische Kategorien bzw.
+Verbindungen von Kategorien charakteristisch.
+
+\hypertarget{deskriptive-themenentfaltung}{%
+\subsubsection{Deskriptive
+Themenentfaltung}\label{deskriptive-themenentfaltung}}
+
+Thema wird in seinen Komponenten (Teilthemen) dargestellt und in Raum
+und Zeit eingeordnet. Thematische Kategorien: Spezifizierung
+(Aufgliederung) und Situierung (Einordnung) Varianten: a. (Berichten) -
+einmaliger Vorgang, historisches Ereignis `Was', `wer', `wo', `wann',
+`wie' \ldots{} (`warum', `Folgen') Vergangenheitstempora, Temporal- und
+Lokalbestimmungen TS -- Nachricht, Bericht b. (Beschreiben) - regelhaft
+(generalisierbar, wiederholbar) dargestellter Vorgang: Teilvorgänge,
+zeitliches Nacheinander; Handlungsverben, absoluter Infinitiv
+(Anweisung, austauschbar durch VP); durchgehende Wiederaufnahmestruktur
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  (Beschreiben) das Thema bezeichnet ein Lebewesen oder einen
+  Gegenstand, z. B. Lexikonartikel Durchgehende Wiederaufnahme
+  Teil-Ganzes oder Enthaltenseins-Relation Elefant: Merkmale,
+  quantitative Angaben Evtl. Situierung, Spezifizierung, Zweck etc.
+  Typische Textsorten: Nachricht, Bericht, Lexikonartike,
+  wissenschaftliche Abhandlungen ← informative Texte --\textgreater{}
+  Bedienungsanleitung, Kochrezept, Gebrauchsanweisung ← instruktive
+  Texte Testament, Vertrag, Gesetz, Vereinbarung ← normative Texte
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/Themenentfaltung_deskriptive.png}
+
+}
+
+\caption{Deskriptive thematische Entfaltung}
+
+\end{figure}
+
+\hypertarget{narrative-themenentfaltung}{%
+\subsubsection{Narrative
+Themenentfaltung}\label{narrative-themenentfaltung}}
+
+knüpft an das von Labov und Waletzky entwickelte Modell zur Analyse von
+narrativen Strukturen in Alltagserzählungen an; Erzählen: ``verbale
+Technik der Erfahrungsrekapitulation (\ldots), in besonderen als die
+Technik der Konstruktion narrativer Einheiten, die der temporalen
+Abfolge der entsprechenden Erfahrung entsprechen''. Gliederung der
+Erzählung nach thematischen Kategorien: Orientierung (Personen, Zeit,
+Ort) Komplikation (Darstellung eines ungewöhnlichen Ereignisses)
+Evaluation (Bewertungen, Stellungnahmen, Einschätzungen des Erz.)
+Resolution (Auflösung der Komplikation -- positiv / negativ) Coda
+(Stellungnahme des Erz. vom Erzählzeitpunkt aus; fakultativ)
+
+Kriterien: Thema von Erzählungen wird durch ein abgeschlossenes,
+singuläres Ereignis repräsentiert. Interessantheitskriterien,
+Minimalbedingungen von Ungewöhnlichkeit. Beteiligung des Erzählers in
+irgendeiner Weise
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/Themenentfaltung_narrative.png}
+
+}
+
+\caption{Narrative thematische Entfaltung}
+
+\end{figure}
+
+\hypertarget{explikative-themenentfaltung}{%
+\subsubsection{Explikative
+Themenentfaltung}\label{explikative-themenentfaltung}}
+
+Modell der wissenschaftlichen Erklärung von C.G. Hempel und P. Oppenheim
+(H-O-Schema): Ein Sachverhalt, Explanandum -- ‚das zu Erklärende` wird
+abgeleitet aus anderen Sachverhalten, Explanans -- ‚das Erklärende`
+Explanans besteht aus: Anfangs- und Randbedingungen (A) allgemeinen
+Gesetzmäßigkeiten (G) Thema wird durch das Explanandum repräsentiert.
+Grammatische Form: Aussagesatz, oft auch Fragesatz
+
+Die Heizungsrohre im Keller sind geplatzt, weil es heute Nacht Frost
+gegeben hat und die Glaswatteverkleidung für die Heizungsanlage nicht
+geliefert worden ist; denn Frost lässt das Wasser in den Heizungsrohren
+gefrieren, wenn sie nicht durch eine isolierende Verkleidung gegen
+Temperatureinflüsse geschützt sind. Explanans (A + G) A1 = Es hat heute
+Nacht Frost gegeben. A2 = Die Glaswatteverkleidung für die
+Heizungsanlage wurde nicht geliefert. G1 = Frost lässt das Wasser in den
+Heizungsrohren gefrieren, wenn sie nicht durch eine isolierende
+Verkleidung gegen Temperatureinflüsse geschützt sind. Explanandum: Die
+Heizungsrohre im Keller sind geplatzt.
+
+Nicht immer explizit realisiert, oft implizit und/oder unvollständig.
+Häufig in Texten aus dem Alltagsbereich. Die Einteilung in Explanans und
+Explanandum muss erkennbar und rekonstruierbar sein. Dominanz an
+Konjunktionen, Adverbien und Präpositionen, die Kausalbeziehungen im
+weitesten Sinn (Grund, Ursache, Folge, Bedingung) bezeichnen. TS --
+„Erweiterung des Wissens`` -- Lehrbuch, populärwissenschaftliche und
+wissenschaftliche Texte. Oft kombiniert mit der deskriptiven TE oder der
+argumentativen TE.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{./pictures/Themenentfaltung_explikative.png}
+
+}
+
+\caption{Explikative thematische Entfaltung}
+
+\end{figure}
+
+\hypertarget{argumentative-themenentfaltung}{%
+\subsubsection{Argumentative
+Themenentfaltung}\label{argumentative-themenentfaltung}}
+
+Argumentationsmodell von Stephen Toulmin. Allgemeine Struktur der
+Argumentation besteht aus sechs logisch-semantisch definierten
+Kategorien: Claim -- These, Behauptung  Textthema Grounds (Data) --
+Argumente Warrant -- Schlussregel Backing -- Aussagen, die die
+inhaltlichen Standards des Argumentationsbereichs stützen Qualifier --
+Modaloperator, Wahrscheinlichkeitsgrad von C Rebuttal --
+Ausnahmebedingungen, die W einschränken
+
+D --\textgreater{} deshalb Q, C wegen W wenn nicht aufgrund von R B
+
+Hans ist deutscher Staatsbürger. C Hans wurde in Deutschland geboren. D
+Wenn jemand in Deutschland geboren wurde, dann ist er in der Regel
+deutscher Staatsbürger. W aufgrund der folgenden Gesetze \ldots{} B
+vermutlich, vielleicht Q z. B. beide Eltern waren Ausländer R
+
+C und D -- Grundlage von argumentativen Texten W, B -- können auch
+implizit ausgedrückt werden oder mitgedacht sein, müssen in der
+Argumentationsanalyse explizit gemacht werden Einbettung -- Situierung
+von These und Argumenten, häufig bei Zeitungskommentaren, z. B.
+historischer Rückblick, oft auch als B zu analysieren Wertbasis --
+zugrunde liegende Auffassung, wird bei den Lesern als vorhanden
+unterstellt, konsensuell präsupponiert, häufig nur implizit vorhanden
+KOMMENTAR vs.~NACHRICHT -- Prinzip der Subordination dominierend,
+kausal, konsekutiv, adversativ vs.~Prinzip der Koordination, kopulativ,
+koordinierend
+
+Appellative Texte: der Rezipient soll von etwas überzeugt werden, und
+ggf. zum Handeln veranlasst werden Normative Texte: Gerichtsurteile
+Informative Texte: Rezensionen, wissenschaftliche Abhandlung
+--\textgreater{} 11.12. -- Texte auf S. 66-68, 73, 77-78,84
+
+\begin{verbatim}
+Error in knitr::include_graphics("pictures/Themenentfaltung_argumentative.png"): Cannot find the file(s): "pictures/Themenentfaltung_argumentative.png"
+\end{verbatim}
+
+\hypertarget{texstsorten-im-nuxe4he-distanz-kontinuum}{%
+\chapter{Texstsorten im
+Nähe-Distanz-Kontinuum}\label{texstsorten-im-nuxe4he-distanz-kontinuum}}
 
 \bookmarksetup{startatroot}
 
 \hypertarget{abschlieuxdfende-bemerkungen}{%
 \chapter{Abschließende Bemerkungen}\label{abschlieuxdfende-bemerkungen}}
 
-Einige Hinweise für selbständige Textanalysen.
+Einige Hinweise für \emph{\texttt{selbständige}} Textanalysen. 🤗
 
 \{\{ \textless{} include \_WM\_Presentation.qmd \textgreater{} \}\}
+
+\hypertarget{callout-types}{%
+\section{Callout Types}\label{callout-types}}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+Note that there are five types of callouts, including: \texttt{note},
+\texttt{warning}, \texttt{important}, \texttt{tip}, and
+\texttt{caution}.
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip With Caption / Tipp mit Titel}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+This is an example of a callout with a caption.
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-important-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-important-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+Das ist wichtig.
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-warning-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-warning-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+Warning
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-caution-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Expand To Learn About Collapse}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-caution-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+This is an example of a `folded' caution callout that can be expanded by
+the user. You can use \texttt{collapse="true"} to collapse it by default
+or \texttt{collapse="false"} to make a collapsible callout that is
+expanded by default.
+\end{tcolorbox}
+
+\hypertarget{diagrammer-mermaid}{%
+\section{DiagrammeR mermaid}\label{diagrammer-mermaid}}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-1-1.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-2-1.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-3-1.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-4-1.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-4-2.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-4-3.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-4-4.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-4-5.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-4-6.pdf}
+
+\includegraphics{./summary_files/figure-pdf/unnamed-chunk-5-1.pdf}
 
 \bookmarksetup{startatroot}
 

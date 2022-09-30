@@ -215,7 +215,7 @@ Grobe Formen der Schrittverweigerung wie (47) wirken unhöflich und führen meis
 
 ### Sprecherwechsel
 
-**Sprecherwechsel** (nach Henne/Rehbock 21982: \190-197)
+**Sprecherwechsel** (nach Henne/Rehbock 21982: 190-197)
 unter *zwei Aspekten* klassifiziert: \
 a) nach der **Art ihres Zustandekommens** (vgl. oben Selbstwahl/Selbstzuweisung und Fremdzuweisung mit den drei Arten der Schrittübergabe) und \
 b) nach der **Art ihres (zeitlichen) Verlaufs**. \
@@ -243,7 +243,7 @@ In der **Art und Zahl der Sprecherwechsel** zeigen sich grundlegende Bedingungen
 
 ### Klassifikation von Gesprächsschritten
 
-Nach Brinker 1989: \69-72 in Dialogen prinzipiell initiierende und respondierende (reaktiven, reagierenden) Schritten. \
+Nach Brinker 1989: 69-72 in Dialogen prinzipiell initiierende und respondierende (reaktiven, reagierenden) Schritten. \
 
 Grob gesehen gibt es **drei Grundmöglichkeiten**, auf einen initiierenden Schritt zu reagieren: \
 a)	Akzeptierung (A-Schritt, A-Zug), \
@@ -270,3 +270,4 @@ c)	explikative (erklärende) Themenentfaltung, \
 d)	argumentative (begründende) Themenentfaltung, \
 e)	assoziative (frei verbindende) Themenentfaltung. \
  
+Die thematische Entfaltung des Textes wird eingehender im Zusammenhang mit Brinkers Textfunktionen besprochen. 

@@ -1,5 +1,110 @@
 # Abschließende Bemerkungen
 
-Einige Hinweise für selbständige Textanalysen. 
+Einige Hinweise für *`selbständige`* Textanalysen. 🤗
 
-{{ < include _WM_Presentation.qmd > }}
+{{ \< include \_WM_Presentation.qmd \> }}
+
+## Callout Types
+
+::: {.callout-note}
+Note that there are five types of callouts, including: `note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: callout-tip
+## Tip With Caption / Tipp mit Titel
+
+This is an example of a callout with a caption.
+:::
+
+::: callout-important
+Das ist wichtig.
+:::
+
+::: callout-warning
+Warning
+:::
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+## DiagrammeR mermaid
+
+```{r}
+library(DiagrammeR)
+# https://rich-iannone.github.io/DiagrammeR/mermaid.html
+
+mermaid("
+graph LR
+  A-->B
+  A-->C
+  C-->E
+  B-->D
+  C-->D
+  D-->F
+  E-->F
+")
+```
+
+```{r}
+mermaid("graph LR; A-->B; A-->C; C-->E; B-->D; C-->D; D-->F; E-->F")
+```
+
+```{r}
+mermaid("graph TB; A-->B; A-->C; C-->E; B-->D; C-->D; D-->F; E-->F")
+```
+
+```{r}
+mermaid("
+graph LR
+  A[node text]
+")
+
+mermaid("
+graph LR
+  A(node text)
+")
+
+mermaid("
+graph LR
+  A((node text))
+")
+
+mermaid("
+graph LR
+  A{node text}
+")
+
+mermaid("
+graph LR
+  A>node text]
+")
+
+mermaid("
+graph LR
+A(Rounded)-->B[Rectangular]
+B-->C{A Rhombus}
+C-->D[Rectangle One]
+C-->E[Rectangle Two]
+")
+```
+
+```{r}
+mermaid("
+sequenceDiagram
+  customer->>ticket seller: ask ticket
+  ticket seller->>database: seats
+  alt tickets available
+    database->>ticket seller: ok
+    ticket seller->>customer: confirm
+    customer->>ticket seller: ok
+    ticket seller->>database: book a seat
+    ticket seller->>printer: print ticket
+  else sold out
+    database->>ticket seller: none left
+    ticket seller->>customer: sorry
+  end
+")
+```
