@@ -1,0 +1,103 @@
+# Texstsorten im Nähe-Distanz-Kontinuum
+
+```{r out.width="100%"}
+#| fig-link: <https://pethelpful.com/dogs/Finding-the-Right-Dog-Breed>
+knitr::include_graphics("pictures/finding-the-right-dog-breed.jpg")
+```
+
+
+## Potentielle Kriterien
+
+*Situative Dimension*:
+
+Folgende Relationen können der Situationsachse zugeordnet werden: 
+
+- Dialogmechanismus (dialogisch oder monologisch) \
+- Medium (mündliche oder schriftliche sprachliche Kommunikation) \
+- Sicht- und/oder Hörkontakt (face-to-face oder räumlich entfernt) \
+- Kommunikationsort \
+- Kommunikationszeitpunkt im Verhältnis zum Redegegenstand (Thema). \
+
+
+**Handlungsbereich**: 
+
+- der Privatheitsgrad [+/-privat], \
+- der Individualtitätsgrad (Bezug des Kommunikationsereignisses auf Einzelperson oder Gruppe), \
+- die soziale Nähe zwischen den Kommunikationspartnern (Alter, Verwanschafts- oder Freundschaftsgrad, flüchtig bekannt, unbekannt, verschiedene gleichberechtigte bzw. nicht gleichberechtige Rollenverhältnisse, z.B. Premier -- Minister, Eltern -- Kind, ...), \
+- das Vorwissen der Kommunikationspartner über den anderen, \
+- das soziale Rollenverhältnis der Kommunikationspartner, \
+- die Interaktionshäufigkeit der Kommunikationspartner bzw. ihr gesprächstaktisches Rollenverhältnis, \
+- die Freiheit der Themenwahl bzw. die Gebundenheit des Themas, \
+- das Interesse der Kommunikationspartner am Thema, \
+- die Situationsvertrautheit der Kommunikationspartenr, \
+- die Situationsdistanz der Kommunikationspartner, \
+- die Art der Vorbereitung der Kommunikationspartner auf das Thema (und die Kommunikationssituation). \
+
+
+*Textfunktion* 
+
+- Kontaktfunktion, \
+- Informations- oder Darstellungsfunktion, \
+- Appellfunktion, \
+- Obligationsfunktion \
+- Deklarationsfunktion. \
+
+
+*Redegegenstand (Thema)*
+
+- Situations- bzw. Kontextverschränkung \
+- Thematische Entfaltung
+- Thematische Progression (--> Kohärenz).
+
+
+
+
+## Vergleichstabelle
+
+```{r, echo=FALSE, results='asis', out.width="100%"}
+# inserted Excel table (utf8) into Word, saved as web page
+htmltools::includeHTML("data/textsortenvergleichstabelle.htm")
+
+```
+
+## Tabellen-Download
+
+```{r}
+library(tidyverse)
+library(readxl)
+
+ts_vergleich <- read_xlsx("data/Textsortenvergleichstabelle.xlsx", sheet = "Vergleich")
+
+library(DT)
+ts_vergleich %>% 
+# DT::datatable(fillContainer = TRUE, filter = "top",
+#               options = list(pageLength = 10))
+  DT::datatable(filter = "top", 
+                fillContainer = T,
+                extensions = c('Buttons', "ColReorder", "RowReorder",
+                               'FixedColumns', "KeyTable", "Scroller"),
+                options = list(pageLength = 10, 
+                               autowidth = TRUE,
+                               colReorder = TRUE, 
+                               rowReorder = TRUE, 
+                               order = list(c(0, 'asc')),
+                               keys = TRUE,
+                               deferRender = TRUE,
+                               scrollY = 500, 
+                               scroller = TRUE,
+                               scrollX = TRUE,
+                               fixedColumns = 
+                                 list(leftColumns = 2, 
+                                      rightColumns = 1),
+                               dom = 'Bfrtip', # Bfrtip or t
+                               buttons = c(
+                                 'colvis','copy', 'csv', 
+                                 'excel', 'pdf', 'print'))) %>%
+  formatStyle("KRITERIEN",
+              target = 'row',
+              color = "darkgreen",
+              backgroundColor = styleEqual(c(0, 1), 
+                                           c('gray30', 'lightblue')))
+
+```
+

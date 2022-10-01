@@ -1,0 +1,231 @@
+## Redegegenstand
+
+```{r out.width="100%"}
+#| fig-link: <https://www.economist.com/interactive/europe/2022/08/24/six-months-of-war-in-ukraine>
+knitr::include_graphics("pictures/GettyImages-1239498621.jpg")
+```
+
+Mit dem Redegegenstand ist das Text-Thema gemeint. 
+
+
+### Thema als Kern des Textinhalts
+
+*Textinhalt*: bezogen auf “Gegenstände”: Person(en), Sachverhalt(e), Ereignis(se), Handlung(en), Vorstellung(en) …
+
+*Textthema*: größtmögliche Kurzfassung des Textinhalts
+
+
+**Intention** – kommunikative Absicht, die der Produzent mit seinem Text nach Meinung des Rezipienten verfolgt
+
+
+**Erschließung des Textthemas**: 
+
+*Wiederaufnahmeprinzip* 
+– zentrale Textgegenstände werden im Text wiederholt aufgerufen \
+- Die meisten Texte enthalten mehrere Themen: Themenhierarchie → Differenzierung zwischen Hauptthema und Nebenthemen
+
+*Ableitbarkeitsprinzip* \
+Hauptthema: jenes, aus dem sich die übrigen Themen am überzeugendsten “ableiten” lassen
+
+*Kompatibilitätsprinzip* \
+Thema und kommunikative Funktion des Textes bedingen sich gegenseitig. Hauptthema: jenes, das sich am besten mit der Textfunkton verträgt.
+
+:::rmdtip
+Beispieltext 1: Zimmer ausgebrannt
+
+Aachen. – (1) Gegen 15 Uhr wurde gestern die Aachener Berufsfeuerwehr alarmiert. (2) Sie rückte in die Thomashofstraße aus, wo es in einer Wohnung brannte. (3) Die Feuerwehrleute löschten mit drei C-Rohren. (4) Oberbrandrat Starke war ebenfalls am Einsatzort. (5) Zwei Zimmer brannten vollkommen aus. (6) Drei weitere wurden ebenfalls in Mitleidenschaft gezogen. (7) Die Ursache des Brandes ist noch nicht bekannt. (8) Die Kripo hat sich inzwischen eingeschaltet. (9) Die Feuerwehleut mußten aus dem oberen Geschoß ein Kleinkind retten. (10) Während des Brandes befand sich niemand in der heimgesuchten Wohnung. \
+[Aachener Nachrichten, 17.2.1973]
+
+- *Zentrale Textgegenstände*: a. Feuerwehr, b. Wohnung \
+- *Wiederaufnahmen*: 
+a. die Aachener Berufsfeuerwehr, sie, die Feuerwehrleute, Oberbrandrat Starke, die Feuerwehrleute
+b. In einer Wohnung, zwei Zimmer, drei weitere, in der heimgesuchten Wohnung
+→ Feuerwehreinsatz, Wohnungsbrand \
+- *Textfunktion*: informativ
+- *Textsorte*: Zeitungsnachricht
+- Gesamttext unter 'Wohnungsbrand' subsumierbar, jedoch nur teilweise unter 'Feuerwehreinsatz'. → *Ableitungsprinzip*
+*Kompatibel zur Textsorte* (TS): 'Wohnungsbrand' als räumlich und zeitlich situiertes Ereignis.
+:::
+
+:::rmdtip
+Beispieltext 2: Pflegen und pflegen lassen \
+
+(1) Lassen Sie sich pflegen und pflegen Sie zurück. (2) Das macht nicht nur Spaß, es ist auch gut für die Haut. \
+(3) Für die Hautpflege am ganzen Körper gibt es nichts Besseres als Nivea milk. (4) Denn sie enthält alles, was die Haut braucht, um glatt, geschmeidig und jung zu bleiben. \
+(5) Nivea milk hat einen dezenten, angenehm frischen Duft. (6) Sie läßt sich leicht verteilen: sanftes Streicheln genügt. (7) Und sie zieht schnell ein, ohne Fettglanz zu hinterlassen. \
+(8) Machen Sie den nächsten Badetag zum Pflegetag. (9) Baden Sie sich und Ihre Familie nicht nur mit Wasser und Seife. (10) Sondern pflegen Sie sich anschließend auch mit Nivea milk. \
+[Für Sie, Juni 1972]
+
+*Textfunktion*: Aufforderung, Empfehlung, teilweise argumentativ
+*Thema* (These) *1* – Für die Hautpflege gibt es nichts Besseres als Nivea milk.
+*Thema* (These) *2* – Hautpflege mit Nivea milk macht Spaß.
+T1 und T2 kopulativ verbunden 
+Thematischer *Schlüsselbegriff*: 'Pflege'
+*T1* ist her *kompatibel* mit der *Textfunktion*
+Pragmatisch ist *T2 wichtiger* (für den Rezipienten)
+:::
+
+
+### Thematische Entfaltung
+
+Thematische Entfaltung = gedankliche Ausführung des Themas, 
+wird durch situative und andere kommunikative Faktoren gesteuert. 
+
+Verknüpfung bzw. Kombination relationaler, logisch-semantisch definierter Kategorien, die die internen Beziehungen der in den einzelnen Textteilen ausgedrückten Teilinhalte bzw. Teilthemen zum thematischen Kern des Textes angeben. 
+
+*Analyse*: 
+1. Inhalt (in Form von Wortgruppe oder Aussagesatz)
+2. logisch-semantische Relationen / kategoriale Bezeichnung
+T1 = Wohnungsbrand 
+Teilthemen: Bekämpfung / Folgen / Ursachen
+
+Werbeanzeige: Themen (Haupt- und Nebenthema) sind anders angeordnet und entfaltet als in der Zeitungsnachricht.
+
+Hauptthema (HT) wird erwartungsgemäß begründet.
+
+Nebenthema (NT) wird sprachlich und nicht-sprachlich (Abbildung) verdeutlicht.
+
+HT und NT sind nicht logisch miteinander verbunden.
+
+
+**Grundformen der thematischen Entfaltung**
+
+```{r out.width="100%"}
+#| fig-cap: "Thematische Entfaltungsweisen"
+knitr::include_graphics("pictures/Thematische_Entfaltung.png")
+```
+
+- deskriptiv (beschreibend) \
+- narrativ (erzählend) \
+- explikativ (erklärend) \
+- argumentativ (begründend) \
+
+Gehören zum Alltagswissen der Sprachteilhaber.
+
+Für jede von ihnen sind bestimmte semantisch-thematische Kategorien bzw. Verbindungen von Kategorien charakteristisch.
+
+
+#### Deskriptive Themenentfaltung
+
+Thema wird in seinen Komponenten (Teilthemen) dargestellt und in Raum und Zeit eingeordnet.
+Thematische Kategorien: Spezifizierung (Aufgliederung) und Situierung (Einordnung)
+Varianten:
+a. (Berichten)  - einmaliger Vorgang, historisches Ereignis 'Was', 'wer', 'wo', 'wann', 'wie' … ('warum', 'Folgen') Vergangenheitstempora, Temporal- und Lokalbestimmungen TS – Nachricht, Bericht
+b. (Beschreiben) - regelhaft (generalisierbar, wiederholbar) dargestellter Vorgang: Teilvorgänge, zeitliches Nacheinander; Handlungsverben, absoluter Infinitiv (Anweisung, austauschbar durch VP); durchgehende Wiederaufnahmestruktur
+
+c. (Beschreiben) das Thema bezeichnet ein Lebewesen oder einen Gegenstand, z. B. Lexikonartikel
+Durchgehende Wiederaufnahme
+Teil-Ganzes oder Enthaltenseins-Relation
+Elefant: Merkmale, quantitative Angaben
+Evtl. Situierung, Spezifizierung, Zweck etc.
+Typische Textsorten: Nachricht, Bericht, Lexikonartike, wissenschaftliche Abhandlungen ← informative Texte --> Bedienungsanleitung, Kochrezept, Gebrauchsanweisung ← instruktive Texte Testament, Vertrag, Gesetz, Vereinbarung ← normative Texte
+
+```{r out.width="100%"}
+#| fig-cap: "Deskriptive thematische Entfaltung"
+knitr::include_graphics("pictures/Themenentfaltung_deskriptive.png")
+```
+
+
+#### Narrative Themenentfaltung
+
+knüpft an das von Labov und Waletzky entwickelte Modell zur Analyse von narrativen Strukturen in Alltagserzählungen an;
+Erzählen: “verbale Technik der Erfahrungsrekapitulation (...), in besonderen als die Technik der Konstruktion narrativer Einheiten, die der temporalen Abfolge der entsprechenden Erfahrung entsprechen”. 
+Gliederung der Erzählung nach thematischen Kategorien:
+Orientierung (Personen, Zeit, Ort)
+Komplikation (Darstellung eines ungewöhnlichen Ereignisses)
+Evaluation (Bewertungen, Stellungnahmen, Einschätzungen des Erz.)
+Resolution (Auflösung der Komplikation – positiv / negativ)
+Coda (Stellungnahme des Erz. vom Erzählzeitpunkt aus; fakultativ)
+
+Kriterien:
+Thema von Erzählungen wird durch ein abgeschlossenes, singuläres Ereignis repräsentiert.
+Interessantheitskriterien, Minimalbedingungen von Ungewöhnlichkeit.
+Beteiligung des Erzählers in irgendeiner Weise
+
+```{r out.width="100%"}
+#| fig-cap: "Narrative thematische Entfaltung"
+knitr::include_graphics("pictures/Themenentfaltung_narrative.png")
+```
+
+
+#### Explikative Themenentfaltung
+
+Modell der wissenschaftlichen Erklärung von C.G. Hempel und P. Oppenheim (H-O-Schema): 
+Ein Sachverhalt, Explanandum – ‚das zu Erklärende‘ wird abgeleitet aus anderen Sachverhalten, Explanans – ‚das Erklärende‘
+Explanans besteht aus: 
+Anfangs- und Randbedingungen (A)
+allgemeinen Gesetzmäßigkeiten (G)
+Thema wird durch das Explanandum repräsentiert.
+Grammatische Form: Aussagesatz, oft auch Fragesatz
+
+Die Heizungsrohre im Keller sind geplatzt, weil es heute Nacht Frost gegeben hat und die Glaswatteverkleidung für die Heizungsanlage nicht geliefert worden ist; denn Frost lässt das Wasser in den Heizungsrohren gefrieren, wenn sie nicht durch eine isolierende Verkleidung gegen Temperatureinflüsse geschützt sind.
+Explanans (A + G) 
+A1 = Es hat heute Nacht Frost gegeben.
+A2 = Die Glaswatteverkleidung für die Heizungsanlage wurde nicht geliefert.
+G1 = Frost lässt das Wasser in den Heizungsrohren gefrieren, wenn sie nicht durch eine isolierende Verkleidung gegen Temperatureinflüsse geschützt sind.
+Explanandum: Die Heizungsrohre im Keller sind geplatzt.
+
+Nicht immer explizit realisiert, oft implizit und/oder unvollständig.
+Häufig in Texten aus dem Alltagsbereich.
+Die Einteilung in Explanans und Explanandum muss erkennbar und rekonstruierbar sein.
+Dominanz an Konjunktionen, Adverbien und Präpositionen, die Kausalbeziehungen im weitesten Sinn (Grund, Ursache, Folge, Bedingung) bezeichnen.
+TS – „Erweiterung des Wissens“ – Lehrbuch, populärwissenschaftliche und wissenschaftliche Texte. Oft kombiniert mit der deskriptiven TE oder der argumentativen TE.
+
+```{r out.width="100%"}
+#| fig-cap: "Explikative thematische Entfaltung"
+knitr::include_graphics("pictures/Themenentfaltung_explikative.png")
+```
+
+
+#### Argumentative Themenentfaltung
+
+Argumentationsmodell von Stephen Toulmin.
+Allgemeine Struktur der Argumentation besteht aus sechs logisch-semantisch definierten Kategorien:
+Claim – These, Behauptung  Textthema
+Grounds (Data) – Argumente
+Warrant – Schlussregel
+Backing – Aussagen, die die inhaltlichen Standards des Argumentationsbereichs stützen
+Qualifier – Modaloperator, Wahrscheinlichkeitsgrad von C
+Rebuttal – Ausnahmebedingungen, die W einschränken
+
+D --> deshalb Q, C
+wegen W					wenn nicht
+aufgrund von					R
+			B
+
+Hans ist deutscher Staatsbürger. C
+Hans wurde in Deutschland geboren. D
+Wenn jemand in Deutschland geboren wurde, dann ist er in der Regel deutscher Staatsbürger. W
+aufgrund der folgenden Gesetze ... B
+vermutlich, vielleicht Q
+z. B. beide Eltern waren Ausländer R
+
+C und D – Grundlage von argumentativen Texten
+W, B – können auch implizit  ausgedrückt werden oder mitgedacht sein, müssen in der Argumentationsanalyse explizit gemacht werden
+Einbettung – Situierung von These und Argumenten, häufig bei Zeitungskommentaren, z. B. historischer Rückblick, oft auch als B zu analysieren
+Wertbasis – zugrunde liegende Auffassung, wird bei den Lesern als vorhanden unterstellt, konsensuell präsupponiert, häufig nur implizit vorhanden
+KOMMENTAR vs. NACHRICHT – Prinzip der Subordination dominierend, kausal, konsekutiv, adversativ vs. Prinzip der Koordination, kopulativ, koordinierend
+
+Appellative Texte: der Rezipient soll von etwas überzeugt werden, und ggf. zum Handeln veranlasst werden
+Normative Texte: Gerichtsurteile
+Informative Texte: Rezensionen, wissenschaftliche Abhandlung
+--> 11.12. – Texte auf S. 66-68, 73, 77-78,84 
+
+```{r out.width="100%"}
+#| fig-cap: "Argumentative thematische Entfaltung"
+knitr::include_graphics("pictures/Themenentfaltung_argumentative.png")
+```
+
+
+### Thematische Progression
+
+Text-Thema, Thema-Rhema-Ansatz, Thematische Progression, Quaestio-Ansatz (aus: Vater 1992).
+
+```{r, echo=FALSE, results='asis', out.width="100%"}
+# inserted Excel table (utf8) into Word, saved as web page
+htmltools::includeHTML("data/03j_Vater_Textthema_Thema_Rhema.htm")
+
+```
+
+
+

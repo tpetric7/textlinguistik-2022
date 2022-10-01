@@ -28,7 +28,9 @@ book:
         - textklassen.qmd
         - textstruktur.qmd
         - textfunktionen.qmd
-        - textkonstellation.qmd
+        - handlungsbereich.qmd
+        - thema.qmd
+        - textsortenvergleich.qmd
     - summary.qmd
     - references.qmd
   page-navigation: true
@@ -39,7 +41,7 @@ book:
   reader-mode: true
   repo-url: https://github.com/tpetric7/textlinguistik-2022
   repo-actions: [edit, issue]
-  downloads: [pdf, epub]
+  downloads: [pdf, epub, docx]
   sharing: [twitter, facebook]
   page-footer: 
     border: true

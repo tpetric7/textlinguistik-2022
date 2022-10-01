@@ -2,3 +2,13 @@
 
 ::: {#refs}
 :::
+
+<br>
+---------------
+<br>
+
+```{r, echo=FALSE, results='asis', out.width="100%"}
+# inserted Excel table (utf8) into Word, saved as web page
+htmltools::includeHTML("data/F00_Literaturhinweise.htm")
+
+```

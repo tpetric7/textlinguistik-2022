@@ -50,6 +50,7 @@
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{multirow}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -177,6 +178,17 @@
 \makeatletter
 \makeatother
 \ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{english}
+\babelprovide[import]{ngerman}
+\babelprovide[import]{american}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
@@ -185,6 +197,7 @@
 \hypersetup{
   pdftitle={Textlinguistik},
   pdfauthor={Teodor Petrič},
+  pdflang={en},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
@@ -202,7 +215,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, breakable, enhanced, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden, breakable, enhanced, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -3062,11 +3075,55 @@ Repräsentative ≈ Darstellung,\\
 Expressive ≈ Ausdruck, Direktive ≈ Appell uneinheitliche
 Klassifikationskriterien.\\
 
-\hypertarget{exkurs-sprechhandlungen}{%
-\section{Exkurs: Sprechhandlungen}\label{exkurs-sprechhandlungen}}
+\hypertarget{exkurs-searles-sprechaktklassen}{%
+\section{Exkurs: Searles
+Sprechaktklassen}\label{exkurs-searles-sprechaktklassen}}
 
 Sprechaktklassifizierungen als Grundlage für Textfunktionen. Searles
 Sprechaktklassen.
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule()
+\endhead
+\foreignlanguage{ngerman}{Klasse} &
+\foreignlanguage{ngerman}{Illokution} &
+\foreignlanguage{ngerman}{Einstellung (E)} &
+{\foreignlanguage{ngerman}{Anpass}}\foreignlanguage{ngerman}{.-Richtung} \\
+{\foreignlanguage{ngerman}{Repräsentativa}}\foreignlanguage{ngerman}{} &
+\emph{\foreignlanguage{ngerman}{S}}\foreignlanguage{ngerman}{ behauptet,
+dass \emph{p}} &
+\emph{\foreignlanguage{ngerman}{S}}\foreignlanguage{ngerman}{ glaubt,
+dass \emph{p}} & \emph{\foreignlanguage{ngerman}{p
+}}\foreignlanguage{ngerman}{\textless= Tatsachen} \\
+{\foreignlanguage{ngerman}{Direktiva}}\foreignlanguage{ngerman}{} &
+\emph{\foreignlanguage{american}{S}}\foreignlanguage{american}{ will,
+{dass} \emph{H}{~ }\emph{p} tut} &
+\emph{\foreignlanguage{ngerman}{S}}\foreignlanguage{ngerman}{ wünscht,
+dass \emph{H} \emph{p} tut} &
+\emph{\foreignlanguage{ngerman}{p}}\foreignlanguage{ngerman}{
+=\textgreater{} Tatsachen} \\
+{\foreignlanguage{ngerman}{Kommissiva}}\foreignlanguage{ngerman}{} &
+\emph{\foreignlanguage{american}{S}}\foreignlanguage{american}{ will,
+{dass} \emph{S{~ }p} tut} &
+\emph{\foreignlanguage{ngerman}{S}}\foreignlanguage{ngerman}{ wünscht,
+dass \emph{S}{~ }\emph{p} tut\emph{}} &
+\emph{\foreignlanguage{ngerman}{p}}\foreignlanguage{ngerman}{
+=\textgreater{} Tatsachen} \\
+{\foreignlanguage{ngerman}{Expressiva}}\foreignlanguage{ngerman}{} &
+\emph{\foreignlanguage{ngerman}{S
+}}\foreignlanguage{ngerman}{signalisiert, dass \emph{E} von \emph{S} zu
+\emph{p}} &
+\emph{\foreignlanguage{ngerman}{S}}\foreignlanguage{ngerman}{ hat
+\emph{E} zu \emph{p}} & \foreignlanguage{ngerman}{-\/-\/- (Wahrheit von
+\emph{p} vorausgesetzt)} \\
+\foreignlanguage{ngerman}{Deklarationen} &
+\emph{\foreignlanguage{ngerman}{S}}\foreignlanguage{ngerman}{ legt fest,
+dass \emph{p} (institutionell)} & \foreignlanguage{ngerman}{-\/-\/-
+(keine spezielle)} &
+\emph{\foreignlanguage{ngerman}{p}}\foreignlanguage{ngerman}{
+}{{ó}}\foreignlanguage{ngerman}{ Tatsachen} \\
+\bottomrule()
+\end{longtable}
 
 \hypertarget{brinkers-klassifikation-der-textfunktionen}{%
 \section{Brinkers Klassifikation der
@@ -3369,10 +3426,76 @@ Ich setze meinen Bruder Franz S. zu meinem alleinigen Erben ein.
   usw.
 \end{itemize}
 
-\hypertarget{redegegenstand-thema}{%
-\section{Redegegenstand (Thema)}\label{redegegenstand-thema}}
+\hypertarget{handlungsbereich}{%
+\chapter{Handlungsbereich}\label{handlungsbereich}}
 
-\textbf{Thema als Kern des Textinhalts}:
+\begin{figure}
+
+{\centering 
+
+\href{https://medium.com/@wchaffecs/civil-engineering-5102246e8353/}{\includegraphics[width=1\textwidth,height=\textheight]{./pictures/civileng.jpg}}
+
+}
+
+\end{figure}
+
+Mit dem Begriff \emph{Handlungsbereich} bezieht man sich auf soziale
+Verhältnisse in der zwischenmenschlichen Kommunikation.
+
+Folgende \emph{Relationen} können dem Handlungsbereich zugeordnet
+werden:
+
+\begin{itemize}
+\tightlist
+\item
+  der Privatheitsgrad {[}+/-privat{]},\\
+\item
+  der Individualtitätsgrad (Bezug des Kommunikationsereignisses auf
+  Einzelperson oder Gruppe),\\
+\item
+  die soziale Nähe zwischen den Kommunikationspartnern (Alter,
+  Verwanschafts- oder Freundschaftsgrad, flüchtig bekannt, unbekannt,
+  verschiedene gleichberechtigte bzw. nicht gleichberechtige
+  Rollenverhältnisse, z.B. Premier -- Minister, Eltern -- Kind,
+  \ldots),\\
+\item
+  das Vorwissen der Kommunikationspartner über den anderen,\\
+\item
+  das soziale Rollenverhältnis der Kommunikationspartner,\\
+\item
+  die Interaktionshäufigkeit der Kommunikationspartner bzw. ihr
+  gesprächstaktisches Rollenverhältnis,\\
+\item
+  die Freiheit der Themenwahl bzw. die Gebundenheit des Themas,\\
+\item
+  das Interesse der Kommunikationspartner am Thema,\\
+\item
+  die Situationsvertrautheit der Kommunikationspartenr,\\
+\item
+  die Situationsdistanz der Kommunikationspartner,\\
+\item
+  die Art der Vorbereitung der Kommunikationspartner auf das Thema (und
+  die Kommunikationssituation).\\
+\end{itemize}
+
+\hypertarget{redegegenstand}{%
+\chapter{Redegegenstand}\label{redegegenstand}}
+
+\begin{figure}
+
+{\centering 
+
+\href{https://www.economist.com/interactive/europe/2022/08/24/six-months-of-war-in-ukraine}{\includegraphics[width=1\textwidth,height=\textheight]{./pictures/GettyImages-1239498621.jpg}}
+
+}
+
+\end{figure}
+
+Mit dem Redegegenstand ist das Text-Thema gemeint.
+
+\hypertarget{thema-als-kern-des-textinhalts}{%
+\subsection{Thema als Kern des
+Textinhalts}\label{thema-als-kern-des-textinhalts}}
 
 \emph{Textinhalt}: bezogen auf ``Gegenstände'': Person(en),
 Sachverhalt(e), Ereignis(se), Handlung(en), Vorstellung(en) \ldots{}
@@ -3676,9 +3799,253 @@ Informative Texte: Rezensionen, wissenschaftliche Abhandlung
 Error in knitr::include_graphics("pictures/Themenentfaltung_argumentative.png"): Cannot find the file(s): "pictures/Themenentfaltung_argumentative.png"
 \end{verbatim}
 
+\hypertarget{thematische-progression}{%
+\subsection{Thematische Progression}\label{thematische-progression}}
+
+Text-Thema, Thema-Rhema-Ansatz, Thematische Progression, Quaestio-Ansatz
+(aus: Vater 1992).
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\endhead
+\textbf{\foreignlanguage{ngerman}{3.4{~ }Textthema und
+Thema-Rhema-Strukturen}}\foreignlanguage{ngerman}{ }
+
+\foreignlanguage{ngerman}{{~~~~~~~~ }(in: Vater 1992:
+93-103)}\foreignlanguage{ngerman}{} \\
+\bottomrule()
+\end{longtable}
+
 \hypertarget{texstsorten-im-nuxe4he-distanz-kontinuum}{%
 \chapter{Texstsorten im
 Nähe-Distanz-Kontinuum}\label{texstsorten-im-nuxe4he-distanz-kontinuum}}
+
+\begin{figure}
+
+{\centering 
+
+\href{https://pethelpful.com/dogs/Finding-the-Right-Dog-Breed}{\includegraphics[width=1\textwidth,height=\textheight]{./pictures/finding-the-right-dog-breed.jpg}}
+
+}
+
+\end{figure}
+
+\hypertarget{potentielle-kriterien}{%
+\section{Potentielle Kriterien}\label{potentielle-kriterien}}
+
+\emph{Situative Dimension}:
+
+Folgende Relationen können der Situationsachse zugeordnet werden:
+
+\begin{itemize}
+\tightlist
+\item
+  Dialogmechanismus (dialogisch oder monologisch)\\
+\item
+  Medium (mündliche oder schriftliche sprachliche Kommunikation)\\
+\item
+  Sicht- und/oder Hörkontakt (face-to-face oder räumlich entfernt)\\
+\item
+  Kommunikationsort\\
+\item
+  Kommunikationszeitpunkt im Verhältnis zum Redegegenstand (Thema).\\
+\end{itemize}
+
+\textbf{Handlungsbereich}:
+
+\begin{itemize}
+\tightlist
+\item
+  der Privatheitsgrad {[}+/-privat{]},\\
+\item
+  der Individualtitätsgrad (Bezug des Kommunikationsereignisses auf
+  Einzelperson oder Gruppe),\\
+\item
+  die soziale Nähe zwischen den Kommunikationspartnern (Alter,
+  Verwanschafts- oder Freundschaftsgrad, flüchtig bekannt, unbekannt,
+  verschiedene gleichberechtigte bzw. nicht gleichberechtige
+  Rollenverhältnisse, z.B. Premier -- Minister, Eltern -- Kind,
+  \ldots),\\
+\item
+  das Vorwissen der Kommunikationspartner über den anderen,\\
+\item
+  das soziale Rollenverhältnis der Kommunikationspartner,\\
+\item
+  die Interaktionshäufigkeit der Kommunikationspartner bzw. ihr
+  gesprächstaktisches Rollenverhältnis,\\
+\item
+  die Freiheit der Themenwahl bzw. die Gebundenheit des Themas,\\
+\item
+  das Interesse der Kommunikationspartner am Thema,\\
+\item
+  die Situationsvertrautheit der Kommunikationspartenr,\\
+\item
+  die Situationsdistanz der Kommunikationspartner,\\
+\item
+  die Art der Vorbereitung der Kommunikationspartner auf das Thema (und
+  die Kommunikationssituation).\\
+\end{itemize}
+
+\emph{Textfunktion}
+
+\begin{itemize}
+\tightlist
+\item
+  Kontaktfunktion,\\
+\item
+  Informations- oder Darstellungsfunktion,\\
+\item
+  Appellfunktion,\\
+\item
+  Obligationsfunktion\\
+\item
+  Deklarationsfunktion.\\
+\end{itemize}
+
+\emph{Redegegenstand (Thema)}
+
+\begin{itemize}
+\tightlist
+\item
+  Situations- bzw. Kontextverschränkung\\
+\item
+  Thematische Entfaltung
+\item
+  Thematische Progression (--\textgreater{} Kohärenz).
+\end{itemize}
+
+\hypertarget{vergleichstabelle}{%
+\section{Vergleichstabelle}\label{vergleichstabelle}}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+\endhead
+\emph{{KRITERIEN}} & {\emph{{Telefongespäch}}}\emph{{}} &
+{\emph{{Lebenslauf}}}\emph{{}} \\
+\textbf{{I. {Textexterne} {Merkmale}}} & {~} & {~} \\
+\textbf{{1. {Kommunikative} {Umstände}}} & {~} & {~} \\
+{{Kommunikationsrichtung}}{:} & \multirow{3}{*}{{2}} &
+\multirow{3}{*}{{1}} \\
+{▪ {[}+d{]} {dialogisch} (2):} \\
+{▪ {[}-d{]} {monologisch} (1):} \\
+{{Medium}}{:} & \multirow{3}{*}{{2}} & \multirow{3}{*}{{1}} \\
+{▪ {[}+m{]} {primär} {mündlich}, {dann} {verschriftlicht} (2):} \\
+{▪ {[}-m{]} {nicht-mündlich} ({vor}{~ }{allem}: {schriftlich}) (1): } \\
+{{Kontaktart}}{:} & \multirow{4}{*}{{1}} & \multirow{4}{*}{{1}} \\
+{▪ {[}+f{]} face-to-face} \\
+{({Sichtkontakt}, {zusätzliche} {visuelle} {Kommunikation}) (2): } \\
+{▪ {[}-f{]} {fehlender} {Sichtkontakt} (1):} \\
+{{Öffentlichkeitsgrad}}{:} & \multirow{3}{*}{{1}} &
+\multirow{3}{*}{{2}} \\
+{▪ {[}+p{]} {öffentlich} ({public}) (1): } \\
+{▪ {[}-p{]} {eingeschränkt} {öffentlich} oder {nicht-öffentlich} (2):
+} \\
+{TEILSUMME 1 (8 = 100\%) / {Anzahl} der {Kriterien} (4)} & {75} &
+{62,5} \\
+\textbf{{2. {Textteilnehmer} ({Sender}={Auftraggeber}, {Textproduzent},
+{Textrezipient})}} & {~} & {~} \\
+{{soziale}}{ {Nähe} ({Bekanntheitsgrad} der {Teilnehmer},} &
+\multirow{3}{*}{{1}} & \multirow{3}{*}{{1}} \\
+{{~}▪ {bekannt} (2):} \\
+{{~}▪ {eher} {unbekannt} (1):} \\
+{{Vorwissen}}{ {über} {Textteilnehmer}:} & \multirow{3}{*}{{1}} &
+\multirow{3}{*}{{1}} \\
+{{~}▪ {Vorwissen} {vorhanden} (2): } \\
+{{~}▪ {kaum} oder kein{~ }{Vorwissen}: (1)} \\
+{{sozialen}}{ {Symmetrie} ({soziale} {Rollenverteilung},
+{Autoritätsgefälle}):} & \multirow{3}{*}{{1}} & \multirow{3}{*}{{1}} \\
+{▪ {gleichberechtigt} (2):} \\
+{▪ {nicht} {gleichberechtigt} (1):} \\
+{{Aktivitätsgrad}}{ ({Aktivitätssymmetrie}) der {Teilnehmer} {nicht}:} &
+\multirow{3}{*}{{1}} & \multirow{3}{*}{{1}} \\
+{▪ {Teilnehmer} {gleichmäßig} aktiv (2):} \\
+{▪ {Teilnehmer} {nicht} {gleichmäßig} aktiv (1):} \\
+{{Vertrautheit}}{ mit dem {Kommunikationsort}:} & \multirow{3}{*}{{2}} &
+\multirow{3}{*}{{2}} \\
+{▪ {vertraut} (2):} \\
+{▪ {weniger} {vertraut} (1):} \\
+{{Vertrautheit}}{ mit {Kommunikationsmedium}:} & \multirow{3}{*}{{2}} &
+\multirow{3}{*}{{2}} \\
+{▪ {vertraut} (2):} \\
+{▪ {kaum} oder {nicht} {vertraut} (1):} \\
+{{Vertrautheit}}{ mit dem {Redegegenstand} ({Thema}):} &
+\multirow{3}{*}{{2}} & \multirow{3}{*}{{2}} \\
+{▪ {Vorwissen} (2): } \\
+{▪ {wenig} oder kein {Vorwissen} (1):} \\
+{{Vorbereitung}}{ {auf} {Redegegenstand} ({Thema}) u.
+{Kommunikationssituation}:} & \multirow{4}{*}{{2,5}} &
+\multirow{4}{*}{{1,5}} \\
+{▪ {nicht} {vorbereitet}, spontan (3)} \\
+{{Routiniert}}{ {vorbereitet} (2): } \\
+{▪ {speziell} {vorbereitet} (1):} \\
+{TEILSUMME 2 (19 = 100\%) / {Anzahl} der {Kriterien} (8)} & {65,8} &
+{60,5} \\
+\textbf{{3.}}{ {\textbf{Textfunktion}} \textbf{({Makrosprechakte},
+{Globalziele})}} & {~} & {~} \\
+{Dominante {Textfunktion}:} & \multirow{4}{*}{{3}} &
+\multirow{4}{*}{{3}} \\
+{▪ {repräsentativ} (3):} \\
+{▪ direktiv, {kommissiv} (2):} \\
+{▪ {deklarativ} (1):} \\
+{TEILSUMME 3 (3 = 100\%) / {Anzahl} der {Kriterien} (1)} & {100} &
+{100} \\
+\textbf{{II. {Textinterne} {Merkmale}}} & {~} & {~} \\
+\textbf{{1. {Thema} ({Redegegenstand})}} & {~} & {~} \\
+{{Typ}}{ des {Textthemas}:} & \multirow{4}{*}{{2}} &
+\multirow{4}{*}{{2}} \\
+{▪ {nur} {ein} {Hauptthema} (2):} \\
+{▪ {auch} {Nebenthemen} (-{themen}), {Episoden} (1):} \\
+{~} \\
+{{Themenwahl}}{:} & \multirow{3}{*}{{1}} & \multirow{3}{*}{{1}} \\
+{▪ {freie} {Themenwahl} (2):} \\
+{▪ {themen}({bereichs}){gebunden} (1):} \\
+{{Themenentfaltung}}{:} & \multirow{4}{*}{{1,5}} &
+\multirow{4}{*}{{2}} \\
+{▪ {assoziativ} (3):} \\
+{▪ {deskriptiv}, {narrativ} (2):} \\
+{▪ {explikativ}, {argumentativ} (1):} \\
+{{Abstraktionsniveau}}{:} & \multirow{3}{*}{{2}} &
+\multirow{3}{*}{{1}} \\
+{▪ {weitgehend} {konkret} (2):} \\
+{▪ {weitgehend} {abstrakt} (1):} \\
+{{Informationsfluss}}{:} & \multirow{4}{*}{{3}} &
+\multirow{4}{*}{{2}} \\
+{▪ {optimal} {für} {Personen} {verschiedener} {Ausbildungsstufen}
+(3)} \\
+{▪ {optimal} {für} {Personen} mit {mittlerer} oder {höherer}
+{Ausbildung} (2):} \\
+{▪ {optimal} {für} {Personen} mit {höherer} {Ausbildung} (1):} \\
+{{Situationsverschränkung}}{:} & \multirow{7}{*}{{1}} &
+\multirow{7}{*}{{1}} \\
+{▪ {häufiger} {Bezug} {auf} {situativen} {Zusammenhang} ({empraktisch})
+(2):} \\
+{▪ {seltener} {Bezug} {auf} {situativen} {Zusammenhang} ({apraktisch})
+(1):} \\
+{~} \\
+{~} \\
+{~} \\
+{~} \\
+{{Zeitbezug}}{ ({temporale} {Verschränkung}):} & \multirow{6}{*}{{1}} &
+\multirow{6}{*}{{1}} \\
+{▪ {[}+n{]} ({häufiger}) {Bezug} {auf} {gegenwärtiges} {Geschehen}
+(2):} \\
+{▪ {[}-n{]} ({häufiger} / {dominanter}) {Bezug} {auf}
+{nicht-gegenwärtiges} {Geschehen} (1):} \\
+{~} \\
+{~} \\
+{~} \\
+{TEILSUMME 4 (16 = 100\%) / {Anzahl} der {Kriterien} (7)} & {71,9} &
+{62,5} \\
+{\textbf{{Gesamtsumme}}}\textbf{{ (8 + 19 + 3 + 16 = 46 = 100\%)}} &
+\textbf{{78}} & \textbf{{71}} \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{tabellen-download}{%
+\section{Tabellen-Download}\label{tabellen-download}}
+
+\includegraphics{./textsortenvergleich_files/figure-pdf/unnamed-chunk-3-1.pdf}
 
 \bookmarksetup{startatroot}
 
@@ -3692,25 +4059,25 @@ Einige Hinweise für \emph{\texttt{selbständige}} Textanalysen. 🤗
 \hypertarget{callout-types}{%
 \section{Callout Types}\label{callout-types}}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, colback=white, breakable, opacityback=0, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, left=2mm, toptitle=1mm, opacitybacktitle=0.6, titlerule=0mm, rightrule=.15mm, arc=.35mm, leftrule=.75mm, coltitle=black]
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{warning}, \texttt{important}, \texttt{tip}, and
 \texttt{caution}.
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip With Caption / Tipp mit Titel}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, bottomrule=.15mm, colframe=quarto-callout-tip-color-frame, colback=white, breakable, opacityback=0, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip With Caption / Tipp mit Titel}, left=2mm, toptitle=1mm, opacitybacktitle=0.6, titlerule=0mm, rightrule=.15mm, arc=.35mm, leftrule=.75mm, coltitle=black]
 This is an example of a callout with a caption.
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-important-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-important-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-important-color!10!white, bottomrule=.15mm, colframe=quarto-callout-important-color-frame, colback=white, breakable, opacityback=0, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, left=2mm, toptitle=1mm, opacitybacktitle=0.6, titlerule=0mm, rightrule=.15mm, arc=.35mm, leftrule=.75mm, coltitle=black]
 Das ist wichtig.
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-warning-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-warning-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-warning-color!10!white, bottomrule=.15mm, colframe=quarto-callout-warning-color-frame, colback=white, breakable, opacityback=0, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, left=2mm, toptitle=1mm, opacitybacktitle=0.6, titlerule=0mm, rightrule=.15mm, arc=.35mm, leftrule=.75mm, coltitle=black]
 Warning
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-caution-color!10!white, left=2mm, leftrule=.75mm, toprule=.15mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Expand To Learn About Collapse}, rightrule=.15mm, toptitle=1mm, bottomtitle=1mm, colframe=quarto-callout-caution-color-frame, colback=white, coltitle=black, titlerule=0mm, arc=.35mm, breakable, bottomrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-caution-color!10!white, bottomrule=.15mm, colframe=quarto-callout-caution-color-frame, colback=white, breakable, opacityback=0, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Expand To Learn About Collapse}, left=2mm, toptitle=1mm, opacitybacktitle=0.6, titlerule=0mm, rightrule=.15mm, arc=.35mm, leftrule=.75mm, coltitle=black]
 This is an example of a `folded' caution callout that can be expanded by
 the user. You can use \texttt{collapse="true"} to collapse it by default
 or \texttt{collapse="false"} to make a collapsible callout that is
@@ -3757,6 +4124,10 @@ Engel, Ulrich. 1996. \emph{Deutsche Grammatik. 3., Korrigierte Auflage}.
 \emph{Heidelberg: Groos}.
 
 \end{CSLReferences}
+
+\hypertarget{section-1}{%
+\section*{\texorpdfstring{}{ }}\label{section-1}}
+\addcontentsline{toc}{section}{}
 
 
 \backmatter

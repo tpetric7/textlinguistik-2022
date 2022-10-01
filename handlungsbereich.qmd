@@ -1,0 +1,25 @@
+# Handlungsbereich
+
+```{r out.width="100%"}
+#| fig-link: <https://medium.com/@wchaffecs/civil-engineering-5102246e8353/>
+knitr::include_graphics("pictures/civileng.jpg")
+```
+
+
+Mit dem Begriff *Handlungsbereich* bezieht man sich auf soziale Verhältnisse in der zwischenmenschlichen Kommunikation. 
+
+Folgende *Relationen* können dem Handlungsbereich zugeordnet werden: 
+
+- der Privatheitsgrad [+/-privat], \
+- der Individualtitätsgrad (Bezug des Kommunikationsereignisses auf Einzelperson oder Gruppe), \
+- die soziale Nähe zwischen den Kommunikationspartnern (Alter, Verwanschafts- oder Freundschaftsgrad, flüchtig bekannt, unbekannt, verschiedene gleichberechtigte bzw. nicht gleichberechtige Rollenverhältnisse, z.B. Premier -- Minister, Eltern -- Kind, ...), \
+- das Vorwissen der Kommunikationspartner über den anderen, \
+- das soziale Rollenverhältnis der Kommunikationspartner, \
+- die Interaktionshäufigkeit der Kommunikationspartner bzw. ihr gesprächstaktisches Rollenverhältnis, \
+- die Freiheit der Themenwahl bzw. die Gebundenheit des Themas, \
+- das Interesse der Kommunikationspartner am Thema, \
+- die Situationsvertrautheit der Kommunikationspartenr, \
+- die Situationsdistanz der Kommunikationspartner, \
+- die Art der Vorbereitung der Kommunikationspartner auf das Thema (und die Kommunikationssituation). \
+
+
