@@ -228,4 +228,41 @@ htmltools::includeHTML("data/03j_Vater_Textthema_Thema_Rhema.htm")
 ```
 
 
+### Thematizität und Informativität
 
+```{r out.width="100%"}
+knitr::include_graphics("pictures/TRG_Diapozitiv2.PNG")
+```
+
+```{r out.width="100%"}
+knitr::include_graphics("pictures/TRG_Diapozitiv3.PNG")
+```
+
+```{r out.width="100%"}
+knitr::include_graphics("pictures/TRG_Diapozitiv4.PNG")
+```
+
+```{r out.width="100%"}
+knitr::include_graphics("pictures/TRG_Diapozitiv5.PNG")
+```
+
+:::rmdrobot
+
+Aufgabe zur Verweisung (Aufgabe aus: Gross (1992) und Chunking; ; Text aus: Spiegel 1988). 
+
+```{r, echo=FALSE, results='asis', out.width="100%"}
+htmltools::includeHTML("data/F03_Textlinguistik_Gross01_Nachruf_Rotschild.htm")
+```
+
+:::
+
+
+:::rmdrobot
+
+Aufgaben aus der Einführung in die germanistische Linguistik von Harro Gross (1992). 
+
+```{r, echo=FALSE, results='asis', out.width="100%"}
+htmltools::includeHTML("data/F04_Thema_Rhema_Gliederung_Aufgaben_Gross.htm")
+```
+
+:::
